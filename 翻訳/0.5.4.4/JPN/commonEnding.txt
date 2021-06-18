@@ -1,0 +1,239 @@
+
+
+############################## pointed Ending ########################################
+
+undead/Eaten
+\SndLib[sound_combat_hit_gore]\ph\narr\Rflashアンデッドたちはロナの全身を分け合った...
+\SndLib[sound_combat_hit_gore]\Rflash手足から始めて､ゆっくりと味わっていく...
+\SndLib[sound_combat_hit_gore]\Rflashロナの苦しみは長く長く続いた...
+
+wolf/Eaten
+\SndLib[sound_combat_hit_gore]\ph\narr\Rflashオオカミたちたちはロナの全身を分け合った...
+\SndLib[sound_combat_hit_gore]\Rflash早速ロナの首に噛み付く...
+\SndLib[sound_combat_hit_gore]\Rflash痛みは長くは続かず､ロナはすぐに息絶えた...
+
+KillerRabbit/Eaten
+\SndLib[sound_combat_hit_gore]\ph\narr\Rflashロナはウサちゃんに食べられた...
+\SndLib[sound_combat_hit_gore]\Rflash南無...
+
+############################# Death ENDING ########################################
+Lona/hp0_begin
+\ph\SETpl[TellerNormal]\SETpr[nil]\c[4]謎の占い師：\c[0]    あらら.......\n誠に残念ですが ロナの冒険はこれで終わってしまいました｡
+\SETpl[TellerNormal]\c[4]謎の占い師：\c[0]    彼女の存在を覚えている人はいるのでしょうか？
+
+Lona/hp0_WithChild
+\SETpl[TellerEyeClosed]\c[4]謎の占い師：\c[0]    ん？ どうやら彼女は後継者を残しているようですね\n 母の強さを子に継がせるのも選択の一つです
+\SETpl[TellerConfused]\c[4]謎の占い師：\c[0]    さあ､選んでください｡ \optD[やめる,人間<r=HiddenOPT1>,ムート<r=HiddenOPT2>]
+
+Lona/hp0_WithChild_choosed
+\SETpl[TellerEyeClosed]\c[4]謎の占い師：\c[0]    それでは､ご準備を
+\ph\cgoff\narr\{\..\..\..\..\..\..\WF[5].
+
+Lona/hp0_WithChild_canceled
+\SETpl[TellerEyeClosed]\c[4]謎の占い師：\c[0]    そうですか？ 子に乱世の苦しみを味わわせたくないですか？
+
+Lona/hp0_end
+\SETpl[TellerOkay]\c[4]謎の占い師：\c[0]      もう一度やり直して､今度は彼女を正しい道に導いてあげてくださいね｡
+
+####################################### ENDING  ####################################################
+
+Common/EndingBegin
+\ph\SETpl[TellerEyeClosed]\c[4]謎の占い師：\c[0]    \..\..\..\..\..
+\SETpl[TellerConfused]\c[4]謎の占い師：\c[0]    時は流れ続けて......
+\SETpl[TellerNormal]\c[4]謎の占い師：\c[0]    人々やその他のものがどうなったか見てみましょう｡
+
+Common/EndingLonaBegin
+\SETpl[TellerEyeClosed]\c[4]謎の占い師：\c[0]    さて....ロナの結末はどうなったのでしょうか？
+
+############################# NoerDestroyed ########################################
+
+Noer/OrkindDestroyed
+\SndLib[sys_DialogBoard]\cg[map_region_NoerRoad]ノエル：
+\SndLib[sys_DialogBoard]\cg[map_bandits_farmer]物資不足により､街で暴動が起きた｡
+\SndLib[sys_DialogBoard]\cg[map_bandits]街を運営する人がいなくなり､魔物から街を守る人もいない｡
+\SndLib[sys_DialogBoard]\cg[map_orkind_expending]ある日､ゴブリンたちはトンネル掘り､津波のように街に押し寄せた｡
+\SndLib[sys_DialogBoard]\cg[map_DeadPPL]街の人たちの必死の抵抗も長くは続かなかった｡
+\SndLib[sys_DialogBoard]\cg[event_OrkindGonnaRape]男は餌に､女は苗床に｡
+\SndLib[sys_DialogBoard]\cg[map_cityOnFire]シバリスと同様に､ノエルも陥落した｡
+
+Noer/NukeDestroyed
+\SndLib[sys_DialogBoard]\cg[map_region_NoerRoad]ノエル：
+\SndLib[sys_DialogBoard]\cg[map_Doomsday]ある日､神は怒った｡
+\SndLib[sys_DialogBoard]\cg[map_Doomsday]巨大な光の玉が現れてノエルの夜空を照らした｡
+\SndLib[sys_DialogBoard]\cg[map_sos]難民､貴族､奴隷､信者？もはや誰であれ､神は真の平等をもたらした｡
+\SndLib[sys_DialogBoard]\cg[map_Nuke]巨大な爆発によってすべての争いは無に帰し､ノエルは消えた｡
+
+############################# Nice boat ########################################
+
+TicketBought/begin1
+\bg[bg_NiceBoat]\m[confused]\C[6]ロナ：\C[0]    島の人たちはどうなるんだろう？災害はこのまま広がっていくのかな？
+\bg[bg_NiceBoat]\m[tired]\C[6]ロナ：\C[0]    ううん､心配しても仕方がない､わたしはただの一般人｡
+\bg[bg_NiceBoat]\m[sad]\C[6]ロナ：\C[0]    ごく普通の人間だから｡
+\SETpl[Mfat_DockCaptain]\m[normal]\Lshake\prf\C[6]エドワード：\C[0]    ガキ､風が強い､甲板にいるんじゃない｡
+\bg[bg_NiceBoat]\m[pleased]\plf\Rshake\C[6]ロナ：\C[0]    あっ！はい！
+
+TicketBought/begin2
+\SndLib[sys_DialogBoard]\narr\phロナはついに魔物の荒れ狂うノエル島から脱出した
+\SndLib[sys_DialogBoard]彼女はその先に何が待っているのかわからない
+\SndLib[sys_DialogBoard]それでもノエル島にいるよりは絶対にマシだ
+
+############################# VIRGIN ########################################
+
+TicketBought/begin2_virgin
+\SndLib[sys_DialogBoard]\narrさらに､ロナは貞操を守り通すことができた
+\SndLib[sys_DialogBoard]その数年後､近所の子供たちからは､老処女とからかわれてしまう
+\SndLib[sys_DialogBoard]彼女は老いて死ぬまで処女のままだろう....
+
+####################################### Human rapeloop #######################################
+
+HumanSlave/begin1
+\narr\..\..\..\..\..
+\SndLib[sys_DialogBoard]ロナは失踪し､その後誰も姿を見ることはなかった｡
+\SndLib[sys_DialogBoard]長い長い時間が経ち\..\..\.. どこかの街の通りで\..\..\..
+
+HumanSlave/begin2
+\SndLib[sound_Heartbeat]\narrOFF\c[4]さむい...
+\SndLib[sound_Heartbeat]\narrOFF\c[4]おなかすいた...
+\SndLib[sound_Heartbeat]\narrOFF\c[4]からだじゅうがいたい...
+\SndLib[sound_Heartbeat]\narrOFF\c[4]ここどこ？\..\..\..
+\m[pain]\plf\Rshake\c[4]いたい... くらい... ここはどこなの？
+\SndLib[sound_step]\m[sad]\plf\PRF\c[4]だれかいるの？
+\SndLib[sound_step]\m[fear]\plf\PRF\c[4]え？ 誰？！ 傷つけないで！ 言うこと聞くから！
+\SndLib[sound_step]\m[shocked]\plf\Rshake\c[4]いや！！ 来ないで！！！
+\SndLib[sound_step]\m[confused]\plf\PRF\c[4]\..\..\..
+\bg[bg_Soup1]\m[shocked]\plf\Rshake\c[4]野菜スープ？！
+\bg[bg_Soup2]\m[shocked]\plf\Rshake\c[4]肉のスープ？！
+\m[pleased]\plf\PRF\c[4]ありがとうございます... いただきます！
+\m[pleased]\plf\PRF\c[4]\SndLib[sound_step]\.\.\..\SndLib[sound_step]\.\.\..\SndLib[sound_step]\.\.\..
+\bgoff\m[terror]\plf\Rshake\c[4]え？！ だめぇ！
+\bgoff\m[bereft]\plf\Rshake\c[4]返してぇ！ せめて一口だけでも！
+\ph\narr\..\..\..
+
+HumanSlave/begin3
+\SndLib[sound_punch_hit]\SETpl[AnonMale2]\Lshake\c[4]男：\c[0]    うわっ！
+\SETpr[AnonFemale]\plf\Rshake\c[4]女：\c[0]    どうしたの？
+\cg[map_HungerDeath]\SETpl[AnonMale2]\Lshake\prf\c[4]男：\c[0]    クソが､誰だよ死んだ奴隷なんか捨てたのは！
+\SETpr[AnonFemale]\plf\Rshake\c[4]女：\c[0]    くっさい！ 臭いが服に付いちゃうじゃない！
+\SETpl[AnonMale2]\Lshake\prf\c[4]男：\c[0]    クサレマンコが！\.\.\SndLib[sound_punch_hit]\Lshake クソ！\.\.\SndLib[sound_punch_hit]\Lshake 今日はツイてねえ！\.\.\SndLib[sound_punch_hit]\Lshake
+\SETpr[AnonFemale]\plf\Rshake\c[4]女：\c[0]    臭すぎ､雨でも臭いが消えないわ｡
+\SETpl[AnonMale2]\Lshake\prf\c[4]男：\c[0]    死ね！\SndLib[sound_punch_hit]\Lshake
+\SETpr[AnonFemale]\plf\Rshake\c[4]女：\c[0]    行きましょ！
+\SETpr[AnonFemale]\plf\Rshake\c[4]女：\c[0]    ホント汚いわ！ 帰ったら靴をちゃんと洗ってよね！
+\ph\narr\..\..\..
+
+####################################### Orkind Rapeloop #######################################
+
+OrkindCampCaptured/begin1
+\narr\..\..\..\..\..
+\SndLib[sys_DialogBoard]ロナは失踪し､その後誰も姿を見ることはなかった｡
+\SndLib[sys_DialogBoard]長い長い時間が経ち\..\..\.. どこかの洞窟の中で\..\..\..
+\SndLib[sound_Heartbeat]\narrOFF\c[4]おなかすいた...
+\SndLib[sound_Heartbeat]\c[4]おなかがすごくすいた...
+\SndLib[sound_Heartbeat]\m[sad]\c[4]食べ物は？食べたい食べたい！食べ物ください！
+\SndLib[sound_Heartbeat]\m[bereft]\Rshake\c[4]お願いします！おねがいしますぅ！
+\SETpl[goblin]\Lshake\prf\C[4]魔物：\C[0]    ググハッ！
+\m[shocked]\plf\Rshake\c[4]食べ物！食べ物なの？！
+\SndLib[sound_eat]\SETpl[goblin_penis]\Lshake\prf\C[4]魔物：\C[0]    グへ！ ハグハ！
+\SndLib[sound_eat]\SETpr[goblin]\plf\Rshake\C[4]魔物：\C[0]    グへ！グヘヘヘヘ！
+\SndLib[sound_eat]\m[pleased]\plf\Rshake\c[4]おいしい！ ありがとう！ ありがとうございます！
+\SndLib[sound_eat]\SETpr[goblin]\plf\Rshake\C[4]魔物：\C[0]    グヘヘヘヘ！
+\SndLib[sound_eat]\SETpl[goblin_penis]\Lshake\prf\C[4]魔物：\C[0]    グヘヘ！ ハグハ！
+\narr魔物は鏡を持ってきて､ロナに現実を見せようとしている
+\narrOFF\m[confused]\plf\Rshake\c[4]鏡？
+\cg[event_OrkindMother]\m[flirty]\plf\Rshake\c[4]この醜い化け物は誰？ どうしてそんな目で見るの？
+
+OrkindCampCaptured/begin2
+\..\..\..
+\SndLib[sound_Heartbeat]\m[shocked]\plf\Rshake\c[4]わたし？！ これわたし？！
+\SndLib[sound_OrcSpot]\m[fear]\plf\Rshake\c[4]いや！！ いやだあ！！！
+\SndLib[sound_OrcSpot]\m[terror]\plf\Rshake\c[4]いやああ！ わたしは人間！ 化け物なんかじゃない！
+\SETpr[goblin]\plf\Rshake\C[4]魔物：\C[0]    グヘヘヘヘ！
+\SndLib[sound_OrcSpot]\m[bereft]\plf\Rshake\c[4]誰か助けに来てぇ！ もういらないから！ もう食べないから！
+\ph\..\..\..
+\SndLib[sound_Heartbeat]\c[4]おなかすいた...
+\SndLib[sound_Heartbeat]\c[4]おなかすいた.... おなかすいたぁ....
+\SndLib[sound_Heartbeat]\c[4]食べ物は？食べたい食べたい！食べ物ください！
+\cgoff\..\..\..
+
+####################################### AbomHive Rapeloop #######################################
+
+AbomHiveCaptured/begin1
+\narr\..\..\..\..\..
+\SndLib[sys_DialogBoard]ロナは失踪し､その後誰も姿を見ることはなかった｡
+\SndLib[sys_DialogBoard]長い長い時間が経ち\..\..\.. 魔物の巣穴の中で\..\..\..
+\SndLib[sound_Heartbeat]\narrOFF\m[p5shame]\c[4]ここどこ？
+\SndLib[sound_Heartbeat]\m[p5shame]\c[4]わたしどうなっているの？
+\SndLib[sound_Heartbeat]\m[p5shame]\c[4]わたしまだ生きているの？
+\SndLib[sound_Heartbeat]\m[p5shame]\c[4]どうして何も感じないの？ どれくらい経ったの？
+\narr\prf\c[4]\SndLib[sound_step]\.\.\..\SndLib[sound_step]\.\.\..\SndLib[sound_step]\.\.\..
+\narrOFF\SndLib[sound_step]\m[p5shame]\c[4]誰？
+
+AbomHiveCaptured/begin2
+\cg[map_AbomCorpse2]\SETpl[Mreg_guardsman]\SETpr[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    おい！新入り！ ここだ｡
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]新入り：\c[0]    待ってください！ 彼女たちまだ動いている！
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]傭兵：\c[0]    火を付けろ!
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]新入り：\c[0]    そんな！ 待ってくださいよ！ああ使徒様！まだ死んでいないのに！
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]傭兵：\c[0]    いいや！ こいつらはもう終わりだ！誰も救えない！
+\narr\cgoff \.\.\..\SndLib[sound_step]\.\.\..\SndLib[sound_step]\.\.\..
+\narrOFF\cg[map_AbomCorpse1]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]傭兵：\c[0]    来い！これを見ろ！ 首しか残ってないのに動いている､これでも生きていると言うつもりか？
+\SndLib[sound_Heartbeat]\m[p5shame]\plf\Rshake\c[4]わたしのこと？ 助けてください！
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]傭兵：\c[0]    これはもう人間じゃない！ ただのバケモノどもの苗床だ！
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]傭兵：\c[0]    燃やせ！ 今！
+\SndLib[sound_Heartbeat]\m[p5shame]\plf\PLF\c[4]なんで？ ちがう！わたしまだ死んでいない！ 助けて！
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]新入り：\c[0]    はい！
+
+AbomHiveCaptured/begin3
+\SndLib[sound_flame]\SETpl[Mreg_pikeman]\m[p5health_damage]\Lshake\Rshake\c[4]あああ！！
+\SndLib[sound_flame]\SETpl[Mreg_pikeman]\m[p5health_damage]\Lshake\Rshake\c[4]熱い！ やだ！ 死にたくないぃ！
+\SndLib[sound_flame]\SETpl[Mreg_pikeman]\m[p5health_damage]\Lshake\Rshake\c[4]いや！ やだあ！ ああああ！
+\cgoff\ph\narr\c[4]\SndLib[sound_flame]\.\.\..\SndLib[sound_flame]\.\.\..\SndLib[sound_flame]\.\.\..
+\narrOFF\cg[map_cityOnFire]\SETpl[Mreg_guardsman]\SETpr[Mreg_pikeman]\plf\Rshake\c[4]新入り：\c[0]    やっと... 終わった...
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]傭兵：\c[0]    今日の仕事はまだ始まったばかりだ､いくつか処理しなければならない巣穴が残っている｡
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]新入り：\c[0]    はい！
+
+####################################### FishKind and Deepone Rapeloop #######################################
+
+FishkindCampCaptured/begin1
+\narr\..\..\..\..\..
+ロナは失踪し､その後誰も姿を見ることはなかった｡
+長い長い時間が経ち\..\..\.. 魔物の巣の中で\..\..\..
+\narrOFF\cg[map_region_hole]\SndLib[sound_step]私どうなってるの？ \.\SndLib[FishkindSmSpot] ここはどこ？ \.\SndLib[sound_step]\.\SndLib[sound_step] 魔物に捕まってしまった？\.\SndLib[FishkindSmSpot]
+\c[4]暗い､なにも見えない｡
+\SndLib[sound_step]誰かが居るの？ \.\SndLib[FishkindSmSpot]\.\SndLib[sound_step]\.\SndLib[sound_step]お願い､助けてください｡\.\SndLib[sound_equip_armor]
+\c[4]女性：\c[0]    わたしの声が聞こえますか？
+\SndLib[sound_equip_armor]\c[4]誰？ 殺さないで... 怖い....
+\m[confused]\C[4]女性：\C[0]    あっ！ あなたは新しく来た人ですよね？
+\prf.....
+\m[normal]\C[4]女性：\C[0]    シー....静かに｡
+\m[pleased]\C[4]女性：\C[0]    ここに座って､そんなに怖がらないで､わたしはあなたと同じ人間ですよ｡
+\prf.....
+\m[shy]\C[4]女性：\C[0]    大丈夫大丈夫､もう泣かないで｡
+\m[normal]\C[4]女性：\C[0]    わたしは\c[6]ロナ\c[0]って言います､あなたは？
+\prf.....
+\m[triumph]\C[4]女性：\C[0]    え？いい名前ですね｡
+\prf.....
+\m[shy]\C[4]女性：\C[0]    そうなんですか？ わたしは長い間ここに居ました､怖がらないで､わたしはあなたみたいな人たちのお世話をしてきたの｡
+\prf.....
+\m[flirty]\C[4]女性：\C[0]    いいえ､やめたほうがいいです､もう何人も試したのを見てます､みんな死んじゃいました｡ でもあなたはそんな事しない､ですよね？
+\prf.....
+\m[shy]\C[4]女性：\C[0]    泣かないで､わたしがあなたを守るから｡
+\m[pleased]\C[4]女性：\C[0]    来てください､ここで生きるために必要なことはすべて知ってます､心配しないで､わたしが助けるから｡
+\cgoff\ph\narr\..\..\..\..
+
+
+##########################################################################################################################
+##########################################################################################################################	 ENDING SHIP
+##########################################################################################################################
+
+ending/end
+ゲームを終える？\optB[ちょっと待って,終わる]
+
+ShipLadder/qMsg0
+風が吹いている
+
+ShipLadder/qMsg1
+上がらなきゃ
+
+ShipLadder/qMsg2
+危険すぎる
+

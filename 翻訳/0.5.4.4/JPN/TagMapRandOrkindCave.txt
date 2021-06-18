@@ -1,0 +1,63 @@
+OrkindCave1/OvermapEnter
+\m[confused]洞窟､どうやら魔物の巣のようだ｡\optB[やめる,入る]
+
+OrkindCave2/OvermapEnter
+\m[confused]北の関所の監視塔､魔物に占拠されたらしい｡\optB[やめる,入る]
+
+OrkindCave3/OvermapEnter
+\m[confused]洞窟､どうやら魔物の巣のようだ｡\optB[やめる,入る]
+
+OrkindCamp1/OvermapEnter
+\m[confused]魔物に占拠された小屋\optB[やめる,入る]
+
+############################################################################# QUEST 2
+
+OrkindCave2/OvermapEnter_enter
+\m[flirty]\c[6]ロナ：\c[0]    ここだね｡
+\m[shy]\c[6]ロナ：\c[0]    本当に準備は出来ているかな？
+\m[serious]\c[6]ロナ：\c[0]    絶対に失敗できない､もし失敗したら､妊娠させられてあいつらの母親になるかもしれないんだから｡
+
+OrkindCave2/OvermapEnter_done
+\m[triumph]\c[6]ロナ：\c[0]    終わったぁ､あの気持ち悪い緑色のやつらがみんな消えちゃった｡
+\m[pleased]\c[6]ロナ：\c[0]    急いで任務完了の報告をしなきゃ｡
+
+#############################################################################
+
+Lona/ExitCave
+\m[confused]\c[6]ロナ：\c[0]    ここから出る？\optB[用事が済んでいない,出る]
+
+Lona/SmallHole
+\m[confused]\c[6]ロナ：\c[0] 狭い洞窟､人が入れるほどの大きさじゃない｡
+
+Lona/CheckFlag
+ゴブリンの旗､意味不明なトーテムが描かれていて､何かの皮で出来ている｡
+
+Lona/CheckCropseEnd
+\m[serious]\c[6]ロナ：\c[0] あいつらに殺されたら､わたしもこうなるのかな？
+
+Lona/TimerStart
+洞窟の外から足音がする｡
+\m[fear]\c[6]ロナ：\c[0]    急がなきゃ｡
+
+Lona/RapeLoopNonCapture
+\m[fear]ゴブリンはロナを捕らえ､持ち物をすべて奪った｡
+\m[terror]新しい肉便器を見つけて非常に喜んでいる｡
+
+Lona/RapeLoopBondage
+\m[pain]ロナを地面に押さえつけて､拘束具を取りつけた｡
+
+Lona/RapeLoopCaptured
+\m[terror]ゴブリンはまだ満足していないので､ロナを寝かせるつもりはない｡
+\m[fear]欲望に満ちた笑みと悪臭を放つ陰部を剥き出した｡今日はこの肉便器でどう遊ぶのだろうか？
+
+Lona/RapeLoopDragOut
+\m[hurt]ゴブリンはロナを引きずり出し､快楽の宴を開くようだ｡
+
+Lona/RapeLoopTorture
+\m[fear]逃げようとしたロナに激怒したゴブリンは､肉便器としての態度というものをわからせるつもりだ｡
+
+######################################## MAP TRANS
+
+Lona/ToOrkindCave1
+\cg[map_region_hole]狭い洞窟､魔物たちはここからノエルに入ったみたいだね｡
+\m[confused]\c[6]ロナ：\c[0]    進む？\optB[やめる,進む]
