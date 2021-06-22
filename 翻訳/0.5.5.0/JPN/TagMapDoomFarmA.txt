@@ -10,14 +10,14 @@ art/apeVSgirl
 
 grave/woodson
 \board[墓石]
-\c[6]ジム.ウッドソン\c[0]
+\c[6]ジム・ウッドソン\c[0]
 1702.1.4 - 1755.9.5
 彼は使徒の敬遠な従者でした｡
 彼は多くの信者を導きました｡
 彼は我々にとっての師です｡
 
 NaughtyDick/BOW
-\SndLib[dogSpot]\c[4]ディック.ノーティ：\c[0]    ウーッ！
+\SndLib[dogSpot]\c[4]ディック・ノーティ：\c[0]    ウーッ！
 
 ########################################## frist time enter
 
@@ -35,7 +35,7 @@ FristTime/Enter1
 FristTime/Enter2
 \CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    この虚言者め！ 死にたいのかい？
 \CBmp[papa,6]\plf\prf\c[4]老人：\c[0]    ちがう! ワシぁちょっと気が迷っただけなんだ！
-\CBmp[mama,8]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    フン！ 使徒の罰でも受けるんだね！
+\CBmp[mama,8]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    フン！ あとで使徒の罰でも受けな！
 
 FristTime/Enter3_cocona
 \CBfB[20]\SETcoconaPL[sad]\Lshake\prf\c[6]ココナ：\c[0]    わるもの！ はんざいしゃ！
@@ -130,7 +130,7 @@ son/Capture_night_t4
 \CBct[8]\m[tired]\plf\PRF\c[6]ロナ：\c[0]    よし... もうすぐ説得できそう｡
 \CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    パパとママみたいな強さとかすごい信仰心が欲しいと思わない？
 \CBmp[son,5]\SETpl[FatDumbNormal]\Lshake\prf\c[4]ブー：\c[0]    ほしい！
-\CBct[8]\m[tired]\plf\PRF\c[6]ロナ：\c[0]    私はあなたの奥さんでしょ？一緒にもっと太れば､君はすっごく強くなれるよ､使徒様みたいに｡
+\CBct[8]\m[tired]\plf\PRF\c[6]ロナ：\c[0]    私はあなたの奥さんでしょ？私のお願いをを聞いてくれれば､君はすっごく強くなれるよ､使徒様みたいに｡
 \CBmp[son,5]\SETpl[FatDumbNormal]\Lshake\prf\c[4]ブー：\c[0]    ほんと？ ブーちゃんどうすればいい？\optB[なんでもない,こうしよう<r=HiddenOPT1>]
 
 son/Capture_night_t5
