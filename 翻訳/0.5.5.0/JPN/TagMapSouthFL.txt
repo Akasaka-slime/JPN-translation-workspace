@@ -136,15 +136,15 @@ Tower/Go1
 ###################################################################################    INN
 
 InnKeeper/Begin
-\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]衛兵：\c[0]    ここは\c[6]祈望旅社\c[0]だ､希望は無いがな｡
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]衛兵：\c[0]    ここは\c[6]祈る者の宿\c[0]だ､祈った所で希望は無いがな｡
 
 ##########trans note. keep name = Overlook Keep
 
 InnKeeper/About_here
 \CBct[2]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    ここは....？
-\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]衛兵：\c[0]    ここは元々\c[6]守望者堡壘\c[0]だった｡
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]衛兵：\c[0]    ここは元々\c[6]監視者の稜堡\c[0]だった｡
 \CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]衛兵：\c[0]    災害が発生してから数日で陥落したんだ｡
-\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]衛兵：\c[0]    黒い霧が晴れた後は\c[6]警總\c[0]の残党が要塞の残骸の中でキャンプを張っている｡
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]衛兵：\c[0]    黒い霧が晴れた後は\c[6]保安本部\c[0]の残党が要塞の残骸の中でキャンプを張っている｡
 \CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]衛兵：\c[0]    その後\c[6]ノエル\c[0]のお偉いさんが金を出して\c[6]祈望旅社\c[0]を作ったんだ｡
 \CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]衛兵：\c[0]    これまで難民を受け入れてきたが､それもそろそろ限界だ｡
 \CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]衛兵：\c[0]    時間が経つにつれ､生きてる奴は殆どいなくなり､新たに収容した奴らも心身ともに衰弱していく｡
