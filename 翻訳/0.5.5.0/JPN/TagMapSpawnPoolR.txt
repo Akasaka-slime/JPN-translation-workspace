@@ -46,12 +46,12 @@ Qprog8/RaidOnEast7
 目標：この場所からの脱出
 報酬：無し
 依頼主：兵士
-制限回数：１度きり
+制限回数：１回
 兵士はロナに脱出させることを要求した､できなければ待つのは死だけだ｡
 
 Qprog8/RaidOnEast8
 \CBct[6]\m[fear]\PRF\c[6]ロナ：\c[0]    どうしよう.....
-\CBct[6]\m[sad]\PRF\c[6]ロナ：\c[0]    とにかく道のりに進めば...
+\CBct[6]\m[sad]\PRF\c[6]ロナ：\c[0]    とにかく道なりに進めば...
 
 Qprog8/spotHive
 \CBmp[Hive,19]\m[shocked]\Rshake\c[6]ロナ：\c[0]    どうなっているの？
@@ -78,9 +78,9 @@ Qprog8/spotHiveEnd3
 
 Qprog8/spotHiveEnd4
 \CBmp[guard1ST,20]\SETpr[Mreg_pikeman]\plf\Rshake\c[4]兵士：\c[0]    ハ！ 百人長殿､忌まわしき怪物共の殲滅に成功しました！
-\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百人長：\c[0]    素晴らしい､私は高度な訓練を受けた騎士であるが､魔物に襲われた際に気絶させられてしまってな。
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百人長：\c[0]    素晴らしい､私は高度な訓練を受けた騎士であるが､魔物に襲われた際に気絶させられてしまってな｡
 \CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百人長：\c[0]    惜しいことをした｡
-\CBmp[guard1ST,20]\SETpr[Mreg_pikeman]\plf\Rshake\c[4]兵士：\c[0]    百人長殿､戻りましょう｡ここで起きたことは帰りにご説明致します｡
+\CBmp[guard1ST,20]\SETpr[Mreg_pikeman]\plf\Rshake\c[4]兵士：\c[0]    百人長殿､戻りましょう｡ここで起きたことは道すがらご説明致します｡
 \CBmp[guard1ST,20]\SETpr[Mreg_pikeman]\plf\Rshake\c[4]兵士：\c[0]    この小娘は信用しないでください､こいつはただ逃げていただけです｡たかが小娘にそれ以外できますでしょうか？
 \CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百人長：\c[0]    そうか｡
 \CBct[19]\m[fear]\PRF\c[6]ロナ：\c[0]    えぇ...
