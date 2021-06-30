@@ -392,17 +392,17 @@ Qprog7/RaidOnEast_accept1
 Qprog9/RaidOnEast_reward
 \CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    ええと....
 \CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百人長：\c[0]    ああ！ お前か｡
-\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百人長：\c[0]    ようやく包囲された状況が解けたんだ､この\c[6]南門キャンプ\c[0]にももうすぐ支援が到着する。
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百人長：\c[0]    ようやく包囲された状況が解けたんだ､この\c[6]南門キャンプ\c[0]にももうすぐ支援が到着する｡
 \CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百人長：\c[0]    お前については...
 \CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百人長：\c[0]    部下から全て聞いたぞ､お前は戦力にはならんようだな｡
 \CBct[8]\m[sad]\plf\PRF\c[6]ロナ：\c[0]    わたしは.....
-\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百人長：\c[0]    帰っていいぞ､まぁがんばれ。
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百人長：\c[0]    帰っていいぞ､まぁがんばれ｡
 
 Qprog10/WaitingAMT_noLisa
 \CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百人長：\c[0]    \c[6]東部第七哨所\c[0]に面白い兵器があると聞いた､我々はそれをなんとかして手に入れたい。
 
 Qprog8/WaitingAMT_wait
-\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百人長：\c[0]    何かできることはあるかだと？ 宿の職員に聞いてみろ。
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百人長：\c[0]    何かできることはあるかだと？ 宿の職員に聞いてみろ｡
 
 ############################################## Get Lisa
 
