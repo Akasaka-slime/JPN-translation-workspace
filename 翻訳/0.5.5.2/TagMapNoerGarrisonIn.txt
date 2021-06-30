@@ -1,4 +1,0 @@
-thisMap/OvermapEnter
-ノエル警備司令部\optB[やめる,入る]
-
-

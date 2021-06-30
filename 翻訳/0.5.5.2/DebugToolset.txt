@@ -1,7 +1,0 @@
-#Message for debug tool set
-
-debug/questionstart
-要執行的動作 \optB[印出NPC資料,印出所有事件資料,啟動事件除錯開關,啟動NPC除錯開關,啟動所有除錯開關,KillIT,FriendlyToPlayer,SetToChaos]
-
-debug/is_player
-Player DO？ \optB[PrintStats,RegenMainStat,MaxTradePoint,LV99,SunGlass,Armory,ToOverMap]
