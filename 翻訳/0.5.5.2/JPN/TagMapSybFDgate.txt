@@ -1,0 +1,2 @@
+ThisMap/OmEnter
+\m[confused]シバリス 南西ゲート\optB[やめる,入る]
