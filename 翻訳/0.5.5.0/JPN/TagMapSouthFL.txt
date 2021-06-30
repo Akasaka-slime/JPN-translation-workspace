@@ -92,7 +92,7 @@ MaleDoomed/CommonHuman3
 
 MainGuard/Begin
 \CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    知ってるか？ みんな狂っちまった！
-\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    城の西側はオークみたいな奴が支配していて､それ以外は忌まわしきものどもが支配している｡
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    城の西側はゴブリンみたいな奴が支配していて､それ以外は肉魔物どもが支配している｡
 \CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    この魔物共は互いに敵対しているが､それじゃ何の解決にもならん！
 \CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    あぁどいつもこいつも狂ってやがる！ 俺たちゃ捨てられたんだ！
 
@@ -136,7 +136,7 @@ Tower/Go1
 ###################################################################################    INN
 
 InnKeeper/Begin
-\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]衛兵：\c[0]    ここは\c[6]祈る者の宿\c[0]だ､祈った所で希望は無いがな｡
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]衛兵：\c[0]    ここは\c[6]希望の宿\c[0]だ､実際には希望など無いがな｡
 
 ##########trans note. keep name = Overlook Keep
 
@@ -145,7 +145,7 @@ InnKeeper/About_here
 \CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]衛兵：\c[0]    ここは元々\c[6]監視者の稜堡\c[0]だった｡
 \CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]衛兵：\c[0]    災害が発生してから数日で陥落したんだ｡
 \CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]衛兵：\c[0]    黒い霧が晴れた後は\c[6]警備司令部\c[0]の残党が要塞の残骸の中でキャンプを張っている｡
-\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]衛兵：\c[0]    その後\c[6]ノエル\c[0]のお偉いさんが金を出して\c[6]祈る者の宿\c[0]を作ったんだ｡
+\CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]衛兵：\c[0]    その後\c[6]ノエル\c[0]のお偉いさんが金を出して\c[6]希望の宿\c[0]を作ったんだ｡
 \CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]衛兵：\c[0]    これまで難民を受け入れてきたが､それもそろそろ限界だ｡
 \CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]衛兵：\c[0]    時間が経つにつれ､生きてる奴は殆どいなくなり､新たに収容した奴らも心身ともに衰弱していく｡
 \CBid[-1,20]\SETpl[Mreg_pikeman]\m[confused]\Lshake\prf\c[4]衛兵：\c[0]    もうすぐ､生きている奴は誰もいなくなる｡
@@ -362,7 +362,7 @@ Qprog6/WaitingAMT
 
 Qprog6/RaidOnEast_replay
 \CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百人長：\c[0]    あぁ､おまえか｡
-\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百人長：\c[0]    \c[6]警總\c[0]と連絡をつけるのに成功した｡
+\CBmp[Leader,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百人長：\c[0]    \c[6]警備司令部\c[0]と連絡をつけるのに成功した｡
 \CBmp[RelayTable,19]\SETpl[Lawbringer]\Lshake\prf\c[4]百人長：\c[0]    また\c[6]南門キャンプ\c[0]の駅も再開された｡
 \CBmp[RelayTable,19]\SETpl[Lawbringer]\Lshake\prf\c[4]百人長：\c[0]    今後はこの島の他の場所にもアクセスできるようになる｡
 \CBct[6]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    やった｡
@@ -377,7 +377,7 @@ Qprog7/RaidOnEast1
 目標：東側にある孵化場の破壊
 報酬：市場の解禁
 依頼主：南門キャンプ
-制限回数：1度きり
+制限回数：1回
 東の孵化場を破壊して､あの悪魔どもを使徒の元へ送ってやれ！
 
 Qprog7/RaidOnEast_accept0
@@ -420,7 +420,7 @@ Qprog11/LisaLine_1
 目標：ノエルタウン
 報酬：無し
 依頼主：南門キャンプ
-制限回数：1度きり
+制限回数：1回
 火薬商人の\c[6]リサ\c[0]とその助手の\c[6]ロナ\c[0]を探す｡
 
 Qprog11/LisaLine_accept0
@@ -448,7 +448,7 @@ Qprog11/LisaLine_accept2
 目標：ノエル
 報酬：無し
 依頼主：南門キャンプ
-制限回数：1度きり
+制限回数：1回
 火薬商人の\c[6]リサ\c[0]を見つけて\c[6]東部第七哨所\c[0]へ向かう｡
 
 Qprog11/LisaLine_No
