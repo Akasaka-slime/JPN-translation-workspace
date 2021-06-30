@@ -55,19 +55,19 @@ Qprog3/begin14
 
 Qprog3/begin15
 \CBct[20]\m[fear]\Rshake\c[6]ロナ：\c[0]    どうしよう､見つかっちゃった！
-\narr聞くのだ､少女よ｡
-\narr君の助けが必要だ｡
+\narr聞け､少女よ｡
+\narrお前の助けが必要だ｡
 \narrOFF\CBct[20]\m[shocked]\Rshake\c[6]ロナ：\c[0]    何？ 誰？ 助けって？
-\narr正義の裁きが下るまで食い止めてくれ｡
+\narr正義の裁きが下るまで食い止めるんだ｡
 \narrOFF\CBct[6]\m[terror]\Rshake\c[6]ロナ：\c[0]    ここで食い止めろって？ 冗談でしょ!?
 
 Qprog3/begin16
 \CBct[20]\m[terror]\Rshake\c[6]ロナ：\c[0]    何？！？？！
 \CBct[5]\m[bereft]\Rshake\c[6]ロナ：\c[0]    誰だか知らないけど､冗談言ってる場合じゃないよ！
-\narrこいつら悪を裁くには､お前の魂が必要だ｡
+\narrこいつら邪悪を裁くには､お前の魂が必要だ｡
 \narr少女よ､君ならできるハズだ！
 \narrOFF\CBct[6]\m[shocked]\Rshake\c[6]ロナ：\c[0]    イヤ！ ここから出して！
-\narr食い止めろ！ 正義と夜明けがやってくるまで！
+\narr食い止めろ！ 夜明けと共に正義がやってくるまで！
 
 Qprog3/begin17
 \CBct[8]\m[shocked]\PRF\c[6]ロナ：\c[0]    いったい何？！
