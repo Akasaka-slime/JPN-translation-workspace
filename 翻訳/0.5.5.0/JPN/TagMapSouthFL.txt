@@ -91,10 +91,10 @@ MaleDoomed/CommonHuman3
 \CBid[-1,20]\prf\c[4]難民：\c[0]    俺ん中ぁ虫だらけだ！ 女体に穢れを注がないと治らねぇのか！
 
 MainGuard/Begin
-\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    知ってるか？ みんな狂っちまった！
-\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    城の西側はゴブリンみたいな奴が支配していて､それ以外は肉魔物どもが支配している｡
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    知ってるか？ みんな狂ってしまった！
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    城の西側はゴブリンのような奴が支配していて､それ以外は肉魔物どもが支配している｡
 \CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    この魔物共は互いに敵対しているが､それじゃ何の解決にもならん！
-\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    あぁどいつもこいつも狂ってやがる！ 俺たちゃ捨てられたんだ！
+\CBid[-1,20]\SETpl[Lawbringer]\Lshake\prf\c[4]百夫長：\c[0]    あぁどいつもこいつも狂ってやがる！ 我々は見捨てられたんだ！
 
 boardR/Begin1
 \board[捜索リスト]
