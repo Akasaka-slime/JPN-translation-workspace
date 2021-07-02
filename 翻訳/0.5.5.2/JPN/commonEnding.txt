@@ -121,13 +121,13 @@ Noer/Common0
 
 Noer/OrkindDestroyed1
 \SndLib[sys_DialogBoard]\cg[map_region_NoerRoad]物資不足により､街で暴動が起きた｡
-\SndLib[sys_DialogBoard]\cg[map_bandits_farmer]人々が強盗へと変わるには，さほど時間は掛からなかった。
+\SndLib[sys_DialogBoard]\cg[map_bandits_farmer]人々が強盗へと変わるには､さほど時間は掛からなかった｡
 
 Noer/OrkindDestroyed2
 \SndLib[sys_DialogBoard]\cg[map_bandits]街を運営する人がいなくなり､魔物から街を守る人もいない｡
 
 Noer/OrkindDestroyed2_QuProgCataUndeadHunt2_7
-\SndLib[sys_DialogBoard]\cg[map_region_hole]誰かが地下道に空いたゴブリンの通路を塞いだものの，結局はそれも役に立たなかった。
+\SndLib[sys_DialogBoard]\cg[map_region_hole]誰かが地下道に空いたゴブリンの通路を塞いだものの､結局はそれも役に立たなかった｡
 
 Noer/OrkindDestroyed3
 \SndLib[sys_DialogBoard]\cg[map_region_hole]ある日､ゴブリンたちはトンネル掘り､津波のように街に押し寄せた｡
