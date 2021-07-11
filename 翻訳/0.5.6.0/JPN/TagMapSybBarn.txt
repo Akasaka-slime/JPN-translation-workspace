@@ -57,14 +57,14 @@ Op/Begin0
 
 Op/Begin1_3
 \CBmp[Gpicker,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    これじゃ誰も生きてないんじゃねぇか？
-\CBmp[Gscout,20]\SETpr[Mreg_guardsman]\plf\Rshake\c[4]傭兵：\c[0]    オイこれを見ろ､男には多く金を払うってギルドからのお達しだ。
-\CBmp[Gpicker,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    そんなに貰えんのか？！
+\CBmp[Gscout,20]\SETpr[Mreg_guardsman]\plf\Rshake\c[4]傭兵：\c[0]    オイこれを見ろ､男には多く金を払うってギルドからのお達しだ｡
+\CBmp[Gpicker,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    マジなら山ほど貰えんじゃねぇか？！
 
 Op/Begin1
 \ph\CBct[2]\m[confused]\PRF\c[6]ロナ：\c[0]    あの...これはどうなってるの？
 \CBmp[mama,20]\c[4]司祭：\c[0]    お前は信仰者か？
 \CBct[8]\m[flirty]\PRF\c[6]ロナ：\c[0]    あーっと\..\..\..たぶん？
-\CBmp[mama,20]\prf\c[4]司祭：\c[0]    信者よ，我々は使徒の奇跡を必要としている｡
+\CBmp[mama,20]\prf\c[4]司祭：\c[0]    信者よ､我々は使徒の奇跡を必要としている｡
 \CBmp[mama,20]\prf\c[4]司祭：\c[0]    我々の家族や友人が地下にいる使徒に連れ去られてしまって､お前の助けがいるのだ｡
 \CBmp[OpGuard2,6]\c[4]難民：\c[0]    ちょっと待ってくれ司祭様! こいつは人間だぞ！ しかもただのガキだ!
 \CBmp[mama,20]\prf\c[4]司祭：\c[0]    うるさい！ これこそ使徒の意志なのです! 私には使徒の声が聞こえる!
@@ -106,8 +106,9 @@ Op/Begin5
 
 Op/Begin6
 \CBmp[OpGuard2,20]\CBmp[OpGuard1,20]\CBmp[mama,20]\c[4]全員：\c[0]    使徒に感謝を！！ 使徒を讃えよ！！
+
 Op/Begin7
-\c[6]ロナ：\c[0]    \{ひええ！！！
+\c[6]ロナ：\c[0]    \{痛ったぁ！！！
 
 Op/Begin8
 \CBmp[6]\m[fear]\PRF\c[6]ロナ：\c[0]    これは\..\..\..
@@ -117,7 +118,7 @@ Op/Begin9
 
 Op/Begin9_3
 \CBmp[Gpicker,6]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    これは... ここは一体なんなんだ...
-\CBmp[Gscout,6]\SETpr[Mreg_guardsman]\plf\Rshake\c[4]傭兵：\c[0]    壁が生きている？！
+\CBmp[Gscout,6]\SETpr[Mreg_guardsman]\plf\Rshake\c[4]傭兵：\c[0]    壁が生きてんのか？！
 \CBmp[Gpicker,6]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    あぁ使徒よ！... 壁が人を食ってるのか？！
 
 Op/Begin9_31
