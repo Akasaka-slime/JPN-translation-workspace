@@ -297,7 +297,7 @@ World/Region_option_erase_failed1
 ############################################### RAND事件 ##############################
 
 World/ThingHappen_begin
-\m[confused]\SND[SE/Cancel1.ogg]\narr前方に何かが現了什麼。
+\m[confused]\SND[SE/Cancel1.ogg]\narr前方に何かが現れた。
 
 World/ThingVS_begin
 \m[confused]\SND[SE/Cancel1.ogg]\narr遠くから戦いの音が聞こえる...
