@@ -40,7 +40,7 @@ GuardMain/opt
 \CBct[6]\m[confused]\c[6]ロナ：\c[0]    えっと...\optB[やめる,傭兵,彼女]
 
 GuardMain/opt_Mercenary
-\CBct[6]\m[confused]\c[6]ロナ：\c[0]    傭兵かな？ なんでこんな沢山の傭兵がいるんだろう？
+\CBct[6]\m[confused]\c[6]ロナ：\c[0]    傭兵ですか？ なんでこんな沢山の傭兵がいるんでしょう？
 \CBid[-1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    ここで何をしている？ ガキの遊び場じゃないぞ｡
 \CBct[5]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    これでも一応傭兵です！
 \CBid[-1,2]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    お前が\..\..\..？
