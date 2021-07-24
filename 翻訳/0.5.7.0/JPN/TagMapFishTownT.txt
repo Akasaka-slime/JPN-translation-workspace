@@ -1,0 +1,12 @@
+####################################--------------------- overmap
+Top/OvermapEnter
+\m[confused]荊棘の神殿\optB[やめる,入る]
+
+sneak/spoted
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]衛兵：\c[0]    シンニュウシャ！
+
+release/DeepOneF
+\m[confused]\plf\PRF\c[6]ロナ：\c[0]    監禁されてる...魔物？
+
+Farseer/Else
+\CBmp[QuestGiver,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\c[4]シャーマン：\c[0]    ヨソ者よ...去れ......

@@ -1,0 +1,104 @@
+thisMap/OvermapEnter
+東部哨所\optB[やめる,入る]
+
+############################################################################### Quest Begin
+
+CPofficer/overrunning_begin0
+\CBmp[cpSGT,2]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十卒長：\c[0]    何をやってる？！
+\CBct[2]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    えっ？！ なに？？？
+\CBmp[cpSGT,1]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十卒長：\c[0]    我々は今襲撃を受けている！ ここは危険だ！一般人は早く去れ！
+\CBct[2]\m[terror]\plf\Rshake\c[6]ロナ：\c[0]    はい！
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十卒長：\c[0]    ちょっと待って！
+\CBct[2]\m[wtf]\plf\Rshake\c[6]ロナ：\c[0]     えっ？！ 今度はなに？！
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十卒長：\c[0]    このままじゃ絶対に持たない！ お前！ 早く\c[4]運命ノ要塞\c[0]へ行って救援を呼べ！
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十卒長：\c[0]    ここはもう持たないと伝えてくれ！ 今すぐだ！
+\CBct[2]\m[terror]\plf\Rshake\c[6]ロナ：\c[0]     はい！
+
+DFOfficer/overrunning_begin1
+\CBmp[cpSGT,2]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]安全官：\c[0]    ん？ どうした？
+\CBct[20]\m[terror]\plf\Rshake\c[6]ロナ：\c[0]    東部哨所が今肉魔獣に襲われています！
+\CBct[20]\m[bereft]\plf\Rshake\c[6]ロナ：\c[0]    支援を要請します！
+\CBmp[cpSGT,1]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]安全官：\c[0]    東部哨所？ またかよ？
+\CBmp[cpSGT,1]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]安全官：\c[0]    クソ！ただでさえ人手不足だったのに！
+\CBmp[cpSGT,1]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]安全官：\c[0]    お前！ 俺たちについて来い！
+\CBct[2]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    はい？ わたしですか？！
+\CBmp[cpSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]安全官：\c[0]    急げ！武器を持て！ 作戦開始だ！
+\CBct[8]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    わたしはただの通りすがりの女の子なんですけど...
+
+DFOfficer/overrunning_begin1_board
+\board[東部哨所]
+目標：東部哨所を防衛する
+報酬：？？？
+依頼主：東部哨所十卒長
+東部哨所に戻って防衛に協力しよう｡
+
+CPofficer/overrunning_begin2
+\CBct[20]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    みんなさん！ 救援が来ましたよ！
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十卒長：\c[0]    やったぜ！ よく来たな！
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十卒長：\c[0]    反撃の時間だ！
+\CBmp[Cannon1,19]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十卒長：\c[0]    おいガキ！ さっさと大砲を装填しろ！ 急げ！
+\CBct[2]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    はい！
+
+CPofficer/overrunning_begin3_fireCannon
+\CBct[20]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    出来ました！！
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十卒長：\c[0]    今だ！点火！
+\CBct[20]\m[bereft]\plf\Rshake\c[6]ロナ：\c[0]    え？ 照準しなくていいんですか？！
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十卒長：\c[0]    奴らは火薬の匂いと強い光が苦手だ！ 早く！
+\CBct[20]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    はい！
+
+CPofficer/overrunning_begin3_clearNarr0
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十卒長：\c[0]    やったか！？
+\m[tired]\plf\PRF\c[6]ロナ：\c[0]    ふぅ....
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十卒長：\c[0]    後方の肉魔獣たちが怯えてるぞ｡逃げ始めている！
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十卒長：\c[0]    残りの害獣どもを蹴散らせ！
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十卒長：\c[0]    待って\..\..\.. なんだあれは？！
+\m[confused]\plf\PRF\c[6]ロナ：\c[0]    なにって？
+
+CPofficer/overrunning_begin3_clearNarr1
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十卒長：\c[0]    なんなんだよあの化け物たち？
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十卒長：\c[0]    手を貸してくれ！ 何としてもここを死守するんだ！
+\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    わかりました！
+
+CPofficer/overrunning_begin4
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十卒長：\c[0]    勝ったぞ！ 俺たちはまだ生きている！
+\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    終わったんですか？！
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十卒長：\c[0]    ああ､なんとか生き残ったぞ｡
+\m[tired]\plf\PRF\c[6]ロナ：\c[0]    ふぅ...
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十卒長：\c[0]    よくやってくれたぜ､でもここには報酬になれそうな物がない｡
+\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    えっと... 大丈夫です...
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十卒長：\c[0]    ふむ\..\..\.. あった！ これ！
+\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    え？
+
+CPofficer/overrunning_begin5
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十卒長：\c[0]    金がないけど､凶器ならいっぱいあるぜ｡
+\m[triumph]\plf\Rshake\c[6]ロナ：\c[0]    ありがとうございます！
+
+CPofficer/InfoHere
+\CBct[2]\m[sad]\plf\PRF\c[6]ロナ：\c[0]    何があったんですか？
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十卒長：\c[0]    最初はゴブリンだったが､今はあの化け物たちだ｡
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十卒長：\c[0]    \c[6]肉魔獣\c[0]､遠くからでも奴らの死臭が分かる｡
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十卒長：\c[0]    奴らの回復力は異常だ､力が強くて数も多い､今はまだ奴らに対抗できる手段がない｡
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十卒長：\c[0]    このままでは哨所がいつ落とされてもおかしくない｡
+\CBct[2]\m[sad]\plf\PRF\c[6]ロナ：\c[0]    .....
+
+CPofficer/QuestFailed
+\CBmp[cpSGT,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]十卒長：\c[0]    ぐあああああ！
+\SETpr[Mreg_pikeman]\plf\PRF\c[4]兵士：\c[0]    みんな逃げろ！ 守りきれるわけがない！
+
+CPofficer/DuringQuprogQmsg
+急げ！
+
+lona/WithAmmoQmsg0
+もう弾が入ってる
+
+lona/WithAmmoQmsg1
+早く装填して
+
+cannon/LoadedQmsg0
+装填済みだ
+
+cannon/FiredQmsg0
+もう発砲した
+
+cannon/OOAQmsg0
+砲弾がない
