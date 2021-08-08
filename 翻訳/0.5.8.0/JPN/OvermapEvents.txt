@@ -280,10 +280,10 @@ World/Region_option_erase_win0
 \SndLib[sound_equip_armor]ロナは多くの痕跡を消した｡
 
 World/Region_option_erase_win1
-\SndLib[sound_equip_armor]痕跡は少なくなってきている。
+\SndLib[sound_equip_armor]痕跡は少なくなってきている｡
 
 World/Region_option_WatchThemDead
-\cg[map_DeadPPL]ロナは彼らが一人ずつ死んでいくのを見た。
+\cg[map_DeadPPL]ロナは彼らが一人ずつ死んでいくのを見た｡
 \narr\..\..\..
 
 World/Region_option_erase_failed0
