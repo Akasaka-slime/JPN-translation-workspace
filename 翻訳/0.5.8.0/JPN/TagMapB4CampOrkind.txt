@@ -25,7 +25,7 @@ crying/begin6
 \CBmp[Hum,20]\c[6]難民：\c[0]    イヤだ！ 孕みとうない！ まだパパになりたくないよぉ！
 
 crying/begin7
-\CBmp[Hum,20]\c[6]難民：\c[0]    \{ンアッーー！！！
+\CBmp[Hum,20]\c[6]難民：\c[0]    \{オラーーッ！！！
 \CBmp[Hum,20]\c[6]難民：\c[0]    ハハ！ 使徒の元へ行け魔物どもめ！
 
 enterMap/end0
