@@ -1,0 +1,331 @@
+HumanPrisonCave/OvermapEnter
+\m[confused]結晶鉱山\optB[やめる,入る]
+
+####################################### 狩獵ABOM任務相關 ######################################################
+
+Manager/Qprog1
+\CBmp[Manager,20]\m[normal]\c[4]鉱山管理人：\c[0]    魔物掃除をしに来たって？
+\CBmp[Manager,20]\prf\c[4]鉱山管理人：\c[0]    お前さんみたいなガキが？しかも女？
+\CBct[2]\m[confused]\PLF\c[6]ロナ：\c[0]    え...？
+\CBmp[Manager,20]\prf\c[4]鉱山管理人：\c[0]    いいだろ｡
+\CBmp[Manager,20]\prf\c[4]鉱山管理人：\c[0]    あの魔物たちは大半奥の方に集めている｡
+\CBmp[Manager,20]\prf\c[4]鉱山管理人：\c[0]    でも気をつけろよ､奴隷たちの休憩エリアに近づくなよ｡
+\CBmp[Manager,20]\prf\c[4]鉱山管理人：\c[0]    奴らにとって女は久しぶりだからな｡
+
+Manager/Qprog1_KillCounted
+\CBct[20]\m[triumph]\c[6]ロナ：\c[0]    よし！繭はすべて倒されたみたいだね｡
+\CBmp[Manager,19]]\m[pleased]\c[6]ロナ：\c[0]    管理人さんに報告しよう｡
+
+Manager/Qprog2
+\CBmp[Manager,20]\prf\m[normal]\c[4]鉱山管理人：\c[0]    よう！よくやったなお嬢ちゃん｡
+\CBmp[Manager,20]\prf\m[normal]\c[4]鉱山管理人：\c[0]    ほら､証明の書類だ｡
+\CBct[20]\m[flirty]\c[6]ロナ：\c[0]    ありがとうございます！
+
+####################################### Captured ######################################################
+
+Narr/Captured0
+\narrロナは鉱山の衛兵に取り囲まれた｡
+
+Narr/Captured1
+\SETpl[Mreg_pikeman]\c[4]衛兵A：\c[0]    なんだこいつ？
+\SETpr[Mreg_guardsman]\c[4]衛兵B：\c[0]    さあな､求人公告でも見たんじゃねえの？
+\prf\PLF\c[4]衛兵A：\c[0]    まだそんな物を信じるバカが居るのか？ ここの悪名は高いはずだが？
+\PRF\plf\c[4]衛兵B：\c[0]    まっ､バカならそこに倒れてるじゃない？
+\prf\PLF\c[4]衛兵A：\c[0]    はあ....一体どうなってんだよこの島は...
+\PRF\plf\c[4]衛兵B：\c[0]    言うな､とりあえずこいつを中へ連れて行け｡
+
+Narr/Captured2
+\m[confused]\prh\narrロナは監禁された｡
+
+####################################### 逃跑 ######################################################
+
+HumanPrisonCave/guard_yelling
+\SETpl[Mreg_guardsman]\PLF\c[0]衛兵：\c[0]\n    おい！ 誰かが脱走しているぞ！
+\m[shocked]！！！！！
+
+####################################### 虐待演出 ######################################################
+
+HumanPrisonCave/RapeLoopTorture_begin1
+........
+......
+....
+\SETpl[Mfat_tortruer]\m[pain]\Lshake\SND[SE/Whip02.ogg]\Rshake\c[4]？？？：\c[0]    \{このビッチぃ！早く起きろ！
+
+HumanPrisonCave/RapeLoopTorture_begin2_1
+\m[shocked]\PRF\c[6]ロナ：\c[0]    え？
+
+HumanPrisonCave/RapeLoopTorture_begin2_1
+\SETpl[Mfat_tortruer]\m[hurt]\Lshake\call[Data/Batch/whip_add_body_wound.rb]\SND[SE/Whip01.ogg]\c[4]拷問官：\c[0]    起きろ！
+
+HumanPrisonCave/RapeLoopTorture_begin2_2
+\SETpl[Mfat_tortruer]\m[p5sta_damage]\Lshake\call[Data/Batch/whip_add_body_wound.rb]\SND[SE/Whip02.ogg]\c[4]拷問官：\c[0]    テメエらよく見とけよ！
+
+HumanPrisonCave/RapeLoopTorture_begin2_3
+\SETpl[Mfat_tortruer]\m[p5health_damage]\Lshake\call[Data/Batch/whip_add_body_wound.rb]\SND[SE/Whip01.ogg]\c[4]拷問官：\c[0]    ...........
+
+HumanPrisonCave/RapeLoopTorture_begin2_4
+\SETpl[Mfat_tortruer]\m[p5health_damage]\Lshake\call[Data/Batch/whip_add_body_wound.rb]\SND[SE/Whip01.ogg]\c[4]拷問官：\c[0]    ......
+
+HumanPrisonCave/RapeLoopTorture_begin2_5
+\SETpl[Mfat_tortruer]\m[p5health_damage]\Lshake\call[Data/Batch/whip_add_body_wound.rb]\SND[SE/Whip02.ogg]\c[4]拷問官：\c[0]    ...
+
+HumanPrisonCave/RapeLoopTorture_begin2_6
+\SETpl[Mfat_tortruer]\m[p5health_damage]\Lshake\call[Data/Batch/whip_add_body_wound.rb]\SND[SE/Whip01.ogg]\c[4]拷問官：\c[0]    俺たちに逆らうか､あるいは仕事をサボったら､こうなるんだぜ｡
+
+HumanPrisonCave/RapeLoopTorture_begin3
+\SETpl[Mfat_tortruer]\Lshake\c[4]拷問官：\c[0]    よし､今日は鉱石を
+
+HumanPrisonCave/RapeLoopTorture2_begin3
+\SETpl[Mfat_tortruer]\Lshake\c[4]拷問官：\c[0]    よし､明日は鉱石を
+
+HumanPrisonCave/RapeLoopTorture_begin3_reflag
+個上納しろ､いいな？
+\SETpl[Mfat_tortruer]\Lshake\c[4]拷問官：\c[0]    解散！
+
+HumanPrisonCave/RapeLoopTorture2_begin3_reflag
+個上納しろ｡
+\SETpl[Mfat_tortruer]\Lshakec[4]拷問官：\c[0]    テメエらも程々にしとけよ､自分の仕事を忘れるなよ！
+
+HumanPrisonCave/RapeLoopTorture_begin4
+\ph\narr\..\..\..\..
+
+HumanPrisonCave/RapeLoopTorture_end
+ロナは気を失い､自分のベッドに運ばれた｡
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin1
+\SND[SE/Whip02.ogg]\{注目！！！
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin2_1
+\SETpl[Mfat_tortruer]\m[fear]\Rshake\SND[SE/Whip01.ogg]\Lshake\c[4]拷問官：\c[0]    ...............
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin2_2
+\SETpl[Mfat_tortruer]\m[terror]\Rshake\SND[SE/Whip02.ogg]\Lshake\c[4]拷問官：\c[0]    ...........
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin2_3
+\SETpl[Mfat_tortruer]\m[sad]\Rshake\SND[SE/Whip01.ogg]\Lshake\c[4]拷問官：\c[0]    .......
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin2_4
+\SETpl[Mfat_tortruer]\m[fear]\Rshake\SND[SE/Whip01.ogg]\Lshake\c[4]拷問官：\c[0]    ....
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin3_0
+\m[sad]あの人はもう死んでいるみたい｡
+
+HumanPrisonCave/RapeLoopTorture_nonplayer_begin3_1
+\m[sad]あの人はもうダメみたい｡
+
+HumanPrisonCave/RapeLoopTorture_FristTime0
+\SETpl[Mfat_tortruer]\Lshake\c[4]拷問官：\c[0]    おっと！どうやら今日からこの楽しい楽しい奴隷生活に入る新人がいるみてえだな？
+\SETpl[Mfat_tortruer]\Lshake\c[4]拷問官：\c[0]    なんと\..\..\.. 女の子でした♥！
+
+HumanPrisonCave/RapeLoopTorture_FristTime1
+\m[wtf]\Rshakeまずい､わたしのことだ｡
+\SETpl[Mfat_tortruer]\Lshake\c[4]拷問官：\c[0]    ロナちゃんだっけ？ 可愛らしい名前だね♥
+\SETpl[Mfat_tortruer]\Lshake\c[4]拷問官：\c[0]    テメエらも仲良くしてやれよ！
+
+HumanPrisonCave/RapeLoopTorture_FristTime2
+\m[shy]\cg[event_Eyes]周囲の人に見られている｡
+\m[fear]そのやらしい視線...一体ナニをするつもりなの？
+\m[terror]\cgoff絶対に弱ってる姿を見せてはいけない､じゃないと襲われる｡
+
+####################################### 排隊肉便器 ######################################################
+
+HumanPrisonCave/RapeLoopMeattoilet_begin1
+\m[hurt]\SND[SE/Chain_move01.ogg]\Rshake\c[6]ロナ：\c[0]    ひぃぃっ！！
+\SETpl[Mfat_tortruer]\Lshake\c[4]拷問官：\c[0]    今日はご苦労だった！
+\SETpl[Mfat_tortruer]\Lshake\c[4]拷問官：\c[0]    テメエらの頑張ってる姿もよーく見える！
+\SETpl[Mfat_tortruer]\Lshake\c[4]拷問官：\c[0]    だがこのクソビッチが仕事をサボりやがった！
+
+HumanPrisonCave/RapeLoopMeattoilet_begin1_1
+\m[p5health_damage]\SND[SE/Whip01.ogg]\Rshake\Lshake\c[6]ロナ：\c[0]    いやっ！！
+\m[terror]\c[6]ロナ：\c[0]    いえ！ サボってないです！ わたしだって一生懸命やっています！
+
+HumanPrisonCave/RapeLoopMeattoilet_begin1_2
+\SETpl[Mfat_tortruer]\m[p5health_damage]\SND[SE/Whip01.ogg]\Rshake\Lshake\Lshake\c[4]拷問官：\c[0]    \{黙れ！
+\SETpl[Mfat_tortruer]\Lshake\c[4]拷問官：\c[0]    今日はこいつの体でみんなを癒そうじゃねえか！
+\SETpl[raper_group]\Lshake\c[4]鉱夫奴隷達：\c[0]    女！
+\SETpl[raper_group]\Lshake\c[4]鉱夫奴隷達：\c[0]    女だ！ 女とやれるぜ！！
+\SETpl[raper_group]\Lshake\c[4]鉱夫奴隷達：\c[0]    ハハハ！楽しめそうだ！
+\SETpl[Mfat_tortruer]\Lshake\c[4]拷問官：\c[0]    騒ぐんじゃねえ！一人一人だ！心配するな！\ph
+
+HumanPrisonCave/RapeLoopMeattoilet_begin1_3
+.........
+
+HumanPrisonCave/RapeLoopMeattoilet_begin2_typical
+\m[bereft]\c[6]ロナ：\c[0]    いや！ 許して！お願い！
+
+HumanPrisonCave/RapeLoopMeattoilet_begin2_tsundere
+\m[angry]\c[6]ロナ：\c[0]    いや！ 触るな！
+
+HumanPrisonCave/RapeLoopMeattoilet_begin2_gloomy
+\m[terror]\c[6]ロナ：\c[0]    いや......
+\m[fear]この人数､わたし死んじゃうよ｡
+
+HumanPrisonCave/RapeLoopMeattoilet_begin2_slut
+\m[lewd]\c[6]ロナ：\c[0]    負けるつもりはないわよ...
+
+HumanPrisonCave/RapeLoopMeattoilet_end
+\SETpl[raper3]\Lshake\c[4]鉱夫奴隷：\c[0]    次は俺だ！
+\SETpl[raper2]\Lshake\c[4]鉱夫奴隷：\c[0]    いや！ 俺の番だ！
+\SETpl[raper1]\Lshake\c[4]鉱夫奴隷：\c[0]    おい！ 割り込むな！
+\ph鉱夫奴隷達の宴は夜まで続いた｡
+輪姦地獄の中でロナは気を失い､他の鉱夫奴隷にベッドに運ばれた｡
+
+####################################### 一般衛兵 ######################################################
+
+HumanPrisonCave/Guard_begin1_slave
+\c[4]衛兵：\c[0]    仕事しろ！ クソ奴隷！
+
+HumanPrisonCave/Guard_begin1_maggot
+\c[4]衛兵：\c[0]    虫けらが！さっさと仕事しろ！
+
+HumanPrisonCave/Guard_begin1_sexy
+\c[4]衛兵：\c[0]    仕事しろ！ ビッチ！
+
+HumanPrisonCave/Guard_begin1_weaker
+\c[4]衛兵：\c[0]    失せろ！ 虫けら！
+
+HumanPrisonCave/Guard_begin1_moot
+\c[4]衛兵：\c[0]    失せろ！
+
+HumanPrisonCave/Guard_begin1_lona
+\c[4]衛兵：\c[0]    戻って仕事しろ！
+
+HumanPrisonCave/Guard_Opt
+\m[confused]\c[6]ロナ：\c[0]    ん？\optB[やめる,取引,売春<r=HiddenOPT1>]
+
+####################################### 一般男性礦工 ######################################################
+
+HumanPrisonCave/MinerM_begin1_slave
+\c[4]鉱夫奴隷：\c[0]    失せろ！俺に触るな
+
+HumanPrisonCave/MinerM_begin1_maggot
+\c[4]鉱夫奴隷：\c[0]    失せろ！俺に触るな
+
+HumanPrisonCave/MinerM_begin1_sexy
+\c[4]鉱夫奴隷：\c[0]    へへっ...
+
+HumanPrisonCave/MinerM_begin1_weaker
+\c[4]鉱夫奴隷：\c[0]    ん？
+
+HumanPrisonCave/MinerM_begin1_moot
+\c[4]鉱夫奴隷：\c[0]    うるせえ！
+
+HumanPrisonCave/MinerM_begin1_lona
+\c[4]鉱夫奴隷：\c[0]    なんだ？
+
+HumanPrisonCave/MinerM_Opt
+\m[confused]\c[6]ロナ：\c[0]    ん？\optB[やめる,取引,売春<r=HiddenOPT1>]
+
+####################################### 搶劫型礦工 ######################################################
+
+HumanPrisonCave/MinerHairTriggerM_begin_basic
+\c[4]鉱夫奴隷：\c[0]    お前の物は俺の物､俺の物も俺の物！
+
+HumanPrisonCave/MinerHairTriggerM_Opt_basic
+\m[confused]\c[6]ロナ：\c[0]    ん？\optB[やめる,売春<r=HiddenOPT1>]
+
+HumanPrisonCave/MinerHairTriggerM_begin_aggro
+\c[4]鉱夫奴隷：\c[0]    へへっ､嬢ちゃん､お前の鉱石をすべて渡しな｡
+
+HumanPrisonCave/MinerHairTriggerM_Opt_aggro
+\m[shocked]\c[6]ロナ：\c[0]    \optD[あげる<t=5>,いや！]
+
+HumanPrisonCave/MinerHairTriggerM_Opt_aggro_no
+\m[angry]\c[6]ロナ：\c[0]    いやだ！何を！
+\c[4]鉱夫奴隷：\c[0]    よくも？！
+
+HumanPrisonCave/MinerHairTriggerM_Opt_aggro_yes
+\m[sad]\c[6]ロナ：\c[0]    ぜ､全部あげます､傷つかないで...
+\c[4]鉱夫奴隷：\c[0]    へへへっ､そうこなくっちゃ｡
+
+####################################### 礦坑交易員 ######################################################
+
+HumanPrisonCave/CaveTrader_begin
+\SETpl[Mreg_pikeman]\PLF\c[4]衛兵：\c[0]    何見てんだ？ 寝ぼけてんか？ 今日の分はちゃんと上納したか？
+
+HumanPrisonCave/CaveTrader_Opt
+\m[confused]\plf\PLF\c[6]ロナ：\c[0]    ん？\optB[やめる,取引,会話,鉱石を上納する,売春<r=HiddenOPT1>]
+
+HumanPrisonCave/CaveTrader_Talk1
+\m[confused]\PRF\c[6]ロナ：\c[0]    あの....
+\SETpl[Mreg_pikeman]\PLF\prf\c[4]衛兵：\c[0]    ちゃんと鉱石を上納しとけよ､じゃねえと痛い目に合わせるからな｡
+\prf\c[4]衛兵：\c[0]    食い物も同じだ､鉱石で交換しろ､働かざる者食うべからずだ！
+\m[fear]\PRF\plf\c[6]ロナ：\c[0]    は､はい｡
+
+HumanPrisonCave/CaveTrader_AnsSexService
+\SETpl[Mreg_pikeman]\PLF\c[4]衛兵：\c[0]    興味ない！
+
+HumanPrisonCave/CaveTrader_GiveMineral_begin
+\m[fear]\PRF\c[6]ロナ：\c[0]    これ..わたしが集めたんです....
+\SETpl[Mreg_pikeman]\PLF\prf\c[4]衛兵：\c[0]    フン.....
+...........
+.....
+...
+
+HumanPrisonCave/CaveTrader_GiveMineral_end_OkayButMore
+\SETpl[Mreg_pikeman]\PLF\c[4]衛兵：\c[0]    足りない！ もっと掘れ！
+
+HumanPrisonCave/CaveTrader_GiveMineral_end_None
+\SETpl[Mreg_pikeman]\PLF\c[4]衛兵：\c[0]    \{貴様！バカにしてるのか！
+
+HumanPrisonCave/CaveTrader_GiveMineral_end_Full
+\SETpl[Mreg_pikeman]\PLF\c[4]衛兵：\c[0]    よし！ 死ぬまで働けよ！
+
+HumanPrisonCave/CaveTrader_end
+\SETpl[Mreg_pikeman]\PLF\prf\c[4]衛兵：\c[0]    早く仕事しろ！ クソガキ！
+
+HumanPrisonCave/CaveTrader_mineneed0
+あと鉱石
+
+HumanPrisonCave/CaveTrader_mineneed1
+個が必要｡
+
+####################################### 隱藏出口 ######################################################
+
+HumanPrisonCave/Windcave_frist_time
+\CBct[8]\m[shocked]\cg[map_region_hole]\c[6]ロナ：\c[0]    風？！
+\CBct[2]\m[normal]\c[6]ロナ：\c[0]    風が吹いてるってことは､外と繋がるかも｡
+\CBct[8]\m[confused]\c[6]ロナ：\c[0]    わたしの体は小さいし､\nこの穴をもっと大きくすれば.....
+
+HumanPrisonCave/Windcave_Opt
+\CBct[8]\m[confused]\cg[map_region_hole]風穴\optB[やめる,掘る<r=HiddenOPT1>]
+
+HumanPrisonCave/Windcave_Opt_dig
+\CBct[8]\m[normal]どのくらいの体力を使う？\optB[体力を温存する,10,20<r=HiddenOPT1>,40<r=HiddenOPT2>,80<r=HiddenOPT3>,160<r=HiddenOPT4>,240<r=HiddenOPT5>]
+
+HumanPrisonCave/Windcave_Opt_diged
+\CBct[20]\m[pleased]\c[6]ロナ：\c[0]    だいぶ掘れたみたい｡
+\CBct[6]\m[tired]\c[6]ロナ：\c[0]    でも..うう...疲れたぁ｡
+
+HumanPrisonCave/Windcave_Opt_diged_open
+\CBct[1]\m[shocked]！！！！！
+\CBct[1]\m[shocked]！！！！！！！！
+\CBct[1]\m[pleased]！！！！！！！！！！！
+\CBct[20]\m[triumph]\c[6]ロナ：\c[0]    やった！ やっと出られるよ！
+
+####################################### RAND RAPE LOOP ######################################################
+
+HumanPrisonCave/RapeLoop_begin1
+\m[shocked]\c[6]ロナ：\c[0]    ！！！！！
+\SETpl[raper_group]\prf\c[4]鉱夫奴隷：\c[0]    \{女！
+\SETpl[raper_group]\prf\c[4]鉱夫奴隷：\c[0]    \{ヒヒッ､女だ！
+\SETpl[raper_group]\prf\c[4]鉱夫奴隷：\c[0]    女を抱くなんて久しぶりだぜ｡
+\m[terror]\PRF\c[6]ロナ：\c[0]    なに？ ちょっと待って？！
+
+####################################### Miner Trader ######################################################
+
+HumanPrisonCave/MinerTrader_begin1
+\SETpl[Mreg_hobo1]\m[normal]\c[4]鉱夫：\c[0]    へへっ､何が欲しいんだい？
+
+HumanPrisonCave/MinerTrader_WhoreWork_win_new
+\SETpl[Mreg_hobo1]\m[shy]\c[4]鉱夫：\c[0]    おおう！！
+\SETpl[Mreg_hobo1_penis]\m[shy]\c[4]鉱夫：\c[0]    女とやるのは久しぶりだから､チンカスも一杯溜まってんなぁ｡
+\SETpl[Mreg_hobo1_angry_penis]\m[shy]\c[4]鉱夫：\c[0]    掃除を頼むぜ｡
+
+HumanPrisonCave/MinerTrader_WhoreWork_win_old
+\SETpl[Mreg_hobo1]\m[shy]\c[4]鉱夫：\c[0]    おおう！！
+\SETpl[Mreg_hobo1_penis]\m[shy]\c[4]鉱夫：\c[0]    いい子だ｡
+\SETpl[Mreg_hobo1_angry_penis]\m[shy]\c[4]鉱夫：\c[0]    今回も頼んだぞ～｡
+
+HumanPrisonCave/MinerTrader_WhoreWork_failed
+\SETpl[Mreg_hobo1_angry]\m[sad]\c[4]鉱夫：\c[0]    興味ねえ！失せろ！

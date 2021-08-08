@@ -1,0 +1,137 @@
+thisMap/OvermapEnter
+人買いのアジト\optB[やめる,入る]
+
+Camp/MobSeen
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盗：\C[0]    誰だ！
+\m[shocked]\Rshake\C[6]ロナ：\C[0]    しまった！
+
+Rogue/NapRape
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盗：\C[0]    おいおい､まーだ寝てんのかよ｡
+\SETpr[MobHumanCommoner]\Rshake\C[4]野盗：\C[0]    今日は疲れたし､とりあえず一発ヤるかぁ｡
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盗：\C[0] 死なせんなよ､こいつら商品なんだからな｡
+\SETpr[MobHumanCommoner]\Rshake\C[4]野盗：\C[0]    問題ねえよ､また攫ってくりゃいい｡
+
+Rogue/NapSpot
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盗：\C[0]    このガキはなんだ？
+\SETpr[MobHumanCommoner]\Rshake\C[4]野盗：\C[0]    商品化をご希望の方かな？ 儲けたぜ！
+
+Rogue/NapTorture1
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盗：\C[0]    このガキ逃げようとしたのか？
+\SETpr[MobHumanCommoner]\Rshake\C[4]野盗：\C[0]    躾が足りねぇようだな？
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盗：\C[0]    \{オラァ！ 起きろ！
+
+Rogue/NapTorture2
+\m[tired]\C[6]ロナ：\C[0]    え？
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盗：\C[0]    しっかり捕まえとけよ！ 体の耐久検査してやっからなぁ！
+\m[terror]\C[6]ロナ：\C[0]    いや！ やめて！
+
+Rogue/NapTorture3
+\m[pain]\C[6]ロナ：\C[0]    \{痛い！ 痛いよぉ！
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盗：\C[0]    つまんね､別の遊びしようぜ｡
+\m[bereft]\C[6]ロナ：\C[0]    \{すみません！ 許して！ 本当にごめんなさい！
+
+Rogue/NapRape_withSta_NoFight2
+\m[sad]\SETpl[MobHumanCommoner]\Lshake\C[4]野盗：\C[0]    グヒ♥ グへ♥
+
+Rogue/NapRape1
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盗：\C[0]    へへへ｡
+
+Rogue/NapRape3_0
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盗：\C[0]    来い！俺のチンポをキレイにしろ！
+
+Rogue/NapRape3_1
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盗：\C[0]    寝てる暇はねえぞ！ マンコで奉仕しろ！
+
+Rogue/NapRape3_2
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盗：\C[0]    女は股開いてヤらせりゃいいんだ上等だろ！！
+
+Doors/LockReset
+\narr全ての錠前が交換された｡
+
+Rogue/PlaceFood0
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盗：\C[0]    \{メシだ！マンコども！
+
+Rogue/PlaceFood1
+\narr出入り口に食料が置かれた｡
+
+###################################################################### LOCKED DOOR
+
+Door/FristTime
+\m[confused]\c[6]ロナ：\c[0]    この錠前見た目がすごく安っぽい｡
+\m[normal]\c[6]ロナ：\c[0]    ちょっといじったら誰でも壊せそう｡
+
+Door/Unlocked
+壊れたドア\optB[やめる,破壊]
+
+Door/UnlockedOUT
+\m[confused]\c[6]ロナ：\c[0]    この錠前見た目がすごく安っぽい｡
+\m[normal]\c[6]ロナ：\c[0]    外から簡単に開けられそう｡\optB[体力を温存する,破壊]
+
+Door/UnlockedOUT_win
+\m[pleased]\c[6]ロナ：\c[0]    やったぁ！
+
+Door/TryBrokeOpt1
+\m[confused]粗悪な錠前\optB[体力を温存する,破壊<r=HiddenOPT1>]
+
+Door/TryBrokeOpt2
+\m[normal]どのくらいの体力を使う？\optB[体力を温存する,10,20<r=HiddenOPT1>,40<r=HiddenOPT2>,80<r=HiddenOPT3>,120<r=HiddenOPT4>]
+
+Door/TryBroke_still
+\m[pleased]\c[6]ロナ：\c[0]    だいぶ緩んできたかも｡
+\m[tired]\c[6]ロナ：\c[0]    でも.... うう.... すっごく疲れたぁ｡
+
+##################################################################### begin
+
+Sold/begin1
+\SETpl[MobHumanCommoner]\m[p5crit_damage]\BonMP[Raper1,15]\Rshake\Lshake\SND[SE/Whip01.ogg]\C[4]野盗：\C[0]    ガキ！ 起きるんだ！ 買い手が来たぞ！
+\m[hurt]\c[6]ロナ：\c[0]    うう....
+
+Sold/begin2
+\SETpl[MobHumanCommoner]\Lshake\BonMP[Raper1,4]\C[4]野盗：\C[0]    へぇ､こいつでさぁ､ちょいと前に捕まえたばっかでして､まだまだ新鮮ですぜ！
+\c[4]商人：\c[0]    ........
+\CamMP[Trader]\c[4]商人：\c[0]    これが俺に見せたいモノか？
+\BonMP[Trader,5]\c[4]商人：\c[0]    これじゃ単なるボロ雑巾､他に何に使えると言うんだ？
+
+Sold/begin3
+\CamMP[Raper1]\BonMP[Raper1,6]\C[4]野盗：\C[0]    いえいえ！ よーく見てくだせぇ､こいつぁまだ手足が残ってやす！
+\CamMP[Trader]\BonMP[Trader,7]\c[4]商人：\c[0]   冗談だろう？ 銅貨一枚！ それ以上は出せんからな！
+
+Sold/begin4
+\CamMP[Raper1]\BonMP[Raper1,5]\C[4]野盗：\C[0]    \}クソッ！
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盗：\C[0]    \}まあとにかくそれで十分｡ \{売った売ったぁ！
+\SETpl[MobHumanCommoner]\Lshake\CamCT\C[4]野盗：\C[0]    烙印を押せ！こいつをさっさと追い出せ！
+
+Sold/begin5
+\m[p5shame]\Rshake\c[6]ロナ：\c[0]    なっ...なにするの！？
+\SETpl[MobHumanCommoner]\Lshake\CamCT\C[4]野盗：\C[0] 動くな！位置がズレて辛いのはお前だぞ！
+\m[p5sta_damage]\Rshake\c[6]ロナ：\c[0]    いや！ 放して！
+\cg[event_SlaveBrand]\SETpl[MobHumanCommoner]\Lshake\CamCT\C[4]野盗：\C[0]    動くなっつったろ！ いい子だからよぉ！
+\SndLib[sound_AcidBurnLong]\m[p5health_damage]\Rshake\c[6]ロナ：\c[0]    \{いやあああ！
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]ロナ：\c[0]    \{ああああ！
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盗：\C[0] はっは！クソウケる！もっとでけえ声出せ！
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]ロナ：\c[0]    \{ひいい！
+
+Sold/begin7_MinerPrison
+\ph\m[sad]\cgoff\narrロナは鉱山に売られた｡
+
+Sold/begin7_NoerBackStreet
+\ph\m[sad]\cgoff\narrロナは裏通りに売られた｡
+
+Sold/begin7_DoomFortressR
+\ph\m[sad]\cgoff\narrロナは運命ノ要塞の兵舎に売られた｡
+
+Sold/begin7_FishTownR
+\ph\m[sad]\cgoff\narrロナはフィッシュトピアに売られた｡
+
+Sold/begin7_NoerArenaB1
+\ph\m[sad]\cgoff\narrロナは闘技場に売られた｡
+
+Sold/begin7_NorthFL_INN
+\ph\m[sad]\cgoff\narrロナは海岸の砦に売られた｡
+
+beginEvent/begin
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盗：\C[0]    お前をどうするか決めるまでおとなしくしてろ！
+\m[sad]\plf\PRF\c[6]ロナ：\c[0]    わたしどうなっちゃうんだろう...
+\m[fear]\plf\PRF\c[6]ロナ：\c[0]    奴隷....
+\m[bereft]\plf\Rshake\c[6]ロナ：\c[0]    \{やだ！ 奴隷なんてなりたくない！
+

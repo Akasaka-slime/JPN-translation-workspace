@@ -1,0 +1,549 @@
+thisMap/OvermapEnter
+\m[confused]森の中の小さな農家\optB[やめる,入る]
+
+########################################## other
+
+art/apeVSgirl
+\cg[other_lous2]雌の人間と雌の猿の交配を認めない者は､家父長制の奴隷であり､人間の劣等種だ！
+\m[serious]うーん....
+\m[confused]家父長制ってなに？
+
+grave/woodson
+\board[墓石]
+\c[6]ジム・ウッドソン\c[0]
+1702.1.4 - 1755.9.5
+彼は使徒の敬遠な従者でした｡
+彼は多くの信者を導きました｡
+彼は我々にとっての師です｡
+
+NaughtyDick/BOW
+\SndLib[dogSpot]\c[4]ディック・ノーティ：\c[0]    ウーッ！
+
+########################################## frist time enter
+
+FristTime/Enter1
+\CBmp[mama,20]\SETpl[OldSlut_angry]\Lshake\c[4]老婆：\c[0]    おい！ クソミドリだ！ 殺せ! 殺せ!
+\CBmp[papa,5]\plf\prf\c[4]老人：\c[0]    殺ャアアア!
+\CBct[20]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    えっ？! わたし？
+\CBmp[mama,20]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    早くブッ殺せ!
+\CBct[20]\m[bereft]\plf\Rshake\c[6]ロナ：\c[0]    まって! わたしは人間です! 魔物じゃない! 殺さないで!
+\CBmp[papa,4]\plf\prf\c[4]老人：\c[0]    清潔な女か？
+\CBmp[mama,8]\SETpl[OldSlut_angry]\PLF\prf\c[4]老婆：\c[0]    ......
+\CBmp[mama,8]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    アンラー！ 勘違いだったね! 可愛い女の子だ！ キレイな子供だよ！
+\CBmp[papa,4]\plf\prf\c[4]老人：\c[0]    女だ！ 清潔な女！
+
+FristTime/Enter2
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    この虚言者め！ 死にたいのかい？
+\CBmp[papa,6]\plf\prf\c[4]老人：\c[0]    ちがう! ワシぁちょっと気が迷っただけなんだ！
+\CBmp[mama,8]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    フン！ あとで使徒の罰でも受けな！
+
+FristTime/Enter3_cocona
+\CBfB[20]\SETcoconaPL[sad]\Lshake\prf\c[6]ココナ：\c[0]    わるもの！ はんざいしゃ！
+\CBct[20]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    どうしたの？
+\CBfB[5]\SETcoconaPL[angry]\Lshake\prf\c[6]ココナ：\c[0]    ここな においする！ わるくないひと きずつくにおい！
+\CBct[20]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    悪い人なの？
+\CBmp[mama,8]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    虚言者共だ！ ブッ殺せ！
+\CBfB[5]\SETcoconaPL[shocked]\Lshake\prf\c[6]ココナ：\c[0]    ここな おねえちゃん まもる！
+
+FristTime/Enter3_grayrat
+\CBfF[8]\SETpl[GrayRatNormalAr]\Lshake\prf\c[4]グレイラット：\c[0]    お待ちください､私は彼女を知ってます....
+\CBfB[2]\SETpl[CecilyNormalAr]\plf\Lshake\c[4]セシリー：\c[0]    誰だ？
+\CBmp[mama,8]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    虚言者共だ！ ブッ殺せ！
+
+########################################## MAMA
+
+mama/begin1
+\CBmp[mama,2]\SETpl[OldSlut_normal]\Lshake\c[4]老婆：\c[0]    珍しいお客だね！ 可哀そうに､外じゃ大変だったろう？
+\CBct[20]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    はい？ 私は大丈夫ですよ､何とかやっていけてますし｡
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    おぉ使徒よ感謝します！ シバリスで災害があったらしいけどもう心配ないよ､ウチのは狩人だからここにゃ魔物は来ない｡
+\CBct[20]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    あの...そうでしょうか？
+
+mama/begin2
+\CBmp[papa,4]\plf\prf\c[4]老人：\c[0]    外には魔物がわんさかいて危ないからなぁ､ほらハラも減ってるだろう？
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    帰る前にうちで休んでいくと良いさ♥
+\CBct[20]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    えっと...\optB[遠慮しておきます,はい,この場所は？]
+
+mama/begin_nope
+\CBct[20]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    あの... 通りがかっただけなので...
+\CBmp[mama,20]\SETpl[OldSlut_sad]\Lshake\prf\c[4]老婆：\c[0]    残念だねぇ､おいしいポークシチューもあるのに｡
+
+mama/begin_return
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    我が家の事をよく知らないようだね？
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    クソビッチが！あとできっちり教育してやる！ 部屋に戻んな！
+\CBct[20]\m[sad]\plf\PRF\c[6]ロナ：\c[0]    はい....
+
+mama/Capture0
+\CBmp[mama,20]\m[tired]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    おいビッチ､お前はブーちゃんの妻だろう？ とっととボーちゃんの子を産んできな！
+\CBct[8]\m[sad]\plf\PRF\c[6]ロナ：\c[0]    はい...
+
+mama/about_1
+\CBct[2]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    こんな所に住んでるんですか? 安全じゃないんじゃ?
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    そんなことないさ！ あたしら\c[6]ウッドソン\c[0]一家はもう長い間ここに住んでるからねぇ｡
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    都会での生活はあたしたちにゃ向いてないし､うちの一家は使徒様の従者だからね！
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    あたしたちは使徒様に祝福されてるのさ! だから虚言者共に邪魔されることは無いんだよ！
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    クソミドリ共がどうなったか見ただろう！あんなの大したことじゃないよ！
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    使徒様バンザイ！
+\CBct[2]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    えっと... 使徒様バンザイ｡
+
+########################################## SON
+
+son/begin0
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]ブー：\c[0]    ブフゥ！
+\CBct[20]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    ひいい！！！
+
+son/begin1
+\CBct[20]\m[bereft]\plf\Rshake\c[6]ロナ：\c[0]    放して！
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]ブー：\c[0]    オモチャだぁ！
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]ブー：\c[0]    オモチャ！ アナ！ パンパン！
+\CBmp[mama,20]\SETpr[OldSlut_normal]\plf\Rshake\c[4]老婆：\c[0]    ブーちゃん！やめなさい！
+\CBct[20]\m[terror]\plf\Rshake\c[6]ロナ：\c[0]    放してよ！
+
+son/begin2
+\CBct[8]\m[sad]\plf\PRF\c[6]ロナ：\c[0]    ....
+\CBmp[mama,20]\SETpl[OldSlut_sad]\Lshake\prf\c[4]老婆：\c[0]    悪かったね､うちの子が脅かしちまって！
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    あの... 大丈夫です｡
+
+son/Capture
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[tired]\Lshake\prf\c[4]ブー：\c[0]    オモチャ！ ニクアナ！
+\CBct[20]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    いやぁ！
+\CBmp[mama,20]\SETpr[OldSlut_angry]\plf\Rshake\c[4]老婆：\c[0]    ブーちゃん！部屋に戻んな！
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]ブー：\c[0]    ぶひぃ！わかった！
+\CBct[8]\m[tired]\plf\PRF\c[6]ロナ：\c[0]    ....
+
+son/Capture_night_t1
+\CBmp[son,2]\SETpl[FatDumbNormal]\Lshake\c[4]ブー：\c[0]    プープー?
+\CBct[8]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    ....\optB[なんでもない,使徒<r=HiddenOPT1>]
+
+son/Capture_night_t2
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    あなたは... 本当に使徒を信じてるの？
+\CBmp[son,20]\SETpl[FatDumbNormal]\Lshake\prf\c[4]ブー：\c[0]    ブーちゃんしんじる！ ブーちゃんのうちみんなしんじてる！
+\CBct[2]\m[tired]\plf\PRF\c[6]ロナ：\c[0]    でも... 使徒の信者は自分の幸せのために他の人を苦しめてるし... なんか変だよ...
+\CBmp[son,20]\SETpl[FatDumbNormal]\Lshake\prf\c[4]ブー：\c[0]    でもママのいってること正しい！ ママはしんせいなじゅうしゃ！ ママのいうこときかなきゃダメ！\optB[なんでもない,ママ<r=HiddenOPT1>]
+
+son/Capture_night_t3
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    ねぇママはおかしいよ...
+\CBmp[son,5]\SETpl[FatDumbSad]\Lshake\prf\c[4]ブー：\c[0]    うそつきだ！ きょげんしゃ！ ママにいいつけてやる！
+\CBct[20]\m[terror]\plf\PRF\c[6]ロナ：\c[0]    ダメ！ まって！ ほら､あなたももうお兄さんなんだから､ママに言われなくても自分で考えられると思うの｡
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]ブー：\c[0]    ほんとに？！ ブーちゃんおにいさん！\optB[なんでもない,妻<r=HiddenOPT1>]
+
+son/Capture_night_t4
+\CBct[8]\m[tired]\plf\PRF\c[6]ロナ：\c[0]    よし... もうすぐ説得できそう｡
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    パパとママみたいな強さとかすごい信仰心が欲しいと思わない？
+\CBmp[son,5]\SETpl[FatDumbNormal]\Lshake\prf\c[4]ブー：\c[0]    ほしい！
+\CBct[8]\m[tired]\plf\PRF\c[6]ロナ：\c[0]    私はあなたの奥さんでしょ？私のお願いをを聞いてくれれば､君はすっごく強くなれるよ､使徒様みたいに｡
+\CBmp[son,5]\SETpl[FatDumbNormal]\Lshake\prf\c[4]ブー：\c[0]    ほんと？ ブーちゃんどうすればいい？\optB[なんでもない,こうしよう<r=HiddenOPT1>]
+
+son/Capture_night_t5
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    あの人たちの魂を使徒様に返せば､あなたはあの人たちの強さを手に入れられるよ｡
+\CBct[8]\m[tired]\plf\PRF\c[6]ロナ：\c[0]    どうすればいいかは知ってるよね？
+\CBmp[son,5]\SETpl[FatDumbNormal]\Lshake\prf\c[4]ブー：\c[0]    ブーちゃん知ってる！
+\CBct[8]\m[confused]\plf\PRF これでなんとかなるかな....
+
+son/Capture_night_WIN
+\CBmp[son,5]\SETpl[FatDumbNormal]\Lshake\prf\c[4]ブー：\c[0]    ブーちゃんどうすればいいかしってる！
+
+son/Capture_Kill0
+\Rflash\SndLib[sound_gore]\c[4]老婆：\c[0]    アアア！ 何してんだいブー！
+\Rflash\SndLib[sound_gore]\c[4]老婆：\c[0]    何すんだい！ やめろ！！！
+\..\Rflash\SndLib[sound_gore]\..\Rflash\SndLib[sound_gore]\..\Rflash\SndLib[sound_gore]\..\SndLib[sound_HumanFemaleDed]
+\c[4]老人：\c[0]    クソガキが！ なにしやがった？
+\c[4]老人：\c[0]    クソ！！ なんでマザーを殺したんだ！ どうして！
+\c[4]老人：\c[0]    殺したらアアアア！
+\..\Rflash\SndLib[sound_gore]\..\Rflash\SndLib[sound_gore]\..\Rflash\SndLib[sound_gore]\..\SndLib[sound_HumanFemaleGruntDed]
+\c[4]ブー：\c[0]    ブーちゃん... できたよ...
+
+son/Capture_Kill1
+\CBct[8]\m[tired]\PRF\c[6]ロナ：\c[0]    ....
+\CBct[1]\m[shocked]\Rshake\c[6]ロナ：\c[0]    なに！
+\CBct[2]\m[terror]\Rshake\c[6]ロナ：\c[0]    なにこれ？
+\CBct[2]\m[shocked]\Rshake\c[6]ロナ：\c[0]    死んだの？
+
+son/Capture_night_Failed0
+\CBct[8]\m[fear]\plf\PRF\c[6]ロナ：\c[0]    なんでもない...
+
+son/Capture_night_Failed1
+\CBct[8]\m[fear]\plf\PRF\c[6]ロナ：\c[0]    やめて...
+
+son/Capture_night_Failed2
+\CBct[8]\m[fear]\plf\PRF\c[6]ロナ：\c[0]    ごめんなさい...
+
+########################################## FATHER
+
+papa/begin1
+\CBmp[papa,4]\SETpl[nil]\prf\c[4]老人：\c[0]    ヘヘ♥ ハラが減っただろ？
+\CBct[8]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    え？
+\CBmp[papa,20]\prf\c[4]老人：\c[0]    嬢ちゃん♥ ウチ来て休んでけ♥
+
+papa/begin2
+\CBmp[mama,5]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    あぁ､じっくり煮込んだポークシチューを作ったんだわね♥
+\CBct[20]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    えっと...\optB[やっぱり遠慮しておきます,はい,ここは？]
+
+papa/begin_nope1
+\CBct[20]\m[flirty]\c[6]ロナ：\c[0]    あの... 通りがかっただけなので...
+
+papa/begin_nope2
+\CBmp[papa,5]\prf\c[4]老人：\c[0]    入れ！入れって言ってんだ！
+\CBct[8]\m[terror]\plf\Rshake\c[6]ロナ：\c[0]    えっ？
+\CBct[20]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    いやあ！！！
+\CBct[20]\m[bereft]\plf\Rshake\c[6]ロナ：\c[0]    放して！
+
+papa/begin_nope3
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    待ちな！この虚言者！
+
+papa/begin_nope4
+\CBmp[mama,5]\m[confused]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    よくもあたしの許可なく女に触れたもんだね？！ 死にたいのかい！
+\CBmp[papa,6]\plf\prf\c[4]老人：\c[0]    悪かった！ コイツのせいなんだ！ コイツが誘惑してきたんだ！
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    あとでアンタもお仕置きだからね！
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    はは？
+
+papa/Capture
+\CBmp[papa,4]\prf\c[4]老人：\c[0]    来い！
+\CBct[20]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    イヤ！
+
+papa/about_1
+\CBct[2]\m[confused]\plh\c[6]ロナ：\c[0]    どうしてあなたはここに住んでるんですか？
+\CBmp[papa,20]\prf\c[4]老人：\c[0]    ワシらの師が死んだあと使徒の光がマザーへと移ったのだ。
+\CBmp[papa,20]\prf\c[4]老人：\c[0]    彼女だけが唯一使徒の栄光を受けた従者なのだ！ ワシは終わりの日まで彼女へついていくのだ！
+\CBct[2]\m[confused]\c[6]ロナ：\c[0]    マザー？
+\CBmp[papa,20]\prf\c[4]老人：\c[0]    あぁ... バァさんの事だ! 妻！ そう！ ワシの妻だ！
+\CBct[8]\m[flirty]\c[6]ロナ：\c[0]    えーっと...
+
+########################################## ##########################################  DINNER
+
+Dinner/begin_0
+\CBct[20]\m[pleased]\plf\Rshake\c[6]ロナ：\c[0]    お招きいただきありがとうございます!
+
+Dinner/begin_0_1
+\c[4]老婆：\c[0]    使徒様のお恵みに感謝します｡
+\c[4]老婆：\c[0]    使徒様の与えたもうた安らぎに感謝します｡
+\c[4]老婆：\c[0]    我らの食事は使徒様より来たるもの！ 使徒に感謝を！
+
+Dinner/begin_1
+\CBmp[mama,2]\SETpl[OldSlut_normal]\Lshake\prh\c[4]老婆：\c[0]    どうだい？
+\CBct[20]\m[triumph]\plf\Rshake\c[6]ロナ：\c[0]    おいしい! こんな美味しい料理を食べたのは久しぶりです！
+\CBmp[papa,20]\plf\prf\c[4]老人：\c[0]   たくさん食え! おまえ痩せすぎだぞ！
+
+Dinner/begin_1_1
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    黙りな！ 虚言者！
+\CBmp[papa,6]\plf\prf\c[4]老人：\c[0]   悪かった！
+
+Dinner/begin_1_2
+\CBmp[mama,2]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    おチビちゃん､名前はなんていうんだい？ ずっとおチビちゃんと呼ぶわけにもいかないからねぇ｡
+\CBct[20]\m[pleased]\plf\PRF\c[6]ロナ：\c[0]    わたし\c[6]ロナ\c[0]って言います！
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    ロナちゃん？ あぁ使徒様感謝します！ とても良い名前だ！
+
+Dinner/begin_2
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]ブー：\c[0]    ママ! ボーちゃんこれ欲しい!
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]ブー：\c[0]    ブーちゃんロナ欲しい! 新しいオモチャ欲しい♥
+\CBct[2]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    え？
+
+Dinner/begin_3
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    ブーちゃん~ お前はまだ結婚できないだろう？
+\CBmp[mama,8]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    ロナちゃん､うちのブーをどう思う？
+\CBct[2]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    えっと... どうっていいますと？
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    良い伴侶になるよ！ 孫ができるのが楽しみでねぇ！ アンタどうだい？
+\CBct[2]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    ちょっと何言ってるのか...
+\CBmp[mama,5]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    この子はとてもいい子でねぇ､使徒様の息子で､祝福された存在なのさ！
+\CBct[20]\m[pleased]\plf\PRF\c[6]ロナ：\c[0]    えーと... そうですね､いい子だと思いますよ！
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    そうだろう？この子は素晴らしい子なのさ｡
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    さ､デザートも必要だね｡砂糖もたくさん入れてあげようね！
+\CBct[8]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    えっと...\optD[そろそろ行こうかな,もう少しゆっくりしていく]
+
+Dinner/begin_3_opt_Leave
+\CBct[2]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    お食事ありがとうございました､私はそろそろ帰らせて頂きます｡
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    あら！ まだデザートもあるんだよ！
+\CBct[2]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    ごめんなさい､すこし用事があるんです｡
+\CBmp[mama,20]\SETpl[OldSlut_sad]\Lshake\prf\c[4]老婆：\c[0]    そうかい... じゃあ､道中気を付けてね！
+
+Dinner/begin_3_opt_Eat0
+\CBmp[mama,4]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    ほら！アンタのために特別に用意したあまーいフルーツティーだよ！
+\CBct[20]\m[triumph]\plf\PRF\c[6]ロナ：\c[0]    ありがとう♥
+
+Dinner/begin_3_opt_Eat1
+\CBmp[mama,4]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    味はどうだい？
+\CBct[20]\m[pleased]\plf\PRF\c[6]ロナ：\c[0]    とっても甘いです♥ これ大好き♥
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    そりゃ良かった！
+\CBct[20]\m[tired]\plf\PRF\c[6]ロナ：\c[0]    でもなんだか...
+\CBct[20]\m[tired]\plf\PRF\c[6]ロナ：\c[0]    少し気分が..
+
+Dinner/begin_3_opt_Eat2
+\ph\narr\..\..\..\..\..
+
+########################################## ##########################################  Death when nap
+
+Ded/Nap
+\SndLib[sound_gore]\SndLib[sound_combat_hit_gore]\c[4]？？：\c[0]    死ね！ くたばれ！ 呪われた罪人が！
+\SndLib[sound_gore]\SndLib[sound_combat_hit_gore]\c[4]？？：\c[0]    よくもうちの家族を殺したな！
+\SndLib[sound_gore]\SndLib[sound_combat_hit_gore]\c[4]？？：\c[0]    殺したリャアアアア！
+
+########################################## ##########################################  Capture
+
+Capture/FristTime_0
+\c[4]老婆：\c[0]    ボーちゃん! 新しい奥さんだよ!
+\c[4]ボー：\c[0]    新しいオモチャ♥
+\c[4]老婆：\c[0]    待ちな！ 結婚が先だよ!
+\c[4]ボー：\c[0]    なめるのもだめ？ ブーちゃん待てない！
+\c[4]老婆：\c[0]    焦るんじゃないよ！ まったくいつもこうだね！ パパとママもアンタを産む前には結婚したんだよ！
+\c[4]ボー：\c[0]    わかった...
+
+Capture/SecondTime_0
+\c[4]老婆：\c[0]    ブー! 見な! うちから逃げようとしたマンコだよ!
+\c[4]ボー：\c[0]    オモチャ♥ ちょうだい!はやくやりたい♥
+\c[4]老婆：\c[0]    まだだよ! まずあたしが女のあるべき姿を教えてやる！
+
+########################################## ##########################################  merry
+
+merry/begin_0
+\SndLib[sound_step_chain]\c[4]老婆：\c[0]    使徒様のお声で､新たに来た者をご祝福下さい。
+\SndLib[sound_step_chain]\c[4]老婆：\c[0]    使徒様のお目で､二人を見守り下さい！
+\SndLib[sound_step_chain]\c[4]老婆：\c[0]    \c[6]ブー・ウッドソン\c[0]とクソマンコは！ ここに夫婦となりました！
+\SndLib[sound_step_chain]\c[4]老人：\c[0]    使徒様に感謝を！
+\SndLib[sound_step_chain]\CBmp[WakeUp,8]\m[tired]\c[6]ロナ：\c[0]    うーん........
+\SndLib[sound_step_chain]\CBmp[WakeUp,8]\m[confused]\c[6]ロナ：\c[0]    一体何が...？
+
+merry/begin_1
+\CBmp[WakeUp,8]\m[confused]\c[6]ロナ：\c[0]    \..\..\..\..
+\SndLib[sound_step_chain]\CBmp[WakeUp,1]\m[shocked]\Rshake\c[6]ロナ：\c[0]    私に何をしたの？ ここはどこ？！
+\SndLib[sound_step_chain]\CBmp[WakeUp,20]\m[terror]\Rshake\c[6]ロナ：\c[0]    動けない？？ これは鎖？ 何をするつもりなの！
+
+merry/begin_2
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]ブー：\c[0]    おもちゃ穴！ おまんこする！
+\CBmp[WakeUp,20]\m[bereft]\Rshake\c[6]ロナ：\c[0]    来ないで！
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    気が付いたのかい？あんたは今日からブーの奥さんだよ｡
+\CBmp[WakeUp,20]\m[terror]\plf\Rshake\c[6]ロナ：\c[0]    奥さん？
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    あぁそうさ､あんたは子供を産むのに丁度良い女だからね♥
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    おぉ可愛いブーちゃん♥ アンタはブーちゃんのためにたくさん子供を産むんだよ♥
+\CBmp[WakeUp,20]\m[bereft]\plf\Rshake\c[6]ロナ：\c[0]    何を.. 一体何を言ってるの！
+
+merry/begin_3
+\CBmp[son,4]\SETpl[FatDumbNormal]\m[shocked]\Lshake\prf\c[4]ブー：\c[0]    あなあな♥
+\CBmp[WakeUp,20]\m[terror]\plf\Rshake\c[6]ロナ：\c[0]    やだ! こないで！ 知らない人と子供なんて作りたくない！
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    知らない人じゃないだろう！ アンタの夫だよ！ アンタは仕えるんだ！ 残りの人生を使徒様にな！
+
+merry/begin_4
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]ブー：\c[0]    ブーちゃんきもちいい♥
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    ブーちゃん頑張れ！ 使徒様も見てるよ！
+\CBct[20]\m[bereft]\plf\Rshake\c[6]ロナ：\c[0]    放して！ 放してよ！
+
+merry/begin_5
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]ブー：\c[0]    ブーちゃんイきそう♥
+\CBct[20]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    なに！！ いやぁ 早く抜いて！
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]ブー：\c[0]    おほおおお♥
+
+merry/begin_6
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]ブー：\c[0]    ブフゥ！ ブーちゃんしあわせ！
+\CBct[20]\m[bereft]\plf\Rshake\c[6]ロナ：\c[0]    ひいい！
+
+merry/begin_7
+\CBmp[son,1]\SETpl[FatDumbSad]\Lshake\prf\c[4]ブー：\c[0]    ママやめて！ タマタマつかまないで！ しとさまたすけて！
+\CBct[20]\m[terror]\plf\Rshake\c[6]ロナ：\c[0]    やめて! もう出さないで！
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    ほらもっと出しな！ このマンコにちゃんと赤ちゃん孕ませんだよ！
+
+merry/begin_8
+\CBmp[son,20]\SETpl[FatDumbSad]\Lshake\prf\c[4]ブー：\c[0]    アアアア！
+\CBmp[son,6]\SETpl[FatDumbSad]\Lshake\prf\c[4]ブー：\c[0]    やめて！ ブーちゃんのタマタマつかまないで! ブーちゃんもうでない！
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    出せ! もっと出しな！ マンコの中をお前のザーメンで埋め尽くせ！
+
+merry/begin_9
+\CBmp[mama,4]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    よし! よく頑張ったねブーちゃん！ これで使徒様もこのマンコを妊娠させてくれるだろう！
+\CBct[20]\m[sad]\plf\Rshake\c[6]ロナ：\c[0]    ううう... どうしてこんなことするの...
+\CBmp[mama,4]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    ビッチ！ 今日はこれで終わりだよ! 明日から仕事もあるからね！ ブーの妻としてあたしたち\c[6]ウッドソン\c[0]家に尽くすんだ！
+\CBmp[mama,4]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    永遠にね！
+
+########################################## ##########################################  Daily RapeLoop
+
+DailyRapeWake/begin0
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]ブー：\c[0]    ブフゥ♥ ブーちゃんオマンコいじりにきた！
+
+DailyRapeWake/begin1
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]ブー：\c[0]    ブフゥ♥ ブーちゃんオマンコする！
+
+DailyRapeWake/begin2
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]ブー：\c[0]    ブフゥ♥ ブーちゃんしたい！
+
+DailyRapeNap/begin0
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]ブー：\c[0]    ブフゥ♥ ブーちゃんオマンコみつけた！
+
+DailyRapeNap/begin1
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]ブー：\c[0]    ブーちゃんオマンコみーつけた♥ パンパン！
+
+DailyRapeNap/begin2
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]ブー：\c[0]    オマンコきた！ おまんまん♥
+
+DailyRapeEnd/Begin0
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]ブー：\c[0]    ブーちゃんたのしかった♥ オマンコまたね！
+\CBct[20]\m[sad]\plf\PRF\c[6]ロナ：\c[0]    .....
+
+DailyRapeEnd/Begin1
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]ブー：\c[0]    オマンコきもちよかった♥ バイバイオマンコ！
+\CBct[20]\m[sad]\plf\PRF\c[6]ロナ：\c[0]    .....
+
+DailyRapeEnd/Begin2
+\CBmp[son,4]\SETpl[FatDumbNormal]\Lshake\prf\c[4]ブー：\c[0]    なまいき♥ オマンコさいこう！
+\CBct[20]\m[sad]\plf\PRF\c[6]ロナ：\c[0]    .....
+
+########################################## #daily semen check
+
+SemenCheck/begin_0
+\SndLib[sound_step_chain]\c[4]老婆：\c[0]    ブー! なにやってんだい！
+\SndLib[sound_step_chain]\c[4]老婆：\c[0]    全然膣内にザーメン出してないね！
+\c[4]ボー：\c[0]    ごめんなさい!
+
+SemenCheck/begin_1
+\CBmp[WakeUp,8]\m[tired]\c[6]ロナ：\c[0]    \..\..\..
+
+SemenCheck/begin_2
+\CBmp[son,20]\SETpl[FatDumbSad]\Lshake\prf\c[4]ブー：\c[0]    ブーちゃんもっとがんばる！
+
+SemenCheck/begin_3
+\CBmp[son,1]\SETpl[FatDumbSad]\Lshake\prf\c[4]ブー：\c[0]    ウアア！ ブーちゃんイクよ！ あなあな！
+\CBmp[WakeUp,8]\m[sexhurt]\c[6]ロナ：\c[0]    うぅ....
+
+SemenCheck/begin_4
+\CBmp[mama,5]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    ダメだ！ 使徒様に恥ずかしくない様にもっと出すんだよ！ 男だろうがもっと気張んな！
+\CBmp[son,1]\SETpl[FatDumbSad]\Lshake\prf\c[4]ブー：\c[0]    ブーちゃんわかった！ ブーちゃんいわれたとおりにする！
+\CBmp[WakeUp,8]\m[pain]\plf\PRF\c[6]ロナ：\c[0]    ....
+
+########################################## #daily torture
+
+Torture/begin_0_Basic
+\SndLib[sound_step_chain]\c[4]老婆：\c[0]    ビッチ！ よくも使徒様の意志を踏みにじったね！
+\SndLib[sound_step_chain]\c[4]老婆：\c[0]    起きろ！ 起きんだよ！
+
+Torture/begin_0_PapaRaped
+\SndLib[sound_step_chain]\c[4]老婆：\c[0]    ビッチ！ よくも私の男と浮気をしたな！
+\SndLib[sound_step_chain]\c[4]老婆：\c[0]    起きろ！ 起きんだよ！
+
+Torture/begin_2
+\SndLib[sound_hit_whip]\m[p5health_damage]\Rshake\c[6]ロナ：\c[0]    えっ！？
+
+Torture/begin_3
+\CBmp[torturePT,20]\m[shocked]\Rshake\c[6]ロナ：\c[0]    どうしたの！ わたし何かした！？
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    ビッチ！ 自分が何したか分かってんのか！
+\CBmp[mama,20]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    アンタは使徒様の意志を侵害したんだ! 罰を受けな！
+
+Torture/begin_4
+\CBmp[torturePT,6]\m[terror]\Rshake\c[6]ロナ：\c[0]    待って! わたししてない！ いや！
+\CBmp[torturePT,6]\m[bereft]\Rshake\c[6]ロナ：\c[0]    やだ！ 許して！
+
+Torture/begin_5
+\CBmp[torturePT,6]\m[pain]\Rshake\c[6]ロナ：\c[0]    ごめんなさい！ わたしが間違ってました！ 許して！
+\CBmp[torturePT,6]\m[hurt]\Rshake\c[6]ロナ：\c[0]    ごめんなさい！ 申し訳ありませんでした....
+
+Torture/begin_6
+\CBmp[torturePT,6]\m[tired]\Rshake\c[6]ロナ：\c[0]    ううう....
+
+########################################## #daily Breakfast
+
+breakFast/begin_0
+\CBmp[MainTable,19]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    部屋に入りな！ メシの時間だよ！
+\CBct[8]\m[fear]\plf\PRF\c[6]ロナ：\c[0]    はい...
+
+breakFast/begin_1
+\CBmp[mama,8]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    使徒様のお恵みに感謝します｡
+\CBmp[mama,8]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    使徒様の与えたもうた安らぎに感謝します｡
+\CBmp[mama,8]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    我らの食事は使徒様より来たるもの！ 使徒に感謝を！
+\CBct[8]\m[sad]\plf\PRF\c[6]ロナ：\c[0]    使徒に感謝を...
+
+########################################## ########################################## #daily job
+########################################## Grass
+
+JobGrass/begin_1
+\CBmp[Farm,19]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    畑の雑草を抜いてこい！
+\CamMP[Farm]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    怠けてんじゃないよ！
+\CamMP[Farm]\m[fear]\plf\PRF\c[6]ロナ：\c[0]    はい...
+
+JobGrass/NotFinish
+\CamMP[Farm]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    サボってんじゃないよ？！ 仕事はもっとあんだよ！
+\CBct[6]\m[bereft]\plf\Rshake\c[6]ロナ：\c[0]    ごめんなさい！！
+
+JobGrass/win
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    終わったのかい？ なんていい子だ！
+\CBmp[mama,20]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    さっさと戻ってブーにヤラれるのを待ってな！
+\CBct[8]\m[sad]\plf\PRF\c[6]ロナ：\c[0]    わかりました...
+
+JobGrass/failed
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    動きが遅い！ 殴られたいのかい？
+\CBct[8]\m[bereft]\plf\Rshake\c[6]ロナ：\c[0]    ごめんなさい！ 殴らないで！
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    フン!後できっちり教育してやるよ！
+\CBct[8]\m[sad]\plf\PRF\c[6]ロナ：\c[0]    う....
+
+########################################## feed chicken
+
+JobFeed/begin_1
+\CBmp[Farm,19]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    ニワトリが見えんだろう？
+\CamMP[FoodB]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    家にある残飯をあいつらに食わせてきな！ タラタラしてんじゃないよ！
+\CBct[8]\m[fear]\plf\PRF\c[6]ロナ：\c[0]    はい...
+
+JobFeed/win
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    いいだろう！ ニワトリたちも大喜びだ！
+\CBmp[mama,20]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    さっさと戻ってブーにヤラれるのを待ってな！
+\CBct[8]\m[sad]\plf\PRF\c[6]ロナ：\c[0]    わかりました...
+
+JobFeed/NotFinish
+\CamMP[Farm]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    何してんだい？ 餌やりは終わったのかい！
+\CBct[6]\m[bereft]\plf\Rshake\c[6]ロナ：\c[0]    ごめんなさい！！
+
+########################################## suck genital
+
+JobSuck/begin_1
+\CBmp[mama,20]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    クソガキ！ こっち来な！
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    パパとママのアソコはずっと洗ってないからね｡
+\CBmp[papa,19]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    アンタの口で掃除してから､あのバカにフェラして射精させてきな！
+\CBct[8]\m[terror]\plf\PRF\c[6]ロナ：\c[0]    えっ？
+
+JobSuck/Mama_start
+！！！！！
+\narr臭くて汚いグロマンが現れた！
+
+JobSuck/Mama_doneButPapa
+\CBmp[mama,20]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    こりゃあいい♥ ほらあの馬鹿のチンポがアンタの掃除を待ってるよ♥
+\CBct[8]\m[fear]\plf\PRF\c[6]ロナ：\c[0]    はい...
+
+JobSuck/Mama_PapaNotDone
+\CBmp[mama,5]\SETpl[OldSlut_angry]\Lshake\prf\c[4]老婆：\c[0]    あのバカのを舐めてこいと言ってんだ！ 聞こえてんのかい！
+\CBct[8]\m[sad]\plf\PRF\c[6]ロナ：\c[0]    う....
+
+JobSuck/Mama_begin1
+\m[fear]\c[6]ロナ：\c[0]    ....
+\m[sad]\c[6]ロナ：\c[0]    うっ....
+
+JobSuck/Mama_begin2
+\c[4]老婆：\c[0]    汚れてるのが見えるだろう？ 汚れを全部舐め取りな！
+\narr毛深い森の中から､腐った魚の匂いがする｡
+
+JobSuck/Mama_begin3
+\c[4]老婆：\c[0]    ああ! いいね！ それだ♥
+
+JobSuck/Mama_begin4
+\c[4]老婆：\c[0]    そうだよ！ もっと内側を丁寧に舐めな♥
+
+JobSuck/Mama_begin5
+\c[4]老婆：\c[0]    いい♥ いいぞ♥ あたしもイクッ♥
+
+JobSuck/Mama_begin6
+.......
+
+JobSuck/Mama_begin7
+.....
+
+JobSuck/Mama_begin8
+...
+
+JobSuckw/win
+\CBmp[mama,5]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    いい子だ､あたしのマンコはどうだった？
+\CBct[8]\m[fear]\plf\PRF\c[6]ロナ：\c[0]    とてもおいしいかったです...
+\CBmp[mama,5]\SETpl[OldSlut_normal]\Lshake\prf\c[4]老婆：\c[0]    あぁやっぱりしゃぶるのが大好きなんだねぇ♥
+
+JobSuck/Papa_start
+\CBct[8]\m[fear]\PRF\c[6]ロナ：\c[0]    ママが射精させて来いって...
+\CBct[8]\m[pain]\PRF\c[6]ロナ：\c[0]    舐めて来いって言われて...
+\CBmp[papa,20]\prf\c[4]パパ：\c[0]    素晴らしい！ 素晴らしい！ 使徒様はおられる！
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    ....
+
+JobSuck/Papa_Done
+\CBmp[papa,20]\prf\c[4]パパ：\c[0]    ようやくイケた！ マザーに感謝を！ 使徒様に感謝を！
+\CBct[8]\m[sad]\PRF\c[6]ロナ：\c[0]    うぅ....
+
+JobSuck/Papa_refuse
+\CBmp[papa,5]\prf\c[4]パパ：\c[0]    マザーの命令だろう！ 拒否する権利はないぞ！
