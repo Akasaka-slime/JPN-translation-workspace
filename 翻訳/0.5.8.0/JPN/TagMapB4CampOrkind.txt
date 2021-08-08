@@ -3,7 +3,7 @@ ThisMap/OvermapEnter
 
 enterMap/begin
 \CBct[2]\m[flirty]\PRF\c[6]ロナ：\c[0]    えっと....誰か近くにいるのかな？
-\CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    うーん\..\..\..\m[serious]気を付けた方がいいかも。
+\CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    うーん\..\..\..\m[serious]気を付けた方がいいかも｡
 
 crying/begin1
 \c[6]難民：\c[0]    いやだ！ 助けて！ 誰か助けてくれ！
