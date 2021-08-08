@@ -30,7 +30,7 @@ crying/begin7
 
 enterMap/end0
 \CBct[2]\m[flirty]\PRF\c[6]ロナ：\c[0]    男が？孕む？....聞き間違えかな？
-\CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    となると，最初の声はもしかして\..\..\..
+\CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    となると､最初の声はもしかして\..\..\..
 \CBct[1]\m[shocked]\Rshake\c[6]ロナ：\c[0]    \{ゴブリン？！
 
 
