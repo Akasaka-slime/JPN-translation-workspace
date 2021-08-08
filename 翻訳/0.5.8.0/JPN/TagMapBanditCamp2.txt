@@ -58,7 +58,7 @@ Wake/FirstRape3
 
 Wake/FirstRape4
 \CBmp[guard1,20]\prf\C[4]野盜：\C[0]    カシラはテメェに興味が無え｡
-\CBmp[guard1,20]\prf\C[4]野盜：\C[0]    おめでとさん､テメェは\C[6]ポッポ\C[0]の餌だぜ！
+\CBmp[guard1,20]\prf\C[4]野盜：\C[0]    おめでとさん､テメェは\C[6]ボボ\C[0]の餌だぜ！
 
 Wake/FirstRape5
 \CBct[2]\m[fear]\Rshake\c[6]ロナ：\c[0]    \C[4]ボボ\C[0]？？ 餌？！
