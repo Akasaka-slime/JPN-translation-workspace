@@ -207,10 +207,10 @@ World/Region17
 \cg[map_region_AbomRoad]汚染された道路
 
 World/Region18
-\cg[map_region_AbomTown]汚染された都市。
+\cg[map_region_AbomTown]汚染された都市
 
 World/Region19
-\cg[map_region_badland]砂漠化した土地。
+\cg[map_region_badland]砂漠化した土地
 
 World/Region20
 \cg[map_human_camp]難民キャンプ
@@ -225,7 +225,7 @@ World/Region23
 \cg[map_region_Boulevard]大通り
 
 World/Region28
-\cg[map_region_Creep]忌まわしき平野。
+\cg[map_region_Creep]忌まわしき平野
 
 ############# FISH ISLE ONLY
 
