@@ -1,0 +1,73 @@
+ThisMap/OmEnter
+\m[confused]シバリス 南西ゲート\optB[やめる,入る]
+
+QuProgSybBarn2/begin1
+\c[4]難民：\c[0]    私の子... 私の子を殺しちゃった...
+\c[4]難民：\c[0]    あああああ！！！
+
+QuProgSybBarn2/begin2
+\CBmp[Yeller,20]\c[4]難民：\c[0]    どうして！ あぁ使徒様！どうして！！！！
+\CBmp[Yeller,20]\c[4]難民：\c[0]    \{アアアア！！！！
+
+QuProgSybBarn2/begin3
+\CBct[8]\m[confused]\c[6]ロナ：\c[0]    なに...？
+
+Guard0/begin0
+\CBid[-1,20]\prf\c[4]傭兵：\c[0]    ん？新しい生存者か？
+\CBid[-1,20]\prf\c[4]傭兵：\c[0]    迷ったのかは知らんが､ここはお前が来るべき場所じゃないぞ！
+\CBct[6]\m[confused]\c[6]ロナ：\c[0]    え？！ いや､わたしはえっと傭兵？ としてここに来た...って事になるのかな？
+\CBid[-1,20]\prf\c[4]傭兵：\c[0]    傭兵だと？お前が？ どう見てもただのガキなのに？
+\CBct[6]\m[flirty]\c[6]ロナ：\c[0]    まぁ...そうですけど...
+\CBid[-1,5]\prf\c[4]傭兵：\c[0]    帰れ！ ここはガキの遊び場じゃないんだぞ｡
+\CBct[8]\m[tired]\c[6]ロナ：\c[0]    うーん....
+
+Guard1/begin0
+\CBid[-1,20]\prf\c[4]傭兵：\c[0]    \c[6]シバリス\c[0]が落とされたって噂はマジだったのか｡
+\CBid[-1,20]\prf\c[4]傭兵：\c[0]    数か月前までは俺達を土人だと笑ってた奴らが､今はこの有様か｡
+\CBid[-1,20]\prf\c[4]傭兵：\c[0]    笑っちまうな全く！
+
+Guard2/begin0
+\CBid[-1,20]\prf\c[4]傭兵：\c[0]    ここは本当に気味が悪い...黒い霧は晴れてきている様にも見えるが...
+\CBid[-1,20]\prf\c[4]傭兵：\c[0]    土地は荒れ放題､周りは死人だらけ｡
+\CBid[-1,20]\prf\c[4]傭兵：\c[0]    しかも汚染地域は未だに広がっているらしい｡
+\CBid[-1,20]\prf\c[4]傭兵：\c[0]    ノエル島ももう終わりか？
+
+Guard3/begin0
+\CBid[-1,20]\prf\c[4]傭兵：\c[0]    ここは俺ん家だった｡昔はここに住んでいたが､今はもう何もねぇ｡
+\CBid[-1,20]\prf\c[4]傭兵：\c[0]    友人も､家族も､愛した人も｡何もかもが消えちまった｡
+
+GuardMain/opt
+\CBct[6]\m[confused]\c[6]ロナ：\c[0]    えっと...\optB[やめる,傭兵,彼女]
+
+GuardMain/opt_Mercenary
+\CBct[6]\m[confused]\c[6]ロナ：\c[0]    傭兵ですか？ なんでこんな沢山の傭兵がいるんでしょう？
+\CBid[-1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    ここで何をしている？ ガキの遊び場じゃないぞ｡
+\CBct[5]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    これでも一応傭兵です！
+\CBid[-1,2]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    お前が\..\..\..？
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    まぁいいか､この状況じゃガキが前線に出ていても驚く事じゃないしな｡
+\CBct[2]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    人手不足だって聞いて来たんですけど？ たくさん人がいませんか？
+\CBid[-1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    俺達はノエルから来たんだ､ノエルじゃ使える物資や生存者の捜索の依頼が掲示されてるからな｡
+\CBct[2]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    へぇ？
+\CBid[-1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    だが依頼は勿論､俺達プロだけのものだ｡ガキはどっかに行ってな！
+
+GuardMain/opt_Her
+\CBct[6]\m[flirty]\c[6]ロナ：\c[0]    えっと.... 彼女になにかあったんですか？
+\CBid[-1,2]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    彼女\..\..\..？
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    あぁあの人か､残念な事だが....
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    俺達がここへ来る前に心中を決意したようでな｡
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    彼女は最後の生き残りで､俺達の到着する直前に自分の子を手にかけてしまったらしい｡
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    それで次は自分の番だって時に.... 俺達が来た｡
+\CBct[8]\m[sad]\plf\PRF\c[6]ロナ：\c[0]    \..\..\..
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    皮肉なもんだな...
+
+MainWomen/Qmsg0
+イヤアア！！！
+
+MainWomen/Qmsg1
+アアアアア！！！
+
+Guard/Qmsg0
+失せろ！
+
+Guard/Qmsg1
+邪魔するな！
