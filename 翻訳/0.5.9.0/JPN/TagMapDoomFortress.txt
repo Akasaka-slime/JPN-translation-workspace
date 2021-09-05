@@ -207,7 +207,7 @@ QuestBoard/DF_BanditHunt
 ################################### QuProgDF_BanditHunt 
 
 QuProgDF_BanditHunt/Begin
-\narr荒くれ達のテリトリー...
+\narr荒くれ達のたまり場だ...
 
 QuProgDF_BanditHunt/done
 \CBid[-1,20]\prf\c[4]職員：\c[0]    あの忌々しい海賊は一掃できましたか？
