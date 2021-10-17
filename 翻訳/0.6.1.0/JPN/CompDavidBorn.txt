@@ -1,0 +1,142 @@
+
+DavidBorn/KnownBegin
+\CBmp[DavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\C[4]ダビデ・ボーン：\C[0]    あっ！姐さんじゃないか？
+\CBct[2]\m[confused]\plf\PRF\C[4]ダビデ・ボーン：\C[0]    姐さん？
+
+DavidBorn/BasicOpt
+\m[confused]\optB[やめる,パーティーを組む<r=HiddenOPT0>,解散<r=HiddenOPT1>]
+
+DavidBorn/CompData
+\board[ダビデ・ボーン]
+\C[2]役割：\C[0]前衛
+\C[2]戦闘スタイル：\C[0]戦士､防御
+\C[2]陣営：\C[0]犯罪者
+\C[2]敵対：\C[0]魔物､犯罪者､衛兵
+\C[2]条件：\C[0]貧弱さが100以下
+\C[2]期限：\C[0]3日
+\C[2]特別：\C[0]このキャラクターは蘇生できない
+ 伝説のドラゴンスレイヤー､ 少なくとも彼だけはそう言っている｡
+
+DavidBorn/Comp_win
+\SETpl[DavidBorn_happy]\Lshake\prf\C[4]ダビデ・ボーン：\C[0]    新しい冒険か？ 出発しよう！
+
+DavidBorn/Comp_failed
+\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]ダビデ・ボーン：\C[0]    貴様は強くない！
+
+DavidBorn/Comp_failed_slave
+\SETpl[DavidBorn_angry]\Lshake\prf\C[4]ダビデ・ボーン：\C[0]    ふざけんじゃねえ！ 奴隷風情が俺様にとやかく言うつもりか？
+
+DavidBorn/Comp_disband
+\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]ダビデ・ボーン：\C[0]    冒険... 終わっちまうのか.....
+
+DavidBorn/CompCommand
+\SETpl[DavidBorn_normal]\PLF\prf\C[4]ダビデ・ボーン：\C[0]    ヘヘ...
+
+################################################################### QMSG ################################################################################# 
+
+DavidBorn/CommandWait0
+前方に何かあったのか？
+
+DavidBorn/CommandWait1
+わかった
+
+DavidBorn/CommandFollow0
+俺様がついている！ 心配するな！
+
+DavidBorn/CommandFollow1
+もう何も恐くない！
+
+DavidBorn/OvermapPop0
+空を飛ぶ馬に蹴られたことはあるかい？
+
+DavidBorn/OvermapPop1
+竜殺し？ 楽勝さ！
+
+DavidBorn/OvermapPop2
+一番ヤバいのは熊だ！
+
+DavidBorn/OvermapPop3
+俺様のケーキを盗ったのは誰だあっ！！
+
+#DavidBorn/OvermapPop0
+##asdasdasdasdasdasdasdasdaasd       #length
+#I've seen it! A flying horse!
+#
+#DavidBorn/OvermapPop1
+#Dragon slaying? Too easy!
+#
+#DavidBorn/OvermapPop2
+#Bears are just the worst!
+#
+#DavidBorn/OvermapPop3
+#Somebody stole my sweetcake!
+
+###################################################################### QUEST
+
+DavidBorn/CampSpot1
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_angry]\Lshake\prf\C[4]？？？：\C[0]    何者だ！
+\CBct[1]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    えっ？
+\CBmp[UniqueDavidBorn,8]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]？？？：\C[0]    \..\..\..
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]？？？：\C[0]    どこから忍び込んだ？！
+
+DavidBorn/CampSpot3
+\CamCT\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    へっ？ ぴゃあ！！！
+
+DavidBorn/Unknow
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]？？？：\C[0]    魔物が暴走していると聞いて､俺様は船で丸一ヶ月かけてここに来たが､結論としてはシバリスに行くべきじゃなかった｡
+\CBmp[UniqueDavidBorn,8]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]？？？：\C[0]    俺様はまるで使徒のように世に鬼あれば鬼を断ち､ 世に悪あれば悪を断つ強き傭兵だった｡
+\CBmp[UniqueDavidBorn,8]\SETpl[DavidBorn_angry]\Lshake\prf\C[4]？？？：\C[0] 最初の方は難民たちを率いて避難していただけだったのに､今じゃ野盗の親分だ｡
+\CBmp[UniqueDavidBorn,5]\SETpl[DavidBorn_angry]\Lshake\prf\C[4]？？？：\C[0] 俺様のような英雄が何かしようとすると､最後の方は雪だるま式にコトが大きくなっちまう｡
+\CBmp[UniqueDavidBorn,8]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]？？？：\C[0]    良くも悪くもな｡
+\CBct[2]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    あの？
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]？？？：\C[0]      俺様は\C[6]ダビデ・ボーン\C[0]､かつては偉大な傭兵だった男だ
+
+DavidBorn/CampSpot4_opt
+\CamCT\m[fear]\plf\Rshake\c[6]ロナ：\c[0]    えっ？\optD[もう帰りますね！,その理屈はおかしい<r=HiddenOPT1>]
+
+DavidBorn/CampSpot4_failed
+\CBmp[UniqueDavidBorn,8]\SETpl[DavidBorn_angry]\Lshake\prf\C[4]ダビデ・ボーン：\C[0] てめえはもうおしまいだぁあーっ！！
+
+DavidBorn/CampSpot4_win
+\CamCT\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    なんでノエルの人たちを助けに行かないんですか？ 助けを求めている人たちがいますよ！
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]ダビデ・ボーン：\C[0]    俺様がここであいつらを助けていないとでも？
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]ダビデ・ボーン：\C[0]    あいつらにもっと奴隷をよこせと言われたから､俺様は与えた｡
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]ダビデ・ボーン：\C[0]    あいつらに難民を止めてくれと言われたから､俺様はその通りにした｡
+\CamCT\m[wtf]\plf\PRF\c[6]ロナ：\c[0]  それって助けになってないですよ？罪のない人を攫うなんて英雄のやることじゃないです！
+\CBct[5]\m[confused]\plf\PRF\c[6]ロナ：\c[0] あなたのやってることは間違いなく悪です！
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]ダビデ・ボーン：\C[0] 俺はただ使徒の導きに従っただけで...
+\CBct[3]\m[triumph]\plf\PRF\c[6]ロナ：\c[0]    今からでも遅くないですから､ノエルの傭兵ギルドの事務所に行ってみれば､あなたも役に立てるはずですよ｡
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]ダビデ・ボーン：\C[0]    ああ\..\..\.. 俺は一体なにをやってるんだ.....
+
+DavidBorn/CampSpot4_win2
+\ph\narr\c[4]ダビデ・ボーン\c[0]は去った...
+\CBct[8]\narrOFF\m[confused]\PRF\c[6]ロナ：\c[0]    えっと... これからどうしよう？
+
+##################### DEFEAT him
+
+DavidBorn/CampLost0
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]ダビデ・ボーン：\C[0]      やめっ！ 待ってくれ！ 姐さん命だけは！\optD[知るか,解放する]
+
+DavidBorn/CampLost0_fqu
+\CBct[5]\m[overkill]\plf\PRF\c[6]ロナ：\c[0]    騙されるわけないでしょ！
+
+DavidBorn/CampLost0_okay
+\CBct[8]\m[wtf]\plf\PRF\c[6]ロナ：\c[0]    はぇ？ 嘘でしょ？
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]ダビデ・ボーン：\C[0]    殺さないでくれ！ 俺はただ使徒の導きに従っていただけなんだ！
+\CBct[8]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    あの....
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]ダビデ・ボーン：\C[0]    ありがとう姐さん！ 姐さんの恩には必ず報いるからな！
+
+DavidBorn/CampLost0_okay2
+\CBct[8]\m[wtf]\PRF\c[6]ロナ：\c[0]    えっと... まだ何も言ってないんだけど？
+\CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    まあいっか...
+
+DavidBorn/QuRec2to3_1
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_angry]\Lshake\prf\C[4]ダビデ・ボーン：\C[0]    しゃあっ！
+\CBct[2]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    ん？
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_angry]\Lshake\prf\C[4]ダビデ・ボーン：\C[0]    破ぁ！
+\CBct[8]\m[normal]\plf\PRF\c[6]ロナ：\c[0]    すみませーん...
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_shocked]\Lshake\prf\C[4]ダビデ・ボーン：\C[0]    むっ！ 姐さん？！
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    あの.... なんでこんな所にいるのかをお聞きしても？
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_normal]\Lshake\prf\C[4]ダビデ・ボーン：\C[0]      姐さんの教えで俺は目が覚めたんだ！ だから俺は再び導きに従うと決めた！ 英雄になるために！
+\CBmp[UniqueDavidBorn,20]\SETpl[DavidBorn_happy]\Lshake\prf\C[4]ダビデ・ボーン：\C[0]      姐さんっ... ご指導ありがとうございます！
+\CBct[8]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    うーん....  まあいっか...
