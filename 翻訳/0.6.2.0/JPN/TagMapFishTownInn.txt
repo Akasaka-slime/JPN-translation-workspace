@@ -1,0 +1,215 @@
+ThisMap/Enter
+\m[confused]フィッシュトピア民宿
+
+################################################################
+
+InnKeeper/Begin
+\SndLib[FishkindSmSpot]\CBmp[Keeper,20]\SETpl[FrogCommon]\Lshake\c[4]宿の主人：\c[0]    ヨソモノ... ナニ ガ シタイ...？
+\CBct[8]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    うーん....\optB[やめる,取引,会話]
+
+InnKeeper/Slave
+\SndLib[FishkindSmSpot]\CBmp[Keeper,20]\SETpl[FrogCommon]\Lshake\c[4]宿の主人：\c[0]    ドレイ！ ニゲタ メスダ！
+
+InnKeeper/about
+\SndLib[FishkindSmSpot]\CBmp[Keeper,20]\SETpl[FrogCommon]\Lshake\prf\c[4]宿の主人：\c[0]    コノ ヤドハ... ニンゲンノ... ドレイ ヲ... モット カウタメニ ソンザイ スル....
+\SndLib[FishkindSmSpot]\CBmp[Keeper,20]\SETpl[FrogCommon]\Lshake\prf\c[4]宿の主人：\c[0]    オマエラ ノ... ダイサイガイ ハ... ウミノメガミ ノ アタエタ バツ.....
+\SndLib[FishkindSmSpot]\CBmp[Keeper,20]\SETpl[FrogCommon]\Lshake\prf\c[4]宿の主人：\c[0]    ワレラ... ウミノメガミ ノ コ... イズレ ホントウ ヘ モドル....
+\SndLib[FishkindSmSpot]\CBmp[Keeper,20]\SETpl[FrogCommon]\Lshake\prf\c[4]宿の主人：\c[0]    オマエラ ガ... ゼツメツ シタラナ....
+
+BoldAndBrash/art0
+\cg[other_SeaWitch]大胆不敵 -Bold and Brash-
+海の女神の美しさを､美意識を讃えよ｡
+作者 ： イカルゴ・テンタクルス
+\m[confused]\c[6]ロナ：\c[0]    えっ？！
+
+BoldAndBrash/art1_typical
+\m[flirty]\Rshake\c[6]ロナ：\c[0]    「ゴミ箱行き」の方が良いよ....
+
+BoldAndBrash/art1_tsundere
+\m[serious]\prf\c[6]ロナ：\c[0]    \..\..\..正気？
+\m[wtf]\Rshake\c[6]ロナ：\c[0]    今まで見た中で最悪の絵ね！
+
+BoldAndBrash/art1_gloomy
+\m[flirty]\prf\c[6]ロナ：\c[0]    \..\..\..
+\m[normal]\c[6]ロナ：\c[0] えっと...緑...とにかく草原みたいな緑色だね....
+
+BoldAndBrash/art1_slut
+\m[flirty]\prf\c[6]ロナ：\c[0]    ふーん\..\..\..
+\m[lewd]\Rshake\c[6]ロナ：\c[0]    つまり「ヤリマン素敵」って意味よね？
+
+################################################################ INN COmmoner
+
+Guard/Rand0
+\c[4]傭兵：\c[0]    奇妙だと思わないか？母親の半魚人が全然見当たらないんだ｡
+
+Guard/Rand1
+\c[4]傭兵：\c[0]    なんか\c[6]ジェンキンス\c[0]様と同じくバケモンの巣の真っ只中にいる感じっていうか､まあ突撃はしないけどさ｡
+
+Guard/Rand2
+\c[4]傭兵：\c[0]   ハッ！あいつら同族のメスを食っちまうって聞いたことがあるんだ！子供を産めないから！コレはきっとマジだぜ！
+
+
+merchant/Rand0
+\c[4]商人：\c[0]  醤油！ 醤油はどこだ！？ クソッ！ 使徒よ､再び降臨してあいつらに裁きを！
+
+merchant/Rand1
+\c[4]商人：\c[0] 俺は金持ちなんだぞ！魚は食い飽きた！人間の食い物が欲しい！マトモな食い物を持ってこい！
+
+merchant/Rand2
+\c[4]商人：\c[0] 魚？また魚かよ？！しかもこの魚を生のままってのが最悪だ！ この料理の恥晒しめ！
+
+
+merchantFat/Rand0
+\c[4]商人：\c[0]    あーあ､まさに盛者必衰だな｡ まさか半魚人なんぞに飯をねだることになるなんて｡
+
+merchantFat/Rand1
+\c[4]商人：\c[0]    聞いた話では\c[6]ルーデシンド\c[0]家は何かと引き換えに食料を貰ったらしいぞ？ 以前じゃノエル島に半魚人なんて見なかったしな｡
+
+merchantFat/Rand2
+\c[4]商人：\c[0]      信じられるか？ 娘が奴らを見て死ぬほど怖がったんだよ､マジで醜すぎるって｡
+
+
+traveler/Rand0
+\c[4]旅人：\c[0]    ようやくここに来れたんだが､残念なことに彼らの文化は破壊されて久しいようだ｡
+
+traveler/Rand1
+\c[4]旅人：\c[0]    半獣人って見たことあるか？ モッフモフで最高♥ まさに使徒の贈り物だ♥
+
+traveler/Rand2
+\c[4]旅人：\c[0]    人魚の伝説を聞いたことがあるか？ 奴らのメスがどんな顔してるかと思うと興奮して眠れなくなりそうだ！
+
+
+RichFish/Rand0
+\SndLib[FishkindSmSpot]\c[4]商人：\c[0] ウミノメガミ ハ キタレリ...！ウミノメガミ ヲ タタエヨ...！ウミノメガミ ニ カンシャセヨ...！
+
+RichFish/Rand1
+\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    ワレラ ノ ギョカクリョウ ハ...！ イゼン ノ ヒャクバイ イジョウ...！ ウミノメガミ ノ チカラダ！！！
+
+RichFish/Rand2
+\SndLib[FishkindSmSpot]\c[4]商人：\c[0]   ニンゲン メ...！コレ ハ ウミノメガミ ノ...アタエシ バツ！
+
+
+CommonFish/Rand0
+\SndLib[FishkindSmSpot]\c[4]半魚人：\c[0] ワレワレ...ヤサイクウ...ニンゲン...サカナクウ.....
+
+CommonFish/Rand1
+\SndLib[FishkindSmSpot]\c[4]半魚人：\c[0]   オロカ ナ ニンゲン...ワレラ ノ ジダイ...キタレリ！
+
+CommonFish/Rand2
+\SndLib[FishkindSmSpot]\c[4]半魚人：\c[0]    スベテ ハ...ウミノメガミ ノ フクシュウ...グァグァ...オマエタチ ハ モウシンデイル.....
+
+################################################################ INN Quest Giver
+
+InnQuGiver/TooWeak
+\CBmp[QuGiver,20]\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    オンナ...！ カエレ...ヤルベキコト ヲ ヤレ！
+\CBct[8]\m[sad]\c[6]ロナ：\c[0]    ごめんなさい....
+
+InnQuGiver/0_begin0
+\CBmp[QuGiver,20]\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    オンナ... ドレイ... ニゲタ...！
+\CBmp[QuGiver,20]\SndLib[FishkindSmSpot]\c[4]商人：\c[0] ヨソモノ ノ...オンナ...！オマエガ ヒツヨウナノダ...！
+\CBmp[QuGiver,20]\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    テツダエ... ウミノメガミ ノ ウラギリモノ...ツリダセ....
+
+InnQuGiver/0_begin1
+\board[奴隷キャンプ]
+目標：奴隷キャンプを見つけ出す
+報酬：大銅貨3枚
+依頼主：半魚人
+制限回数：一回
+ハジシラズナ ウラギリモノ ヲ ミツケダセ！
+
+InnQuGiver/0_begin1_no
+\CBct[8]\m[confused]\c[6]ロナ：\c[0]    えっと....
+\CBct[20]\m[flirty]\c[6]ロナ：\c[0]    いやです､誰も傷つけたくないです｡
+
+InnQuGiver/0_begin1_yes
+\CBct[8]\m[confused]\c[6]ロナ：\c[0]    えっと....
+\CBct[20]\m[flirty]\c[6]ロナ：\c[0]    やります､何か詳細な情報はありますか？
+\CBmp[QuGiver,20]\prf\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    オンナ ハ...デラレナイ....
+\CBmp[QuGiver,20]\prf\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    キット... クソッ... カクレテ イルハズダ...フィッシュトピア ノ ドコカニ｡
+\CBct[20]\m[confused]\c[6]ロナ：\c[0]    それってなにもないのと同じですよね？
+
+InnQuGiver/1_begin1
+\CBct[20]\m[flirty]\c[6]ロナ：\c[0]      見つけました､彼女たちは南の方に小さなキャンプを張っています｡
+\CBmp[QuGiver,8]\SndLib[FishkindSmSpot]\prf\c[4]商人：\c[0]    ユウシヨ... カンシャスル....
+
+InnQuGiver/1_begin1_askQ
+\CBmp[QuGiver,2]\SndLib[FishkindSmSpot]\prf\c[4]商人：\c[0]    コロシタカ...オンナドモ ハ？
+
+InnQuGiver/1_begin1_noKill
+\CBct[20]\m[confused]\c[6]ロナ：\c[0]    もちろんしてないです｡
+\CBmp[QuGiver,8]\SndLib[FishkindSmSpot]\prf\c[4]商人：\c[0]    オマエ...ユウシ ジャナイ....
+\CBmp[QuGiver,8]\SndLib[FishkindSmSpot]\prf\c[4]商人：\c[0]    ニゲタ... オンナ...シヌベシ... ウラギリモノ...シヌベシ....
+\CBct[20]\m[shocked]\Rshake\c[6]ロナ：\c[0]    なんで？ そこまで深刻にしなくてもいいんじゃ？
+
+InnQuGiver/1_begin1_Killed
+\CBct[20]\m[flirty]\c[6]ロナ：\c[0]    わたし....
+\CBct[20]\m[tired]\c[6]ロナ：\c[0]    みんな殺しちゃいました....
+\CBct[20]\m[sad]\c[6]ロナ：\c[0]    ごめんなさい....
+\CBmp[QuGiver,8]\SndLib[FishkindSmSpot]\prf\c[4]商人：\c[0]    デカシタ...！ オマエ ハ シン ノ ユウシ...！
+\CBmp[QuGiver,8]\SndLib[FishkindSmSpot]\prf\c[4]商人：\c[0]    ホウシュウ ヲ ヤロウ...モット オオクナ！
+\CBct[8]\m[tired]\c[6]ロナ：\c[0]    .....
+
+############################ Quest 2
+
+InnQuGiver/2_begin0
+\CBid[-1,20]\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    ヨソモノ ノ ユウシヨ...！ ウミノメガミ ノ カケラガ... テンカシタ... ジャアク ノ カケラニ....！
+\CBct[8]\m[confused]\c[6]ロナ：\c[0]    へぇ...？
+\CBid[-1,20]\SndLib[FishkindSmSpot]\c[4]商人：\c[0]     ヤツラ ハ...！ ニセ ノ ウミノメガミ ニ... ケガサレタ...ワレワレ ガ...スベテ ハイジョ シナケレバ....
+\CBid[-1,20]\SndLib[FishkindSmSpot]\c[4]商人：\c[0]      ヒガシ ノ... ホウキサレタ... シンデン ヲ ヤツラ ガ センキョシタ....
+\CBid[-1,20]\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    ブゾク ノ センシ ハ... シクジッタ... ミンナ カエラヌ.....
+\CBid[-1,20]\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    ワタシ ガ...ヤツラ ヲ...コロサネバ....
+
+InnQuGiver/2_begin1
+\board[邪悪の欠片]
+目標：邪悪の欠片たちを殲滅する
+報酬：大銅貨3枚
+依頼主：半魚人
+制限回数：一回
+ニセ ノ ウミノメガミ ノ カケラ ヲ ホロボス！
+
+InnQuGiver/2_begin1_yes
+\CBct[8]\m[confused]\c[6]ロナ：\c[0]    えっと...邪悪の欠片？
+\CBid[-1,20]\prf\SndLib[FishkindSmSpot]\c[4]商人：\c[0] ジャシン ガ...オマエ タチ ノ トチ ヲ...ハカイシタ トキ.....
+\CBid[-1,20]\prf\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    オセン サレテ シマッタノダ...ウミノメガミ ノ シュゴシャ ガ....
+\CBid[-1,20]\prf\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    ヤツラ ハ...ウミノメガミ ニ ソダテラレタ...シカシ ウラギッタ....
+\CBid[-1,20]\prf\SndLib[FishkindSmSpot]\c[4]商人：\c[0] イマ ハ...ヤツラ ヲ...ニセ ノ ウミノメガミ ガ ヒキイテイル！ ニセ ノ ウミノメガミ ハ ジャアク ...！
+\CBid[-1,20]\prf\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    カナラズ...ジャアク ノ カケラ ヲ ホロボス.....
+\CBct[20]\m[flirty]\c[6]ロナ：\c[0]    よくわからない....
+\CBct[20]\m[serious]\c[6]ロナ：\c[0] いえ､任せてください！わたしならやれますから！
+
+InnQuGiver/5_win1
+\CBct[8]\m[flirty]\c[6]ロナ：\c[0]   やりました！その\.... えっと\..\....邪悪の欠片はすべて死にました！
+\CBid[-1,4]\prf\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    スバラシイ.....
+\CBid[-1,20]\prf\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    ツヨキ... ユウシヨ.... コレガ... ホウシュウ.....
+
+InnQuGiver/5_win2
+\CBid[-1,20]\prf\SndLib[FishkindSmSpot]\c[4]商人：\c[0] ユウシヨ....ワレラト コウビシヨウ.... オマエナラ...ツヨイコ ヲ ノコセル......
+\CBct[6]\m[shocked]\Rshake\c[6]ロナ：\c[0]    交尾？！
+\CBct[6]\m[flirty]\c[6]ロナ：\c[0]    えっと\..\.... 考えときますね....
+
+############################ Quest 3
+
+InnQuGiver/FishFHuntLoop0_begin0
+\CBid[-1,20]\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    ニセ ノ ウミノメガミ ノ ザントウ... イマダ コキョウ ニ ソンザイ スル...！
+\CBid[-1,20]\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    ソノ ジャアク ナ メダマ ヲ...エグリダシテ ウミノメガミ ニ ササゲル....！
+\CBct[8]\m[confused]\c[6]ロナ：\c[0]    えっ....
+
+InnQuGiver/FishFHuntLoop0_begin2
+\board[邪悪の欠片]
+目標：偽の海の女神の目玉を10個集める\i[160]
+報酬：大銅貨2枚
+依頼主：半魚人
+期限：無し
+ニセ ノ ウミノメガミ ノ カケラ ハ シマジュウ ノ ミズ ノ ナカ ニ カクレテイル｡
+ツリアゲテ...！コロセ...！
+メダマ ヲ エグリ...！ ウミノメガミ ニ ササゲヨ...！
+ウミノメガミ ニ カンシャヲ...！ ウミノメガミ ヲ タタエヨ...！
+
+InnQuGiver/FishFHuntLoop0_yes
+\CBct[20]\m[serious]\c[6]ロナ：\c[0]    任せてください！
+
+InnQuGiver/FishFHuntLoop_win0
+\CBct[8]\m[flirty]\c[6]ロナ：\c[0]    えっと\..\.... 欲しかった眼ってこれですか？
+
+InnQuGiver/FishFHuntLoop_win1
+\CBid[-1,4]\prf\SndLib[FishkindSmSpot]\c[4]商人：\c[0]    スバラシイ.....
