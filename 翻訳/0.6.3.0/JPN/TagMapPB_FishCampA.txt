@@ -1,0 +1,95 @@
+thisMap/OvermapEnter
+半魚人のキャンプ\optB[やめる,入る]
+
+###############################################################################   Common dialog
+
+Commoner0/rng0
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]戦士：\c[0]    ニンゲンハ シンヨウ デキナイ....
+
+Commoner0/rng1
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]戦士：\c[0]    オマエ...オンナ...？
+
+Commoner0/rng2
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]戦士：\c[0]    ウセロ....
+
+###############################################################################   Comp Fish Dude Explorer
+
+ConvoyTar/begin0
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]半魚人：\c[0]    イッタイ...ドウシタ...？
+
+ConvoyTar/begin1
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]半魚人：\c[0]    アリガトウ....アリガトウ ウミノメガミ...
+
+ConvoyTar/begin2
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]半魚人：\c[0]    イカネバ....キャンプヘ....
+
+ConvoyTar/About_opt
+\CBct[2]\m[flirty]\PRF\c[6]ロナ：\c[0]    あの...お聞きしたいんですけど...
+\SndLib[FishkindSmSpot]\CBid[-1,2]\prf\c[4]半魚人：\c[0]    ナンノ...コトダ...？
+
+ConvoyTar/OPT_WhyFishHereAise
+アリス村
+
+ConvoyTar/OPT_OutControll
+祖先の暴走
+
+ConvoyTar/OPT_CaveExplore
+DEV
+
+ConvoyTar/OPT_OutControll0
+\CBct[2]\m[confused]\PRF\c[6]ロナ：\c[0]    祖先の暴走って？ どういう意味なんですか？
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]半魚人：\c[0]    ワレラノ チョウロウ...ソセンタチ...カレラハ ミズノ ナカ カラ モドッテキタ...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]半魚人：\c[0]    チョクゴ ジャアクノ...ハヘンガ...ワレワレヲ コウゲキ シテキタ...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]半魚人：\c[0]    シャーマン サマハ...ワタシニ イライシタ...ゲンイン ノ チョウサ...
+\CBct[20]\m[flirty]\PRF\c[6]ロナ：\c[0]    うーん...よくわからないかな。
+
+ConvoyTar/WhyFishHereAise0
+\CBct[2]\m[confused]\PRF\c[6]ロナ：\c[0]    それであなたはなんで\c[4]アリス村\c[0]にいたの？半魚人の人は町に留まれないの？
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]半魚人：\c[0]    ソレハ...シャーマンサマガ...ソセンヲ アヤツレナクナッタ....ゲンインヲ シラベニ...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]半魚人：\c[0]    シマ カラ キタノダ...チョウサ スルタメ...シカシ ニンゲンハ ワレワレヲ コウゲキスル...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]半魚人：\c[0]    ワタシノ キョウダイハ...シンダ...
+\CBct[20]\m[flirty]\PRF\c[6]ロナ：\c[0]    うーん...よくわからないかな。
+
+ConvoyTar/OPT_CaveExplore0
+Quest on DEV
+
+############################################################################################################## todo
+
+AriseVillage/1to2_rg5_0
+\Bon[8]\m[shocked]\Rshake\c[6]ロナ：\c[0]    これは...死体？
+\SndLib[FishkindSmSpot]\BonMP[FishExplorer,20]\prf\c[4]半魚人：\c[0]    キャンプガ...ニンゲンニ...コウゲキサレテイル？
+\SndLib[FishkindSmSpot]\BonMP[FishExplorer,20]\prf\c[4]半魚人：\c[0]    ハヤク.....イソガネバ...
+
+AriseVillage/1to2_rg5_1
+\SndLib[FishkindSmSpot]\BonMP[QuTar,20]\prf\c[4]戦士：\c[0]    ニンゲン...！　ニンゲンニ...ミツカッタ！コロス！
+\CBct[6]\m[terror]\Rshake\c[6]ロナ：\c[0]    なんで？ わたしを殺すの？！
+
+AriseVillage/1to2_rg5_2
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,20]\c[4]半魚人：\c[0]    マテ キョウダイ...！ ワタシヲ タスケテ クレタンダ...！
+
+AriseVillage/1to2_rg5_3
+\SndLib[FishkindSmSpot]\CBmp[QuTar,20]\c[4]戦士：\c[0]    キョウダイ...ブジ ダッタカ...！
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,20]\c[4]半魚人：\c[0]    アァ キョウダイ...ワタシハ イキテイル...！
+
+AriseVillage/1to2_rg5_4
+\SndLib[FishkindSmSpot]\CBmp[QuTar,4]\c[4]戦士：\c[0]    ウミノメガミニ カンシャヲ...！
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,4]\c[4]半魚人：\c[0]    ウミノメガミヲ タタエマス...！！
+\CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    えっと.....
+
+AriseVillage/1to2_rg5_5
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,20]\c[4]半魚人：\c[0]    カンシャスル...ニンゲンノセンシ...
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,20]\c[4]半魚人：\c[0]    コレハ アナタヘノ ヘンレイ ダ...
+
+AriseVillage/1to2_rg5_6
+\CBct[4]\m[triumph]\Rshake\c[6]ロナ：\c[0]    ありがとう！
+
+AriseVillage/1to2_rg5_7
+\SndLib[FishkindSmSpot]\prf\CBmp[QuTar,20]\c[4]戦士：\c[0]    キョウダイヨ...オマエハ...オンナニ スクワレタノカ？
+\SndLib[FishkindSmSpot]\prf\CBmp[FishExplorer,20]\c[4]半魚人：\c[0]    オンナ...？ コノヒトハ オンナ...？
+\SndLib[FishkindSmSpot]\prf\CBmp[QuTar,20]\c[4]戦士：\c[0]    ソウダ...キョウダイ...
+
+AriseVillage/1to2_rg5_8
+\SndLib[FishkindSmSpot]\prf\CBmp[FishExplorer,20]\c[4]半魚人：\c[0]    アナタハ オンナ ダッタノカ...？！
+\CBct[2]\m[flirty]\PRF\c[6]ロナ：\c[0]    わたし？ そうだけど？
+\prf\CBmp[FishExplorer,8]\c[4]半魚人：\c[0]    ......
+\CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    .....うん？
