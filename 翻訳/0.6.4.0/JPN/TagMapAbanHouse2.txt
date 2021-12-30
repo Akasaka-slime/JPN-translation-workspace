@@ -1,0 +1,113 @@
+thisMap/OvermapEnter
+湿地キャンプ\optB[やめる,入る]
+
+EmptyHouse/Qmsg0
+空き家みたい
+
+EmptyHouse/Qmsg1
+なにもない
+
+yeller/Qmsg0
+忙しいんだよ！
+
+yeller/Qmsg1
+今そんな場合じゃない！
+
+yeller/start
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    おい！
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    早く来い！奴らが来たぞ！
+\CamCT\Bon[2]\m[shocked]\Rshake\c[6]ロナ：\c[0]    なに？！何が来るの？！
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    急げ！
+
+yeller/start1
+\CamMP[Wave2A]\BonMP[Wave2A,20]\SndLib[FishkindSmQuestion]\prf\c[4]深きもの：\c[0]    グルッ！
+\CamMP[Wave2B]\BonMP[Wave2B,20]\SndLib[FishkindSmQuestion]\prf\c[4]深きもの：\c[0]    グララ！
+\CamMP[Wave2C]\BonMP[Wave2C,20]\SndLib[FishkindSmQuestion]\prf\c[4]深きもの：\c[0]    プルパル！
+\CamCT\Bon[1]\m[shocked]\Rshake\c[6]ロナ：\c[0]    魔物！
+
+yeller/start_win
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    危ねぇ！使徒様感謝だぜ！
+
+yeller/begin2to3
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0] 君が来なかったら耐えきれなかったかもしれないな｡
+\CamCT\Bon[6]\m[flirty]\PRF\c[6]ロナ：\c[0]    えと.. どういたしまして､かな？
+
+guard/beginElseQmsg0
+ディープワンめ！
+
+guard/beginElseQmsg1
+死ね！死ね！死ね！
+
+guard2/beginElseQmsg0
+疲れた...
+
+guard2/beginElseQmsg1
+目が痛え...
+
+yeller/beginElseQmsg0
+彼女を助けてくれ！
+
+yeller/beginElseQmsg1
+お願いだ！
+
+FArcher/Qmsg
+ありがとう
+
+yeller/begin3
+\CamCT\Bon[6]\m[confused]\PRF\c[6]ロナ：\c[0]    あの..\optB[やめる,何があったんですか]
+
+yeller/begin3_opt_Wut
+\CamCT\Bon[6]\m[wtf]\PRF\c[6]ロナ：\c[0]    ここで何があったんですか？
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    俺たちはシバリスに残っている人を助けるために雇われた傭兵だ｡
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]     ずっと順調だったんだ､ここを通るまでは.....
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    大量のディープワンに包囲されてな｡
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0] 奴らその辺にいて､いっつも､俺らが気を抜くとすぐに襲ってくる｡
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    もう何日寝ていない... 小隊の体力と士気も限界だ｡
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0] そうだ！助けてくれよ！彼女がクソディープワンに攫われたんだ.....
+\CamCT\Bon[6]\m[shocked]\Rshake\c[6]ロナ：\c[0]    誰です？
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    俺の女だ！彼女を助けてくれ！人手が足りないんだ！
+
+yeller/begin3_opt_WutBoard
+\board[失踪した女性]
+目標：攫われた女性を探す
+報酬：モラル5
+依頼主：傭兵
+制限回数：一回
+俺たちの斥候は奴らの足跡を辿って北東にある洞窟を見つけた｡
+彼女はまだ生きているはずだ､助けてくれ！
+
+yeller/begin3_opt_WutBoard_opt
+\CamCT\Bon[6]\m[confused]\PRF\c[6]ロナ：\c[0]    えっと...\optB[無理です,大丈夫ですよ]
+
+yeller/begin3_opt_WutBoard_opt_yes
+\CamCT\Bon[6]\m[flirty]\PRF\c[6]ロナ：\c[0] わたし手伝います！でももっと情報が欲しいですね｡
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    ありがとう！本当にありがとう！
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    四日前の夜に俺たちがディープワンを撃退した後､彼女が見張り番になった｡
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    だが目覚めた時には彼女はいなくなっていた！そして周囲には奴らの魚の匂いとたくさんの足跡があったんだ！
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0] 斥候が奴らの足跡を辿り､そして北東の方角にある半魚人の遺跡を発見した｡
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0] ディープワンが女を攫う理由は知っている！
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0] 彼女はまだ生きているはずなんだ！きっと！
+\CamCT\Bon[6]\m[serious]\PRF\c[6]ロナ：\c[0]    はい！行ってきます！
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    使徒の御加護があらんことを！
+
+####################################### RETURN OBJ
+
+yeller/begin4to5
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    俺...俺もう二度と会えないかと思ってたんだ！
+\CamMP[FArcher]\BonMP[FArcher,6]\prf\c[4]女傭兵：\c[0]    私も.....
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    あのくさやどもに何もされてないよな！
+\CamMP[FArcher]\BonMP[FArcher,8]\prf\c[4]女傭兵：\c[0]    ......
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    .....
+
+yeller/begin4to5_2
+\CamCT\Bon[6]\m[flirty]\PRF\c[6]ロナ：\c[0]    えっと.... たぶん何もされてないと思います....
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    あぁ！ 使徒よ感謝致します！ まだ君の名前を聞いてなかったな！
+\CamCT\Bon[4]\m[pleased]\Rshake\c[6]ロナ：\c[0]    ロナ! ロナ・フェルディンです！
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    ありがとう､それとこれを....
+
+yeller/begin4to5_3
+\CamCT\Bon[2]\m[confused]\PRF\c[6]ロナ：\c[0]    これは？
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    これは俺の未提出の依頼完了証明書で､海賊殲滅砦の傭兵ギルドに渡せば､報酬が受け取れる｡
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    俺たちはここを離れるから､君もこの地獄のような場所に居ないほうが良い｡
+\CamMP[YellingGuard]\BonMP[YellingGuard,20]\prf\c[4]傭兵：\c[0]    ここは安全じゃないからな｡
+\CamCT\Bon[2]\m[serious]\PRF\c[6]ロナ：\c[0]    わかりました！
