@@ -1,0 +1,88 @@
+thisMap/OvermapEnter
+廃墟\optB[やめる,入る]
+
+GrayRat/QuestBG1
+\CBmp[GrayRat,8]\SETpl[GrayRatNormal]\PLF\prf\c[4]ガタイの良い男：\c[0]    .........
+
+GrayRat/QuestBG2
+\CBmp[Adam,1]\SETpr[Adam_angry]\plf\Rshake\c[4]？？？：\c[0]    止まれ！ 誰だ！
+\CBmp[GrayRat,8]\SETpl[GrayRatConfused]\PLF\prf\c[4]ガタイの良い男：\c[0]    ....
+\CBmp[Adam,6]\SETpr[Adam_sad]\plf\PRF\c[4]？？？：\c[0]    お前か...
+
+GrayRat/QuestBG3
+\CBmp[Adam,20]\SETpr[Adam_normal]\plf\Rshake\c[4]？？？：\c[0]    お前の主が賛成したか？
+\CBmp[GrayRat,20]\SETpl[GrayRatConfused]\PLF\prf\c[4]ガタイの良い男：\c[0]    はい､ですが以前お伝えしたとおり...
+\CBmp[GrayRat,20]\SETpl[GrayRatNormal]\PLF\prf\c[4]ガタイの良い男：\c[0]    無関係の人々への影響を最小限にお願いします｡
+\CBmp[Adam,20]\SETpr[Adam_sad]\plf\Rshake\c[4]？？？：\c[0]    当然だ｡
+\CBmp[Adam,20]\SETpr[Adam_normal]\plf\Rshake\c[4]？？？：\c[0]    よし！これは例の時間と場所だ｡
+
+GrayRat/QuestBG3_1
+\CBmp[GrayRat,20]\SETpl[GrayRatConfused]\PLF\prf\c[4]ガタイの良い男：\c[0]    感謝......
+\CBmp[GrayRat,20]\SETpl[GrayRatNormal]\PLF\prf\c[4]ガタイの良い男：\c[0]    ご武運を｡
+
+GrayRat/QuestBG4
+\CBmp[Guard1,20]\SETpr[MobHumanCommoner]\Rshake\c[4]見張り：\c[0]    あいつはムートだぞ！本気であいつと手を組むのかよ？
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]？？？：\c[0]    バカ！重要なのはあいつの後ろにいるやつだ！
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]？？？：\c[0]    それにお前はあいつのキレてる姿を見たことねぇ､あいつの実力が半端ないんだよ！
+
+GrayRat/QuestBG5
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]？？？：\c[0]    あとは計画通り､北の馬車列を襲う｡
+\CBmp[Guard1,20]\SETpr[MobHumanCommoner]\plf\Rshake\c[4]見張り：\c[0]    そんなに上手くいくかねー？
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]？？？：\c[0]    当たり前だ！それに俺らはもう他に道がない！
+
+Adam/SupLona0
+\CamMP[Adam]\BonMP[Adam,1]\SETpl[Adam_angry]\Lshake\c[4]？？？：\c[0]    止まれ！ 誰だ！
+\CBct[8]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    わたしは...\optD[誤魔化す,アダム]
+
+Adam/SupLona_ans_adam
+\CBct[2]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    えっと... おなたがアダムさんですか？
+\CamMP[Adam,1]\SETpl[Adam_angry]\Lshake\prf\c[4]アダム：\c[0]    言え！なぜ俺の名前を知ってる！\optD[えへへ,ミロ,嘘つく<r=HiddenOPT0>,前に会ったことがある<r=HiddenOPT1>]
+
+Adam/SupLona_ans_pass
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    わたしは通りかかっただけで....
+
+Adam/SupLona_ans_hehe
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    えへへ... なぜでしょう..
+
+Adam/SupLona_ans_milo
+\CBct[8]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    えっと.. その....
+\CBct[2]\m[pleased]\plf\PRF\c[6]ロナ：\c[0]    ミロさんがあなたの首が欲しいって...なんちゃって...
+\CBct[2]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    \..\..\..
+
+Adam/SupLona_ans_work0
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    えっと... 
+\CBct[8]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    あなたの仕事を手伝ったことがあります､忘れましたか？
+
+Adam/SupLona_ans_work1
+\CBmp[Adam,20]\SETpl[Adam_sad]\Lshake\prf\c[4]アダム：\c[0]    \..\..\..
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]アダム：\c[0]    思い出した､お前はあの盗みが得意そうなガキだな｡
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]アダム：\c[0]    だがなぜお前はここにいる！！
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    えっと... \c[4]ミロ\c[0]があなたを暗殺したいって聞いたから､あなたに警告しに来ました｡
+\CBmp[Adam,8]\SETpl[Adam_sad]\Lshake\prf\c[4]アダム：\c[0]    \..\..\..
+
+Adam/SupLona_ans_lie0
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    わたしは... えっと... その....
+\CBct[2]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    あなたがアダム？ 大変です！ ミロの手先がこの辺に来たんですよ！
+\CBct[2]\m[terror]\plf\Rshake\c[6]ロナ：\c[0]    あの傭兵たちが！ 早く逃げないと！
+
+Adam/SupLona_ans_lie1
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]アダム：\c[0]    なんだと！ クソ！ ありがとうな！
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]アダム：\c[0]    おいお前ら！ 行くぞ！
+
+Adam/SupLona_ans_lie2
+\CBct[8]\m[confused]\plf\PRF\c[4]ん？ 首の件はどうすればいいのだろう？
+
+Adam/SupLona_Kill0
+\CBmp[Adam,1]\SETpl[Adam_angry]\Lshake\prf\c[4]アダム：\c[0]    このアマ！ ぶっ殺せー！
+
+Adam/SupLona_Kill1_typical
+\CBct[6]\m[wtf]\plf\Rshake\c[6]ロナ：\c[0]    うそ？！
+
+Adam/SupLona_Kill1_tsundere
+\CBct[6]\m[serious]\plf\Rshake\c[6]ロナ：\c[0]    くっ！
+
+Adam/SupLona_Kill1_gloomy
+\CBct[6]\m[terror]\plf\Rshake\c[6]ロナ：\c[0]    ひぃぃっ！！？
+
+Adam/SupLona_Kill1_slut
+\CBct[6]\m[fear]\plf\Rshake\c[6]ロナ：\c[0]    ちょっ､ちょっと待ってください！
