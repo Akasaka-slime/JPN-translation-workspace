@@ -1,0 +1,50 @@
+thisMap/OvermapEnter
+\m[confused]オークの森，遠くからでも匂いが漂ってくる｡\optB[やめる,入る]
+
+rg2/Begin_0
+\CBct[20]\m[confused]\Rshake\c[6]ロナ：\c[0]    うーん\..\..\..
+\CBct[6]\m[fear]\Rshake\c[6]ロナ：\c[0]    魔物みたいな匂いがする...
+
+rg2/Begin_2
+\CBct[20]\m[shocked]\Rshake\c[6]ロナ：\c[0]    \{誰！
+
+rg2/Begin_3
+\CBct[6]\m[terror]\Rshake\c[6]ロナ：\c[0]    ！！！！！！！
+
+rg2/Begin_4
+\CBct[2]\m[confused]\PRF\c[6]ロナ：\c[0]    .........
+\CBct[20]\m[flirty]\PRF\c[6]ロナ：\c[0]    え？ 逃げた？！ 私を怖がったのかな？
+
+rg3/begin0
+\CBct[20]\m[confused]\PRF\c[6]ロナ：\c[0]    うーん\..\..\..
+\CBct[2]\m[flirty]\PRF\c[6]ロナ：\c[0]    なんでオークとディープワンの死体がたくさんあるの？！ お互いに殺しあってたりするのかな？
+
+Daughter/begin0
+\CBid[-1,6]\prf\c[4]難民：\c[0]    パパ...ママ....お腹空いたよ...
+\CBct[20]\m[flirty]\PRF\c[6]ロナ：\c[0]    あなたが\c[4]メアリー\c[0]さん？
+\CBid[-1,8]\prf\c[4]難民：\c[0]    私は... おねえちゃん何か食べ物持ってない？
+\CBct[20]\m[tired]\PRF\c[6]ロナ：\c[0]    えっと....私はあなたの両親から伝言があってきたの､ノエルで待ってるよって｡
+\CBid[-1,2]\prf\c[4]難民：\c[0]    ノエル？ それはなに？ 食べられるの？
+\CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    あー....知らないのかな？\optB[やめる,アイテムを渡す]
+
+Daughter/opt_nope
+\CBct[6]\m[flirty]\PRF\c[6]ロナ：\c[0]    えぇと.\..\..その..\..\..これ.\...\....
+\CBct[20]\m[tired]\PRF\c[6]ロナ：\c[0]    早くノエルに行ってね､家族はみんな生きてるよ｡
+\CBid[-1,8]\prf\c[4]難民：\c[0]    \..\..\..
+\CBid[-1,6]\prf\c[4]難民：\c[0]    お腹...空いた....
+
+Daughter/opt_give
+\narrロナは自分の持ち物を漁った...
+
+Daughter/opt_give100
+\CBct[20]\m[flirty]\PRF\c[6]ロナ：\c[0]    これを持って行って､私にはこれしかできないけど｡
+
+Daughter/opt_give2000
+\CBct[20]\m[flirty]\PRF\c[6]ロナ：\c[0]    これをあげる､ノエルに行きたいのか食べ物が買いたいのかにもよるけど｡
+\CBct[8]\m[tired]\PRF\c[6]ロナ：\c[0]    それしか私にはできないから.....
+
+Daughter/opt_giveTY
+\CBid[-1,8]\prf\c[4]難民：\c[0]    ありがとう...\...\...\...
+
+Daughter/END
+\CBct[8]\m[tired]\PRF\c[6]ロナ：\c[0]    ううん...\...\...\...
