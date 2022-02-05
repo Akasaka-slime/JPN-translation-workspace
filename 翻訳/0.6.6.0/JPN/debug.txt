@@ -1,0 +1,26 @@
+set/persona
+\SETpl[DedOne_normal]\m[normal]⃞⃝⃤X
+\SETpl[DedOne_normal]\SETpr[CecilyAngry]\PLFasd ▲■●ㄨＸ
+\SETpl[DedOne_normal]\plf asdd
+\SETpl[DedOne_normal]\PLF asdasdas
+\SETpl[DedOne_normal]\plf asdd
+\SETpl[DedOne_normal]\Lshake asdd
+\SETpl[DedOne_normal]\Lshake asdd
+\SETpr[DedOne_normal]\PRF asd
+\SETpr[DedOne_normal]\prf asdd
+\SETpr[DedOne_normal]\PRF asdasdas
+\SETpr[DedOne_normal]\prf asdd
+\pswasdasd
+\phasdasd
+
+asd1/test
+\board[Slay Orkind monsters and collect 10 ears]
+\{ "ł", "ę", "ś", "ż"
+
+asd2/asd2
+\SndLib[FishkindSmSpot]\cg[map_FishPPL]\c[4]guard：\c[0]    ぐわぁ！
+\narr入り口には沢山の警備員がいた
+
+victim/Convoy_start2
+\board[Escort to the Town of Noer]
+Objective： Escort the refugees to the streets of Noer Town
