@@ -40,7 +40,7 @@ Adam/2_begin_1
 \CBmp[Adam,8]\SETpl[Adam_normal]\Lshake\prf\c[4]？？？：\c[0]   \c[4]火縄銃\c[0]を知ってるかい？
 \CBct[8]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    いえ...
 \CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]？？？：\c[0]    まあ､お前は戦士じゃないからしょうがないか､でも大砲なら知ってるんだろう？
-\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]？？？：\c[0]    つもり大砲を一人でも持てるサイズにすることだ､魔法で作動する武器だが使用者に魔法の知識が必要ない｡
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]？？？：\c[0]    簡単に言うと大砲を一人でも持てるサイズにしたやつだ､魔法で作動する武器だが使用者に魔法の知識が必要ない｡
 \CBct[2]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    なんかすごそうですね？
 \CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]？？？：\c[0]    ああ､すごいんだぜ！
 \CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]？？？：\c[0]    要塞の東にある兵器庫が最近火縄銃を手に入ったらしい､お前にはそれを数本盗んで欲しい｡
@@ -66,7 +66,7 @@ Adam/2_begin_accept2
 \CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]？？？：\c[0]    この前お前が盗んだ勲章だ､これは通行許可証でもある.\c[4]警備司令部\c[0]に勤める証明になれるだろう｡
 \CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]？？？：\c[0]    こいつを持って行け､でないと中に入れないぞ｡
 \CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]？？？：\c[0]    \c[6]火縄銃\c[0]は木の槍みたいで､前端の部分はパイプのような外見をしている｡
-\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]？？？：\c[0]    あと､ギルドの依頼で十卒長\c[4]ブレーン\c[0]の手帳を転写して欲しいとあいつらに教えればいい｡
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]？？？：\c[0]    あと､ギルドの依頼で十卒長の\c[4]カシラ\c[0]の手帳を転写して欲しいとあいつらに教えればいい｡
 \CBct[20]\m[triumph]\plf\PRF\c[6]ロナ：\c[0]    ありがとうございます！
 
 Adam/5_win1
