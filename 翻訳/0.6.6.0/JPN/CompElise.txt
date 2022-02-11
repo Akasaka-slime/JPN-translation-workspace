@@ -325,7 +325,7 @@ FishResearch1/begin2
 
 FishResearch1/NoerDockSP
 \CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\c[4]エリス：\c[0]    お金は心配ないよ！ ぜーんぶボクが出すから！ レッツゴー！
-\CBct[8]\m[flirty]\plf\c[6]ロナ：\c[0]    おー...？
+\CBct[8]\m[flirty]\plf\c[6]ロナ：\c[0]    おおー...？
 
 FishResearch1/8_begin1
 \CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\c[4]エリス：\c[0] アハ！フィッシュトピア島！ボクはついに来たぞ！
@@ -342,7 +342,7 @@ FishResearch1/8_begin2
 
 FishResearch1/8_begin3
 \CBfE[8]\SETpl[Mteen_elise_masked]\PLF\prf\c[4]エリス：\c[0]    \..\..\..
-\CBmp[EliseQP0,19]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]エリス：\c[0]    それなに？ 早く見に行こ！
+\CBmp[EliseQP0,19]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]エリス：\c[0]    あれなに？ 早く見に行こ！
 
 FishResearch1/9_begin1
 \CBfE[2]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]エリス：\c[0]    これが伝説の海の女神？
@@ -352,7 +352,7 @@ FishResearch1/9_begin1
 
 FishResearch1/9_begin2
 \CBfE[8]\SETpl[Mteen_elise_masked]\PLF\prf\c[4]エリス：\c[0]    \..\..\..
-\CBmp[EliseQP1,19]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]エリス：\c[0]    それなに？ 早く見に行こ！
+\CBmp[EliseQP1,19]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]エリス：\c[0]    あれは？ 早く見に行こ！
 
 FishResearch1/10_begin1
 \CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]エリス：\c[0]    ワオ！ ボクらホントに嫌われてるね！
@@ -365,7 +365,7 @@ FishResearch1/10_begin1
 
 FishResearch1/10_begin2
 \CBfE[8]\SETpl[Mteen_elise_masked]\PLF\prf\c[4]エリス：\c[0]    \..\..\..
-\CBmp[EliseQP2,19]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]エリス：\c[0]    それなに？ スグ見に行こ！
+\CBmp[EliseQP2,19]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]エリス：\c[0]    あれなに？ スグ見に行こ！
 
 FishResearch1/11_begin1
 \CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]エリス：\c[0]    ワーオ！ めっちゃ魚のニオイするぅ！
@@ -382,7 +382,7 @@ FishResearch1/11_begin3
 
 FishResearch1/11_begin4
 \CBfE[8]\SETpl[Mteen_elise_masked]\PLF\prf\c[4]エリス：\c[0]    \..\..\..
-\CBmp[EliseQP3,19]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]エリス：\c[0]    それなに？ 今スグ見に行こ！
+\CBmp[EliseQP3,19]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]エリス：\c[0]    あっちのはなんだろ？ 今スグ見に行こ！
 
 FishResearch1/12_begin1
 \CBfE[20]\SETpl[Mteen_elise_masked]\Lshake\prf\c[4]エリス：\c[0]    あっ！これ繁殖用の奴隷だぁ！

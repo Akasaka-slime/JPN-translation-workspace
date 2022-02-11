@@ -12,7 +12,7 @@ Df_Heresy/0_0
 
 Df_Heresy/0_1
 \CBmp[whore1,20]\c[4]売春婦B：\c[0]    これからどうすればいいの...？
-\CBmp[WhoreQGiver,8]\c[4]売春婦：\c[0]    あぁ\..\..\.. わからない､誰か他の人に聞いてみよう｡
+\CBmp[WhoreQGiver,8]\c[4]売春婦：\c[0]    あぁ\..\..\.. わからないけど､誰か他の人にも聞いてみよう｡
 \CBmp[WhoreQGiver,8]\c[4]売春婦：\c[0]    親切な人が助けてくれるかもしれないし...
 
 Df_Heresy/0_2
@@ -37,7 +37,7 @@ WhoreQgiver/Qmsg1
 Df_Heresy/1_0_normal
 \CBid[-1,20]\c[4]売春婦：\c[0]    あなた....あなたは傭兵ですか？
 \CBct[8]\m[confused]\c[6]ロナ：\c[0]    あー....似たようなものかな？
-\CBid[-1,6]\prf\c[4]売春婦：\c[0]    どうか，どうかお力を貸してください...
+\CBid[-1,6]\prf\c[4]売春婦：\c[0]    どうか､どうかお力を貸してください...
 
 Df_Heresy/1_0_weak
 \CBid[-1,20]\c[4]売春婦：\c[0]    あなたも私たちと同じ売春婦なの？
@@ -86,7 +86,7 @@ Df_Heresy/1_agreeEND_Cocona
 Df_Heresy/1_agreeEND_brd
 \board[豊穣の母教]
 目標：\c[6]ランラン\c[0]を\c[6]マーマー\c[0]の元へ連れ戻す
-依頼主：運命ノ砦の難民キャンプの\c[6]モモ\c[0]
+依頼主：運命ノ砦の難民キャンプの\c[6]マーマー\c[0]
 調查できるのは4週間｡
 
 Df_Heresy/1_nopeEND
@@ -110,7 +110,7 @@ Df_Heresy/4to5_2
 Df_Heresy/2to3_1
 \CBmp[HeresyPriest,20]\c[4]説教者：\c[0]    彼らはこの混沌とした時代でも使徒は我らを救うと言っている！ 使徒はどうだ！ 彼は来たか？
 \CBmp[Heresy1,20]\c[4]難民A：\c[0]    アイツは来なかった！ 臆病者だ！ 使徒はただの臆病者だ！
-\CBmp[Heresy1,20]\c[4]難民A：\c[0]    奴は我々を悲惨な目にしか合わせない！ 奴は偽りの神だ！
+\CBmp[Heresy1,20]\c[4]難民A：\c[0]    アイツは私達を悲惨な目にしか合わせない！ 奴は偽りの神だ！
 \CBmp[HeresyPriest,20]\c[4]説教者：\c[0]    そしてその日はいつ来る｡審判の日は｡だが私は見た！ その時来るのは使徒ではかった！
 \CBmp[HeresyPriest,20]\c[4]説教者：\c[0]    それは全ての者の母！ \c[6]豊穣の母\c[0]が降臨したのだ！
 \CBmp[HeresyPriest,20]\c[4]説教者：\c[0]    私は\c[6]豊穣の母\c[0]の導きに従う｡
@@ -125,8 +125,8 @@ Df_Heresy/2to3_2
 \CBmp[Heresy2,6]\c[4]難民B：\c[0]    なんじゃそりゃ？！ 豊穣の母？ 俺はそんなの見たことねぇぞ？
 
 Df_Heresy/2to3_3
-\CBmp[Heresy1,20]\c[4]難民A：\c[0]    彼女は本当に存在する､自分はこの目で見た。 本当にいるんだよ！
-\CBmp[Heresy1,20]\c[4]難民A：\c[0]    一緒に来てたほうがいい､\c[6]豊穣の母\c[0]がどれだけ偉大か教えてあげるよ｡
+\CBmp[Heresy1,20]\c[4]難民A：\c[0]    彼女は本当に存在するのよ､私はこの目で見たもの｡ 本当にいるのよ！
+\CBmp[Heresy1,20]\c[4]難民A：\c[0]    一緒に来てちょうだい､\c[6]豊穣の母\c[0]がどれだけ偉大か教えてあげるわ｡
 \CBmp[Heresy2,6]\c[4]難民B：\c[0]    なに？ 嘘つくんじゃねぇ！ そうやって俺のイモをだまし取るつもりだろ？
 
 Df_Heresy/2to3_4
@@ -147,7 +147,7 @@ Df_Heresy/2to3_6
 Df_Heresy/3to4_1
 \CBct[8]\m[flirty]\PRF\c[6]ロナ：\c[0]    ええと....すみません....
 \CBmp[HeresyPriest,20]\prf\c[4]説教者：\c[0]    迷える羊よ､どうなさいましたか？
-\CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    呃...\optB[やめる,豊穣の母？,賄賂,入信する<r=HiddenOPT1>,しばく<r=HiddenOPT2>]
+\CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    えっと...\optB[やめる,豊穣の母？,賄賂,入信する<r=HiddenOPT1>,しばく<r=HiddenOPT2>]
 
 Df_Heresy/3to4Mother
 \CBct[8]\m[flirty]\PRF\c[6]ロナ：\c[0]    えっと...\c[4]豊穣の母\c[0]って何なんでしょう？
@@ -155,11 +155,11 @@ Df_Heresy/3to4Mother
 \CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    しらないです.....
 \CBmp[HeresyPriest,20]\prf\c[4]説教者：\c[0]    それは黒い霧の中で生まれ､被災した我々を導くために降臨なされたのだ！
 \CBmp[HeresyPriest,20]\prf\c[4]説教者：\c[0]    使徒たちは我々を見捨てたのです！ しかし彼女は今日まで私たちを導いて下さった！
-\CBmp[HeresyPriest,20]\prf\c[4]説教者：\c[0]    讚美を！
+\CBmp[HeresyPriest,20]\prf\c[4]説教者：\c[0]    讚えよ！
 \CBct[8]\m[flirty]\PRF\c[6]ロナ：\c[0]    おぉ？
 
 Df_Heresy/3to4_cancel
-\CBct[8]\m[flirty]\PRF\c[6]ロナ：\c[0]    いや，やっぱり何でもないです...
+\CBct[8]\m[flirty]\PRF\c[6]ロナ：\c[0]    いえ､やっぱり何でもないです...
 
 Df_Heresy/3to4_pay0
 \CBct[20]\m[flirty]\PRF\c[6]ロナ：\c[0]    わたしも\c[4]豊穣の母\c[0]に会いたいのですが､どこにいるのか教えてもらえますか？
@@ -204,7 +204,7 @@ Df_Heresy/3to4_atk1
 
 Df_Heresy/3to4_1_cocona0
 \CBfB[20]\SETcoconaPL[shocked]\Lshake\prf\c[4]ココナ：\c[0]    このひと きょげんしゃ！ おねえちゃんを だまそうとしてる！
-\CBct[20]\m[flirty]\PRF\c[6]ロナ：\c[0]    怖がらないで，お姉ちゃんは知ってるから｡あの人に私は騙せないよ｡
+\CBct[20]\m[flirty]\PRF\c[6]ロナ：\c[0]    怖がらないで､お姉ちゃんは知ってるから｡あの人に私は騙せないよ｡
 \CBfB[6]\SETcoconaPL[sad]\Lshake\prf\c[4]ココナ：\c[0]    ここな こわくない､でもここな おねえちゃん まもらなきゃ｡
 \CBfB[20]\SETcoconaPL[angry]\Lshake\prf\c[4]ココナ：\c[0]    じゃあくな きょげんしゃと ぜつぼうしゃは たべられなきゃ！ぜんぶたべちゃえ！
 \CBct[20]\m[flirty]\PRF\c[6]ロナ：\c[0]   えっと\..\..\..ええ？！\{\m[shocked]\Rshake食べる？！
@@ -216,7 +216,7 @@ Df_Heresy/3to4_1BRD
 \board[豊穣の母教]
 目標：\c[6]ランラン\c[0]を探す
 依頼主：運命ノ砦の難民キャンプの売春婦
-調査のために東にある水濂洞へ向かう。
+調査のために東にある水濂洞へ向かう｡
 
 ########################################################################################## Common
 

@@ -108,7 +108,7 @@ SexPartyOP/end1
 SexPartyOP/end1_cocona
 \CBfB[20]\SETcoconaPL[sad]\Lshake\prf\c[4]ココナ：\c[0]    おねえちゃん おともだちになっちゃった...
 \CBct[20]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    ともだち？ 死んじゃったと思ったの？
-\CBct[20]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    大丈夫､お姉ちゃんは元気だよ。
+\CBct[20]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    大丈夫､お姉ちゃんは元気だよ｡
 \CBfB[20]\SETcoconaPL[sad]\Lshake\prf\c[4]ココナ：\c[0]    うーみゃお....
 
 SexPartyOP/end2
