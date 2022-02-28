@@ -1,0 +1,173 @@
+thisMap/OvermapEnter
+破壊された馬車\optB[やめる,入る]
+
+QuGiver/Begin0
+\CBid[-1,6]\m[confused]\prf\c[4]旅人：\c[0]    無くなった､全て無くなった....
+\CBct[2]\m[flirty]\PRF\c[6]ロナ：\c[0]    あの...？ 何が無くなったんですか？
+
+QuGiver/Begin0_1
+\CBid[-1,8]\prf\c[4]旅人：\c[0]    お前\..\..\.. お前誰だ？ ここでなにしてるんだ？
+
+QuGiver/Begin1Cecily
+\CBfB[8]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]セシリー：\C[0]    嫌な予感がする｡
+\CBfF[8]\SETpr[GrayRatConfusedAr]\plf\Rshake\c[4]グレイラット：\c[0]    お気をつけて｡
+
+QuGiver/Begin1Cocona
+\CBfB[5]\SETcoconaPL[angry]\Lshake\prf\c[4]ココナ：\c[0]    おねえちゃん！ わるいひと！！！
+
+QuGiver/Begin1
+\CBid[-1,20]\prf\c[4]旅人：\c[0]    すぐここから離れろ！ 奴らまだ近くにいるかもしれん！
+\CBct[2]\m[confused]\PRF\c[6]ロナ：\c[0]    はぁ？ 奴ら？
+
+QuGiver/Begin2
+\CBct[8]\m[flirty]\PRF\c[6]ロナ：\c[0]    あー...
+\CBmp[Lguard1,20]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]野盜：\c[0]      オイ！ 金置いてくんなら生かすかどうか考えてやるぞ｡
+\CBmp[Lguard2,20]\SETpr[MobHumanCommoner]\plf\Rshake\c[4]野盜：\c[0]    こいつガキなんだから､とっ捕まえて売っ払っちまえばいいだろ｡
+
+QuGiver/Begin3
+\CBmp[Rguard1,20]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]野盜：\c[0]    周り見ろ､死にたくなきゃ....女か？
+\CBmp[Rguard2,20]\SETpr[MobHumanCommoner]\plf\Rshake\c[4]野盜：\c[0]    女？！ 良いねぇ､やっと新品だ｡ 砦のヤツは壊れてるからなぁ♥
+
+QuGiver/Begin4
+\CBct[8]\m[shocked]\Rshake\c[6]ロナ：\c[0]    うぇ？！ 待って！ ちょっとお話を！
+
+QuGiver/Begin4Cecily
+\CBfB[8]\SETpr[CecilyAngryAr]\plf\Rshake\C[4]セシリー：\C[0]    お前ら自分が何してるかわかっているのか？
+\CBfB[5]\SETpr[CecilyShockedAr]\plf\Rshake\C[4]セシリー：\C[0]    恥ずべき行為の代償を払いやがれ！
+
+QuGiver/Begin4Cocona
+\CBfB[5]\SETcoconaPR[shocked]\plf\Rshake\c[4]ココナ：\c[0]    ここな おねえちゃん まもる！
+
+QuGiver/Begin5
+\CBmp[Lguard1,5]\SETpl[MobHumanCommoner]\Lshake\prf\c[4]野盜：\c[0]    くだらねぇ話は終いだ！野郎ども！
+
+#########################################################
+
+QuGiver2/Begin0
+\CBid[-1,6]\prf\c[4]旅人：\c[0]    うっ...
+
+QuGiver2/Begin0_opt
+\CBct[2]\m[flirty]\PRF\c[6]ロナ：\c[0]    あの...\optB[やめる,何があったか<r=HiddenOPT0>,離れるべき<r=HiddenOPT1>,助ける<r=HiddenOPT2>]
+
+QuGiver2/Begin0_about0
+\CBid[-1,8]\prf\c[4]旅人：\c[0]    あいつら... 全員死んだのか....？
+\CBct[2]\m[confused]\PRF\c[6]ロナ：\c[0]    えっと... 死んでるはずですよ？
+\CBct[2]\m[flirty]\PRF\c[6]ロナ：\c[0]      ここで一体何が起きたんですか？ \c[4]野盜\c[0]に襲われたんですか？
+\CBct[2]\m[confused]\PRF\c[6]ロナ：\c[0]    何でこんな時期に旅なんかを？最近は島中めちゃくちゃで､どこも安全じゃないんですよ｡
+\CBid[-1,8]\prf\c[4]旅人：\c[0]    俺は山の中の小さな村に居たんだが､最近は森のあちこちで赤い肉塊と魔物が出始めてな｡
+\CBid[-1,8]\prf\c[4]旅人：\c[0]    離れるはめになったんだよ｡
+\CBct[2]\m[flirty]\PRF\c[6]ロナ：\c[0]    あー？ \c[6]肉魔獣\c[0]かな？
+\CBid[-1,20]\prf\c[4]旅人：\c[0]    \c[4]肉魔獣\c[0]？
+\CBct[20]\m[confused]\PRF\c[6]ロナ：\c[0]    そうです､\c[4]肉魔獣\c[0]､魔物に\c[4]シバリス\c[0]が乗っ取られたことは知らないんですか？
+\CBid[-1,20]\prf\c[4]旅人：\c[0]    なんだと？！ 魔物？ 魔物がなんだってんだよ？！！
+\CBid[-1,20]\prf\c[4]旅人：\c[0] 魔物なんぞよりこのバカどもの方がよっぽどひでぇよ！
+\CBid[-1,5]\prf\c[4]旅人：\c[0] \{家族も､友人も､子供も､全員死んだ！\}
+\CBid[-1,5]\prf\c[4]旅人：\c[0]    \{奴らに殺されたんだ！\}
+
+QuGiver2/Begin0_about0_cecily
+\CBfB[5]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]セシリー：\C[0]      そのクソッタレの盗人どもは､ツケを支払うことになる｡
+
+QuGiver2/Begin0_about0_cocona
+\CBfB[6]\SETcoconaPL[shocked]\Lshake\prf\c[4]ココナ：\c[0]    おねえちゃん このひと かわいそう...
+
+QuGiver2/Begin0_about1
+\CBct[6]\m[shocked]\Rshake\c[6]ロナ：\c[0]     落ち着いてください！ 声を小さく！ まだ悪い人が近くにいるかもしれないんですよ！
+
+QuGiver3/Begin0_leave0
+\CBct[20]\m[flirty]\PRF\c[6]ロナ：\c[0]      あなたに起きたことは本当に残念ですが､ここからすぐ離れたほうが良いです｡
+\CBid[-1,5]\prf\c[4]旅人：\c[0]    何もかも捨てて行けって言ってるのか？
+\CBct[8]\m[sad]\PRF\c[6]ロナ：\c[0]    わたしも...
+
+QuGiver3/Begin0_leave1
+\CBct[6]\m[sad]\PRF\c[6]ロナ：\c[0] わたしも数ヶ月前､家族も友人も死んじゃいました｡ 魔物が\c[4]シバリス\c[0]で暴れまわったせいで｡
+\CBct[6]\m[fear]\PRF\c[6]ロナ：\c[0]  逃げ延びる時に助けてくれた人もいたのに､もし復讐のために命を落としてしまったら？
+\CBct[8]\m[tired]\PRF\c[6]ロナ：\c[0]    そんなの助けてくれた人たちに申し訳ないです｡
+\CBct[8]\m[flirty]\PRF\c[6]ロナ：\c[0]  わたしたちは\c[4]使徒\c[0]みたいな英雄じゃなくて､普通の人だから､生き残れただけでも幸せなことなんです｡
+
+QuGiver3/Begin0_leave2_end_cocona
+\CBfB[8]\SETcoconaPL[sad]\Lshake\prf\c[4]ココナ：\c[0]    おねえちゃん....
+\CBct[6]\m[flirty]\PRF\c[6]ロナ：\c[0]      ごめんね､お姉ちゃん危険な目に遭わせるわけにはいかないの｡
+\CBfB[8]\SETcoconaPL[shocked]\Lshake\prf\c[4]ココナ：\c[0]    うみゃ ここな わかった
+
+QuGiver3/Begin0_leave2_end_cecily
+\CBfB[20]\SETpl[CecilyShockedAr]\Lshake\prf\C[4]セシリー：\C[0]    でもアタシは普通の人とは違う！
+\CBct[6]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    はぁ？！
+
+QuGiver3/Begin0_leave2_end
+\CBid[-1,20]\prf\c[4]旅人：\c[0]    そんなことが？ 嬢ちゃんよ､それはすまなかったな...
+
+QuGiver3/Begin0_help0
+\ph\CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    何かお手伝いできることはありますか？
+\CBid[-1,20]\prf\c[4]旅人：\c[0]    お前が\..\..\..？ 俺の\..\..\..
+\CBid[-1,20]\prf\c[4]旅人：\c[0]    俺の妻子の遺骨を取り戻して欲しい...
+
+QuGiver3/Begin0_help1
+\CBct[8]\m[flirty]\PRF\c[6]ロナ：\c[0]    はぇ？！ 遺骨？
+
+QuGiver3/Begin0_help2
+\CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    うーん....
+\CBct[20]\m[serious]\Rshake\c[6]ロナ：\c[0]    よし！ わたしに任せてください！
+
+QuGiver5/Begin0
+\CBid[-1,20]\prf\c[4]旅人：\c[0]  奴らの山砦は西の方の\c[6]銅山町\c[0]にあって､場所は俺が知っているから一緒に行こう｡
+\CBct[20]\m[flirty]\PRF\c[6]ロナ：\c[0] 先に行かせてください､目には自信ありますから｡
+\CBid[-1,20]\prf\c[4]旅人：\c[0]    よかった､ありがとうな｡
+
+QuGiver4/Begin0_end
+\CBct[8]\m[sad]\PRF\c[6]ロナ：\c[0]    ああ....
+
+QuGiver5/Begin1
+\board[遺骨を取り戻す]
+目標：西の山砦の中にある遺骨を取り戻す\i[268]
+報酬：不明
+依頼主：旅人
+期限：4日
+\c[4]旅人\c[0]を護衛する｡
+\c[4]旅人\c[0]と共に\c[6]銅山町\c[0]に行って妻子の遺骨を取り戻す｡
+
+############################################################
+
+NPC/CommonConvoyTarget7
+\CBid[-1,20]\prf\c[4]旅人：\c[0]    見つかったのか？
+
+NPC/CommonConvoyTarget8
+\CBid[-1,8]\narr骨壷を抱えて何事かつぶやいている....
+
+QuGiver8/Begin0
+\CBct[2]\m[confused]\PRF\c[6]ロナ：\c[0]    \..\..\..これかな？
+\CBct[20]\m[triumph]\PRF\c[6]ロナ：\c[0]    間違いない､これだ！
+
+QuGiver8/Begin1
+\board[遺骨を取り戻す]
+目標：\c[4]旅人\c[0]に遺骨を返す
+報酬：不明
+依頼主：旅人
+
+QuGiver9/Begin0
+\CBct[20]\m[flirty]\PRF\c[6]ロナ：\c[0]    見つけました､これで合ってますよね？
+
+QuGiver9/Begin1
+\CBid[-1,8]\prf\c[4]旅人：\c[0]    \..\..\..
+\CBid[-1,20]\prf\c[4]旅人：\c[0]    そうだ､これだ､俺の妻子の遺骨だ！
+\CBct[4]\m[flirty]\PRF\c[6]ロナ：\c[0]    よし､ここから急いで離れましょう｡
+
+QuGiver9/Begin2
+\board[遺骨を取り戻す]
+目標：\c[4]旅人\c[0]を無事に馬車まで送り届ける
+報酬：不明
+依頼主：旅人
+
+QuGiver10/Begin0
+\CBid[-1,8]\prf\c[4]旅人：\c[0]    もういいぞ､ここで別れよう｡
+\CBct[2]\m[flirty]\PRF\c[6]ロナ：\c[0]    へ？ ここで？ ここは安全じゃないですよ？
+\CBid[-1,20]\prf\c[4]旅人：\c[0]    問題ない､これを｡
+\CBct[2]\m[confused]\PRF\c[6]ロナ：\c[0]    えっと... なんです？
+
+QuGiver10/Begin1
+\cg[event_Coins]\SND[SE/Chain_move01.ogg]\CBid[-1,8]\prf\c[4]旅人：\c[0]    身なりがみすぼらしかったせいか､盗賊どもは俺のことはちゃんと探らなかったんだ｡
+\CBid[-1,8]\prf\c[4]旅人：\c[0]    これはお前のものだ｡
+\cgoff\CBct[2]\m[shocked]\Rshake\c[6]ロナ：\c[0]    こんなに？！
+\CBid[-1,8]\prf\c[4]旅人：\c[0]    ほら､いい子だから､幸運を祈ってるよ｡
+
+QuGiver10/Begin2
+\CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    大丈夫かな？

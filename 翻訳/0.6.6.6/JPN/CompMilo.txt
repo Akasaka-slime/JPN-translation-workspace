@@ -1,0 +1,224 @@
+
+Milo/CecilyGroupQmsg0
+衛兵達よ！
+
+Milo/CecilyGroupQmsg1
+殺せ！
+
+Milo/InBarBegin_unknow0
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\m[confused]\Lshake\prf\c[4]？？？：\c[0]    私はミロ・フォン・ルーデシンドでございます､君は？
+\CamCT\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    お初にお目にかかります､ロナ・フェルディンです｡
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\m[confused]\Lshake\prf\c[4]ミロ：\c[0]    \..\..\..\..\nロナ・ムシケラくんですか？はて､招待した覚えがありませんね｡
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\m[confused]\Lshake\prf\c[4]ミロ：\c[0]    出て行ってください､ムシケラくん｡
+\CamCT\m[wtf]\plf\PRF\c[6]ロナ：\c[0]    え？
+
+Milo/InBarBegin_know
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\m[confused]\Lshake\prf\c[4]ミロ：\c[0]    ここは君を歓迎しません｡
+\CamCT\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    ごめんなさい｡
+
+Milo/elseBegin
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    何か御用ですか？\optB[やめる,ルーデシンド,ノエル,シバリス]
+
+Milo/elseBegin_Rudesind
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    君も知っての通り､我々ルーデシンド家はすべてを支配する一族です｡
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    我々の影響力は世界的です｡
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    私がいなければノエルももう存在しませんからね｡
+
+Milo/elseBegin_Noer
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    この島､ノエル島と同じ名前｡
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    ここはかつて島の人達の集落地であり､我が一族の手によって建設された街です｡
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    この街は元々東と西大陸間の海上貿易での重要な集散地だった｡
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    そしてシバリスはノエルの存在を取り代わるために作られていたのです｡
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    さらに数十年前に起きた疫病がそれを加速させていた｡
+
+Milo/elseBegin_Sybaris
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    深海港がないせいで､ノエルはどんどん海上貿易の積載量に対応できなくなりました｡
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    船がそんなに大きく作られるとは知りませんでしたからね｡
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    ですから七十年前に各国の商会の代表が投資してもう一つの街をつくることにした｡
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    それがシバリスです｡
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    そう､私達も一枚噛んでいだけれど､今はもうすべてが台無しになったのです｡
+
+######################################################################## Hunting ##################################
+
+Milo/QuestMilo_2to3_1
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    ん？君は？
+\CamCT\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    はじめまして... 招待状を貰ったんですけど､あなたがミロさんですか？
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    そうですが､招待状...？ 見せてください｡
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    \..\..\..
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\m[confused]\Lshake\prf\c[4]ミロ：\c[0]    面白い､まさかあの少女を助け出した勇者は虫っこだったとは｡
+\CamCT\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    虫？わたしのこと？
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    冗談です､とにかく､そんなことを出来るって事はつまり君は相当の実力を持っているのですね？
+\CamCT\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    実力...ですか？
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    そう､生き残った人々のために､君の力が必要です｡
+
+Milo/QuestMilo_3to4_1
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    知っての通り､ノエルは今可哀想な難民たちに囲まれています｡
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    でも大丈夫､それは彼らのせいではありません｡
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    彼らには色々と悲しい過去があるかもしれませんが､もうそういう話は聞き飽きました｡
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    彼らの中には私達が築き上げた秩序を壊そうとしている人が居ます｡
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    シバリスを奪還するなどという夢物語を語っているのです｡
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    秩序が崩壊すれば何が起こるかわかりますね？
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    君は知っているでしょう？避難していた時がどんな状況だったか｡
+\CamCT\m[tired]\plf\PRF\c[6]ロナ：\c[0]    はい､色々見てきました....
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    ご理解いただけて何よりです｡
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    情報によると､彼らのうちの一人は街の外で活動しています｡
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    名前は確か.... \c[6]アダム\c[0]だったかな？
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    彼の首を持ってきてください､相応の報酬は用意します｡
+
+Milo/QuestMilo_3to4_QuBoard
+\board[暗殺]
+目標：アダム死ぬべし
+報酬：大銅貨5枚､モラル5
+依頼主：ミロ・フォン・ルーデシンド
+制限回数：一回
+私の部下が北東部の廃屋で彼を目撃しました｡
+この反乱分子を取り除くために暗殺に長けている者が必要なのです｡
+
+Milo/QuestMilo_3to4_no
+\CamCT\m[serious]\plf\PRF\c[6]ロナ：\c[0]    お断りします！
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    残念です､やはりただの虫っこか？
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    でも君はきっと気が変わると思いますよ｡
+\CamCT\m[bereft]\plf\Rshake\c[6]ロナ：\c[0]    わたしは虫なんかじゃありません！
+
+Milo/QuestMilo_3to4_yes
+\CamCT\m[serious]\plf\PRF\c[6]ロナ：\c[0]    わかりました！ あとわたしは虫なんかじゃありません！わたし､やれます！
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    よろしい！ 朗報を祈りますよ！
+
+Milo/QuestMilo_3to4_yes_adamDed0
+\CamCT\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    えっと....彼はもう死んだようです｡
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    おう？
+\CamCT\m[confused]\plf\PRF\c[6]ロナ：\c[0]    旅の途中であの人に会ったことがあります... 既に死んでいたですけど....
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    本当ですか？
+
+Milo/QuestMilo_3to4_yes_adamDed1
+\CamCT\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    本当です..
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    はぁ......
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    悲しい世界ですね.....
+\CamCT\m[tired]\plf\PRF\c[6]ロナ：\c[0]    はい...
+
+Milo/QuestMilo_6to7
+\CamCT\m[serious]\plf\PRF\c[6]ロナ：\c[0]    ただいま戻りました！
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    おおう！ また会いましたね｡
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    ちゃんとアダムの首を持ってきましたか？
+
+Milo/QuestMilo_6to7_withHead0
+\CamCT\m[fear]\plf\PRF\c[6]ロナ：\c[0]    はい..  うぅぅ...
+
+Milo/QuestMilo_6to7_withHead1
+\BonMP[Milo,4]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    ああ... 可哀想なアダムよ｡ ご苦労様でしたね！
+\BonMP[Milo,5]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    このならず者はあちこち問題を起こしていた｡
+\BonMP[Milo,15]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    数多い衛兵や住民も彼に殺されたからね｡
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    殺人は大変だったんでしょう､ロナくん？
+\CamCT\m[tired]\plf\PRF\c[6]ロナ：\c[0]    う....
+
+Milo/QuestMilo_6to7_withHead2
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    悲しまないでください､これは人々のためです｡
+\CamCT\m[sad]\plf\PRF\c[6]ロナ：\c[0]    ありがとうございます.....
+
+Milo/QuestMilo_6to7_NoHead0
+\CamCT\m[fear]\plf\PRF\c[6]ロナ：\c[0]    うっかり首をなくしてしまいました.....
+\BonMP[Milo,8]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    \..\..\..
+\CamCT\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    \..\..\..
+\BonMP[Milo,8]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    \..\..\..
+\CamCT\m[bereft]\plf\Rshake\c[6]ロナ：\c[0]    わたし.. 本当に殺したんです､嘘じゃありません！
+\CamCT\m[shocked]\plf\PRF\c[6]ロナ：\c[0]    彼の死体はまだ廃墟に居ます！本当です！ 調べてみればわかります！
+\BonMP[Milo,8]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    \..\..\..
+\CamCT\m[tired]\plf\PRF\c[6]ロナ：\c[0]    うぅ....
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    大丈夫､信じていますよ！
+
+Milo/QuestMilo_6to7_NoHead1
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    受け取ってください｡
+\CamCT\Bon[1]\m[sad]\plf\PRF\c[6]ロナ：\c[0]    これは\..\..\..
+\CamCT\Bon[6]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    ありがとうございます！ 信じてくれて！
+\BonMP[Milo,20]\CamMP[Milo]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    礼は要りません､まだまだ君にやってもらいたいことがありますからね｡
+
+Milo/QuestMilo_6to7_NoHead2
+\CamCT\Bon[6]\m[pleased]\plf\PRF\c[4]ミロさんはいい人だね！
+\BonMP[Milo,8]\CamMP[Milo]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    \..\..\..\..
+
+#################################################################################### betray Cecily? ###########################
+
+Milo/QuestMilo_9_Ignore
+\CBid[-1,20]\SETpl[MiloNormal]\m[confused]\Lshake\prf\c[4]？？？：\c[0]    ロナ､あぁムシケラですか？
+\CBid[-1,5]\SETpl[MiloAngry]\m[confused]\Lshake\prf\c[4]？？？：\c[0]    残念ですが､君は既に行動で示した。 出ていき給え｡
+\CamCT\m[wtf]\plf\PRF\c[6]ロナ：\c[0]    うーん？
+
+Milo/QuestMilo_9to10_1
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    こんにちは､あなたからの招待状を貰いました｡
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    おおう！ かわいい虫くん､やっと来ましたのか｡
+\CBct[2]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    ご用件は何でしょうか？
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    \c[6]セシリー\c[0]という人物を知っていますね？
+\CBct[20]\m[pleased]\plf\PRF\c[6]ロナ：\c[0]    知っています､あのせっかちなお嬢様ですね！
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    彼女のことを私に教えてくれませんか？ 彼女と友達になりたいんです｡
+\CBct[8]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    う....\optD[いいえ,はい]
+
+Milo/QuestMilo_9to10_2_0
+\CBct[20]\m[serious]\plf\PRF\c[6]ロナ：\c[0]    嘘つき！あなたこそがすべての元凶だって聞かされましたよ！
+\CBct[20]\m[angry]\plf\Rshake\c[6]ロナ：\c[0]    あなたが奴隷商人の黒幕ですね！
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    それは大誤解です｡
+\CBct[20]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    誤解？！
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    いいですか？私は行き場のない人たちに道を与えました｡
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    そうしなければ､人々は奪い合いを始めるですからね｡
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    避難の途中に見たんでしょ？ 人を食っていたあの難民たちのことを｡
+\CBct[20]\m[tired]\plf\PRF\c[6]ロナ：\c[0]    うっ....
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    そう､まるで魔物と変わらない｡
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    それが行き場のない人々の姿です｡
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    えぇ､私は確かに奴隷売買をしています､けれど稼いだ金は何に使われているか知っていますか？
+\CBct[20]\m[shy]\plf\PRF\c[6]ロナ：\c[0]    \..\..\..
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    前線の戦士や傭兵たちに資金を提供しているのは誰だと思います？
+\CBct[20]\m[sad]\plf\PRF\c[6]ロナ：\c[0]    \..\..\..
+
+Milo/QuestMilo_9to10_2_1
+\CBct[20]\m[tired]\plf\PRF\c[6]ロナ：\c[0]    わかりました...
+\CBct[20]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    彼女は多分シバリスの貴族ですよね？
+\CBct[20]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    血の気が多いお姉さんです｡
+\CBct[20]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    トラブルに会った時にもいつも真正面から突っ込んでいく人です｡
+\CBct[20]\m[pleased]\plf\PRF\c[6]ロナ：\c[0]    でも根はいい人で､平民と接触するのが好きな貴族です｡
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    よろしい､感謝します､けれどそれらはもう大体把握しています｡
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    \c[6]イーグルモア\c[0]家は元々武を尊ぶ一族ですからね､宴で彼女に会ったことがあります｡
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    じゃあ.... 彼女はノエルについてどう思いますか？
+\CBct[8]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    えっと....\optD[知らない,敵視]
+
+Milo/QuestMilo_9to10_3
+\CBct[20]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    彼女は難民の現状に不満を抱いていまして､彼らを助ける方法を探しているそうですよ｡
+\CBct[20]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    わたしは望み薄だと思いますけどね｡
+\CBct[20]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    最近は嫌な奴隷商人をボコボコにするつもりらしいですよ！
+\CBct[20]\m[triumph]\plf\PRF\c[6]ロナ：\c[0]    正義感のある貴族なんです！尊敬してます！
+\CBmp[Milo,2]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    ボコボコにする？ 詳しく聞かせて欲しいですね｡
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    彼女との間の誤解を解決したい｡
+\CBct[8]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    他人に話していい事じゃないと思いますけど...？
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    私達は今同じ大災害の中に居ますから､お互い助け合うべきです｡
+\cg[event_Coins]\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    君もノエル島を出たいでしょう？これならどうですか？
+
+Milo/QuestMilo_9to10_3board
+\board[裏切り者]
+目標：教えてください
+報酬：金貨10枚
+
+Milo/QuestMilo_9to10_3opt
+\cgoff\CBct[1]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    えっ？！ そんなに！？？
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    私を信じてください､これは人々の生活のためです｡\optD[いや,いいよ]
+
+Milo/QuestMilo_9to10_yes0
+\CBct[8]\m[shy]\plf\PRF\c[6]ロナ：\c[0]    わかりました....
+\CBct[6]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    でも... 詳しいことはわたしにも分かりません､彼女はまだなにも教えてくれていませんから｡
+\CBct[20]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    数日後にまた自分の所に来てくれって｡ 五日後だそうです｡ えっと､多分？
+\CBmp[Milo,8]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    五日後､ですか？
+\CBct[20]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    お金... なくても大丈夫です｡ 
+\CBct[6]\m[sad]\plf\PRF\c[6]ロナ：\c[0]    この情報は大した役に立たないと思いますが､わたしの知ってる事は本当にそれだけなんです｡
+\CBmp[Milo,8]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    大丈夫､受け取ってください｡
+
+Milo/QuestMilo_9to10_yes1
+\CBct[20]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    本当ですか？！
+\CBmp[Milo,8]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    誤解を解きたいって言ったでしょ？
+\CBct[8]\m[triumph]\plf\PRF\c[6]ロナ：\c[0]    ありがとうございます！
+\CBmp[Milo,8]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    そうそう､私と会ったことを彼女に内緒にしてください､彼女の性格だ､君を殺すかもしれませんよ｡
+\CBmp[Milo,8]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    私が直々に彼女に説明しますから､虫くんは貴族間の事を心配しなくていいのです｡
+\CBct[8]\m[pleased]\plf\PRF\c[6]ロナ：\c[0]    はい！
+
+Milo/QuestMilo_9to10_refuse
+\CBct[6]\m[serious]\plf\PRF\c[6]ロナ：\c[0]    ダメです！彼女はあなたのことを悪い人だと思っています！
+\CBmp[Milo,8]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    ほう､正直な虫くんですね｡
+\CBct[6]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    えっ？！ きっと怒られると思いました！
+\CBmp[Milo,8]\SETpl[MiloNormal]\Lshake\prf\c[4]ミロ：\c[0]    まさか？
+\CBmp[Milo,8]\SETpl[MiloAngry]\Lshake\prf\c[4]ミロ：\c[0]    \..\..\..\..

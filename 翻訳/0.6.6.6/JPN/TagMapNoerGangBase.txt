@@ -1,0 +1,20 @@
+thisMap/OvermapEnter
+ブロードソードギャングのアジト，悪人たちの領域。\optB[やめる,入る]
+
+Nap/failed0_normal
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]ごろつきA：\C[0]    あのガキはどこだ？
+\SETpl[MobHumanWarrior]\plf\Rshake\C[4]ごろつきB：\C[0]    起こしてこい！
+
+Nap/failed_normal_if_Non_Slave
+\SETpl[MobHumanCommoner]\Lshake\prf\C[4]ごろつきA：\C[0]    おぉ？ ツラは悪くねェな，裏通りでウリさせるか。
+\SETpr[MobHumanWarrior]\plf\Rshake\C[4]ごろつきB：\C[0]    その前に奴隷の烙印をしねェとなァ！
+
+#to all fans translator, donot translate 由于此讯息不符合符合国家安全法规，已被屏蔽   its china censor joke.
+
+ArtPlague/art
+\cg[other_ArtPlauge]彼の不潔な名前を直接呼ぶことはできません，彼は災害のリーダーであり，疫病の天使であり，世界に果てしない苦しみをもたらします。
+\m[flirty]\PRF\c[6]ロナ：\c[0]    えっと... 黄色いクマさん？
+\m[confused]\PRF\c[6]ロナ：\c[0]    うーん.....
+\m[shocked]\Rshake\narr【このメッセージは、某国の規制に準拠していないため、ブロックされています。】\...\...\...\...
+\m[confused]\Rshake\narr【このメッセージは、某国の規制に準拠していないため、ブロックされています。】\...\...\...
+\m[flirty]\Rshake\narr【このメッセージは、某国の規制に準拠していないため、ブロックされています。】\...\...

@@ -1,0 +1,148 @@
+GoldenBar/OvermapEnter
+\m[confused]黄金会館\nお金持ちの集会所\optB[やめる,入る]
+
+################################################################
+
+art/Rage
+\ph\cg[other_ArtRage]憤怒､私は怒っていない！
+\m[confused]\c[6]ロナ：\c[0]    え？
+
+art/Chaos
+\ph\cg[other_ArtChaos]混乱､私は一体何を読んだ？
+\m[confused]\c[6]ロナ：\c[0]    はぁ？
+
+art/Hopeless
+\ph\cg[other_ArtHopeless]絶望､世界は良くなるだろう｡
+\m[confused]\c[6]ロナ：\c[0]    芸術って一体なに...？
+
+################################## Vandor ############################
+
+vandor/Beigin
+\m[confused]\c[4]ウェイター：\c[0]    ようこそ黄金会館ヘ､本日はどのようなご用件でしょうか？\optB[やめる,取引,母乳を売る<r=HiddenOPT0>,仕事<r=HiddenOPT1>]
+
+vandor/Beigin_slave
+\m[confused]\c[4]ウェイター：\c[0]    おい！クソ奴隷！仕事だ！\optB[やめる,授乳<r=HiddenOPT0>,強制搾乳<r=HiddenOPT1>]
+
+vandor/SellMilk
+\c[4]ウェイター：\c[0]    はい！本会館は貴女の母乳を高い金額で購入いたします｡
+\m[shy]\c[6]ロナ：\c[0]    それはよかった..です？
+
+vandor/SellMilk2
+\c[4]ウェイター：\c[0]    ご確認させていただきますね\..\..\..
+
+vandor/SellMilk_cut0
+\c[4]ウェイター：\c[0]    母乳が計
+
+vandor/SellMilk_cut1
+瓶､一瓶で
+
+vandor/optWork
+\m[flirty]\c[6]ロナ：\c[0]    何かお仕事ありますか？
+\c[4]ウェイター：\c[0]    そうですね....\optB[やめる,授乳<r=HiddenOPT0>,搾乳<r=HiddenOPT1>]
+
+vandor/optWork_braFeed
+\board[授乳]
+時間内にできるだけ多くのお客様に授乳する｡
+仕事中に走ると体力が多く消費される｡
+残りの時間が多いほど､報酬が高くなる｡
+
+vandor/optWork_braFeed_decide
+\c[4]ウェイター：\c[0]    お客様達をお腹いっぱいにしてください！
+
+vandor/Beigin_Dirt
+\m[confused]\c[4]ウェイター：\c[0]    難民を歓迎しません｡
+
+################################## Work #####################################
+
+vandor/Opt_work_end_summon
+\c[4]ウェイター：\c[0]    遅い！お客様達が怒っているじゃないか！
+\m[sad]\c[6]ロナ：\c[0]    ......ごめんなさい....
+
+vandor/Opt_work_end_NoSummon
+\c[4]ウェイター：\c[0]    お疲れ様です､次もよろしくお願いします｡
+\m[flirty]\c[6]ロナ：\c[0]    ......ありがとうございます？
+
+Commoner/BreastFeedQmsg0
+ママの味！
+
+Commoner/BreastFeedQmsg1
+美味い！
+
+Commoner/BreastFeedQmsg2
+げっぷ！
+
+Guard/Failed0
+\c[4]衛兵：\c[0]    何をやってる！うだうだしやがって！
+
+Guard/Failed1
+\c[4]衛兵：\c[0]    サボらせるために雇ったわけじゃねえんだよ！
+
+Guard/Failed2
+\c[4]衛兵：\c[0]    失せろ！
+
+################################## Commoner ############################
+
+FishRich/Begin
+\c[4]商人：\c[0]    お前たちが... 族人を.... 故郷から追い払った...
+\c[4]商人：\c[0]    今になって... 我々の... 助力が欲しいだと？
+\c[4]商人：\c[0]    あの...魔物たちは...お前たちへの...罰...
+
+Commoner/Begin0
+\c[4]お金持ち：\c[0]    今母乳が出る奴隷が流行っている！
+
+Commoner/Begin1
+\c[4]お金持ち：\c[0]    母乳が飲みたい ｡
+
+Commoner/Begin2
+\c[4]お金持ち：\c[0]    母乳を飲めば､健康になる！
+
+Commoner/BeginDirt0
+汚いガキ！
+
+Commoner/BeginDirt1
+くさい！どけ！
+
+Commoner/BeginDirt2
+どこの難民だ！
+
+FatGuard/Qmsg0
+何見てんだ？
+
+FatGuard/Qmsg1
+問題起こすなよ！
+
+FatGuard/Qmsg2
+失せろ！
+
+MilkMachine/Qmsg0
+豪華な搾乳機
+
+MilkMachine/Qmsg1
+あの人たちは苦しそう
+
+GoldenSlave/Qmsg0
+今仕事中です
+
+GoldenSlave/Qmsg1
+話しかけないでください
+
+GoldenSlave/Qmsg2
+........
+
+CommonPPL/NapRape
+\c[4]お金持ち：\c[0]    このゴミ虫､なんでこんな所に倒れてんだ？
+
+CommonPPL/NapRape1
+\c[4]お金持ち：\c[0]    へへっ｡
+
+CommonPPL/NapRape2
+\narrロナはどこかに運ばれた｡
+
+CommonPPL/NapRape3
+\c[4]お金持ち：\c[0]    平民と遊ぶのもまた一興か､光栄に思うがいい｡
+
+CommonPPL/NapRape_withSta_Fight2
+\c[4]お金持ち：\c[0]    誰か！
+
+CommonPPL/NapRape_withSta_NoFight2
+\m[sad]\c[4]お金持ち：\c[0]    そうこなくっちゃ♥

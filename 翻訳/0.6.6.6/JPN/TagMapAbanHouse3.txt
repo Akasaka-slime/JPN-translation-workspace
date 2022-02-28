@@ -1,0 +1,137 @@
+thisMap/OvermapEnter
+廃墟\optB[やめる,入る]
+
+######################################################3
+
+mec/QmsgTar
+早く行きましょう
+
+mec/Done1
+\CBfE[20]\prf\c[4]貴族の女性：\c[0]    感謝いたしますわ！
+
+mec/Done2
+\CBfE[20]\prf\c[4]貴族の女性：\c[0]    この世界にまだ信用できる方がいますわね｡
+\CBfE[20]\prf\c[4]貴族の女性：\c[0]    貴女のお名前は？
+\CBct[20]\m[triumph]\PRF\c[6]ロナ：\c[0]    \c[6]ロナ・フェルディン\c[0]です
+\CBfE[20]\prf\c[4]貴族の女性：\c[0]    \c[6]ロナ\c[0]さん...ですの？ 改めて感謝申し上げますわ｡
+\CBfE[20]\prf\c[4]貴族の女性：\c[0]    わたくし､近いうちにこの島を出る予定ですわ､多分貴女とはもう会えないと思うんですけれど､貴女のことを絶対に忘れませんわ｡
+\CBct[20]\m[pleased]\PRF\c[6]ロナ：\c[0]    いえいえ!
+
+mec/CommonConvoyTarget0
+\CBfE[20]\prf\c[4]貴族の女性：\c[0]    早く！
+
+mec/CommonConvoyTarget1
+\CBfE[20]\prf\c[4]貴族の女性：\c[0]    早く\C[4]運命ノ要塞\C[0]へ｡
+
+mec/CommonConvoyTarget2
+\CBfE[20]\prf\c[4]貴族の女性：\c[0]    急いでくださいまし！
+
+mec/win
+\CBct[2]\m[flirty]\PRF\c[6]ロナ：\c[0]    ふぅ...
+
+mec/Quprog_0
+\CBct[2]\m[confused]\PRF\c[6]ロナ：\c[0]    大丈夫ですか？
+\CBmp[Girl､8]\prf\c[4]貴族の女性：\c[0]    そんな...
+\CBct[2]\m[flirty]\PRF\c[6]ロナ：\c[0]    はい？
+\CBmp[Girl､8]\prf\c[4]貴族の女性：\c[0]    わたくしは間違っていますの？ 人種を平等にするのは夢の話かもしれません...
+\CBmp[Girl,20]\prf\c[4]貴族の女性：\c[0]    平民よ！ わたくしを\C[4]運命ノ要塞\C[0]までに送りなさい！
+\CBct[8]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    えっと...
+
+mec/Quprog_0_board
+\board[護衛任務]
+目標：貴族の女性を運命ノ要塞まで護衛する
+報酬：大銅貨3枚､モラル2
+依頼主：貴族の女性
+期限：5日
+
+mec/Quprog_0_decide
+\CBct[8]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    えっと....\optB[忙しい,いいよ]
+
+######################################################3
+
+Start/begin_1
+\c[4]難民：\c[0]    慈悲深いお方よ.. どうかお恵みを...
+\CBmp[Girl,20]\c[4]執事：\c[0]    お嬢様､そろそろ｡
+\CBmp[Girl,20]\c[4]貴族の女性：\c[0]    余った食べ物を彼らにあげなさい｡
+\CBmp[Girl,20]\c[4]執事：\c[0]    かしこまりました｡
+
+Start/begin_2
+\CBmp[MainDude,3]\c[4]難民：\c[0]    ありがとうございます！俺んちはガキ二人いるので､どうかもうちょっとだけ施しを...
+\CBmp[Man,20]\c[4]執事：\c[0]    いえ！私たちは本当に急いでいるので！
+
+Start/begin_3
+\CBmp[Girl,20]\c[4]貴族の女性：\c[0]    大丈夫ですわ､助けてあげなさい｡
+\CBmp[Man,20]\c[4]執事：\c[0]    お嬢様！わがままはおやめください！
+\CBmp[Girl,20]\c[4]貴族の女性：\c[0]    難民たちを見捨てろって言うの？ わたくしたちは同じ人間同士ですのよ！
+\CBmp[Girl,20]\c[4]貴族の女性：\c[0]    ノブレス・オブリージュ！ わたくしの命令はお父様の命令よ！
+\CBmp[Man,8]\c[4]執事：\c[0]    ....
+\CBmp[Man,20]\c[4]執事：\c[0]    かしこまりました｡
+
+Start/begin_4
+\CBmp[Man,20]\c[4]執事：\c[0]    これはうちのお嬢様の施しだ！
+\CBmp[MainDude,3]\c[4]難民：\c[0]    ありがとうございます！ あなた方は心優しいですな！
+\CBmp[Man,8]\c[4]執事：\c[0]    この恩を忘れないように！
+
+Start/begin_5
+\CBmp[Girl,2]\c[4]貴族の女性：\c[0]    え？ 何をしていますの？！
+\CBmp[HorseKiller,8]\c[4]難民：\c[0]    普段は貧相な両脚羊しか食べられないが､今日は....
+\CBmp[GuardKiller,3]\c[4]難民：\c[0]    新鮮な馬肉が食べられるぜ！
+\CBmp[MainDude,4]\c[4]難民：\c[0]    それに女だ！ 久しぶりに女とやれるぜ！
+\CBmp[Girl､6]\c[4]貴族の女性：\c[0]    え？！
+
+Start/begin_5_1
+\CBmp[Girl､1]\c[4]貴族の女性：\c[0]    いやああああ！
+
+Start/begin_6
+\CBmp[Girl､6]\c[4]貴族の女性：\c[0]    いやっ！ どうしてそんなことするの？ さっき貴方たちのことを助けたではありませんか？！
+
+Start/begin_7
+\CBmp[Girl,20]\c[4]貴族の女性：\c[0]    いや！！ 放してくださいまし！！
+\CBmp[MainDude,20]\c[4]難民：\c[0]    やったぜ！ 女だ！
+
+Start/begin_8
+\CBmp[HorseKiller,8]\c[4]難民：\c[0]    フゥーーー！今日はついているな｡
+
+Start/begin_9
+\CBmp[GuardKiller,3]\c[4]難民：\c[0]    健康そうだなこの女､数日くらいは耐えられるじゃない？
+\CBmp[Girl,20]\c[4]貴族の女性：\c[0]    いや！ どうして！ 誰か助けてくださいまし！
+
+Start/begin_10
+\CBct[20]\m[shocked]\Rshake\c[6]ロナ：\c[0]    どうしたの？！ 誰かの声？
+
+Start/begin_11
+\CBmp[GuardKiller,20]\prf\c[4]難民：\c[0]    女だ！もう一人の女だ！
+\CBct[6]\m[terror]\Rshake\c[6]ロナ：\c[0]    いえ！ 待ってください！ わたしはただ通りかかっただけなんです！
+\CBmp[MainDude,4]\prf\c[4]難民：\c[0]    今日は本当についているな！
+
+Start/begin_12
+\CBmp[HorseKiller,20]\prf\c[4]難民：\c[0]    おい待って！
+\CBmp[GuardKiller,2]\prf\c[4]難民：\c[0]    なんだ？！
+\CBmp[HorseKiller,20]\prf\c[4]難民：\c[0]    ダメだ！ ほら見ろ！
+
+Start/begin_13
+\CBmp[MainDude,2]\prf\c[4]難民：\c[0]    何を？
+\CBmp[HorseKiller,20]\prf\c[4]難民：\c[0]    こいつ\..\..\.. 胸がないんだ！
+\CBmp[MainDude,2]\prf\c[4]難民：\c[0]    だから？
+\CBmp[HorseKiller,20]\prf\c[4]難民：\c[0]    こいつはただのガキだ！ 子供に手を出すべきじゃない！
+\CBct[5]\m[flirty]\PRF\c[6]ロナ：\c[0]    はぁ？
+\CBmp[MainDude,8]\prf\c[4]難民：\c[0]    \..\..\..
+\CBmp[GuardKiller,8]\prf\c[4]難民：\c[0]    \..\..\..
+\CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    あの...\optD[大人の女性,ゴブリン<r=HiddenOPT1>]
+
+Start/begin_13_Adult
+\CBct[5]\m[bereft]\PRF\c[6]ロナ：\c[0]    子供じゃない！ わたしはもう大人の女性です！
+\CBmp[HorseKiller,8]\prf\c[4]難民：\c[0]    大人の女か？
+\CBmp[MainDude,8]\prf\c[4]難民：\c[0]    女か？
+\CBmp[GuardKiller,20]\prf\c[4]難民：\c[0]    じゃあ犯せ！
+\CBct[20]\m[shocked]\Rshake\c[6]ロナ：\c[0]    え？！
+
+Start/begin_13_Orkind
+\CBct[5]\m[terror]\Rshake\c[6]ロナ：\c[0]    いえ！  今はこんな事をしている場合じゃないです！
+\CBmp[MainDude,8]\prf\c[4]難民：\c[0]    なんだぁ？
+\CBct[5]\m[shocked]\Rshake\c[6]ロナ：\c[0]    ゴブリンです！ ゴブリンたちがわたしを追っています！ 早く逃げないと！
+\CBmp[HorseKiller,8]\prf\c[4]難民：\c[0]    \..\..\..
+\CBmp[MainDude,8]\prf\c[4]難民：\c[0]    なんかやべぇよ...
+\CBmp[GuardKiller,8]\prf\c[4]難民：\c[0]    どうする？
+\CBct[5]\m[bereft]\Rshake\c[6]ロナ：\c[0]    突っ立ってないで！ 早く逃げてください！
+
