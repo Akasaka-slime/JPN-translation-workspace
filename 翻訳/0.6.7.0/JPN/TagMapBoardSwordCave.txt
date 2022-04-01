@@ -1,0 +1,58 @@
+thisMap/OvermapEnter
+\m[confused]暗黒の狂戦士の墓\optB[やめる,入る]
+
+BoardWarning/BRD0
+\board[狂戦士の墓]
+この者は超越者にその身一つで挑み続けた｡
+しかし､その旅を終えることはできなかった｡
+だが彼は今でも偉大なる戦士である事に違いはない｡
+彼が別の世界で闘争を続けられることをここに願う｡
+\n
+腸裂けば､それで終わりだ｡
+
+BoardSword/0to1_0
+\CBct[2]\m[flirty]\PRF\c[6]ロナ：\c[0]    お墓？...\..\..\..\m[confused]
+\BonID[-1,2]\prf\c[4]？？？：\c[0]    お前は戦士か？挑戦したいか？\optB[いいえ,はい,友人<r=HiddenOPT0>]
+
+BoardSword/0to1_1_no
+\BonID[-1,20]\prf\c[4]未知：\c[0]    消えろ､ここはお前の来るところではない｡
+
+BoardSword/0to1_1_yes0
+\CBct[2]\m[flirty]\PRF\c[6]ロナ：\c[0]    たぶん...いける..んじゃないかな？
+\BonID[-1,20]\prf\c[4]？？？：\c[0]    ならば､対戦相手に向き合え｡
+\CBct[2]\m[confused]\PRF\c[6]ロナ：\c[0]    うん？
+
+BoardSword/0to1_1_yes1
+\CBct[6]\m[shocked]\Rshake\c[6]ロナ：\c[0]    どういうこと？！
+
+BoardSword/0to1_1_yes2
+\CBct[6]\m[terror]\Rshake\c[6]ロナ：\c[0]    不死者？！
+
+BoardSword/End
+\BonID[-1,20]\prf\c[4]？？？：\c[0]    強大な戦士よ､お前は自身を証明した｡
+\BonID[-1,20]\prf\c[4]？？？：\c[0]    受け取るがいい､これは戦士への贈り物だ｡
+
+BoardSword/Cecily0
+\CBfB[8]\SETpl[CecilyNormalAr]\Lshake\c[4]セシリー：\c[0]    \..\..\..
+\CBfB[2]\SETpl[CecilyShyAr]\Lshake\c[4]セシリー：\c[0]    身一つで超越者に挑み続けた戦士? どっかで聞いたことあるような？
+\CBfF[20]\SETpr[GrayRatNormalAr]\plf\Rshake\c[4]グレイラット：\c[0]    戦士の王､暗黒の狂戦士｡
+\CBfB[8]\SETpl[CecilyNormalAr]\Lshake\prf\c[4]セシリー：\c[0]    それがこの墓だと？
+\CBfF[20]\SETpr[GrayRatConfusedAr]\plf\Rshake\c[4]グレイラット：\c[0]    ここは呪われた土地です､すぐに離れた方が良いかと｡
+
+BoardSword/Cocona0
+\CBfB[20]\SETcoconaPL[shocked]\Lshake\c[4]ココナ：\c[0]    おねえちゃん!!!
+\CBct[2]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    どうしたの？
+\CBfB[20]\SETcoconaPL[sad]\Lshake\prf\c[4]ココナ：\c[0]    このこ すごい かなしんでる...
+\CBct[2]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    誰のこと?
+\CBfB[20]\SETcoconaPL[sad]\Lshake\prf\c[4]ココナ：\c[0]    おおきい てつのいた かなしんでる...
+\CBct[2]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    へ? お姉ちゃんよく分からないよ｡
+\CBfB[20]\SETcoconaPL[sad]\Lshake\prf\c[4]ココナ：\c[0]    じぶんの ごしゅじんがいなくなって､おおきなてつのいた すごくさみしい｡
+
+BoardSword/Cocona1
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    えっと....
+\CBfB[20]\SETcoconaPL[happy]\Lshake\prf\c[4]ココナ：\c[0]    そうだ！ おねえちゃんこれとって！ これでなかよしこよし！
+
+BoardSword/Cocona2
+\CBct[4]\m[pleased]\plf\PRF\c[6]ロナ：\c[0]    そうだね...？ ココナありがとう？
+\CBfB[4]\SETcoconaPL[happy]\Lshake\prf\c[4]ココナ：\c[0]    どういたしまして おねえちゃん！
+

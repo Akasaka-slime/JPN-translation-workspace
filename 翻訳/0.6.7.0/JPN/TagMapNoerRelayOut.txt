@@ -1,0 +1,132 @@
+thisMap/OvermapEnter
+ノエル東門 外部\optB[やめる,入る]
+
+#########################################################
+mapOP/begin0
+\CBmp[PplGroup0,20]\c[4]群衆：\c[0]    我々を入れてくれ！ こんなに待ってるのに､どうして通してくれないんだ！
+\CBmp[PplGroup1,20]\c[4]群衆：\c[0]    助けて下さい､外は魔物や盗賊だらけなんです....
+\CBmp[PplGroup0,20]\c[4]群衆：\c[0]    なぜ我々を入れないんだ！ 見てくれ､俺は金がある､沢山金を持ってるぞ！
+\CBmp[GuardMain,20]\SETpl[Mreg_pikeman]\c[4]兵士：\c[0]    たったそれっぽっちの金が沢山？ 帰れ！ 帝都の物乞い共！ パスなしでの通過はできん！
+
+mapOP/begin1
+\CBmp[SaPriest,20]\SETpl[AnonMale2]\Lshake\prf\c[4]信者：\c[0]    みなさん！全ては皆さんの罪の結果なのです！
+\CBmp[SaPriest,20]\SETpl[AnonMale2]\Lshake\prf\c[4]信者：\c[0]    \c[6]使徒\c[0]だけが､これまでの嘘からあなたを救うことができます！
+\CBmp[SaPriest,20]\SETpl[AnonMale2]\Lshake\prf\c[4]信者：\c[0]    罪なき者たちよ！ ここから北にある\c[6]使徒教会修道院\c[0]へ行くのです！
+\CBmp[SaPriest,20]\SETpl[AnonMale2]\Lshake\prf\c[4]信者：\c[0]    使徒があなたを\c[6]虚言者\c[0]の魔の手から救うでしょう！
+\CBct[8]\m[confused]\plh\PRF\c[6]ロナ：\c[0]    うーん\..\..\.......
+\CBct[8]\m[flirty]\plh\PRF\c[6]ロナ：\c[0]    町の外にも難民が増えてるのかな？
+
+Monk/begin0
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]信者：\c[0]    あなたは教会に入るためにここへ？
+
+Monk/begin0Cocona
+\CBfB[20]\SETcoconaPL[shocked]\Lshake\prf\c[4]ココナ：\c[0]    しとさまだー！
+\CBct[4]\m[flirty]\plh\PRF\c[6]ロナ：\c[0]    かわいい...お姉ちゃんがお話しするから､ココナはちょっと待っててね♥
+\CBfB[2]\SETcoconaPL[confused]\Lshake\prf\c[4]ココナ：\c[0]    うみゃ....
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]信者：\c[0]    あなたは信者ですか､それとも入信するために来たのですか？？
+
+Monk/beginOPT
+\CBct[8]\m[confused]\plh\PRF\c[6]ロナ：\c[0]    えっと.....\optB[やめる,信者,虚言者,罪なき者,従者]
+
+Monk/beginOPT_BLI
+\CBct[2]\m[flirty]\plh\PRF\c[6]ロナ：\c[0]    質問なんですけど...信者って一体何なんですか...？
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]信者：\c[0]    信者とは､身も心も使徒に捧げた人のことです｡
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]信者：\c[0]    敬虔な信者だけがこの世の終わりに使徒のいる神殿に行くことができるのです！
+
+Monk/beginOPT_LIE
+\CBct[2]\m[flirty]\plh\PRF\c[6]ロナ：\c[0]    その...虚言者っていうのは...？
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]信者：\c[0]    虚言者とは偽りの神を信じる者であり､偽りの神の偽りの福音を広めるのです｡
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]信者：\c[0]    あなたが受けている苦しみは､この世に嘘が増えてきたことが原因なのです｡
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]信者：\c[0]    偽りの神に見捨てられた半魚人のように､偽りの神を信じる異種族は最後に裁かれるのだ！
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]信者：\c[0]    \c[6]シバリス\c[0]に現れた黒い霧は､信仰無き罪人に与えられた罰なのだ！
+
+Monk/beginOPT_FAR
+\CBct[2]\m[flirty]\plh\PRF\c[6]ロナ：\c[0]    罪なき者って.....？
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]信者：\c[0]    罪なき者とはあなたのように使徒に背を向けるものです｡背を向けること自体は無実だとしても､不信仰であることが罪なのです｡
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]信者：\c[0]    罪なき者は自身の恐怖心や物欲によって常に虚言者になる可能性があります｡
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]信者：\c[0]    この光景を見るのです！ 使徒は終わりが近いことを予言しています､あなたが今生きる唯一の方法は全てが破壊される前に使徒を信じることです！
+
+Monk/beginOPT_FOL
+\CBct[2]\m[flirty]\plh\PRF\c[6]ロナ：\c[0]    じゃあ....従者っていうのはどういう意味なんですか？
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]信者：\c[0]    従者？ 従者とは使徒を信じているにも拘らず､全てを捨てることのできない民の事だ！
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]信者：\c[0]    彼らは信仰心が十分でないので､悪しき欲望が信仰の不完全な彼らをむしばみ続けるのです｡
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]信者：\c[0]    罪と無実の間には細い線しかない！ それが従者なのです！
+
+Monk/beginOPT_NVM
+\CBid[-1,20]\SETpl[AnonMale2]\Lshake\prf\c[4]信者：\c[0]    子よ､使徒に告白するのです､使徒だけがあなたを救うことができるのです｡
+\CBct[8]\m[flirty]\plh\PRF\c[6]ロナ：\c[0]    えーっと...通りすがっただけなので....
+
+Monk/beginOPT_NVM_Cocona
+\CBfB[9]\SETcoconaPL[shocked]\Lshake\prf\c[4]ココナ：\c[0]    おねえちゃん！ ここな しとさまの おはなしききたい！
+\CBct[20]\m[flirty]\plh\PRF\c[6]ロナ：\c[0]    あれは使徒じゃなくて､ただの信者で...
+\CBid[-1,5]\SETpl[AnonMale2]\Lshake\prf\c[4]信者：\c[0]    何か言ったか？！
+\CBct[6]\m[shocked]\plh\PRF\c[6]ロナ：\c[0]    \{ひぃ！！ ごめんなさい！
+
+######################################################### Commoner
+MonkR/Rng0
+\CBid[-1,20]\prf\c[4]僧兵：\c[0]    立て！ \c[6]使徒\c[0]にお前の罪を数えて貰う！
+
+MonkR/Rng1
+\CBid[-1,20]\prf\c[4]僧兵：\c[0]    虚言者の一歩手前だな！ 自分の犯した罪を\c[6]使徒\c[0]が知らないと思うなよ！
+
+MonkR/Rng2
+\CBid[-1,20]\prf\c[4]僧兵：\c[0]    \c[6]使徒\c[0]はお前がなにをしてきたか知っている！ 悔い改めるのだ！
+
+CommonerM/Rng0
+\CBid[-1,20]\c[4]難民：\c[0]    本当なのか？ 修道院へ行けば飯が食えるのか？ 嘘じゃないのか？
+
+CommonerM/Rng1
+\CBid[-1,20]\c[4]難民：\c[0]    俺は賢いんだ！俺は本を読んだことがあるぞ､嘘をつくんじゃねぇ！
+
+CommonerM/Rng2
+\CBid[-1,20]\c[4]難民：\c[0]    \c[6]使徒\c[0]を信じればいいんだよな､よし！私は信じています！ 私に食べ物を恵んでください､今すぐに！
+
+CommonerF/Rng0
+\CBid[-1,20]\c[4]難民：\c[0]    ごめんなさい... \c[6]使徒\c[0]さま... 罪深い私たちを許してください！
+
+CommonerF/Rng1
+\CBid[-1,20]\c[4]難民：\c[0]    \c[6]使徒\c[0]よ我が罪をお許しください...私は食べるべきではなかった....
+
+CommonerF/Rng2
+\CBid[-1,20]\c[4]難民：\c[0]    私は邪悪な虚言者だ､\c[6]使徒\c[0]は私を裁いてくれ....
+
+CommonerM2/begin
+\CBid[-1,20]\c[4]難民：\c[0]    知ってるか､ジョー爺さんの妻は逃げてる時にグリーンスキンに捕まったんだ｡
+\CBid[-1,8]\c[4]難民：\c[0]    それからしばらくして人と豚と熊の合いの子みたいなバケモンを産んで､ジョー爺さんはその場で吐いたそうだ｡
+\CBid[-1,8]\c[4]難民：\c[0]    それで彼の妻は意識を失ったんだ､その後､俺とジョー爺さんはそれを一緒に海に投げ捨てたよ｡だけど.....
+\CBid[-1,8]\c[4]難民：\c[0]    \..\..\..
+\CBid[-1,20]\c[4]難民：\c[0]   あぁ....俺達が戻った時には､彼の妻は､実際には自殺していたよ｡
+
+CommonerF2/begin0
+\CBid[-1,20]\c[4]難民：\c[0]    \{やめろ！ さわるな！！！
+
+CommonerF2/begin1
+\CBid[-1,6]\c[4]難民：\c[0]    お前は誰だ？！ 魔物か！？ それ以上近づくな！ あっちへ行け！！！！
+
+######################################################### Cunny Cunny Cunny
+
+Fapper/begin0
+\CBid[-1,4]\prf\c[4]難民：\c[0]    カーニー♥ カーニー♥ カーニー♥
+\CBct[8]\m[flirty]\PRF\c[6]ロナ：\c[0]    えっと...カーニー？
+
+Fapper/begin1
+\CBid[-1,1]\prf\c[4]難民：\c[0]    \{カーニー！！♥♥♥♥♥
+\CBct[1]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    \{え？？！！
+
+Fapper/begin2
+\CBct[20]\m[p5sta_damage]\Rshake\c[6]ロナ：\c[0]    \{いや？！ はなして！
+
+Fapper/begin3
+\CBid[-1,6]\Rshake\c[4]難民：\c[0]    オヒョヒョヒョ♥ えっちなカーニー♥
+
+Fapper/begin4
+\CBid[-1,6]\Rshake\c[4]難民：\c[0]    カーニーのお腹♥ カーニーのおっぱい♥ えっちだ♥
+
+Fapper/begin5
+\CBct[5]\m[bereft]\Rshake\c[6]ロナ：\c[0]    \{あっちいって！！！
+
+Fapper/begin6
+\CBid[-1,4]\SETpl[HumanPenisNormal]\Lshake\prf\c[4]難民：\c[0]    カーニーのお腹はとてもかわいい♥ カーニーちゃんのおなかに射精したい♥
+
+Fapper/begin7
+\CBct[6]\m[terror]\Rshake\c[6]ロナ：\c[0]    \{ひいいいい！！！

@@ -1,0 +1,39 @@
+NoerBSS/OvermapEnter
+\m[confused]ティーグのスチール専門店\optB[やめる,入る]
+
+#############################  BSS MASTER
+BSStrader/welcome
+\CBmp[BSStrader,20]\c[4]ティーグ：\c[0] ヨウコソ...ティーグ ノ...スチール センモンテン ヘ....
+
+BSStrader/end
+\CBmp[BSStrader,20]\c[4]ティーグ：\c[0]  タニンカラ ノ... ショウサン ハ.. キライ....
+
+BSStrader/Opt_RemoveCuff
+\CBct[8]\m[confused]\c[6]ロナ：\c[0]    ん？\optB[やめる,取引,会話,拘束具を外す]
+
+BSStrader/NotCuffed
+\CBmp[BSStrader,8]\c[4]ティーグ：\c[0]    オマエ... ジンセイ.. シバラレテ.. ナイ...
+
+BSStrader/SlaveBrand
+\CBmp[BSStrader,20]\c[4]ティーグ：\c[0]    イレズミ？
+\CBmp[BSStrader,20]\c[4]ティーグ：\c[0]    オマエ.. ノエル ノ マチ ノ.. ドレイ... イッショウ..
+\CBmp[BSStrader,20]\c[4]ティーグ：\c[0]    ホウリツデ.. キマッテイル... デキナイ...
+
+BSStrader/Aid0
+\CBmp[BSStrader,8]\c[4]ティーグ：\c[0]    コイ... コウサクシツ ニ...
+
+BSStrader/Aid1
+\CBct[6]\m[fear]\c[6]ロナ：\c[0]    これって... 痛いですか？
+\CBmp[BSStrader,20]\c[4]ティーグ：\c[0]    イタイ... タブン...
+\CBct[6]\m[sad]\Bon[6]\c[6]ロナ：\c[0]    うぅ....
+
+BSStrader/RemoveEnd
+\narr拘束具が外れた
+
+BSStrader/About
+\CBmp[BSStrader,20]\m[normal]\c[4]ティーグ：\c[0]  オレ ハ... ティーグ... フィッシュトピアトウ ニ スンデイタ...
+\CBmp[BSStrader,20]\c[4]ティーグ：\c[0]    イエ ニ カネアル.... デモ.. セイカツ ハ フジユウ...
+\CBmp[BSStrader,20]\m[confused]\c[4]ティーグ：\c[0]    ノエル ニ .... ミセ ヲ カッテ.. ヒライタ.....
+\CBmp[BSStrader,20]\c[4]ティーグ：\c[0]   ジツゲンスル... ユメ ヲ... ジブン ヲ... カイホウスル...
+\CBct[2]\m[flirty]\c[6]ロナ：\c[0]    へぇ？
+
