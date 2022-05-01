@@ -1,0 +1,720 @@
+####################################--------------------- overmap
+ThisMap/OvermapEnter
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]衛兵：\c[0]    止まれ！誰だ！\optB[やめる,通る,隠れて通る<r=HiddenOPT1>,騙して通る<r=HiddenOPT2>]
+
+################################################### INN
+
+InnKeeper/Begin
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]店長：\c[0]     ここは運命ノ要塞！ 防衛の最前線！
+
+InnKeeper/About_here
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]店長：\c[0]   ここは昔からずっと争いの最前線だった！
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]店長：\c[0]    数百年前に各国はこのノエル島を奪い合っていた､しかし最後に､この地は我が国に収められた！この要塞こそがインガレンド王国の強さの証だ！
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]店長：\c[0]    今もそうだ､あのゴブリンや肉魔獣たちもこの要塞を攻め落とせないからな！
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]店長：\c[0]    我々だけがこの運命ノ要塞を守られる！
+\CBct[2]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    えっと...そうですか...
+
+InnKeeper/About_work
+\CBct[20]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    何か仕事ありますか？
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]店長：\c[0]    我々に必要なのは戦士だ！ 浮浪者なんかじゃない！
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]店長：\c[0]    ん？！\. 待って\..\..\..\..
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]店長：\c[0]    お前女か？！
+\CBct[2]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    はい？
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]店長：\c[0]    ふむ...
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]店長：\c[0]    小さいだが､ちゃんとあるようだな｡
+\CBct[2]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    なにが？
+\CBmp[Keeper,20]\SETpl[AnonMale1]\Lshake\prf\c[4]店長：\c[0]    東の兵舎へ行け､そこは女が要る｡
+\CBct[8]\m[shy]\plf\PRF\c[6]ロナ：\c[0]    はぁ...？
+
+ThisIsFine/talk0
+\cg[other_ArtThisIsFine]安泰 ： 予言
+\m[serious]う....
+\m[flirty]予言？
+
+############################################################################################################################### Right Gate
+
+GateR/LeaveBegin0
+\cg[map_NoerGate]駅へ通じているが､入口に衛兵がいる｡｡\optB[やめる,通る,隠れて通る<r=HiddenOPT1>,騙して通る<r=HiddenOPT2>]
+
+GateR/Leave_slave0
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]兵士：\c[0]    クソ奴隷！ どこへ行くつもりだ！？
+\CBct[20]\m[fear]\plf\PRF\c[6]ロナ：\c[0]    わたし....
+
+GateR/Leave_slave1
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]兵士：\c[0]    戻れ！
+
+GateR/Leave_passed
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]兵士：\c[0]    ......
+
+#############################
+
+Gate/Begin0
+\cg[map_NoerGate]兵舎へ通じているが､入口に衛兵がいる｡\optB[やめる,通る,隠れて通る<r=HiddenOPT1>,騙して通る<r=HiddenOPT2>]
+
+Gate/Enter_slave0
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]兵士：\c[0]    止まれ！何をやってる？
+\CBct[20]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    え？
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]兵士：\c[0]    ！！！！
+
+Gate/Enter_slave1
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]兵士：\c[0]    逃げた奴隷だ！
+
+Gate/Enter_normal1
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]兵士：\c[0]    止まれ！誰だお前は！何をやってる？
+
+Gate/Enter_Cecily
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]兵士：\c[0]    あっ.....
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]兵士：\c[0]    \{どうぞ！
+
+Gate/Enter_normal2
+\CBct[20]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    え？\optB[やめる,入る,慰安婦<r=HiddenOPT1>]
+
+Gate/Enter_normal_walk
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]兵士：\c[0]    両手を壁につけ！
+\CBct[20]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    えっ？！
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]兵士：\c[0]    ボディチェックだ！\optB[いや,...]
+
+Gate/Enter_normal_walk_okay0
+\CBct[20]\m[fear]\plf\PRF\c[6]ロナ：\c[0]    わかりました....
+
+Gate/Enter_normal_search_butt
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]兵士：\c[0]    いいケツだな！
+
+Gate/Enter_normal_search_vag
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]兵士：\c[0]    触り心地がいいね！
+
+Gate/Enter_normal_search_boob
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]兵士：\c[0]    だが.... 胸がない....
+
+Gate/Enter_normal_walk_okay1
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]兵士：\c[0]    慰安婦か？ 通っていいぞ！
+\CBct[20]\m[sad]\plf\PRF\c[6]ロナ：\c[0]    .....
+
+Gate/Enter_normal_whore
+\CBct[20]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    兵士さんたち疲れたんでしょう？わたしはあなたたちを慰めに来たんです....
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]兵士：\c[0]    なんだと？！ それはよかった！ 早く入れ！
+
+
+############################################################################################################################### barrack
+####################################--------------------- board
+
+boardR/Begin1
+\board[熱中症に気をつけろ]
+熱中症には気をつけろ 帽子は頭のパンツ
+こまめに水分 適度な塩分
+飲んだり舐めたりしながら歩こうよ
+
+boardR/Begin2
+\board[慰安婦の仕事]
+疲れた兵士を体で慰める｡
+詳細は警備兵に｡
+
+boardR/Washroom
+\board[奴隷の仕事]
+昼：警備兵に報告する｡
+夜：便所の掃除､見回り兵士の性欲処理｡
+昼は警備兵の所に行って食糧を貰え｡
+
+####################################--------------------- Guards
+
+TrainingGuards/Qmsg0
+ハッ！
+
+TrainingGuards/Qmsg1
+ホッ！
+
+TrainingGuards/Qmsg2
+ヤッー！
+
+####################################--------------------- SGT
+
+SGT/begin_normal_0
+\CBmp[SGT,20]\ph\SETpl[SGT_Normal]\Lshake\c[4]百卒長：\c[0]    何ゆえ我が愛する運命ノ要塞に来た？！
+\CBct[1]\m[terror]\plf\Rshake\c[6]ロナ：\c[0]    えっ？！
+\CBct[8]\m[fear]\plf\PRF\c[6]ロナ：\c[0]    えっと... わたし...\optB[暇だから,魔物狩り]
+
+SGT/begin_normal_1
+\CBct[20]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    魔物を狩りに来たんです｡
+\CBmp[SGT,20]\SETpl[SGT_Normal]\Lshake\prf\c[4]百卒長：\c[0]    貴様は傭兵か？
+\CBct[20]\m[bereft]\plf\Rshake\c[6]ロナ：\c[0]    はい！
+\CBmp[SGT]\SETpl[SGT_Normal]\Lshake\prf\c[4]百卒長：\c[0]    猛々しい顔見せろ！\optB[はい？]
+
+SGT/begin_normal_2
+\CBct[2]\m[fear]\plf\Rshake\c[6]ロナ：\c[0]    な..なんですか？
+\CBmp[SGT,20]\SETpl[SGT_Normal]\Lshake\prf\c[4]百卒長：\c[0]    猛々しい顔してないぞ？！
+\CBmp[SGT,20]\SETpl[SGT_Shake]\m[terror]\Lshake\prf\c[4]百卒長：\c[0]   \{殺すぞコラああああああ！
+\CBmp[SGT,20]\SETpl[SGT_Shake]\Lshake\prf\c[4]百卒長：\c[0]    これが猛々しい顔だ！ 貴様の猛々しい顔見せろ！
+\CBct[8]\SETpl[SGT_Normal]\m[fear]\Rshake\c[6]ロナ：\c[0]    えっと\..\... コ.\...？ コラああ？\.
+\CBmp[SGT,20]\SETpl[SGT_Normal]\Lshake\prf\c[4]百卒長：\c[0]    なんだそれは！ 真面目にやれ！
+
+SGT/begin_normal_3
+\CBct[8]\m[bereft]\plf\Rshake\c[6]ロナ：\c[0]    \{こ､コロスゾコラあああ？！
+\CBmp[SGT,20]\SETpl[SGT_Normal]\Lshake\prf\c[4]百卒長：\c[0]    \..\..\.. 全然怖くないな！
+\CBmp[SGT,20]\SETpl[SGT_Normal]\Lshake\prf\c[4]百卒長：\c[0]    もっと練習しろ！
+
+SGT/begin_normal_4
+\plh\CBct[8]\m[sad]\plf\PRF\c[6]ロナ：\c[0]    何なのよ一体...
+
+SGT/begin_wrong_ans
+練習しろ！
+
+SGT/known0
+\CBmp[SGT,20]\ph\SETpl[SGT_Shake]\Lshake\c[4]百卒長：\c[0]    ゴミクズ！貴様の名前はなんだ！
+\CBct[2]\m[bereft]\Rshake\c[6]ロナ：\c[0]    ロナです！！！
+\CBmp[SGT,20]\SETpl[SGT_Normal]\Lshake\prf\c[4]百卒長：\c[0]    いや！今日から貴様はウジ虫だ！
+
+
+####################################################################### Quest Board
+
+QuestBoard/DF_Woodson_list
+ウッドソン一族
+
+QuestBoard/DF_WipeTribe_list
+チンコ狩りの部族
+
+QuestBoard/DF_BanditHunt_list
+町の外での海賊退治
+
+QuestBoard/DF_Woodson
+\board[ウッドソン一族]
+目標：皆殺し！
+報酬：大銅貨9枚
+依頼主：被害者
+制限回数：一回
+そう！あいつらはまだ生き残りがいたんだ！
+あいつらを皆殺しにしてくれ！
+
+QuestBoard/DF_WipeTribe
+\board[チンコ狩りの部族]
+目標：皆殺し！
+報酬：大銅貨3枚
+依頼主：ルーデシンド商会
+制限回数：一回
+我々は彼らが南東の森の中に居住しているのを確認しました｡
+あの低俗な野蛮人どもに裁きの鉄槌を下して来てください！
+
+QuestBoard/DF_BanditHunt
+\board[町の外での海賊退治]
+目標：付近の海賊を排除
+報酬：大銅貨1枚 銅貨7枚
+依頼主：ルーデシンド商会
+期限：長期
+シバリスで魔物が暴れてからは､色々と大変でした｡
+人類はこの危機を助け合って乗り越えるべきですが､彼らはやりすぎました｡
+最前線の兵士や難民の資源を奪ってきたあの海賊たちには､その代償を払って貰わなければなりません｡
+善良な傭兵の方､今回はルーデシンド商会が資金を出します､奴らを討伐してきてください！
+
+################################### QuProgDF_BanditHunt 
+
+QuProgDF_BanditHunt/Begin
+\narr荒くれ達のたまり場だ...
+
+QuProgDF_BanditHunt/done
+\CBid[-1,20]\prf\c[4]職員：\c[0]    あの忌々しい海賊は一掃できましたか？
+\CBid[-1,4]\prf\c[4]職員：\c[0]    \{素晴らしい！
+
+################################### QuProgDF_Woodson detail
+
+QuProgDF_Woodson/prog1_emp
+\CBmp[GuildEmpolyee,8]\prf\c[4]職員：\c[0]    ちょっと待ってください... \c[6]ウッドソン\c[0]一族？
+\CBct[2]\m[confused]\PRF\c[6]ロナ：\c[0]    どうしたんですか？
+\CBmp[GuildEmpolyee,20]\prf\c[4]職員：\c[0]    それは要塞の侍女から出した依頼で､もうそこに貼ってから十数年です｡
+\CBmp[GuildEmpolyee,20]\prf\c[4]職員：\c[0]    けれど残念なことに今まで誰も\c[6]ウッドソン一族\c[0]の生き残りの居場所を見つけられなかったんです｡
+\CBmp[GuildEmpolyee,20]\prf\c[4]職員：\c[0]    個人的には彼らはもう死んでいると思いますが｡
+\CBct[8]\m[flirty]\PRF\c[6]ロナ：\c[0]    そうですか...
+\CBct[20]\m[normal]\PRF\c[6]ロナ：\c[0]    他の依頼を探します｡
+\CBmp[ExitPoint,19]\prf\c[4]職員：\c[0]    まあ依頼人はそこまで執着しているということですから､話くらいは聞いてあげてもいいんじゃないですか？彼女は宿の外に居ますよ｡
+\CBct[20]\m[flirty]\PRF\c[6]ロナ：\c[0]    わかりました｡
+
+QuProgDF_Woodson/prog1_Maid
+\CBct[2]\m[flirty]\PRF\c[6]ロナ：\c[0]    あの...はじめまして..
+\CBmp[Maid,5]\prf\c[4]侍女：\c[0]    仕事中なの！
+\CBct[2]\m[shocked]\Rshake\c[6]ロナ：\c[0]    ごめんなさい！ わたし､今さっきギルドで依頼を受けまして..あなたが\c[4]ウッドソン一族\c[0]探しの依頼人ですか？
+\CBmp[Maid,8]\prf\c[4]侍女：\c[0]    ....
+\CBmp[Maid,8]\prf\c[4]侍女：\c[0]    貴女みたいなガキが依頼を？
+
+QuProgDF_Woodson/prog2_Maid
+\CBmp[Maid,8]\ph\c[4]侍女：\c[0]    まあいいわ､何が知りたい？\optB[やめる,もう死にました！<r=HiddenOPT1>,ウッドソン,あなたのこと,どこに居る<r=HiddenOPT2>]
+
+QuProgDF_Woodson/prog2_optWin
+\CBct[8]\m[flirty]\PLF\c[6]ロナ：\c[0]    えっと...その...
+\CBmp[Maid,2]\prf\c[4]侍女：\c[0]    なに？
+\CBct[8]\m[confused]\PLF\c[6]ロナ：\c[0]    彼らはもう死にました､要塞の南の森に隠れていたんです､場所は...その辺りです｡
+\CBmp[Maid,20]\prf\c[4]侍女：\c[0]    よかった！ 今確認しに行くわ！ これは依頼完了の証明書類よ！ギルドで報酬をもらっていいわ！
+\CBct[8]\m[shocked]\Rshake\c[6]ロナ：\c[0]    えっ？！ 待ってください! あの森は危険です！
+
+QuProgDF_Woodson/prog2_optWho
+\CBct[8]\m[flirty]\PLF\c[6]ロナ：\c[0]    えっと... あの....ウッドソンは一体何者ですか？
+\CBmp[Maid,2]\prf\c[4]侍女：\c[0]    ウッドソン教派を知らないの？
+\CBmp[Maid,20]\prf\c[4]侍女：\c[0]    \c[6]ウッドソン教派\c[0]は\c[6]ジム・ウッドソン\c[0]によって作られた､シバリス使徒教会の教派の一つだったのよ｡
+\CBmp[Maid,20]\prf\c[4]侍女：\c[0]    彼らは審判の日がもうすぐ訪れ､神魔が再び世に降臨すると信じていた｡
+\CBmp[Maid,20]\prf\c[4]侍女：\c[0]    沢山の人が入信し､中には貴族もいた｡
+\CBmp[Maid,20]\prf\c[4]侍女：\c[0]    だけどそのせいで彼らは使徒教会の脅威と見なされ､使徒教会と貴族たちにより邪教に認定されていた｡
+\CBmp[Maid,20]\prf\c[4]侍女：\c[0]    彼らはシバリスを去り､信徒たちを連れて島のどこかに隠れていた｡
+\CBmp[Maid,20]\prf\c[4]侍女：\c[0]    けれどその後､彼らは使徒教会にあっけなく見つけられた､ここは島なんだから！ どこに逃げられるって言うんだい？
+\CBmp[Maid,20]\prf\c[4]侍女：\c[0]    軍が彼らを取り囲んだ､審判の日が来たと叫び続けていた信徒たちが､何百人も自殺した｡
+\CBct[8]\m[sad]\PLF\c[6]ロナ：\c[0]    可哀想な話ですね？
+
+QuProgDF_Woodson/prog2_optWho_Gr
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\c[4]セシリー：\c[0]    その話聞いたことがある､当時は騒がれていたらしい､アタシが子供だった時に｡
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\c[4]セシリー：\c[0]    \c[4]グレイラット\c[0]､あんたはどう？
+\CBfB[20]\SETpr[GrayRatNormalAr]\plf\Lshake\c[4]グレイラット：\c[0]    はい､お嬢様｡ あのとき旦那様も兵を送りました｡
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\prf\c[4]セシリー：\c[0]    機会があればまたその話を聞こう､邪教に対して遠慮はいらん！
+\CBfB[20]\SETpr[GrayRatConfusedAr]\plf\Lshake\c[4]グレイラット：\c[0]    かしこまりました｡
+
+QuProgDF_Woodson/prog2_optYou
+\CBct[2]\m[flirty]\PLF\c[6]ロナ：\c[0]    どうして彼らが嫌いなんですか？
+\CBmp[Maid,20]\prf\c[4]侍女：\c[0]    嫌い？私は元々貴族で､あいつらの信徒だったの！
+\CBmp[Maid,20]\prf\c[4]侍女：\c[0]    でもある夜にあいつらが私の家に侵入して､家族を皆殺しにした！
+\CBmp[Maid,20]\prf\c[4]侍女：\c[0]    逃亡の際に私は教主に捕まえられて､性奴隷にされていた｡
+\CBmp[Maid,20]\prf\c[4]侍女：\c[0]    幸い､私はあいつらの審判の日の前に逃げられた｡ 私は誓ったんだ！ あいつら全員殺してやるって！
+
+QuProgDF_Woodson/prog2_optWhere
+\CBct[2]\m[confused]\PLF\c[6]ロナ：\c[0]    でも全部死んだんじゃ...？
+\CBmp[Maid,20]\prf\c[4]侍女：\c[0]    いえ！ 私､見たんだ！ 使徒教会に頼まれて死体を確認しに行ったの！
+\CBmp[Maid,20]\prf\c[4]侍女：\c[0]    中にはあいつの妻と親族が居なかった､あの忌々しい\c[6]ウッドソン一族\c[0]が絶対にまだ生きている｡
+\CBmp[Maid,20]\prf\c[4]侍女：\c[0]    あいつらに死んで欲しい！ 全員！
+\CBmp[Maid,20]\prf\c[4]侍女：\c[0]    これが私の全財産よ､あいつらを全員殺せばあなたの物よ！
+\CBct[2]\m[flirty]\PLF\c[6]ロナ：\c[0]    居場所を知ってますか？
+\CBmp[Maid,20]\prf\c[4]侍女：\c[0]    知らない､あなたが見つけてくれるといいけど｡
+\CBmp[Maid,20]\prf\c[4]侍女：\c[0]    私は諦めない､この金はそれを出来る人にあげる！
+
+####################################################################### GReenHat Quest
+
+GreenHat/Quest_Begin1
+\CBmp[GreenHat,1]\prf\c[4]新兵：\c[0]    お前... 新しい慰安婦か？
+\CBct[2]\m[flirty]\PRF\c[6]ロナ：\c[0]    はい？わたしは....
+\CBmp[GreenHat,20]\prf\c[4]新兵：\c[0]    助けてくれ！\optB[話を聞く]
+
+GreenHat/Quest_Begin2
+\CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    えっと....
+\CBct[8]\m[normal]\PRF\c[6]ロナ：\c[0]    言ってみてください､ひょっとしたらお役に立てるかも？
+\CBmp[GreenHat,20]\prf\c[4]新兵：\c[0]    この手紙を届いてくれ！ 彼女はきっと焦ってるんだ！
+\CBct[8]\m[flirty]\PRF\c[6]ロナ：\c[0]    彼女？
+\CBmp[GreenHat,20]\prf\c[4]新兵：\c[0]    俺の幼馴染の\c[4]マリアン\c[0]だ､小さい頃からずっと一緒にいる！
+\CBmp[GreenHat,20]\prf\c[4]新兵：\c[0]    魔物たちが暴走した後､俺たちはずっと避難していた｡
+\CBmp[GreenHat,20]\prf\c[4]新兵：\c[0]    彼女の叔父はノエルの港で働いている､だから彼の所に身を寄せるつもりだった｡
+\CBmp[GreenHat,20]\prf\c[4]新兵：\c[0]    でも俺たちは身分書を持っていなかったから､ノエルの北門の難民キャンプに住むしかない｡
+\CBmp[GreenHat,20]\prf\c[4]新兵：\c[0]    だが軍はそんな俺にチャンスをくれた､俺が入隊したら一人分の入城許可が保証される｡
+\CBmp[GreenHat,20]\prf\c[4]新兵：\c[0]    俺たちは結婚する予定だったが...大災害がそれを壊した...
+\CBct[8]\m[sad]\PRF\c[6]ロナ：\c[0]    ぐすん...
+\CBmp[GreenHat,20]\prf\c[4]新兵：\c[0]    手紙を書いていたんだが､全部返信がなくて...
+\CBmp[GreenHat,20]\prf\c[4]新兵：\c[0]    頼む！今月の給料を全部あげるから！
+
+GreenHat/Quest_BeginBoard
+\board[新米兵士の愛]
+目標：手紙を届ける
+報酬：大銅貨1枚､銅貨1枚
+依頼主：新兵
+制限回数：一回
+俺たち新兵に休暇なんてない！
+唯一の希望はお前たち慰安婦なんだ｡
+手紙に書いた住所に行ってマリアンの様子を見てきてくれ！
+
+GreenHat/Quest_BeginOpt
+どうする？\optB[やめる,任せて]
+
+GreenHat/Quest_BeginAgree
+\CBct[20]\m[serious]\PRF\c[6]ロナ：\c[0]    任せてください！ 必ず彼女さんに届いてみせますから｡
+\CBmp[GreenHat,20]\prf\c[4]新兵：\c[0]    頼んだぞ！
+
+GreenHat/Quest_BeginDis
+\CBct[20]\m[flirty]\PRF\c[6]ロナ：\c[0]    ごめんなさい､他を当たってください｡
+\CBmp[GreenHat,8]\prf\c[4]新兵：\c[0]    ......
+
+GreenHat/Quest2_Qmsg0
+届いたか？
+
+GreenHat/Quest2_Qmsg1
+彼女はノエルに居るのか？
+
+GreenHat/Quest2_Qmsg2
+返信はまだ？
+
+GReenHat/Quest2_Begin0
+西区 海岸道 8-9-6番の4
+\m[confused]\PRF\c[6]ロナ：\c[0]    ここだよね？
+\narr\SndLib[sys_KnockDoor]...........
+\narrOFF\SETpl[AnonMale2]\Lshake\prf\c[6]？？？：\c[0]    どちら様？
+\m[flirty]\PRF\c[6]ロナ：\c[0]    えっと... マリアンさんは､いらっしゃいますか？？
+\SETpl[AnonMale2]\Lshake\prf\c[6]？？？：\c[0]    またか？
+\m[confused]\PRF\c[6]？？？：\c[0]    また？
+\SETpl[AnonMale2]\Lshake\prf\c[6]？？？：\c[0]    マリアン！お前の客だぞ！
+\..\..\..
+\SETpr[AnonSlut1]\plf\Rshake\c[6]？？？：\c[0]    誰よ？
+\SETpl[AnonMale2]\Lshake\prf\c[6]？？？：\c[0]    まただよまた､自分で言ってやれ｡
+\SETpl[AnonSlut1]\Lshake\prf\c[6]？？？：\c[0]    はぁ？
+\m[shy]\PRF\c[6]ロナ：\c[0]    マリアンさん？ はじめまして...
+
+GReenHat/Quest2_Begin1
+\SETpl[AnonSlut1]\Lshake\prf\c[6]？？？：\c[0]    あんた要塞の娼婦でしょ？ ジョンに頼まれて来たの？
+\m[flirty]\PRF\c[6]ロナ：\c[0]    あの...その...
+\SETpl[AnonSlut1]\Lshake\prf\c[6]？？？：\c[0]    ここに来た娼婦はあんただけじゃない｡
+\SETpl[AnonSlut1]\Lshake\prf\c[6]？？？：\c[0]    あんたたち娼婦とは住む世界が違うのよ､二度と私を邪魔しないで､私は今幸せなの｡
+\SETpl[AnonSlut1]\Lshake\prf\c[6]？？？：\c[0]    この手紙を彼に渡して､もう邪魔しないでって伝えて頂戴｡
+\..\..\..\plh\SndLib[closeChest]
+
+GReenHat/Quest2_Begin2
+\m[angry]\plh\PRF\c[6]ロナ：\c[0]    なにそれ？
+
+GreenHat/Quest3_OPT
+\CBct[20]\m[flirty]\PRF\c[6]ロナ：\c[0]    ジョンさん？ ただいま戻りました｡
+\CBmp[GreenHat,1]\prf\c[4]ジョン：\c[0]    おおう！
+\CBmp[GreenHat,6]\prf\c[4]ジョン：\c[0]    手紙が届いたか？ 彼女はノエルに居るのか？ 返信は？
+\CBct[20]\m[confused]\PRF\c[6]ロナ：\c[0]    えっと...\optD[手紙を渡す,嘘をつく<r=HiddenOPT1>]
+
+GreenHat/Quest3_Truth0
+\CBct[8]\m[shy]\PRF\c[6]ロナ：\c[0]    えっと...その...なんていうか...
+\CBct[6]\m[flirty]\PRF\c[6]ロナ：\c[0]    あの人からの手紙です､読んでください...
+
+GreenHat/Quest3_Truth1
+\ph\narr\..\..\..\..
+
+GreenHat/Quest3_Truth2
+\CBmp[GreenHat,1]\prf\c[4]ジョン：\c[0]    \{いやああああああ！！！
+\CBct[2]\m[shocked]\Rshake\c[6]ロナ：\c[0]    えっ？！
+\CBmp[GreenHat,1]\prf\c[4]ジョン：\c[0]    \{嘘だッ！ ああああああああ！
+\CBct[1]\m[terror]\Rshake\c[6]ロナ：\c[0]    落ち着いてください！！
+\CBmp[GreenHat,1]\prf\c[4]ジョン：\c[0]    \{ぐああああああああ！！
+
+GreenHat/Quest3_Lie0
+\CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    今まで彼女の返信をもらえたことがなかったんですか？
+\CBmp[GreenHat,20]\prf\c[4]ジョン：\c[0]    ああ､そうだよ！
+\CBmp[GreenHat,20]\prf\c[4]ジョン：\c[0]    ほかの慰安婦たちも彼女を見つけられなかったようだが､お前もか？
+\CBct[6]\m[tired]\PRF\c[6]ロナ：\c[0]    申し上げにくいのですが... 彼女は亡くなりました...
+
+GreenHat/Quest3_Lie1
+\CBmp[GreenHat,6]\prf\c[4]ジョン：\c[0]    \{なに？！ そんなまさか！
+
+GreenHat/Quest3_Lie2
+\CBct[6]\m[sad]\PRF\c[6]ロナ：\c[0]    いえ...本当です､街の衛兵さんに確かめたんです｡
+\CBct[6]\m[tired]\PRF\c[6]ロナ：\c[0]    彼女はある暴動で亡くなりました､遺体はノエルの墓地に埋葬されています｡
+\CBmp[GreenHat,8]\prf\c[4]ジョン：\c[0]    .............
+\CBct[6]\m[sad]\PRF\c[6]ロナ：\c[0]    ご愁傷様です...
+
+####################################################################### Slave begin
+
+DormGuard/SlaveBegin0
+\ph\CBmp[securityGuard,20]\ph\SETpl[Mreg_pikeman]\Lshake\c[4]警備兵：\c[0]    お前が新しい奴隷か？
+\CBct[20]\m[fear]\plf\PRF\c[6]ロナ：\c[0]    はい､ご主人様｡
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]警備兵：\c[0]    フン\..\..\..
+\CBmp[securityGuard,8]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]警備兵：\c[0]    胸のほうは残念だったな｡
+\CBct[8]\m[sad]\plf\PRF\c[6]ロナ：\c[0]    ......
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]警備兵：\c[0]    緊急事態により､我々は従軍慰安婦制度を再実行させた｡
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]警備兵：\c[0]    付いて来い､奴隷のやるべき事を教えてやる｡
+\CBct[6]\m[fear]\plf\PRF\c[6]ロナ：\c[0]    はい､ご主人様....
+
+DormGuard/SlaveBegin_Dorm
+\ph\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]警備兵：\c[0]    ここが休憩室だ｡
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]警備兵：\c[0]    非番の兵士は普通ここで休む｡
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]警備兵：\c[0]    別の労働作業がなければ､お前の仕事はその兵士たちに奉仕することだ｡
+\CBct[6]\m[fear]\plf\PRF\c[6]ロナ：\c[0]    はい....
+
+DormGuard/SlaveBegin_Cart
+\ph\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]警備兵：\c[0]    おい！見ろ！ これが何なのか分かるか？
+\CBct[20]\m[sad]\plf\PRF\c[6]ロナ：\c[0]    え？
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]警備兵：\c[0]    全部奴隷の死体だ！
+\CBct[1]\m[terror]\plf\Rshake\c[6]ロナ：\c[0]    ！！！
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prd\c[4]警備兵：\c[0]    抵抗や脱走とかはしないことだな！
+\CBct[6]\m[fear]\plf\PRF\c[6]ロナ：\c[0]    はい... ご主人様...
+
+DormGuard/SlaveBegin_Washroom0
+\ph\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]警備兵：\c[0]    ここは便所だ､お前のような奴隷にぴったりの寝床だな｡
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]警備兵：\c[0]    今日からここがお前の家だ！
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]警備兵：\c[0]    昼間は俺様の所に来て当日の仕事内容を聞く｡
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]警備兵：\c[0]    夜は便所の掃除と見回り兵士の性欲処理だ｡
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]警備兵：\c[0]    お前は従軍慰安婦としてその義務がある！
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]警備兵：\c[0]    以上がこれからのお前の生活のすべてだ！
+\CBct[8]\m[fear]\plf\PRF\c[6]ロナ：\c[0]    ......
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]警備兵：\c[0]    返事ィ！
+\CBct[6]\m[sad]\plf\PRF\c[6]ロナ：\c[0]    はい...ご主人様...
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]警備兵：\c[0]    声がちいせえぞ！
+
+DormGuard/SlaveBegin_Washroom1
+\CBct[6]\m[terror]\plf\Rshake\c[6]ロナ：\c[0]    はい！ご主人様！
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]警備兵：\c[0]    \{もっと大きく！
+
+DormGuard/SlaveBegin_Washroom2
+\CBct[20]\m[bereft]\plf\Rshake\c[6]ロナ：\c[0]    \{はい！ご主人様！
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]警備兵：\c[0]    よろしい！ 以上！解散！
+
+DormGuard/SlaveBegin_end
+\CBct[8]\m[sad]\plf\Rshake\c[6]ロナ：\c[0]    ......
+
+DormGuard/SlaveBegin_Escape
+\ph\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]警備兵：\c[0]    我々は脱走奴隷に対して容赦はしない！
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\c[4]警備兵：\c[0]    部屋に戻れ､処分はあとで決める｡
+\CBct[20]\m[sad]\plf\Rshake\c[6]ロナ：\c[0]    はい....
+
+####################################################################### Slave begin Torture
+
+DormGuard/SlaveBegin_Torture0
+\ph\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\c[4]十卒長：\c[0]    新兵たちよ､よく聞け！
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\c[4]十卒長：\c[0]    貴様らの昔の職業や家系などは問わん､今から貴様らは全員\c[4]インガレンド\c[0]の兵士だ！
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\c[4]十卒長：\c[0]    じゃあ戦士として必要なのは？ 第一に冷酷になること､残酷になることだ！
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\c[4]十卒長：\c[0]    殺人に慣れろ！
+
+DormGuard/SlaveBegin_Torture1
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\c[4]十卒長：\c[0]    この奴隷が脱走を企てた？ それとも仕事をサボった？ そんなことはどうでもいい！
+\CBmp[TorturePoint,20]\m[terror]\plf\Rshake\c[6]ロナ：\c[0]    うぅ...
+
+DormGuard/SlaveBegin_Torture2
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十卒長：\c[0]    重要なのはこいつは罪を犯したこと､だから罰が必要だ！
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十卒長：\c[0]    お前！こっち来い！全力で殴れ！
+\CBmp[noob3,20]\plf\prf\c[4]兵士：\c[0]    ハッ！
+
+DormGuard/SlaveBegin_Torture3
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十卒長：\c[0]    よし！いい感じだ！次！
+\CBmp[noob2,20]\plf\prf\c[4]兵士：\c[0]    ハッ！
+
+DormGuard/SlaveBegin_Torture4
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十卒長：\c[0]    いいパンチだ！ 次！
+\CBmp[noob1,20]\plf\prf\c[4]兵士：\c[0]    ハッ！
+
+DormGuard/SlaveBegin_Torture5
+\CBmp[noob1,20]\plf\prf\c[4]兵士：\c[0]    ........
+
+DormGuard/SlaveBegin_Torture6
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十卒長：\c[0]    よろしい！ 列に戻れ！ 次の訓練だ！
+\CBmp[noob1,8]\plf\prf\c[4]兵士：\c[0]    \..\..\..
+
+DormGuard/SlaveBegin_Torture7
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十卒長：\c[0]    列に戻れって言ってるんだ！ 聞こえないのか！？
+\CBmp[noob1,5]\plf\prf\c[4]兵士：\c[0]    \{ぐあああああ！ みんな死んだ！
+
+DormGuard/SlaveBegin_Torture9
+\CBmp[noob1,5]\plf\prf\c[4]兵士：\c[0]    \{俺の妻が！
+
+DormGuard/SlaveBegin_Torture10
+\CBmp[noob1,5]\plf\prf\c[4]兵士：\c[0]    \{俺の娘が！ ぐすん....
+
+DormGuard/SlaveBegin_Torture11
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十卒長：\c[0]    \..\..\..
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十卒長：\c[0]    泣くな､列に戻ろう｡
+\CBmp[noobSGT,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十卒長：\c[0]    俺たちでこの地を取り戻そう....
+\CBmp[noob1,5]\plf\prf\c[4]兵士：\c[0]    はい...隊長...
+
+####################################################################### Slave Daily begin Rape
+
+Guard/DailyRape0
+\CBmp[Raper,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]兵士：\c[0]    起きろ！
+
+Guard/DailyRape1
+\CBmp[Raper,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]兵士：\c[0]    奴隷め！さっさと起きねえか！
+\CBct[20]\m[tired]\plf\Rshake\c[6]ロナ：\c[0]    うぅ......
+
+Guard/DailyRape_suckDick
+\CBmp[Raper,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]兵士：\c[0]    ムラムラしてきたぜ､早くなんとかしろ！
+
+Guard/DailyRape_Rape
+\CBmp[Raper,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]兵士：\c[0]    抱いてやるからさっさと股開け！\optD[はい<t=5>,いや]
+
+############################################################## Toilet
+
+Toilet/SlaveOpt
+\m[tired]\plf\prf\c[4]便器が詰まってる...
+\m[fear]\plf\Rshake\c[6]ロナ：\c[0]    ウッ！くさい！\optB[やめる,掃除]
+
+############################################################## NightPatrol
+
+NightPatrol/SlaveQmsg0
+失せろ！
+
+NightPatrol/SlaveQmsg1
+邪魔だ！
+
+NightPatrol/SlaveQmsg2
+出ていけ！
+
+NightPatrol/Rape0
+\c[4]兵士：\c[0]    こっち来い！ 抱いてやる！
+
+NightPatrol/Rape1
+\c[4]兵士：\c[0]    奴隸！
+
+NightPatrol/Rape2
+\c[4]兵士：\c[0]    犯す！
+
+############################################################## securityGuard
+
+securityGuard/NormalWhore
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十卒長：\c[0]    お前が新しい慰安婦か？色気のない体だなぁ？
+\CBct[20]\m[shy]\plf\PRF\c[6]ロナ：\c[0]    わたしは....\optB[やめる,はい]
+
+securityGuard/NormalWhore_No
+\CBct[20]\m[bereft]\plf\Rshake\c[6]ロナ：\c[0]    違います！
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十卒長：\c[0]    はぁ...じゃあ何しに来たんだ？
+
+securityGuard/NormalWhore_Yes
+\CBct[20]\m[lewd]\plf\Rshake\c[6]ロナ：\c[0]    はい､わたしは娼婦です｡
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十卒長：\c[0]    はあーーー......
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十卒長：\c[0]    上の連中は俺らのおっぱいへの欲求を理解していない｡
+\CBct[20]\m[sad]\plf\Rshake\c[6]ロナ：\c[0]    わたしの胸... 何が悪いですか？
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十卒長：\c[0]    まぁいい､マンコさえあればいいだしな｡
+\CamMP[DormTable]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十卒長：\c[0]    昼間の時にこの休憩室に来て兵士たちを満足させてくれ｡
+\CBct[20]\m[shy]\plf\Rshake\c[6]ロナ：\c[0]    はい....
+
+securityGuard/SlaveNight
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十卒長：\c[0]   便所を掃除しろ､その後は見回り兵士の性欲処理だ！ 終わったらさっさと寝ろ！
+
+securityGuard/SlaveDay
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十卒長：\c[0]    ゴミが！早く仕事しろ！
+
+securityGuard/SlaveWorkDone
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十卒長：\c[0]    終わったか？じゃあ寝ろ！ゴミが！
+
+securityGuard/SlaveDecideWork
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十卒長：\c[0]    おう？ 来たか？ どれどれ..
+
+securityGuard/SlaveNoWork
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十卒長：\c[0]    運がいいな！ 今日はお前に用はない！
+
+securityGuard/SlaveSandBag
+\CBmp[SGT,19]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十卒長：\c[0]    外に出て\c[4]百卒長\c[0]の所に行け！ 訓練のために奴隷が一人必要だ！
+\CBct[6]\m[fear]\plf\PRF\c[6]ロナ：\c[0]    はい...ご主人様...
+
+securityGuard/SlaveJoyWork
+\CBmp[DormTable,19]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十卒長：\c[0]    隣の休憩室へ行け！ あいつらを楽しませろ！
+\CBct[6]\m[fear]\plf\PRF\c[6]ロナ：\c[0]    はい...ご主人様...
+
+securityGuard/SlaveFood
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十卒長：\c[0]    今日の分だ！生きてるうちに食べるんだな！
+\CBct[6]\m[fear]\plf\PRF\c[6]ロナ：\c[0]    ありがとうございます...
+
+securityGuard/SlaveFood_AskMore
+\CBct[6]\m[sad]\plf\PRF\c[6]ロナ：\c[0]    あの...\optB[やめる,もっとください]
+
+securityGuard/SlaveFood_AskMore_win
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十卒長：\c[0]    \..\..\..
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十卒長：\c[0]    いいだろ､お前が死んだら困るしな｡
+\CBct[6]\m[tired]\plf\PRF\c[6]ロナ：\c[0]    ありがとうございます...
+
+securityGuard/SlaveFood_AskMore_fail
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十卒長：\c[0]    \..\..\..
+\CBmp[securityGuard,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]十卒長：\c[0]    失せろ！
+\CBct[6]\m[tired]\plf\PRF\c[6]ロナ：\c[0]    うぅ...
+
+securityGuard/SlaveFoodQmsg
+ほらよ！
+
+############################################################## SGT Slave Suvival
+
+SGT/SlaveSuvival
+\CBmp[SGT,20]\ph\SETpl[SGT_Normal]\Lshake\c[4]百卒長：\c[0]    新兵ども！俺たちの奴隷が来たぞ！
+\CBmp[SGT,20]\SETpl[SGT_Shake]\Lshake\c[4]百卒長：\c[0]    走れ！ウジ虫！ あいつらの攻撃から生還してみせろ！
+\CBct[1]\m[terror]\plf\Rshake\c[6]ロナ：\c[0]    えっ？！ なに？！
+
+SGT/SlaveSuvival_WIN
+\SETpl[SGT_Shake]\Lshake\c[4]百卒長：\c[0]    集合！
+\SETpl[SGT_Normal]\Lshake\c[4]百卒長：\c[0]    貴様らなにをやってる！ 奴隷一人も殺せないのか！
+\CBct[20]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    お...終わった？！
+
+############################################################## Joy work
+
+JoyTable/NothingQmsg0
+仕事が終わった
+
+JoyTable/NothingQmsg1
+やることない
+
+JoyTable/NothingQmsg2
+テーブル
+
+JoyTable/JobBegin0_slave
+\CBmp[BrkGuard1,1]\ph\c[4]兵士：\c[0]    奴隷だ！
+\CBmp[BrkGuard2,2]\c[4]兵士：\c[0]    新しい奴隷が来たぞ！
+\CBmp[BrkGuard3,5]\c[4]兵士：\c[0]    ナイチチ奴隷！
+
+JoyTable/JobBegin0_whore
+\CBmp[BrkGuard1,1]\c[4]兵士：\c[0]    慰安婦だ！
+\CBmp[BrkGuard2,2]\c[4]兵士：\c[0]    新しい娼婦が来たぞ！
+\CBmp[BrkGuard3,5]\c[4]兵士：\c[0]    胸がないじゃん！
+
+JoyTable/JobBegin1
+\CBct[6]\m[flirty]\PRF\c[6]ロナ：\c[0]    えっと....みなさんこんにちは....
+\CBmp[BrkGuard1,20]\prf\c[4]兵士：\c[0]     テーブルの上に立ってくれ.\optD[言われた通りにする<t=5>,嫌だ<r=HiddenOPT1>]
+
+JoyTable/JobBegin2
+\CBct[8]\m[shy]\PRF\c[6]ロナ：\c[0]    .....
+\CBmp[BrkGuard2,4]\prf\c[4]兵士：\c[0]     胸は小さいだが､結構可愛いぞこの娘？
+\CBmp[BrkGuard3,20]\prf\c[4]兵士：\c[0]     まずは踊ってみて｡
+\CBct[8]\m[fear]\PRF\c[6]ロナ：\c[0]    うぅ...\optD[言われた通りにする<t=5>,嫌だ<r=HiddenOPT1>]
+
+JoyTable/JobBegin3
+\CBct[8]\m[flirty]\PRF\c[6]ロナ：\c[0]    はい....
+
+JoyTable/JobBegin4
+\CBmp[BrkGuard1,3]\prf\c[4]兵士：\c[0]    ハハハっ！
+\CBmp[BrkGuard2,4]\prf\c[4]兵士：\c[0]    もっと足開け！
+\CBmp[BrkGuard3,9]\prf\c[4]兵士：\c[0]    頑張れ！
+
+JoyTable/JobBegin_rape
+\CBmp[BrkGuard3,4]\prf\c[4]兵士：\c[0]    つまんねぇなぁ､おいやっちまおうぜ！
+\CBmp[BrkGuard2,4]\prf\c[4]兵士：\c[0]    やっちゃいますか！？
+\CBmp[BrkGuard1,4]\prf\c[4]兵士：\c[0]    やっちゃいましょうよ！
+\CBct[1]\m[terror]\Rshake\c[6]ロナ：\c[0]    ひぃっ？！
+
+JoyTable/JobBegin_beat
+\CBmp[BrkGuard1,5]\prf\c[4]兵士：\c[0]    てめえ抵抗したな！？
+\CBmp[BrkGuard2,5]\prf\c[4]兵士：\c[0]    殺せ！
+\CBmp[BrkGuard3,5]\prf\c[4]兵士：\c[0]    やれ！
+\CBct[6]\m[terror]\Rshake\c[6]ロナ：\c[0]    ひぃっ？！
+
+JoyTable/JobBegin_whore_end
+\CBmp[BrkGuard1,4]\prf\c[4]兵士：\c[0]    真面目だね｡
+\CBmp[BrkGuard2,4]\prf\c[4]兵士：\c[0]    いいね､これご褒美｡
+\CBmp[BrkGuard3,20]\prf\c[4]兵士：\c[0]    おっぱいの方も大きく育つんだよ｡
+\CBct[8]\m[flirty]\PRF\c[6]ロナ：\c[0]    ありがとうございます？！
+
+JoyTable/JobBegin_slave_reward
+\CBmp[BrkGuard2,4]\prf\c[4]兵士：\c[0]    よし！悪くない！パンでもやるか！
+
+JoyTable/JobBegin_quit
+\CBmp[BrkGuard1,5]\prf\c[4]兵士：\c[0]    チッ...ふざけてんのかよ？
+
+JoyTable/Touch_Opt
+触らせる？\optD[何もしない<t=2>,避ける]
+
+JoyTable/AnalTouch_Qmsg
+いいケツだ！
+
+JoyTable/BoobTouch_Qmsg
+ちっぱい！
+
+JoyTable/VagTouch_Qmsg
+触ったぜ！
+
+JoyTable/Kiss_Qmsg
+ペロペロ！
+
+JoyTable/Escape_Qmsg
+はぁ？
+
+############################################################## crane
+
+crane/NormalQmsg0
+クレーンだ
+
+crane/NormalQmsg1
+特に何もないね
+
+crane/Windcave_frist_time
+\CBct[8]\m[shocked]\c[6]ロナ：\c[0]    クレーン...
+\CBct[2]\m[normal]\c[6]ロナ：\c[0]    これを使えば脱出できるかも？
+\CBct[8]\m[confused]\c[6]ロナ：\c[0]    角度をちょっと調整すれば､登れるかも？
+
+crane/Windcave_Opt
+\CBct[8]\m[confused]クレーン\optB[やめる,角度を調整する<r=HiddenOPT1>]
+
+crane/Windcave_Opt_dig
+\CBct[8]\m[confused]どのくらい体力を使う？\optB[体力を温存する,10,20<r=HiddenOPT1>,40<r=HiddenOPT2>,80<r=HiddenOPT3>,160<r=HiddenOPT4>,240<r=HiddenOPT5>]
+
+crane/Windcave_Opt_diged
+\CBct[20]\m[pleased]\c[6]ロナ：\c[0]    結構動いたみたい｡
+\CBct[6]\m[tired]\c[6]ロナ：\c[0]    でも..うう...疲れたぁ｡
+
+crane/Windcave_Opt_diged_open
+\CBct[1]\m[shocked]！！！！！
+\CBct[1]\m[shocked]！！！！！！！！
+\CBct[1]\m[pleased]！！！！！！！！！！！
+\CBct[20]\m[triumph]\c[6]ロナ：\c[0]    やった！ やっと出られるよ！

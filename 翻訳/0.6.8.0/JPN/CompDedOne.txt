@@ -1,0 +1,158 @@
+
+DedOne/ded0
+\SETpl[DedOne_revenant]\Lshake\c[4]？？？：\c[0]    アアアア！！！ IDDQD IDKFA！！！！
+
+DedOne/ded1
+\SETpl[DedOne_revenant]\Lshake\c[4]？？？：\c[0]    アアアア！！！ 俺のシナリオを台無しにしたなァ！
+
+DedOne/ded2
+\SETpl[DedOne_revenant]\Lshake\c[4]？？？：\c[0]    アアアア！！！ 銃だァ！ もっと銃持ってこい！
+
+DedOne/PirateBane_begin1
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\Lshake\c[4]？？？：\c[0]    .....
+\CBct[1]\m[terror]\plf\Rshake\c[6]ロナ：\c[0]    ひぃ！！
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\PLF\prf\c[4]？？？：\c[0]    .........
+\CBct[8]\m[fear]\plf\PRF\c[6]ロナ：\c[0]    ......
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\PLF\prf\c[4]？？？：\c[0]    ...
+\CBct[1]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    うっ...
+\CBct[20]\m[serious]\plf\Rshake\c[6]ロナ：\c[0]    あなたなんて怖くないんだから！
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\Lshake\prf\c[4]？？？：\c[0]    .....そうか？
+\CBct[1]\m[terror]\plf\Rshake\c[6]ロナ：\c[0]    ひい！！ 喋ったぁ！！
+
+DedOne/PirateBane_begin_k1_Cocona
+\CBmp[DedOne,2]\SETpl[DedOne_normal]\SETcoconaPR[confused]\Lshake\PRF\c[4]？？？：\c[0]    .....ん？
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\PRF\c[4]？？？：\c[0]    その子まだ生きていたのか？...
+\CBfB[7]\SETcoconaPR[shocked]\plf\Rshake\c[6]ココナ：\c[0] おまえ！ここな しってる！わるいひとぉ！
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]？？？：\c[0]    いや､違う｡ 俺は正義の味方だ｡
+\CBfB[7]\SETcoconaPR[angry]\plf\Rshake\c[6]ココナ：\c[0]    おまえ！ きょげんしゃ！
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]？？？：\c[0]    違う｡
+\CBfB[7]\SETcoconaPR[angry]\plf\Rshake\c[6]ココナ：\c[0]    ちがくない！
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]？？？：\c[0]    違う！
+\CBfB[8]\SETcoconaPR[confused]\plf\PRF\c[6]ココナ：\c[0]    ..........
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\m[confused]\PLF\prf\c[4]？？？：\c[0]    .......
+\CBfB[8]\SETcoconaPR[confused]\plf\PRF\c[6]ココナ：\c[0]    ......
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\PLF\prf\c[4]？？？：\c[0]    ...
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\m[confused]\Lshake\PRF\c[4]？？？：\c[0]    大切にしてやれ｡
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    えと......
+\CBct[1]\m[triumph]\plf\PRF\c[6]ロナ：\c[0]    もちろんです！
+
+
+DedOne/PirateBane_begin_k1_GratRat
+\CBfF[1]\SETpr[GrayRatShockedAr]\plf\Rshake\c[6]グレイラット：\c[0]    お下がりください！
+\CBfF[1]\SETpr[GrayRatShockedAr]\plf\Rshake\c[6]グレイラット：\c[0]    お前.... お前は一体何者だ？！
+\CBfB[2]\SETpl[CecilyWtfAr]\Lshake\prf\C[4] セシリー：\C[0]    どうした？
+\CBfF[20]\SETpr[GrayRatShockedAr]\plf\Rshake\c[6]グレイラット：\c[0]    来てはなりません！奴から離れて！
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\Lshake\prf\c[4]？？？：\c[0]    .....ん？
+\CBfB[2]\SETpl[CecilyShockedAr]\Lshake\prf\C[4] セシリー：\C[0]    一体何があった？
+\CBfF[20]\SETpr[GrayRatShockedAr]\plf\Rshake\c[6]グレイラット：\c[0]    あれは危険です！ 早くお逃げください！
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]？？？：\c[0]    お前らイカれてんのか？ 俺は正義の味方だなんだぞ！
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]？？？：\c[0]    俺がお前らに何かやらかしたってか？
+\CBfF[8]\SETpr[GrayRatConfusedAr]\plf\Rshake\c[6]グレイラット：\c[0]    .......
+\CBfF[8]\SETpr[GrayRatNormalAr]\plf\Rshake\c[6]グレイラット：\c[0]    .......
+\CBfF[6]\SETpr[GrayRatNormalAr]\plf\Rshake\c[6]グレイラット：\c[0]    私の誤解でした､申し訳ございません｡
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]？？？：\c[0]    気にするな､そう思われる事には慣れている｡俺は正義の味方だ｡お前の無知は理解できる｡
+
+DedOne/PirateBane_begin_k2
+\CBmp[DedOne,20]\m[confused]\SETpl[DedOne_normal]\Lshake\prf\c[4]？？？：\c[0]    少女よ､こんな奴を見たことないか？
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]？？？：\c[0]    歳はお前と同じくらいだが... おっぱいがでっかい｡
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    おっぱい........？
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]？？？：\c[0]    気をつけろよ！ あいつのおっぱいはお前のとは全然違って､とにかくボインボインで､たぶんメロンくらいの大きさなんだからな｡
+\CBct[8]\m[shy]\plf\Rshake\c[6]ロナ：\c[0]    ボ...イン...？
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]？？？：\c[0]    そう悲しむな､貧...オホン！小さいのだってカワイイと思うぞ｡
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]？？？：\c[0]    少女よ！ 俺が言うことを覚えておけ！
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]？？？：\c[0]  胸が平らでなくてどうして天下を平定できようか､胸が大きくなくてどうして人心を集められようか｡
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]未知：\c[0]    貧乳だっていいじゃないか希少価値だ｡
+\CBct[8]\m[sad]\plf\PRF\c[6]ロナ：\c[0]    わたしぃ......
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]？？？：\c[0]    泣くなって... 冗談だよ｡
+
+DedOne/PirateBane_begin_k3
+\SETpl[DedOne_normal]\Lshake\prf\c[4]？？？：\c[0] 背が小さくて､乳がでかい､青い肌のバカ女に会ったら､俺のところに連れてきてくれ｡
+\SETpl[DedOne_normal]\Lshake\prf\c[4]？？？：\c[0]    青い肌の女の子はあまり見かけんだろ？たぶん？外で死んでなきゃいいんだが｡
+
+DedOne/PirateBane_begin_k3_Opt
+\CBct[8]\m[normal]\SETpl[DedOne_normal]\plf\PRF\c[6]ロナ：\c[0]    えっと....\optB[やめる,何者ですか,青い肌<r=HiddenOPT0>]
+
+DedOne/PirateBane_begin_k3_Opt_who
+\CBct[8]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    あなたは一体何者なんですか？
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]ジャスティス：\c[0]    正義！ 俺は正義の味方だ！
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]ジャスティス：\c[0] ノエル島の一切の邪悪を浄化するべく､正義はこの地に降臨した！
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]ジャスティス：\c[0]    悪あるところ､俺もあるのだ！
+\CBct[20]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    そうなんですか？
+
+DedOne/PirateBane_begin_k3_Opt_blue_NonMeet
+\CBct[8]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    青い肌の女の子？
+\CBct[20]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    今の混乱した状況じゃ､あまり期待できないと思いますよ？
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]ジャスティス：\c[0]    大丈夫だ､俺の台本を見る限りではこの先あいつに出会うことになるだろうからな｡
+\CBct[20]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    そうなんですか？
+
+DedOne/PirateBane_begin_k3_Opt_blue_Meet
+\CBct[8]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    青い肌の女の子？
+\CBct[20]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    見たことあります､\c[6]海の女神\c[0]を名乗っている変な人ですよね？
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]ジャスティス：\c[0]      アッ！ 俺の台本の展開通りじゃないか！ サイコーだぜ！
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]ジャスティス：\c[0]    伝えてくれないか､家賃を滞納しているぞって大家さんが言ってます､隠れるのはやめろってな｡
+\CBct[20]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    家賃を滞納？ なんで自分で伝えないんですか？彼女はまだフィッシュトピア島の遺跡に居ますよ｡
+
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]ジャスティス：\c[0] 無駄だ､あいつ俺を感知するし､俺はただ支払いのことを思い出させたいだけだ｡それに俺に会いたくないだろうから無理強いもしたくない｡
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]ジャスティス：\c[0]    もちろんタダ働きじゃなくて､お前に正義の贈り物をくれてやるからな｡
+\CBct[20]\m[normal]\plf\PRF\c[6]ロナ：\c[0]    んん？ わかりました｡
+
+####################################################################### PB_MassGrave
+#<r=HiddenOPT0>
+
+DedOne/MassGrave_1
+\CBct[8]\m[fear]\plf\PRF\c[6]ロナ：\c[0]    \..\..\..すみません？
+\CBmp[DedOne,2]\SETpl[DedOne_normal]\Lshake\prf\c[4]？？？：\c[0]    なんだ？
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    えと......
+\CBct[8]\m[confused]\plf\PRF\c[6]ロナ：\c[0] ギルドの人がここで邪悪な人が悪い事をしているって言ってたんですけど､何か知りませんか....
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\PLF\prf\c[4]？？？：\c[0]    ......邪悪？
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0] えっと... その人って､あなたのことじゃないでしょうか？
+\CBmp[DedOne,2]\SETpl[DedOne_normal]\PLF\prf\c[4]？？？：\c[0]    俺が？邪悪？\optD[はい,説明する<r=HiddenOPT0>]
+
+DedOne/MassGrave_optCB
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    えっと... そうですね...？
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\PLF\prf\c[4]？？？：\c[0] なぜだ？俺は今仕事に専念しているだけ､そしてこの世界は俺を必要としている｡
+\CBct[8]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    でもあなたはもう付近の治安を乱してますからね｡
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]      みんなあなたを恐れてますし... わたしもあなたから邪悪な気配を感じます｡
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]？？？：\c[0]    アアアアアアア！！！
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]？？？：\c[0] 何言ってんだァ！！！邪悪じゃない！！！俺は正義だ！
+\CBmp[DedOne,1]\SETpl[DedOne_angry]\Lshake\prf\c[4]？？？：\c[0] 自分の価値を証明しろ！30秒くれてやる！ お前の話は生き残ったら聞いてやろう！
+\CBct[20]\m[terror]\plf\Rshake\c[6]ロナ：\c[0]    なっ？？ いいっ！？
+
+DedOne/MassGrave_optCB2
+\CamMP[BlockerCam]\m[terror]\plf\PRF\c[6]ロナ：\c[0]    ひあっ！？
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]？？？：\c[0]    死にやがれ！
+
+DedOne/MassGrave_optPASS
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    えっと... そうですね...？
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\PLF\prf\c[4]？？？：\c[0] なぜだ？俺は今仕事に専念しているだけ､そしてこの世界は俺を必要としている｡
+\CBct[20]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    仕事？ 何の仕事ですか？
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\PLF\prf\c[4]？？？：\c[0]    この迷える羊たちには導きが必要で､俺が行くべきところに連れて行くのだ｡
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    うーん.... わからない｡
+\CBct[20]\m[fear]\plf\PRF\c[6]ロナ：\c[0]     とにかく誰にも見られないでくださいね､ トラブルの原因になりますから｡
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\PLF\prf\c[4]？？？：\c[0]    俺は正しいことをしているのに､なぜ逃げ隠れしたり､誤魔化す必要がある？
+\CBct[20]\m[tired]\plf\PRF\c[6]ロナ：\c[0]    え....
+\CBct[20]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    だったら善良で普通の､罪のない人たちを救いに行ってよ！
+\CBct[20]\m[bereft]\plf\Rshake\c[6]ロナ：\c[0] それに正義感のあるまともな人が夜中に墓地に居ますか？ 答えてもらえます？
+\CBmp[DedOne,8]\SETpl[DedOne_normal]\PLF\prf\c[4]？？？：\c[0]    えっ\..\..\.. もう行くわ､頑張れよ｡
+\CBct[20]\m[wtf]\plf\Rshake\c[6]ロナ：\c[0]    は？
+
+DedOne/MassGrave_optPASS2
+\CBct[20]\m[confused]\SETpl[nil]\PRF\c[6]ロナ：\c[0]    脳みそイカれてるのかな？
+
+DedOne/MassGrave_WIN
+\SETpl[DedOne_angry]\Lshake\prf\c[4]？？？：\c[0]    生き延びたか！ ナイスハンターだ！
+\SETpl[DedOne_normal]\Lshake\prf\c[4]？？？：\c[0]    じゃあな！
+\CBct[20]\m[wtf]\SETpl[nil]\plf\Rshake\c[6]ロナ：\c[0]    は？！ 脳みそイカれてるんですか？
+
+
+####################################################################### PB_NorthCP
+
+PB_NorthCP/Qmsg0
+俺は正義だ！
+
+PB_NorthCP/Qmsg1
+心配するな！
+
+PB_NorthCP/Qmsg2
+正義降臨！
+

@@ -1,0 +1,528 @@
+thisMap/Enter
+リロイ闘技場
+
+firstTime/begin_1
+\CBct[2]\m[confused]\PRF\c[6]ロナ：\c[0]    ここがノエルの闘技場？
+\CBct[20]\m[flirty]\PRF\c[6]ロナ：\c[0]    名前は聞いたことあるけど､もう閉鎖されたはずだよね？
+
+firstTime/begin_2
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]通行人：\c[0]    お前！ そこのお前だ！
+\CBct[1]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    ひゃ！ なに？ わたし？
+
+firstTime/begin_3
+\CBct[2]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    えっと.... これなんですか？
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]通行人：\c[0]    持っとけって！ かなりの値打ちモンだと思うぞ！
+\CBct[8]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    おぉ？
+
+firstTime/begin_4
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]通行人：\c[0]    なぁ！ 見たよな！
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]通行人：\c[0] この券は今は俺の物じゃないぜ！もう邪魔すんなよ！
+
+firstTime/begin_5
+\CBct[8]\m[confused]\plh\PRF\c[6]ロナ：\c[0]    何がなんだか......
+\CBmp[Talker1,20]\SETpl[AnonMale2]\SETpr[AnonMale1]\PLF\prf\c[4]観客A：\c[0]    ツイてねえな､あのガキ｡
+\CBmp[Talker2,20]\SETpl[AnonMale2]\SETpr[AnonMale1]\plf\PRF\c[4]観客B：\c[0] だな､新人の\c[6]狂獣\c[0]とやらが\c[4]東の巨人\c[0]に勝てるわけがない｡
+\CBmp[Talker1,20]\SETpl[AnonMale2]\SETpr[AnonMale1]\PLF\prf\c[4]観客A：\c[0]  それでも全部見なけりゃならねぇなんて､そりゃベッドの上でレイプされながら天井見るのと変わらねえぜ｡
+
+firstTime/firstMatch0
+\CBct[20]\m[shocked]\PRF\c[6]ロナ：\c[0]    わー！ こんなにたくさん人がいるんだ？
+\CBct[20]\m[confused]\PRF\c[6]ロナ：\c[0]    結局何がそんなに面白いんだろ？ ただ男同士で殴り合うだけじゃないの？
+\CBct[8]\m[flirty]\PRF\c[6]ロナ：\c[0] そんなの外では毎日のようにやってるのに？
+
+firstTime/firstMatch1
+\CBmp[Reporter,0]\ph\....\....\....
+\CBmp[Reporter,0]\ph それでは！
+\CBmp[Reporter,0]\ph 歓迎しましょう！
+\CBmp[Reporter,0]\ph キミ達の愛する！
+\CBmp[Reporter,0]\SndLib[ClapGroup]\ph 闘技場の王子！\{\c[6]ダーネイル\c[0]だ！
+\CBmp[Reporter,0]\m[shy]\PRF\c[6]ロナ：\c[0] \c[4]ダーネイル\c[0]？うそぉ！\c[4]ダーネイル\c[0]に会えるの？！
+
+firstTime/firstMatch2
+\CBmp[Reporter,20]\c[4]ダーネイル：\c[0]    来た､見た､勝った！
+\CBmp[Reporter,20]\c[4]ダーネイル：\c[0]    アナタ達の大好きな王子がここに！
+
+firstTime/firstMatch3
+\CBmp[Reporter,0]\m[lewd]\plf\PRF\c[6]ロナ：\c[0]    \c[4]ダーネイル\c[0]だ♥ ホンモノ♥
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\prf\c[4]ダーネイル：\c[0]      皆さんの情熱に感謝します！ このダンスは皆さんへのお礼です！
+
+firstTime/firstMatch4
+\CBmp[Reporter,20]\SETpl[Reporter_confused]\Lshake\c[4]ダーネイル：\c[0]  それでは本日の主役をご紹介します！
+\CBmp[Reporter,20]\SETpl[Reporter_shocked]\Lshake\c[4]ダーネイル：\c[0]    最初に入場するのは こちら左手！！
+
+firstTime/firstMatch5
+\CBmp[LeftArenaE,19]\SETpl[Reporter_normal]\Lshake\c[4]ダーネイル：\c[0]    みんなの人気者\c[6]東の巨人\c[0]！
+
+firstTime/firstMatch6
+\CBmp[Reporter,20]\SETpl[Reporter_confused]\Lshake\c[4]ダーネイル：\c[0]    そしてこちら右手 彼の挑戦者は.......
+\CBmp[RightArenaE,19]\SETpl[Reporter_shocked]\Lshake\c[4]ダーネイル：\c[0] ヤバい薬物で強化されてるという噂の\c[6]狂獣\c[0]！！！
+
+firstTime/firstMatch7
+\CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    わたしが賭けている人かな？
+\CBct[8]\m[flirty]\PRF\c[6]ロナ：\c[0]   すっごい強そう 誰も拍手しないの？
+\SndLib[BadClap]\CBct[8]\m[triumph]\PRF\c[6]ロナ：\c[0]    大丈夫だよ！ わたしが応援してるから\..\..\..
+\SndLib[ppl_BooGroup]\CBmp[PPLg1,20]\m[shy]\PRF\c[6]ロナ：\c[0]    えっ？
+\SndLib[ppl_BooGroup]\CBmp[PPLg2,20]\m[sad]\PRF\c[6]ロナ：\c[0]    えっえっ？
+\SndLib[ppl_BooGroup]\CBmp[PlayerWatch,20]\m[sad]\PRF\c[6]ロナ：\c[0]    えええ？
+\CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    あぅ\..\..\...
+
+firstTime/firstMatch8
+\CBmp[Reporter,20]\SETpl[Reporter_normal]\Lshake\c[4]ダーネイル：\c[0]  皆さんもご存知の通り\c[6]東の巨人\c[0]は15連勝中です！
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\c[4]ダーネイル：\c[0] 地元じゃ負け知らずの公認最強戦士！彼のモットーは！ \c[6]男なら拳ひとつで勝負せんかい\c[0]！
+\CBmp[Reporter,20]\SETpl[Reporter_shocked]\Lshake\c[4]ダーネイル：\c[0]    己の両拳ですべてを打ち砕く！
+\CBmp[Reporter,20]\SETpl[Reporter_normal]\Lshake\c[4]ダーネイル：\c[0]    はたして\c[6]ルーデシンド商会\c[0]の訓練を受けた挑戦者はこの無敵の\c[6]東の巨人\c[0]を倒せるのか？
+\CBmp[Reporter,20]\SETpl[Reporter_shocked]\Lshake\c[4]ダーネイル：\c[0]    すべからく見よ！
+
+firstTime/firstMatch9
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\c[4]ダーネイル：\c[0]    両選手位置について！
+
+firstTime/firstMatch10
+\SndLib[MaleWarriorFatSpot]\CBmp[EastColossus,20]\c[4]東の巨人：\c[0]    ハッ！ こんだけでけえ図体なら内臓もでけえんだろ？ だがテメェのハラワタはオレが粉砕してやっからなぁ！
+\SndLib[MaleWarriorGruntSpot]\CBmp[SexBeast,8]\c[4]狂獣：\c[0]    ......
+
+firstTime/firstMatch11
+\SETpl[Reporter_shocked]\Lshake\c[4]ダーネイル：\c[0]    \{死合開始ィ！
+
+firstTime/firstMatch12
+\CBmp[EastColossus,20]\c[4]東の巨人：\c[0]    ハァ！その程度か？俺の敵じゃねぇな！
+\CBmp[SexBeast,8]\c[4]狂獣：\c[0]    ホォ......
+
+firstTime/firstMatch13
+\CBmp[EastColossus,20]\c[4]東の巨人：\c[0]    遅すぎんだよ！
+
+firstTime/firstMatch14
+\CBmp[EastColossus,20]\c[4]東の巨人：\c[0]    その程度かよ？
+
+firstTime/firstMatch15
+\CBmp[EastColossus,20]\c[4]東の巨人：\c[0]    見てるかぁ？ \c[6]ダーネイル\c[0]！ いくらゴミみてぇな挑戦者呼んできても､オレがズタズタにしてやるよ！
+\CBmp[EastColossus,20]\c[4]東の巨人：\c[0]    オレは家族を取り戻す！ みんなをこのクソみてェな島から連れ出すんだ！
+\CBmp[Reporter,20]\SETpl[Reporter_confused]\Lshake\c[4]ダーネイル：\c[0]    我々はアナタがどれほどの努力してきたかを見ていますから､心から応援していますよ！
+
+firstTime/firstMatch16
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\c[4]ダーネイル：\c[0]    しかし戦いはまだ終わっていない！
+\CBmp[EastColossus,1]\c[4]東の巨人：\c[0]    なにィ！
+
+firstTime/firstMatch17
+\CBmp[EastColossus,6]\c[4]東の巨人：\c[0]    このパワー...ありえねぇ.....
+\CBmp[SexBeast,8]\c[4]狂獣：\c[0]    ホオオ.....
+
+firstTime/firstMatch18
+\CBmp[EastColossus,6]\c[4]東の巨人：\c[0]    だめだ.. 待て....
+\CBmp[SexBeast,8]\c[4]狂獣：\c[0]    ホオオオォ.....
+
+firstTime/firstMatch19
+\CBmp[EastColossus,6]\c[4]東の巨人：\c[0]    やめろ！ もう殴るな！
+\CBmp[SexBeast,8]\c[4]狂獣：\c[0]    ホオオオオォ.....
+\CBmp[EastColossus,6]\c[4]東の巨人：\c[0] 降参する！棄権する！殺さないでくれ！
+
+firstTime/firstMatch20
+\CBmp[EastColossus,6]\c[4]東の巨人：\c[0]    なんでやめねぇんだ！ 死にたくない！
+\CBmp[Reporter,20]\SETpl[Reporter_normal]\Lshake\c[4]ダーネイル：\c[0]    誠に遺憾だが､その男に言葉は通じない！ 態度で降参の意思を伝えたほうが良いぞ！
+\plf\CBmp[EastColossus,6]\c[4]東の巨人：\c[0]    なにっ！
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\c[4]ダーネイル：\c[0]    跪け！ 背を向けろ！
+
+firstTime/firstMatch21
+\CBmp[EastColossus,6]\c[4]東の巨人：\c[0]    こうかよ.....
+\CBmp[SexBeast,8]\c[4]狂獣：\c[0]    ......
+
+firstTime/firstMatch22
+\CBmp[EastColossus,6]\c[4]東の巨人：\c[0]    なにっ！ ナニをする気だ！
+\CBmp[Reporter,20]\SETpl[Reporter_confused]\Lshake\c[4]ダーネイル：\c[0] \c[6]狂獣\c[0]は特に性行為に関する様々な錬金薬によって改造された戦士､彼にとって強者が弱者を犯すのは正当な行為！
+\CBmp[Reporter,20]\SETpl[Reporter_normal]\Lshake\c[4]ダーネイル：\c[0] 頭にあるのは相手を征服し！ファックすることだけ！
+\CBmp[Reporter,20]\SETpl[Reporter_shocked]\Lshake\c[4]ダーネイル：\c[0]      観客の皆さん！ ここからがメインイベントです！ 勝者は敗者にナニをするも自由！
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\c[4]ダーネイル：\c[0]    今！ココで！\c[6]東の巨人\c[0]は犯される！ 喝采を！
+
+firstTime/firstMatch22_1
+\ph\SndLib[ppl_CheerGroup]\CBmp[PPLg1,20]\c[4]観客：\c[0]    犯せ！ 犯せ！
+\ph\SndLib[ppl_CheerGroup]\CBmp[PPLg3,20]\c[4]観客：\c[0]    犯せ！ 犯せ！ 犯せ！
+\ph\SndLib[ppl_CheerGroup]\CBmp[PPLg4,20]\c[4]観客：\c[0]    犯せ！ 犯せ！ 犯せ！ 犯せ！
+
+firstTime/firstMatch22_2
+\CBmp[EastColossus,6]\c[4]東の巨人：\c[0]    いやだ！ 勘弁してくれ それだけはダメだぁ！
+
+firstTime/firstMatch23
+\CBmp[EastColossus,6]\c[4]東の巨人：\c[0]    いやァ！ 俺のケツが！ いてえよぉ！
+\CBmp[EastColossus,6]\c[4]東の巨人：\c[0] 孕みたくない！ガキなんか産みたくないよぉ！
+\CBmp[SexBeast,8]\c[4]狂獣：\c[0]    ホオオオ！！！
+
+firstTime/firstMatch23_1
+\CBmp[EastColossus,6]\c[4]東の巨人：\c[0]    \{わぎゃああ！！！
+
+firstTime/firstMatch24
+\narr \....\....\....
+\narr \c[6]狂獣\c[0]と\c[6]東の巨人\c[0]の男同士の交流は長く続いた...
+\narr 誰もが知っている､男が妊娠しないことは.....
+\narr それでも\..\..\.. 以下略.....
+
+firstTime/firstMatch25
+\CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    \..\..\..
+\CBct[8]\m[flirty]\PRF\c[6]ロナ：\c[0]    つまりこれって\c[4]狂獣\c[0]って人が勝ったの？
+\CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    \..\..\..
+\CBct[2]\m[flirty]\PRF\c[6]ロナ：\c[0]    これが伝説の男雄漢比較べってやつ？
+\CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    なんか\..\..\..\m[shy]えっちだ♥
+\CBct[4]\m[lewd]\PRF\c[6]ロナ：\c[0]    お母さんと一緒に観に来たいな､きっと気に入ってくれるだろうし♥
+\CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    \..\..\..\m[sad]みんないなくなっちゃった.....
+\CBct[20]\m[serious]\Rshake\c[6]ロナ：\c[0]    だめ！ このばか！ 気を引き締めなきゃ！
+
+firstTime/TakeReward1
+\CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    それで... ここで配当金を受け取るのかな？
+
+firstTime/TakeReward2
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]通行人：\c[0]    お前だな！ 俺の投票券を盗んだのは！
+
+firstTime/TakeReward3
+\CBct[8]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    えっ？ それはちが....
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]通行人：\c[0]    俺の券を盗んだろ！ 早く返せ！\optD[返す,強盗です！<r=HiddenOPT1>]
+
+firstTime/TakeReward4_give0
+\CBct[20]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    え？ あ？
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]通行人：\c[0]    さもないと衛兵呼ぶぞ！ さあ早く返せ！
+\CBct[8]\m[sad]\plf\PRF\c[6]ロナ：\c[0]    ハイ....
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]通行人：\c[0] いい子だね！女は裏通りで股開いて稼げ！
+\CBct[8]\m[tired]\plf\PRF\c[6]ロナ：\c[0]    でもあれはあなたが...
+
+firstTime/TakeReward4_give1
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]通行人：\c[0]    \{うっせぇわ！
+
+firstTime/TakeReward4_guard0
+\CBct[8]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    きゃああっ！！！？
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]通行人：\c[0]    なんだぁ？！ 早く返せや！
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    あああ... 衛兵さーん... この人強盗....
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]通行人：\c[0]    なんだと？！
+\CBct[20]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0] \{きゃああ！！！強盗ですぅ！
+\CBmp[TricketGiver,20]\SETpl[AnonMale1]\Lshake\prf\c[4]通行人：\c[0]    クソッ！
+
+firstTime/TakeReward4_guard1
+\SETpl[Mreg_guardsman]\Lshake\c[4]衛兵：\c[0]    何があった！
+
+firstTime/TakeReward4_guard2
+\CBmp[TricketGiver,20]\SETpr[AnonMale1]\PLF\prf\c[4]通行人：\c[0]    クソが！ 覚えてろよ！
+
+firstTime/TakeReward4_guard3
+\CBct[20]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    いろんな人がいるなぁ....
+
+################################################################################ MAIN PART #####################################
+################################################################################ MAIN PART #####################################
+################################################################################ MAIN PART #####################################
+################################################################################ MAIN PART #####################################
+############################################################################################################################################## Tricket seller
+
+name/ArenaSexBeast
+狂獣
+
+name/ArenaEastColossus
+東の巨人
+
+name/ArenaFemdom
+フェミニスト
+
+name/ArenaOrkindBro
+グリーンスキンブラザーズ
+
+name/ArenaDeepTerror
+ディープフィアー
+
+name/ArenaFailedAdv
+失格冒険者
+
+name/ArenaTeamRBQ
+奴隷戦士団
+
+name/ArenaHoboDudes
+下水道警備隊
+
+TicketSeller/BasicOpt
+\CBid[-1,20]\prf\c[4]チケット販売員：\c[0]    ようこそリロイ闘技場へ！\optB[やめる,会話,賭博,仕事]
+
+TicketSeller/BasicOpt_about0
+\CBct[2]\m[flirty]\PRF\c[6]ロナ：\c[0] ん？ここは閉鎖されたって聞いていたんですけど？
+\CBid[-1,20]\prf\c[4]チケット販売員：\c[0]    ハ！底辺どもは本当になんにもわかってねえ､遊び方を知っているのは上級の貴族サマたちだけだな｡
+\CBid[-1,20]\prf\c[4]チケット販売員：\c[0]    お前\c[6]シバリス\c[0]から来たんだろ？数ヶ月前に故郷がぶっ壊されたんだよな？
+\CBct[8]\m[sad]\PRF\c[6]ロナ：\c[0]    .....
+\CBid[-1,20]\prf\c[4]チケット販売員：\c[0]    ほらな､やっぱりそうだろ｡ でもそん時はこっちも大騒ぎだったんだぜ｡
+\CBid[-1,20]\prf\c[4]チケット販売員：\c[0] ルーデシンドが実権を握ってから最初にしたことは民心を安定させることだった！
+\CBct[2]\m[flirty]\PRF\c[6]ロナ：\c[0] 民心と闘技場はなんの関係があるんですか？ こんな競技は禁止されていると思ってましたよ？
+\CBid[-1,20]\prf\c[4]チケット販売員：\c[0]    平和主義者が一番好きなものは何か分かるか？血だ！自分よりも悲惨な境遇の奴を見せれば問題は解決なんだよ｡
+\CBid[-1,20]\prf\c[4]チケット販売員：\c[0] ココがどこにあるかなんて考えもしなかったろ､ここは\c[4]ノエル島\c[0]なんだぜ？
+\CBid[-1,20]\prf\c[4]チケット販売員：\c[0]    誰がココを管理してるか聞いてみたいもんだな？ 国王？それとも使徒か？
+\CBct[8]\m[tired]\PRF\c[6]ロナ：\c[0]    あぅ.....
+
+TicketSeller/BasicOpt_FighterList
+\board[本日の出場者]
+選手1 ： \c[4]#{$story_stats["HiddenOPT0"][0]}\c[0]
+選手2 ： \c[4]#{$story_stats["HiddenOPT1"][0]}\c[0]
+選手3 ： \c[4]#{$story_stats["HiddenOPT2"][0]}\c[0]
+選手4 ： \c[4]#{$story_stats["HiddenOPT3"][0]}\c[0]
+-
+選手1 ： 配当倍率\c[4]#{$story_stats["HiddenOPT0"][1]}\c[0] ペナルティ倍率\c[4]#{$story_stats["HiddenOPT0"][2]}\c[0]
+選手2 ： 配当倍率\c[4]#{$story_stats["HiddenOPT1"][1]}\c[0] ペナルティ倍率\c[4]#{$story_stats["HiddenOPT1"][2]}\c[0]
+選手3 ： 配当倍率\c[4]#{$story_stats["HiddenOPT2"][1]}\c[0] ペナルティ倍率\c[4]#{$story_stats["HiddenOPT2"][2]}\c[0]
+選手4 ： 配当倍率\c[4]#{$story_stats["HiddenOPT3"][1]}\c[0] ペナルティ倍率\c[4]#{$story_stats["HiddenOPT3"][2]}\c[0]
+
+TicketSeller/BasicOpt_bet0
+\CBid[-1,20]\prf\c[4]チケット販売員：\c[0]    誰に賭けるんだ？
+
+TicketSeller/BasicOpt_bet1
+\CBid[-1,20]\prf\c[4]チケット販売員：\c[0] 最低限の賭け金は\c[4]#{$story_stats["HiddenOPT1"]}\c[0]､最高\c[4]#{$story_stats["HiddenOPT2"]}\c[0]まで｡
+
+TicketSeller/BasicOpt_bet2
+\narr\c[4]#{$story_stats["HiddenOPT1"]}\c[0]への賭け金\c[6]#{$story_stats["HiddenOPT2"]}\c[0]  配当倍率\c[5]#{$story_stats["HiddenOPT3"]}\c[0]  ペナルティ倍率\c[5]#{$story_stats["HiddenOPT4"]}\c[0]
+\narrOFF\CBid[-1,20]\prf\c[4]チケット販売員：\c[0] もうすぐ試合が始まるから､左右の入口から入場してくれ｡
+
+TicketSeller/BasicOpt_work0
+\CBct[20]\m[confused]\PRF\c[6]ロナ：\c[0] なにかわたしにできるお仕事はありますか？
+\CBid[-1,2]\prf\c[4]チケット販売員：\c[0]    お前が？ 見てみるか....あっ！
+\CBid[-1,2]\prf\c[4]チケット販売員：\c[0] 余興試合で女が要る｡奴隷たちは抵抗する力すらないから､観客がすでに退屈しているんだ｡
+\CBid[-1,2]\prf\c[4]チケット販売員：\c[0]    これが契約書だ｡
+
+TicketSeller/BasicOpt_work1
+\board[余興試合]
+勝敗問わず報酬を得られる｡
+勝者は5割増しの報酬が得られる｡
+試合が長引くほど報酬は増え､ゲージが無くなった時点で上限となる｡
+勝利した場合はチケット販売員から報酬を受け取る｡
+敗北した場合も自動的に報酬が支払われる｡
+
+TicketSeller/BasicOpt_work2
+\board[余興試合]
+参戦する戦士は自分の命に責任を持て｡(奴隷を除く)
+死人に与える金はない｡(奴隷を除く)
+決闘はエンターテイメントでなければならない！
+
+TicketSeller/BasicOpt_workAccept
+\SndLib[PenWrite]\CBct[20]\m[flirty]\PRF\c[6]ロナ：\c[0]    よし､サインしよう｡
+\CBid[-1,2]\prf\c[4]チケット販売員：\c[0]      よし､いいだろう､お前ならしばらくは持ちそうだな｡
+\CBmp[EnterArena,19]\prf\c[4]チケット販売員：\c[0]    そこの入口から入場しろ｡
+\CBct[20]\m[confused]\PRF\c[6]ロナ：\c[0]    おぅ？
+
+TicketSeller/PlayerMatchStart
+\CBid[-1,2]\prf\c[4]チケット販売員：\c[0]     もうすぐショーが始まるのに､なぜ自分の仕事をしにいかない？ 契約したろうが！
+\CBmp[EnterArena,19]\prf\c[4]チケット販売員：\c[0]    隣の入口から入場だ！急げよ！ショーが始まっちまうぞ｡
+
+TicketSeller/Started
+\CBid[-1,20]\prf\c[4]チケット販売員：\c[0]    もうすぐ試合が始まるんだ､さあ早く入れ！
+\narr\c[4]#{$story_stats["HiddenOPT1"]}\c[0]への賭け金\c[6]#{$story_stats["HiddenOPT2"]}\c[0]  配当倍率\c[5]#{$story_stats["HiddenOPT3"]}\c[0]  ペナルティ倍率\c[5]#{$story_stats["HiddenOPT0"]}\c[0]
+
+TicketSeller/WannaLeave
+\CBid[-1,20]\prf\c[4]チケット販売員：\c[0] ここを出るんなら\c[6]#{$story_stats["HiddenOPT4"]}\c[0]トレードポイントを支払ってもらうからな｡
+
+TicketSeller/ItsDraw
+\CBid[-1,20]\prf\c[4]チケット販売員：\c[0]    引き分け？ 勝者総取り？ 珍しいなぁ｡
+
+TicketSeller/YouLose
+\CBid[-1,20]\prf\c[4]チケット販売員：\c[0]  負けたって？次はもっと賭けて､一発逆転しろよ！
+
+TicketSeller/StartedPayIdle
+\CBid[-1,20]\prf\c[4]チケット販売員：\c[0]    どれどれ\..\..\..
+
+TicketSeller/StartedNotEnough
+\CBid[-1,20]\prf\c[4]チケット販売員：\c[0]    足りないぞ！ あと\c[6]#{$story_stats["HiddenOPT4"]}\c[0]支払え！
+
+TicketSeller/StartedEnough
+\CBid[-1,20]\prf\c[4]チケット販売員：\c[0]    いいだろう､出られるぞ｡
+
+TicketSeller/MatchReward0
+\CBid[-1,20]\prf\c[4]チケット販売員：\c[0] 勝ったって？ ツイてるな､これがお前の配当金だ｡
+
+TicketSeller/MatchReward1
+\CBct[20]\m[triumph]\Rshake\c[6]ロナ：\c[0]    ありがとうございます！
+
+TicketSeller/MatchEnd
+\CBid[-1,20]\prf\c[4]チケット販売員：\c[0] 今日のショーは終わったってのにここで何をやってるんだ？ 明日来い！
+\CBct[20]\m[flirty]\PRF\c[6]ロナ：\c[0]    おぉ？
+
+TicketSeller/MatchStill
+\CBid[-1,20]\prf\c[4]チケット販売員：\c[0] 試合はまだ続いているが､ゆっくりしてると観られないぞ｡
+
+############################################################################################################################################## Food seller
+
+FoodSeller/begin
+\CBid[-1,20]\prf\c[4]店員：\c[0] 鉄と血の大乱闘のお供は？ツマミとビールに決まってるよな！でもツマミの食い残しを観戦中に投げるなよ？
+
+FoodSeller/SlaveQmsg0
+くっせぇ奴隷が！
+
+FoodSeller/SlaveQmsg1
+失せろ！
+
+FoodSeller/SlaveQmsg2
+奴隷がここでなにをしている！
+
+############################################################################################################################################################## Fight Begin
+
+NewMatch/begin1
+\CBmp[Reporter,20]\SETpl[Reporter_trumph]\Lshake\c[4]ダーネイル：\c[0]    本日の勇者たちを歓迎しましょう！
+
+NewMatch/begin2
+\CBmp[CenterPillar,0]\SETpl[Reporter_shocked]\Lshake\c[4]ダーネイル：\c[0]   \{死合開始！
+
+NewMatch/Draw
+\SETpl[Reporter_normal]\Lshake\c[4]ダーネイル：\c[0]    引き分けとは！ これは遺憾ですね！
+
+NewMatch/WinnerIS
+\SETpl[Reporter_trumph]\Lshake\c[4]ダーネイル：\c[0]    優勝者が出ました！
+\SETpl[Reporter_shocked]\Lshake\c[4]ダーネイル：\c[0] 勝利したのは\c[6]#{$story_stats["HiddenOPT0"]}\c[0]！！！！
+
+PlayerMatch/begin
+\SETpl[Reporter_trumph]\Lshake\c[4]ダーネイル：\c[0]    本日の前座試合を始めます！
+\SndLib[ppl_CheerGroup]\CBmp[FireR,0]\SETpl[Reporter_shocked]\Lshake\c[4]ダーネイル：\c[0] 先に登場したのは\c[6]#{$story_stats["HiddenOPT0"]}\c[0]！！！
+\SndLib[ppl_BooGroup]\CBct[0]\SETpl[Reporter_normal]\Lshake\c[4]ダーネイル：\c[0]    そしてそれに立ち向かうのは.... 名も知れぬさまようドブネズミです！
+
+PlayerMatch/begin_IfSlave
+\SndLib[ppl_BooGroup]\CBct[0]\SETpl[Reporter_normal]\Lshake\c[4]ダーネイル：\c[0]    このドブネズミはクソのような奴隷なので､二つの選択肢しかありません！
+\SndLib[ppl_BooGroup]\CBct[0]\SETpl[Reporter_shocked]\Lshake\c[4]ダーネイル：\c[0] 一つはタイムアウト､もう一つは相手をノックアウト！
+\SndLib[ppl_BooGroup]\CBct[0]\SETpl[Reporter_trumph]\Lshake\c[4]ダーネイル：\c[0]    さもなくば死あるのみ！
+
+PlayerMatch/LostRngRape0
+\SETpl[Reporter_shocked]\Lshake\c[4]ダーネイル：\c[0] 観客の皆さん！この負け犬をどう致しましょう？
+
+PlayerMatch/LostRngRapeTorture
+\ph\SndLib[ppl_CheerGroup]\CBmp[PPLg1,20]\c[4]観客：\c[0]    殴れ！ 蹴れ！
+\ph\SndLib[ppl_CheerGroup]\CBmp[PPLg3,20]\c[4]観客：\c[0]    犯せ！ 殺せ！ 首を切れ！
+\ph\SndLib[ppl_CheerGroup]\CBmp[PPLg4,20]\c[4]観客：\c[0]    食え！ 焼け！ 犯せ！ 殺せ！
+\CBct[8]\m[tired]\PRF\c[6]ロナ：\c[0]    うぅ....
+
+PlayerMatch/LostRngRape1
+\ph\SndLib[ppl_CheerGroup]\c[4]観客：\c[0]    犯せ！ 犯せ！ 犯せ！ 犯せ！
+
+PlayerMatch/LostRngRape2
+\SndLib[ppl_CheerGroup]\SETpl[Reporter_normal]\Lshake\c[4]ダーネイル：\c[0] 観客の皆さん！この喜びと愛を広めてくれた名も知れぬドブネズミに感謝しましょう！
+\SndLib[ppl_CheerGroup]\SETpl[Reporter_shocked]\Lshake\c[4]ダーネイル：\c[0] 観客の皆さん！彼女を偲びましょう！
+
+PlayerMatch/LostRngRape2_IfSlave_NotInTime0
+\SETpl[Reporter_confused]\Lshake\c[4]ダーネイル：\c[0] 観客の皆さん！このドブネズミは怠惰な奴隷です！どのような処分を下しましょうか！\SndLib[ppl_BooGroup]
+\ph\SndLib[ppl_BooGroup]\c[4]観客：\c[0]    \{殺せ！ 殺せ！ 殺せ！ 殺せ！
+
+PlayerMatch/LostRngRape2_IfSlave_NotInTime1
+\SETpl[Reporter_normal]\Lshake\c[4]ダーネイル：\c[0]    皆さんの声は届きました！\SndLib[ppl_CheerGroup]
+\SETpl[Reporter_shocked]\Lshake\c[4]ダーネイル：\c[0]    \{誰か！ 犬を放て！\SndLib[ppl_CheerGroup]
+\SndLib[dogSpot]\cg[map_WolfGroup].......
+
+PlayerMatch/win0
+\SETpl[Reporter_confused]\Lshake\c[4]ダーネイル：\c[0]    観客の皆さん！ 意外や意外！
+\SETpl[Reporter_shocked]\Lshake\c[4]ダーネイル：\c[0]    勝者はこのドブネズミでした！
+
+PlayerMatch/win1_InTime
+\CBct[8]\m[flirty]\PRF\c[6]ロナ：\c[0]    わたしが...勝者？
+
+PlayerMatch/win1_OutTime
+\CBct[8]\m[sad]\PRF\c[6]ロナ：\c[0]    あぅ.......
+\CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    観客はわたしのことが嫌いなの..？
+
+##ru not entertained?
+
+PlayerMatch/win2
+\narrロナは勝利し､この危険地帯を去った｡
+
+PlayerMatch/win2_slave
+\narrロナは勝利したが､奴隷部屋に追いやられた｡
+
+############################################################################################################################### SexBeast UniqueRape
+
+SexBeast/Lose0_0
+\CBct[20]\m[terror]\Rshake\c[6]ロナ：\c[0]    降参です！ 殺さないで！ 死にたくない！
+
+SexBeast/Lose0_1
+\CBct[20]\m[terror]\Rshake\c[6]ロナ：\c[0]    死にたくない！ 許して！
+
+SexBeast/Lose0_2
+\CBct[20]\m[terror]\Rshake\c[6]ロナ：\c[0]    見逃して！ 殴らないで！
+
+SexBeast/Lose1
+\c[4]狂獣：\c[0]    ホオオオォ！
+
+SexBeast/Lose2
+\SETpl[Reporter_trumph]\Lshake\c[4]ダーネイル：\c[0] 観客の皆さん！これで終わりとお思いですか？！ \c[4]狂獣\c[0]が彼女を手放すわけがない！\SndLib[ppl_CheerGroup]
+
+SexBeast/Lose2_1
+\SETpl[Reporter_shocked]\Lshake\c[4]ダーネイル：\c[0]    そう！ レイプです！ 狂獣はすべてをレイプする！ そのグラディウスで敵を征服する！
+
+SexBeast/Lose3
+\SETpl[Reporter_normal]\Lshake\c[4]ダーネイル：\c[0] 見てください！\c[4]狂獣\c[0]がぶちまけるようです！ この小さいドブネズミは耐えられるのか？！\SndLib[ppl_CheerGroup]
+
+SexBeast/Lose4
+\SETpl[Reporter_trumph]\Lshake\c[4]ダーネイル：\c[0]    これはマズい！\c[4]狂獣\c[0]はまだ満足していない！その巨体で小さいドブネズミを蹂躙し続けています！\SndLib[ppl_CheerGroup]
+
+SexBeast/Lose5
+\SETpl[Reporter_shocked]\Lshake\c[4]ダーネイル：\c[0]     またです  また射精するようです！ これが終わったら満足するのでしょうか？\SndLib[ppl_CheerGroup]
+
+SexBeast/Lose6
+\SETpl[Reporter_confused]\Lshake\c[4]ダーネイル：\c[0]    あっ.....
+
+SexBeast/Lose7
+\narr狂獣はロナを犯し続けた｡
+\narr今日の他の試合はすべてキャンセルされた｡
+
+
+############################################################################################################################################################## EXIT
+
+1fExit/Begin
+\SETpl[Mreg_pikeman]\C[4]ビクトリー広場\C[0]へ通じているが､入口に衛兵がいる｡\optB[やめる,通る,隠れて通る<r=HiddenOPT1>,騙して通る<r=HiddenOPT2>]
+
+1fExit/BetStill
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]衛兵：\c[0]    試合の結果が出るか賭け金を支払うまでは外には出られんぞ！
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]衛兵：\c[0]    チケット販売員のところに行って賭け金を支払ってから帰れ！
+
+1fExit/SneakFailed
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]衛兵：\c[0]    誰か逃げたぞ！ 殺せ！
+
+Guard/NapSlave0
+\SETpl[Mreg_guardsman]\Lshake\c[4]衛兵：\c[0]    おい！こっちだ｡
+\SETpr[Mreg_pikeman]\Rshake\plf\c[4]衛兵：\c[0]    どうした？！
+
+Guard/NapSlave1NoPay
+\SETpl[Mreg_guardsman]\prf\Lshake\c[4]衛兵：\c[0]    このクソアマ､賭けの借金を払ってないぞ！
+
+Guard/NapSlave1IsSlave
+\SETpl[Mreg_guardsman]\prf\Lshake\c[4]衛兵：\c[0]    そいつ逃亡奴隷だ！
+
+Guard/NapSlave2
+\SETpr[Mreg_pikeman]\Rshake\plf\c[4]衛兵：\c[0]    どうしてやろうか？
+\m[tired]\plf\PRF\c[6]ロナ：\c[0]    う... なにするの？
+\SETpl[Mreg_guardsman]\prf\Lshake\c[4]衛兵：\c[0]    観客を楽しませる女が足りないだろ？
+\SETpl[Mreg_pikeman]\Lshake\c[4]衛兵：\c[0]    そこでこのクソアマか！
+\m[p5sta_damage]\Rshake\c[6]ロナ：\c[0]    いや！放して！
+\cg[event_SlaveBrand]\SETpl[Mreg_pikeman]\Lshake\c[4]衛兵：\c[0] 暴れんなって言ってんだろ！いい子だからな！
+\SndLib[sound_AcidBurnLong]\m[p5health_damage]\Rshake\c[6]ロナ：\c[0]    \{ああああ！
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]ロナ：\c[0]    \{やあああ!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]ロナ：\c[0]    ひいい....
+
+##################################################### Other
+
+notice/DisbandWarning
+\narr警告：闘技場の仕事をするとパーティーは解散する
+
+198964/nothingHappen
+\cg[other_TankMan]1689.6.4 この日は何も起こらなかった \n 作画：417
+
+commoner/typeB
+\CBid[-1,20]\prf\c[4]賭博客：\c[0]    うちの女がココでやってることは残酷だなんて言ってたんだが､どう思うよ？
+\CBid[-1,20]\prf\c[4]賭博客：\c[0] 向かいの家の爺さんの犬が少し前にいなくなったんだ｡
+\CBid[-1,20]\prf\c[4]賭博客：\c[0] 数日後に衛兵に犬が帝都の難民に捕まって料理されちまったって言われたよ｡
+\CBid[-1,20]\prf\c[4]賭博客：\c[0]    はっ！ 残酷だって？
+\CBid[-1,20]\prf\c[4]賭博客：\c[0]    外がどんだけめちゃくちゃか見てみろ｡ コレが帝都人を消費する最高の方法なんだよ！
+
+commoner/typeA
+\CBid[-1,20]\prf\c[4]賭博客：\c[0]    \c[6]狂暴薬\c[0]って聞いたことあるか？
+\CBid[-1,20]\prf\c[4]賭博客：\c[0]  聞いた話じゃ街のお偉いさんと錬金術師が 肉体を強化する薬を作って､ここを実験場にしてるんだってさ｡
+\CBid[-1,20]\prf\c[4]賭博客：\c[0] 前線帰りの兵士から聞いたんだ｡あの薬は恐れ知らずになるが､飢えるってな｡
+\CBid[-1,20]\prf\c[4]賭博客：\c[0]    自分が強くなったと感じたんだとさ｡
+\CBid[-1,20]\prf\c[4]賭博客：\c[0]    おかしいと思わないか？ そんな最先端な技術がこんなクソ田舎に存在するなんてよ？
+\CBid[-1,20]\prf\c[4]賭博客：\c[0] それほどの人材が\c[6]ノエルの街\c[0]でなにしてるんだろうな？
+
+CommonerBL/Qmsg0
+男が妊娠できないなんて誰が言ったの？
+
+CommonerBL/Qmsg1
+JUNの最新刊に掲載されたわ！
+
+CommonerBL/Qmsg2
+女には子宮､男には前立腺小室がある！
+
+CommonerBR/Qmsg0
+いいえ！これは耽美なんかじゃない！
+
+CommonerBR/Qmsg1
+ホモと耽美は違うのよ！
+
+CommonerBR/Qmsg2
+ニセモノ！

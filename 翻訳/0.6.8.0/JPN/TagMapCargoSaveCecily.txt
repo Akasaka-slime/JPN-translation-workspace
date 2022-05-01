@@ -1,0 +1,233 @@
+thisMap/OvermapEnter
+西倉庫13号\optB[やめる,入る]
+
+Enter/Begin1
+\cg[map_region_NoerRoad]\SETpl[GrayRatNormalAr]\c[4]グレイラット：\c[0]    ご準備はよろしいでしょうか？
+\m[shocked]\plf\Rshake\C[6]ロナ：\C[0]    \{はわっ？！ \}派手な装備ですね！
+\SETpl[GrayRatNormalAr]\PLF\prf\c[4]グレイラット：\c[0]    はい？
+\m[flirty]\plf\PRF\C[6]ロナ：\C[0]    い､いえ､なんでもないです！
+
+Enter/Begin2
+\board[グレイラットの仲間を救出する]
+目標：人質を見つけて救出する､人質か依頼主が死んだら依頼失敗となる｡
+報酬：？？？
+依頼主：グレイラット
+
+Enter/Begin3
+\m[serious]\plf\Rshake\C[6]ロナ：\C[0]    よし､早速人質を救出しましょう！
+\SETpl[GrayRatNormalAr]\PLF\prf\c[4]グレイラット：\c[0]    待ってください､ここは正門です｡
+\m[confused]\plf\PRF\C[6]ロナ：\C[0]    はい､それがどうかしたの？
+\SETpl[GrayRatConfusedAr]\PLF\prf\c[4]グレイラット：\c[0]    .......
+\m[shy]\plf\PRF\C[6]ロナ：\C[0]    .....
+\SETpl[GrayRatShockedAr]\Lshake\prf\c[4]グレイラット：\c[0]    ...お忘れになりましたか？ \{これは罠ですよ！\}
+\m[flirty]\plf\PRF\C[6]ロナ：\C[0]    裏口から入りましょう｡
+
+###################################################   BEGIN PART ###############################################################
+AboutTrap/Begin1
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatNormalAr]\PLF\prf\c[4]グレイラット：\c[0]    待ってください.....
+\CBct[2]\m[shoked]\plf\Rshake\C[6]ロナ：\C[0]    \{えっ､今度はなに？！\}
+\CBct[8]\SETpl[GrayRatConfusedAr]\PLF\prf\c[4]グレイラット：\c[0]    .......
+\CBmp[UniqueGrayRat,1]\SETpl[GrayRatNormalAr]\PLF\prf\c[4]グレイラット：\c[0]    トラップがいます､きっと中にもたくさんいるでしょう｡
+
+AboutTrap/Begin2
+\CBct[8]\m[confused]\plf\PRF\C[6]ロナ：\C[0]    あっ.....
+
+AboutTrap/Begin3
+\CBct[20]\m[flirty]\plf\PRF\C[6]ロナ：\C[0]    ご心配なく､些細な問題です､わたしが何とかしてみせます｡
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatConfusedAr]\Lshake\prf\c[4]グレイラット：\c[0]    ............
+\CBct[6]\m[bereft]\plf\Rshake\C[6]ロナ：\C[0]    信じてください！
+
+AboutTrap/Begin4
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatConfusedAr]\prf\c[4]グレイラット：\c[0]    ............
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatNormalAr]\prf\c[4]グレイラット：\c[0]    安全なルートを探してください､私もすぐついていきますので｡
+
+############################################################################################################################
+
+MobTalking/Begin1
+\CBmp[MobB,20]\SETpl[MobHumanCommoner]\Lshake\prf\C[4]野盗：\C[0]    なあ...これら､本当に役に立てんのか？あのデカブツは強いぞ｡
+\CBmp[MobA,20]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]野盗：\C[0]    大丈夫だって安心しろよ！これだけ仕掛ければどんな奴も殺せるだろう｡
+\CBmp[MobB,20]\SETpl[MobHumanCommoner]\Lshake\prf\C[4]野盗：\C[0]    そりゃそうだな｡
+\CBmp[MobB,20]\SETpl[MobHumanCommoner]\Lshake\prf\C[4]野盗：\C[0]    そういえば､なんであのデカ乳女に手を出さないんだ？勿体ないじゃん｡
+\CBmp[MobA,20]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]野盗：\C[0]    テメエが？！ 噛まれるぞ！
+\CBmp[MobC,20]\SETpl[MobHumanWarrior]\Lshake\C[4]野盗：\C[0]    うるせえ！集中しろ！
+\CBct[1]\m[serious]\plh\PRF\Rshake\C[6]ロナ：\C[0]    人がいっぱい！
+\CBct[20]\m[triumph]\plh\PRF\C[6]ロナ：\C[0]    でもわたしのことに気づいていないみたいだね？大丈夫！
+
+CecilyRape/stage1
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\C[4]野盗：\C[0]    俺らの仲間を殺してどうなるか知ってる？
+\CBmp[CeTrapped,20]\SETpl[CecilyTrapA_Normal]\Lshake\prf\C[4]セシリー：\C[0]    チッ！あの難民達は\C[6]インガレンド\C[0]の民､あんた達もだ！\C[6]インガレンド王国\C[0]の民は奴隷なんかじゃない！
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]野盗：\C[0]    この期に及んでまだ国の話かよ？ここは\C[6]ノエル島\C[0]だぞ？外は今魔物たちが暴走しているのだぞ？
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]野盗：\C[0]    まぁ､俺らが手を引いても､まだまだ同業がいっぱいいるけどね｡
+\CamCT\optD[潜入,待つ]
+
+CecilyRape/stage2
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]野盗：\C[0]    大体､考えたことがあるのか､うちの商品の大半は自ら奴隷になるために来たんだよ｡
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]野盗：\C[0]    こっちに来て､安心した顔を見せた奴もいるからな｡
+\CBmp[CeTrapped,5]\SETpl[CecilyTrapA_Shy]\Lshake\prf\C[4]セシリー：\C[0]    嘘だ！
+\CamCT\optD[潜入する,自分の爪を観察する]
+
+CecilyRape/stage3
+\CBmp[Raper,4]\SETpr[MobHumanCommoner]\plf\Rshake\C[4]野盗：\C[0]    そういえばお前､エロい体してるなぁ｡
+\CBmp[CeTrapped,15]\SndLib[sound_DressTear]\SETpl[CecilyTrapB_Shocked]\Lshake\prf\C[4]セシリー：\C[0]    \{！！！！
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\Rshake\C[4]野盗：\C[0]    お前処女じゃないんだろ？多分｡俺ら平民は貴族様のエロい噂をよく聞かされてるんだ｡
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\Rshake\C[4]野盗：\C[0]    死ぬ前に一発どうだい？
+\CBmp[CeTrapped,15]\SETpl[CecilyTrapB_Normal]\Lshake\C[4]セシリー：\C[0]    \{\.手\.を\.は\.な\.せ！
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\Rshake\C[4]野盗：\C[0]    いい表情だ､やっはり女はそうこなくっちゃ｡
+\CBmp[CeTrapped,15]\SETpl[CecilyTrapB_Shy]\PLF\PRF\C[4]セシリー：\C[0]    .............
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\PLF\Rshake\C[4]野盗：\C[0]    おう､抵抗するのか？興奮しちゃう♥｡
+\CBmp[CeTrapped,15]\SETpl[CecilyTrapB_Normal]\Lshake\PRF\C[4]セシリー：\C[0]    \{クソ野郎！ 死ね！
+\CBmp[Raper,20]\SETpr[MobHumanCommoner]\PLF\Rshake\C[4]野盗：\C[0]    くぅー！勃った勃った♥
+\optD[潜入する,天井の汚れを見る]
+
+CecilyRape/rape_scene1
+\Lshake\C[4]セシリー：\C[0]    離せ！このクソ下民！
+
+CecilyRape/rape_scene2
+\C[4]野盗：\C[0]    貴族にしては､ずいぶんと凶暴だなお前｡
+\C[4]野盗：\C[0]    気に入ったぜ♥ 抱き心地もいいし｡
+\C[4]野盗：\C[0]    敵同士じゃなきゃ､奴隷として買いたいくらいだ｡
+
+CecilyRape/rape_scene3
+\Lshake\C[4]セシリー：\C[0]    \{うるさい！黙れ！黙れ！
+
+CecilyRape/rape_scene4
+\C[4]野盗：\C[0]    じゃあ黙らせてみろよ？
+
+CecilyRape/rape_scene5
+\C[4]野盗：\C[0]    我慢汁があんまり出ていないから､ちょっと痛いかもしれないよ♥
+
+CecilyRape/rape_scene6
+\C[4]野盗：\C[0]    どうした？急に黙って？ほらほら話そうよ､誰がお前の初めてなんだ♥？
+
+CecilyRape/rape_scene7
+\C[4]野盗：\C[0]    あのムートのデカブツか､それとも俺？
+\C[4]野盗：\C[0]    ん？ムート？貴族とムートが？
+
+CecilyRape/rape_scene8
+\Lshake\C[4]セシリー：\C[0]    \{これ以上言うな！！！
+
+CecilyRape/rape_scene9
+\{！！！！！！！！！！！
+
+CecilyRape/rape_scene10
+\C[4]野盗：\C[0]    \{\.ざ\.ん\.ね\.ん\.. 初めては俺じゃなくて♥
+
+CecilyRape/rape_scene11
+\C[4]野盗：\C[0]    そこそこのマンコ具合だな､動くぞ､しっかり搾れよ♥
+
+CecilyRape/rape_scene12
+\C[4]野盗：\C[0]   いい感じだ､娼婦に向いてるなぁお前｡
+
+CecilyRape/rape_scene13
+\C[4]野盗：\C[0]    あのデカブツと比べて､俺の息子はどうだい？
+
+CecilyRape/rape_scene14
+\C[4]セシリー：\C[0]    \{最悪だ！ 死ね！
+
+CecilyRape/rape_scene15
+\C[4]野盗：\C[0]    そりゃ残念｡
+
+CecilyRape/rape_scene16
+\C[4]野盗：\C[0]    イクぞ！
+
+CecilyRape/rape_scene17
+\C[4]野盗：\C[0]    \{ぐああああ！
+
+CecilyRape/rape_scene18
+\C[4]野盗：\C[0]    \{くっ！出る！受けろ！
+
+CecilyRape/rape_scene19
+\C[4]セシリー：\C[0]    \{なっ！ダメ！抜いて！
+
+CecilyRape/rape_scene20
+\C[4]セシリー：\C[0]    \{お願い､外に！
+
+CecilyRape/rape_scene21
+\C[4]セシリー：\C[0]    \{いやあああああ！
+
+CecilyRape/rape_scene22
+\C[4]セシリー：\C[0]    \{\{ああああああああっ！
+
+CecilyRape/rape_scene23
+\C[4]セシリー：\C[0]    \{ふっ！やっ！
+\Rshake\SND[SE/Whip01.ogg]\C[4]野盗：\C[0]    \{気持ちいい！
+\Rshake\SND[SE/Whip01.ogg]\C[4]野盗：\C[0]    \{くぅー！
+\C[4]セシリー：\C[0]    ハァ...ハァ...
+
+CecilyRape/stage_rape_end
+\CBmp[CeTrapped,8]\SETpl[CecilyTrapB_Shy]\SETpr[MobHumanCommoner]\PLF\prf\C[4]セシリー：\C[0]        うぅぅ....
+\CBmp[Raper,20]\plf\PRF\C[4]野盗：\C[0]    フゥ～すっきりした｡
+\CBmp[Raper,20]\plf\Rshake\C[4]野盗：\C[0]    ちょっと惜しいなぁ｡
+\CBmp[Raper,20]\plf\Rshake\C[4]野盗：\C[0]    まぁ､他のやつに回してやるか｡
+\CBmp[CeTrapped,20]\SETpl[CecilyTrapB_Normal]\Lshake\prf\C[4]セシリー：\C[0]    \{許さない\}.......
+\CBmp[Raper,20]\plf\PRF\C[4]野盗：\C[0]    なんだ？聞こえねえぇなぁ？ハハッ｡
+\CBmp[CeTrapped,20]\SETpl[CecilyTrapB_Normal]\Lshake\prf\C[4]セシリー：\C[0]    \{絶対殺す！\}
+
+CecilyRape/trapped_raped
+\CBid[-1,1]\SETpl[CecilyTrapB_Shy]\Lshake\C[4]セシリー：\C[0]    \{！！！！！！\}
+\CBct[20]\m[serious]\Rshake\C[6]ロナ：\C[0]    シッー！声を出さないで､わたしは味方です｡
+
+CecilyRape/trapped
+\CBid[-1,1]\SETpl[CecilyTrapA_Shocked]\Lshake\C[4]セシリー：\C[0]    \{！！！！！！\}
+\CBid[-1,6]\SETpl[CecilyTrapA_Normal]\C[4]セシリー：\C[0]    ........
+\CBct[20]\m[serious]\Rshake\C[6]ロナ：\C[0]    シッー！声を出さないで､わたしは味方です｡
+
+CecilyRape/trapped2
+\CBmp[Cecily,8]\SETpl[CecilyWtfAr]\PLF\prf\C[4]セシリー：\C[0]    ふん｡
+\CBmp[Cecily,2]\SETpl[CecilyShyAr]\PLF\prf\C[4]セシリー：\C[0]    執事長があんたをここに？彼はどこに居る？
+\CBct[2]\m[confused]\plf\PRF\C[6]ロナ：\C[0]    執事長？
+\CBct[20]\m[pleased]\plf\PRF\C[6]ロナ：\C[0]    ああ！グレイラットさんのこと？わたしの後ろにいますよ｡
+
+CecilyRape/trapped3
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]グレイラット：\C[0]    お嬢様.... 申し訳ございません.....
+\CBct[2]\m[confused]\plf\PRF\C[6]ロナ：\C[0]    お嬢様？
+\CBct[8]\m[confused]\plf\PRF\C[6]ロナ：\C[0]    .....
+\CBct[20]\m[shocked]\plf\Rshock\C[6]ロナ：\C[0]    \{貴族？\}
+\CBmp[Cecily,6]\SETpl[CecilyWtfAr]\Lshake\prf\C[4]セシリー：\C[0]    シッ！落ち着け！
+\CBmp[Cecily,20]\SETpl[CecilyAngryAr]\PLF\prf\C[4]セシリー：\C[0]    今はそんなこと言ってる場合じゃない｡
+
+CecilyRape/trapped4_raped
+\CBmp[UniqueGrayRat,6]\SETpl[GrayRatNormalAr]\PLF\prf\C[4]グレイラット：\C[0]    お嬢様..大丈夫ですか....
+\CBmp[Cecily,20]\SETpr[CecilyNormalAr]\plf\PRF\C[4]セシリー：\C[0]    平気だ｡
+\CBmp[UniqueGrayRat,6]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]グレイラット：\C[0]    ですが..... この匂いは....？
+\CBmp[UniqueGrayRat,5]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]グレイラット：\C[0]    ..........！！！
+\CBmp[UniqueGrayRat,15]\SETpl[GrayRatShockedAr]\Lshake\prf\C[4]グレイラット：\C[0]    \{よくも....\}
+\CBmp[UniqueGrayRat,15]\SETpl[GrayRatShockedAr]\Lshake\prf\C[4]グレイラット：\C[0]    \{殺す！\}
+\CBmp[Cecily,20]\SETpr[CecilyAngryAr]\plf\PRF\C[4]セシリー：\C[0]    落ち着け！ もう一度言う！ アタシは大丈夫だ！
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatShockedAr]\Lshake\prf\C[4]グレイラット：\C[0]    .........
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatConfusedAr]\Lshake\prf\C[4]グレイラット：\C[0]    .....
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatNormalAr]\Lshake\prf\C[4]グレイラット：\C[0]    はい､お嬢様｡
+
+CecilyRape/trapped4
+\CBmp[UniqueGrayRat,6]\SETpl[GrayRatNormalAr]\PLF\prf\C[4]グレイラット：\C[0]    お嬢様..大丈夫ですか....
+\CBmp[Cecily,20]\SETpr[CecilyNormalAr]\plf\PRF\C[4]セシリー：\C[0]    大丈夫だ｡
+\CBmp[UniqueGrayRat,8]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]グレイラット：\C[0]    良かった......
+
+CecilyRape/trapped5
+\CBct[6]\m[confused]\plf\PRF\C[6]ロナ：\C[0]    あの.... お忙しいところをお邪魔して申し訳ございません｡
+\CBct[2]\m[flirty]\plf\PRF\C[6]ロナ：\C[0]    この後はどういたしましょうか？
+\CBmp[Cecily,20]\SETpr[CecilyAngryAr]\plf\PRF\C[4]セシリー：\C[0]    こっちが訊きたいよ！あんた斥候でしょ？
+\CBmp[Cecily,20]\SETpr[CecilyNormalAr]\plf\PRF\C[4]セシリー：\C[0]    あと､その堅苦しい口調はやめて､そういうのが好きじゃないんだ｡
+\CBmp[Cecily,20]\SETpr[CecilyAngryAr]\plf\Rshake\C[4]セシリー：\C[0]    案がなければ正面突破だ！ あいつらをぶっ殺す！
+
+#too many UX notice? should not over notice? should not break UX rule?
+#\CamMP[ExitPoint2]\BonMP[ExitPoint2,28]\m[shocked]\Rshake\C[6]ロナ：\C[0]    本当にやるんですか？
+#\CamCT\SETpr[CecilyWtfAr]\plf\Rshake\C[4]セシリー：\C[0]    \{早く決めて！
+
+################################################### FAILED ####################################################
+QuestFailed/Nap1
+\m[tired]\C[6]ロナ：\C[0]    うぅぅ...
+
+QuestFailed/Nap2
+\narr依頼が失敗しました｡
+\narrセシリーとグレイラットが行方不明になった｡
+
+QuestFailed/Nap3
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盗：\C[0]    このガキはどうする？
+\SETpr[MobHumanCommoner]\Rshake\C[4]野盗：\C[0]    持ち帰りだ､いい商品になれるかもしれん｡
+
+QuestFailed/ObjDed
+\narr人質が死亡しました､依頼失敗です！
+
+Exit/QuestFailWarning
+\m[confused]\narrここを出ると依頼失敗となる｡

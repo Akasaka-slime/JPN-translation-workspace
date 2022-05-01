@@ -1,0 +1,314 @@
+thisMap/OvermapEnter
+\m[confused]キャンプ､\n兵士たちの娯楽室｡\optB[やめる,入る]
+
+1fExit/Begin
+\SETpl[Mreg_pikeman]\C[4]製塩所\C[0]へ繋がっているが､入り口には警備が立っている｡\optB[やめる,入る,隠れて入る<r=HiddenOPT1>,騙して入る<r=HiddenOPT2>]
+
+nap/Capture
+asd
+
+InnKeeper/Begin
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    誰だお前？ ここじゃお前は歓迎されんぞ！
+
+InnKeeper/Slave_work
+\CBid[-1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    黙れ！ 仕事をしろ！
+
+InnKeeper/About_here
+\CBct[2]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    ここはどこですか？
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    ここか？
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    ここも昔は製塩所だったが､以前から\c[6]海岸の砦\c[0]として､海賊共に塩をブチ撒いてやってた｡
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    だが魔物が侵入してきてからはこの辺まるごと衰退してな､今じゃ魔物と戦うための砦になっちまった！
+\CBct[2]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    うーん？ どうしてここにはこんな沢山の人がいるんでしょう？
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    理由は分からんが､この辺での魔物が出なくなったのは､\c[6]使徒\c[0]が奇跡を起こしたかららしいぞ？
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    なにせ軍が占領して難民ゲートの中継地になってからは暫くの間､誰も新しい魔物を見ちゃいないからな｡
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    へぇ...
+
+InnKeeper/About_work0
+\CBct[2]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    私にできる仕事はありませんか？
+\CBid[-1,2]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    あぁ？ おまえは女か？
+\CBid[-1,8]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    うーん... 乳は小せぇが､無いよかマシか｡
+\CBct[2]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    は？
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    ここじゃ看護係を募集してる､毎日腹いっぱい飯も食えるし､安全も保障されるぞ｡
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    ほら､ここにサインするといい｡
+
+InnKeeper/About_work1
+\board[アットホームな職場です！]
+友達や家族を助けたいと思いませんか？！
+負傷した兵士のために､看護係を募集中です｡
+兵士があなたの安全と食事を確保します｡
+また､一人分のノエルタウンへの入場が保証されます｡
+あなたは雇用主のすべての労働条件に同意することになります｡
+許可なく職場を離れることはできません｡
+労働条件に違反した場合､雇用主により罰則が課されます｡
+\}従業員は業務上の必要性によりインガレンド王国民としての人権を一切放棄する｡
+従業員は業務上の必要性により兵士の奴隷となる｡
+\{私___は上記の条項に同意して製塩所の従業員となります｡
+
+InnKeeper/About_work2
+\CBct[8]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    えっと...食事と安全？
+
+InnKeeper/About_work2_Y
+\CBct[20]\m[flirty]\plf\c[6]ロナ：\c[0]    うーん...条件が良すぎる気もするけど...
+\SND[SE/PenWrite1.ogg]\narrロナは契約書に自分の名前を署名した｡
+\narrOFF\CBid[-1,3]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    よし！
+\CBid[-1,3]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    家族はいるのか？ 名前を教えてくれりゃ､そいつらもこれからはノエルタウンの一員だぜ｡
+\CBct[8]\m[sad]\plf\c[6]ロナ：\c[0]    家族は\..\..\.. みんな死んじゃいました｡
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    あぁ...そいつは残念だったな､ならノエルタウンに行かせてやりたい奴はいるか？
+\CBct[8]\m[tired]\plf\c[6]ロナ：\c[0]    いえ\..\..\.. どこかの貧乏な人でも助けてあげてください｡
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    いいだろう､少しの間ここで待ってろ｡
+
+InnKeeper/About_work2_N
+\CBct[5]\m[irritated]\plf\Rshake\c[6]ロナ：\c[0]    こんなのおかしい！ 嘘つき！
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    クソアマが！ とっとと帰りやがれ！
+
+#################################### SIged
+
+InnKeeper/About_work2_Y1
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    あの...どうしたの？
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    \{コイツをおさえろ！\}
+
+InnKeeper/About_work2_Y2
+\CBct[20]\m[hurt]\plf\Rshake\c[6]ロナ：\c[0]    いたい！ 放してよ！
+\CBct[6]\m[fear]\plf\Rshake\c[6]ロナ：\c[0]    放してください！私は看護の仕事をするために来たんです！
+
+InnKeeper/About_work2_Y3
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    おまえはこれにサインしたじゃないか！ 喜んで奴隷になりますってな！
+\CBct[20]\m[terror]\plf\Rshake\c[6]ロナ：\c[0]    なに？！ 奴隸？！
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    自分の目で確認してみろよ､ホラ､ここの行だよ｡
+\CBct[20]\m[bereft]\plf\Rshake\c[6]ロナ：\c[0]    そんな...そんな小さい文字見えるわけないじゃないですか！！
+
+InnKeeper/About_work2_Y4
+\CBmp[Guard1,5]\SETpl[Mreg_guardsman]\Lshake\PRF\c[4]店長：\c[0]    クソビッチが！ 黙りやがれ！
+
+InnKeeper/About_work2_Y5
+\CBid[-1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]店長：\c[0]    早くこのビッチを連れていけ､古いヤツにはもう飽きただろ｡
+\CBmp[Guard1,20]\cg[event_SlaveBrand]\SETpl[Mreg_guardsman]\Lshake\c[4]守衛：\c[0]    直ちに！
+\CBct[20]\SndLib[sound_AcidBurnLong]\m[p5health_damage]\Rshake\c[6]ロナ：\c[0]    \{イヤアアア!
+\CBct[20]\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]ロナ：\c[0]    \{アアアア!
+\CBct[20]\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]ロナ：\c[0]    ひいい...
+
+InnKeeper/About_work2_Y6
+\m[sad]\c[6]ロナ：\c[0]    うぅ... どうして...
+
+InnKeeper/About_work2_Y7
+\CBmp[Guard2,20]\SETpl[Mreg_guardsman]\Lshake\c[4]守衛：\c[0]    我々に奉仕することがこれからの貴様の仕事だ｡
+\CBmp[Guard2,20]\SETpl[Mreg_guardsman]\Lshake\c[4]守衛：\c[0]    我々が望むことを何でもするんだ､わかるな？
+\CBmp[Guard2,20]\SETpl[Mreg_guardsman]\Lshake\c[4]守衛：\c[0]    手を抜いたりしたら殺すからな！
+
+InnKeeper/About_work2_Y8
+\CBct[8]\m[tired]\c[6]ロナ：\c[0]    .....
+
+#################################### SIged end
+#################################### TOR
+
+Torture/NapTrigger
+\SndLib[sound_MaleWarriorSpot]\c[4]兵士A：\c[0]    ようビッチ､よくもやってくれたな！
+\SndLib[sound_MaleWarriorSpot]\c[4]兵士B：\c[0]    オラ起きろ！ お前に奴隷としての生き方を教えてやるよ！
+\narrロナはすべての所持品を失った。
+
+Torture/begin0
+\SndLib[sound_MaleWarriorSpot]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]兵士：\c[0]    メスガキ､目ぇ覚ましな！
+\SndLib[sound_MaleWarriorSpot]\SETpr[Mreg_pikeman]\plf\Rshake\c[4]兵士：\c[0]    オイ起きろ！雌犬！
+\m[tired]\c[6]ロナ：\c[0]    う.....
+
+Torture/begin1
+\CBmp[Torture1,1]\m[shocked]\Rshake\c[6]ロナ：\c[0]    ！！！
+\CBmp[Guard2,3]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]兵士：\c[0]    もし暴れたらどうなるかは少し考えりゃ分かるよな？
+\CBmp[Torture1,6]\m[fear]\Rshake\c[6]ロナ：\c[0]    わたし.....
+\CBmp[Guard1,5]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]兵士：\c[0]    俺達がわからせてやるよ！
+\CBmp[Torture1,20]\m[terror]\Rshake\c[6]ロナ：\c[0]    ひいい！！！
+
+Torture/begin2
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]兵士：\c[0]    なぁお前ら！ このメスガキをどうわからせてやろうか？
+
+Torture/begin3
+\CBmp[Guard2,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]兵士：\c[0]    オーケー！ 皆聞こえてるぜ！
+
+Torture/begin4
+\CBmp[Torture1,6]\m[bereft]\Rshake\c[6]ロナ：\c[0]    ごめんなさい､許してください！
+
+Torture/begin5
+\CBmp[Guard1,20]\m[sad]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]兵士：\c[0]    もっとお仕置きが必要かな？
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]兵士：\c[0]    おう！ お前はどうしてやりたい？
+
+Torture/begin6
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]兵士：\c[0]    よーし分かった！
+
+Torture/begin7
+\CBmp[Torture1,8]\m[tired]\Rshake\c[6]ロナ：\c[0]    .....
+
+Torture/begin8
+\narr兵士たちの罵声と侮辱の中でロナは意識を失った｡
+
+#################################### TOR END
+#################################### MAMA 
+
+Mama/getDress
+\CBid[-1,20]\prf\c[4]奴隸：\c[0]    アンタも騙されたのかい？
+\CBid[-1,20]\prf\c[4]奴隸：\c[0]    これを着りゃ､少しはマシに見えるよ｡
+\CBct[8]\m[tired]\PRF\c[6]ロナ：\c[0]    ありがとう...
+
+Mama/Begin0
+\CBid[-1,20]\prf\c[4]奴隸：\c[0]    私に何か用かい？
+
+Mama/Begin1
+\CBid[-1,20]\prf\c[4]奴隸：\c[0]    私たち女に他にできることがある？
+
+Mama/End0
+\CBid[-1,20]\prf\c[4]奴隸：\c[0]    とっとと行きな､ガキ｡
+
+Mama/End1
+\CBid[-1,20]\prf\c[4]奴隸：\c[0]    アンタが苦しめばその分､私たちの苦しみが減るわ｡
+
+#################################### JOB ACCEPT
+
+Job/Begin0
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]兵士：\c[0]    オイ！ 起きろ！ 仕事の時間だ！
+\CBct[8]\m[tired]\plf\PRF\c[6]ロナ：\c[0]    う....
+
+Job/NoWork
+\narr兵士たちはロナの存在を忘れているようだ｡
+ロナはこの機会にゆっくり休んだ｡
+
+Job/WhoreJob0
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]兵士：\c[0]    三人の兵士にヤッて貰ってこい！
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]兵士：\c[0]    忘れるなよ､お前はただのビッチだ！ 奴隸だ！ 人間じゃねぇ！
+\CBct[6]\m[tired]\plf\PRF\c[6]ロナ：\c[0]    はい....
+
+JobOpt/Suck
+しゃぶる
+
+JobOpt/Done
+\narrロナは仕事を終えた｡
+
+Job/SuckJob0
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]兵士：\c[0]    兵士のチンポをしゃぶってこい！
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]兵士：\c[0]    少なくとも三人のチンポを綺麗にしてくるんだ！
+\CBct[6]\m[tired]\plf\PRF\c[6]ロナ：\c[0]    はい....
+
+JobOpt/SuckJob_Begin0_0
+\CBct[6]\m[sad]\plf\PRF\c[6]ロナ：\c[0]    わたし...咥えてきました...
+
+JobOpt/SuckJob_Begin0_1
+\CBct[6]\m[sad]\plf\PRF\c[6]ロナ：\c[0]    おちんちんをきれいにしに来ました...
+
+JobOpt/SuckJob_Begin1_0
+\CBid[-1,4]\plf\c[6]ロナ：\c[0]    最高､食べながらフェラするのはとても楽しいです｡
+
+JobOpt/SuckJob_Begin1_1
+\CBid[-1,4]\plf\c[6]ロナ：\c[0]    すごい！さぁ膝をついて！ 私にしゃぶらせて！
+\CBct[6]\m[sad]\plf\PRF\c[6]ロナ：\c[0]    はい...
+
+Job/MeatToiletJob0
+\CBmp[Guard1,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]兵士：\c[0]    コイツを起こせ！
+
+Job/MeatToiletJob1
+\CBct[6]\m[hurt]\plf\Rshake\c[6]ロナ：\c[0]    ああっ？！
+\CBmp[Guard2,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]兵士：\c[0]    最前線で魔物と戦ってたやつらが戻ってくる｡
+\CBmp[Guard2,20]\SETpl[Mreg_guardsman]\Lshake\prf\c[4]兵士：\c[0]    やつらを慰安してやれ､簡単な仕事だろう？！
+\CBct[8]\m[tired]\plf\PRF\c[6]ロナ：\c[0]    うぅ....
+
+Job/MeatToiletJob2_0
+\CBmp[Raper0,20]\prf\c[4]兵士：\c[0]    最高だ､やっとヌくことができた｡
+
+Job/MeatToiletJob2_1
+\CBmp[Raper0,20]\prf\c[4]兵士：\c[0]    乳の無ぇメスガキだな｡
+
+Job/MeatToiletJob3
+\CBmp[MeatToiletPT,8]\m[sad]\plf\PRF\c[6]ロナ：\c[0]    ....
+\CBmp[Raper0,20]\prf\c[4]兵士：\c[0]    跨れ！
+
+Job/MeatToiletJob3_virgin0
+\CBmp[Raper0,20]\prf\c[4]兵士：\c[0]    おっ､このガキ処女じゃねぇか♥ 一番乗りだ♥
+
+Job/MeatToiletJob3_virgin1
+\BonMP[Raper1,20]\prf\c[4]兵士：\c[0]    たまんねぇ！
+\BonMP[Raper2,20]\prf\c[4]兵士：\c[0]    急げよ､俺もメスガキのマンコでやりてぇんだ！
+
+Job/MeatToiletJob4
+\CBmp[Raper0,5]\prf\c[4]兵士：\c[0]    沢山出してやるよ！ 受け取りな！
+
+Job/MeatToiletJob5
+\CBmp[Raper0,4]\prf\c[4]兵士：\c[0]    おほーっ！ 気持ちええ♥
+\CBmp[Raper1,20]\prf\c[4]兵士：\c[0]    俺の番だ俺の番だ♥
+
+Job/MeatToiletJob6
+\CBmp[Raper1,4]\prf\c[4]兵士：\c[0]    ヘヘヘ！ ３０センチの威力を味わわせてやる♥
+\CBmp[MeatToiletPT,8]\m[sad]\plf\PRF\c[6]ロナ：\c[0]    ....
+
+Job/MeatToiletJob7
+\CBmp[Raper1,4]\prf\c[4]兵士：\c[0]    俺もいるぞ♥  早く出て来いよ♥
+
+Job/MeatToiletJob8
+\CBmp[Raper2,20]\prf\c[4]兵士：\c[0]    順番回せ！ 早く！ 俺もヤリてんだよ！
+
+Job/MeatToiletJob9
+\CBmp[Raper2,20]\prf\c[4]兵士：\c[0]    オラ肉便器！ お前のマンコをめちゃくちゃにしてやるよ！
+
+Job/MeatToiletJob10
+\CBmp[Raper2,20]\prf\c[4]兵士：\c[0]    やっときた！ 俺の番だ！
+
+Job/MeatToiletJob11
+\CBmp[Raper2,20]\prf\c[4]兵士：\c[0]    \{ファック！ サイコーだ！\}
+\CBmp[Raper2,20]\prf\c[4]兵士：\c[0]    次の奴！
+
+Job/MeatToiletJob12
+\CBmp[Raper3,20]\prf\c[4]兵士：\c[0]    次は俺だ！
+\CBmp[Guard2,20]\prf\c[4]兵士：\c[0]    違うだろ！ 俺の番だ！
+
+Job/MeatToiletJob13
+\CBmp[Guard1,20]\prf\c[4]兵士：\c[0]    クソ！ 横入りすんじゃねぇ！
+\CBmp[Raper3,20]\prf\c[4]兵士：\c[0]    皆でいっぺんにやらねぇか？ 一気に穴兄弟になっちまおうぜ！
+\CBmp[Guard2,20]\prf\c[4]兵士：\c[0]    おもしれぇ！
+
+Job/MeatToiletJob14
+\BonMP[Raper0,20]\BonMP[Raper1,20]\BonMP[Raper2,20]\BonMP[Raper3,20]\prf\c[4]兵士：\c[0]    ヘヘヘヘ...
+
+Job/MeatToiletJob15
+\narrロナは兵士たちの凌辱により意識を失った...
+
+#################################### JOB END
+
+whore1/Qmsg0
+ボク､私としたい？
+
+whore1/Qmsg1
+私の胸大きいでしょう？
+
+whore1/Qmsg2
+触ってみる？
+
+whore2/Qmsg0
+騙された...
+
+whore2/Qmsg1
+たすけて...
+
+whore2/Qmsg2
+家に帰りたいよ...
+
+whore3/Qmsg0
+どうして？
+
+whore3/Qmsg1
+みんな人間じゃないの？
+
+whore3/Qmsg2
+どうして私にこんなことをするの？
+
+whore4/Qmsg0
+私は生きたい！
+
+whore4/Qmsg1
+死ぬのはお前らだ！
+
+whore4/Qmsg2
+あっちいけ！
+
+art/GodEmperor
+\cg[other_GodEmperor]星の神皇帝
+我々は10年以上に渡り西側からの裏切りと屈辱に直面したが､それを唯一止めようとしたのが神皇帝だった｡
+それも短い間であり､失敗に終わった｡それでも私は貴方に敬意を表します｡
+\m[serious]うーん....星の神皇帝？
+\m[confused]彼は誰なんだろう？
+\m[flirty]でも髪型はかなり面白いかも｡
