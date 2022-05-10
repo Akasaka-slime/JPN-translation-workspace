@@ -1,0 +1,118 @@
+thisMap/OvermapEnter
+\m[confused]カケラの海岸\optB[やめる,入る]
+
+begin/Begin0
+\CBct[8]\m[confused]\c[6]ロナ：\c[0]    えっ.......
+
+begin/Begin1
+\CBct[2]\m[flirty]\c[6]ロナ：\c[0]    これはなにかのお祭りなのかな？
+
+commoner/Qmsg0
+グァグァ..！ シンダ...！
+
+commoner/Qmsg1
+カアイソウ...キョウダイ...
+
+commoner/Qmsg2
+オクヤミ...
+
+guard/Qmsg0
+ハナレロ...！
+
+guard/Qmsg1
+ヨソモノ ガ クル バショジャナイ...！
+
+guard/Qmsg2
+ウセロ...！
+
+#########################################################################
+
+QuGiver/Begin0_Slave
+\SndLib[FishkindSmSpot]\CBid[-1,5]\SETpl[FrogCommon]\Lshake\c[4]平民：\c[0]    オンナ... モドッテ コヅクリ...！
+
+QuGiver/Begin0
+\SndLib[FishkindSmSpot]\CBid[-1,20]\SETpl[FrogCommon]\Lshake\c[4]平民：\c[0]    ヨソモノ...？ ナンノヨウダ？ \optB[やめる,お祭り,欠片<r=HiddenOPT0>,制御不能<r=HiddenOPT1>,手伝う<r=HiddenOPT2>]
+
+QuGiver/Festival0
+\CBct[2]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    あの...このお祭りはなんですか？ 海の女神のですか？
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    マツリ......
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    コレ... キョウダイ ノ... ソウギ.....
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    ウミ ニ カエル... タメ ノ ソウギ.....
+\CBct[6]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    葬儀？！ ごめんなさい！
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0] ヤラレタ...ジャアク ノ カケラ ニ コロサレタ.....
+
+QuGiver/Fragment0
+\CBct[2]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    カケラ？ 欠片ってなんのことですか？
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    ジガ ヲ...モタヌ...コドモタチ....
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    ミナ....ウミノメガミ ノ カケラ.....
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0] ウマレタアト スグ ニ... ウミノメガミ ノ ウデ ノ ナカ ニ カエラネバナラナイ....
+\CBct[2]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    えっと... どういう意味です？
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    ダガ... ウミノメガミ ハ セイギョ デキナイ.....
+\CBct[8]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    あー？
+
+QuGiver/tmpOutControl
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    ウミ ニ カエッタ スベテ ノ カケラ ハ...ウミノメガミ ト...セイイキ ニ トドマリ...ウミノメガミ ノ カケラ ト ナルベキナノダ....
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]     シカシ ニセ ノ ウミノメガミ ガ カッテ... カケラタチ ガ クルイダシタ....
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    ワレラ ノ センゾタチ モ...ウミノメガミ ノ カケラ ト トモ ニ カエッテキテシマッタ....
+\CBct[2]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    もうなにがなんだか？
+
+QuGiver/help0
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0] お手伝いしましょうか？ お役に立てるかも？
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]       ヨソモノ...？ オマエ ハ...？ オンナ...？ イケルカ...？
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    オレ ト キョウダイ ハ...トウゲイカ....
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    アイツ ノ ミセ \c[4]カニトーキ\c[0] ノ ナカ...イマダ... ニセ ノ ウミノメガミ ノ カケラ ガ ウロツイテル...
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0] センゾ ハ ワレラ ヲ コウゲキシナイ... タダシ ニセ ノ ウミノメガミ ノ カケラ ハ チガウ....
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0] ニセ ノ ウミノメガミ ノ カケラ ハ ワレラ ヲ ザンサツスル....
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0] アイツ ノ レシピ ヲ モッテキテクレ...ツヅケナケレバ...イシ ヲ ヒキツガナケレバ ナラナイ....
+
+QuGiver/help_board
+\board[秘密の壺レシピ]
+目標：秘密の壺レシピを手に入れる\i[227]
+報酬：不明
+依頼主：半魚人
+制限回数：一回
+東にある\c[4]カニ陶器\c[0]に行き､相棒の秘密の壺レシピを手に入れて渡す｡
+
+QuGiver/help_cancel
+\CBct[20]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    えっと... やっぱりやめときます｡
+
+QuGiver/help_accept
+\CBct[20]\m[triumph]\plf\Rshake\c[6]ロナ：\c[0]    大丈夫です！ わたしに任せてください｡
+\CBct[20]\m[pleased]\plf\PRF\c[6]ロナ：\c[0]    お友達の遺品は私がお返ししますよ！
+
+######################################################################### QuestDone
+
+QuGiver/done0
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    あのぉ....
+
+QuGiver/done1
+\CBct[20]\m[triumph]\plf\Rshake\c[6]ロナ：\c[0]    秘密のレシピを見つけたので､これでお友達も安らかに眠れますよね？
+\SndLib[FishkindSmSpot]\CBid[-1,20]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    ヨソモノ...？ オマエ...？ ミツケタノカ...？
+\SndLib[FishkindSmSpot]\CBid[-1,20]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    スグワタセ.... ヨコセ！！！
+
+QuGiver/done2
+\CBct[20]\m[flirty]\plf\Rshake\c[6]ロナ：\c[0]    そんな焦らなくてもいいんじゃ？
+\SndLib[FishkindSmSpot]\CBid[-1,20]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0] フヘヘ...ヒミツ ノ レシピ ガ アルカギリ....
+\SndLib[FishkindSmSpot]\CBid[-1,20]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0] ワガ エラバケツ ヨウギョウ ハ....シマジュウ ノ....ツボヅクリ ヲ セイスル.....
+\SndLib[FishkindSmSpot]\CBid[-1,20]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    フハハ....ハハハハハハ...........
+\CBct[20]\m[confused]\plf\Rshake\c[6]ロナ：\c[0]    あの....？
+\SndLib[FishkindSmSpot]\CBid[-1,8]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    マジックシェル\..\..\.....？ ナンダコレ...？
+\CBct[8]\m[flirty]\plf\Rshake\c[6]ロナ：\c[0]      わたしもわかりませんけど､とにかくそう書いてありますよ？
+\SndLib[FishkindSmSpot]\CBid[-1,6]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    ヒミツ ノ レシピ....ニセモノ？
+\SndLib[FishkindSmSpot]\CBid[-1,6]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    アリ...エ...ナイ.....
+\CBct[20]\m[confused]\plf\Rshake\c[6]ロナ：\c[0]    あの...大丈夫ですか？
+\SndLib[FishkindSmSpot]\CBid[-1,6]\SETpl[FrogCommon]\Lshake\prf\c[4]平民：\c[0]    \{キエロ...！
+
+QuGiver/done3
+\SndLib[FishkindSmSpot]\prf\c[4]探偵：\c[0]    \{マ... ッ... タ...！！
+
+QuGiver/done4
+\SndLib[FishkindSmSpot]\CBmp[Detective,20]\plf\c[4]探偵：\c[0]    ナゾ ハ スベテトケタ！
+\SndLib[FishkindSmSpot]\CBmp[Detective,20]\plf\c[4]探偵：\c[0]    ボブ ト カニ ヲ コロシタ ノハ オマエダ！
+\SndLib[FishkindSmSpot]\CBid[-1,6]\SETpl[FrogCommon]\Lshake\c[4]平民：\c[0]    ハハ...ヒミツ ノ レシピ ハ ニセモノ.....
+\SndLib[FishkindSmSpot]\CBmp[Detective,5]\plf\c[4]探偵：\c[0]    オマエ ガ ボブ ト カニ ヲ コロシタンダ！
+\SndLib[FishkindSmSpot]\CBmp[Detective,20]\plf\c[4]探偵：\c[0]    イッショ ニ コイ... イマ... スグ ニ....
+\SndLib[FishkindSmSpot]\CBid[-1,6]\SETpl[FrogCommon]\Lshake\c[4]平民：\c[0]    ハハ...ハハ...ハハハ....
+
+QuGiver/done_end
+\CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    えっ... なにこれ？
