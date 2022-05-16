@@ -1,0 +1,328 @@
+BackStreet/OvermapEnter
+\m[confused]裏通り\optB[やめる,入る]
+
+#=============================================================================================================
+
+NotCapture/begin
+\SETpl[NoerGangBoss]\Lshake\c[4]ギャングのボス：\c[0]    \{おい！
+\m[shocked]\PRF\plf\Rshake\c[6]ロナ：\c[0]    なに？！ なんです？！
+\SETpl[NoerGangBoss]\Lshake\prf\c[4]ギャングのボス：\c[0]    メスガキ､お前ウチのマンコじゃねェーだろ？
+\m[shy]\PRF\plf\Rshake\c[6]ロナ：\c[0]    わたしは.....
+\SETpl[NoerGangBoss]\Lshake\prf\c[4]ギャングのボス：\c[0]    \{死にたくなきゃ失せろ！
+\m[sad]\PRF\plf\c[6]ロナ：\c[0]    すみません....
+
+#=============================================================================================================
+
+HappyTrader/begin_normal
+\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]  へへ！何か御用ですか？何でもありますよ！
+
+HappyTrader/begin_normalArrears
+\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    返済できない？それじゃウチの\C[2]従業員\C[0]になりません？
+\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    衣食住全て揃ってますよ！
+
+HappyTrader/opt
+\m[confused]\c[6]ロナ：\c[0]    うーん？\optB[やめる,取引,仕事<r=HiddenOPT0>,借入状況<r=HiddenOPT1>,借り入れ<r=HiddenOPT2>,返済<r=HiddenOPT3>,従業員になる<r=HiddenOPT4>]
+
+HappyTrader/work_opt
+\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    お嬢さんどうしました？\optB[なんでもない,路上売春<r=HiddenOPT0>]
+
+HappyTrader/work_whore_NoTrait
+\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    申し上げにくいんですが､この仕事はあなたには向いてません｡
+\narrロナは特性\C[2]娼婦\C[0]を習得していない
+
+HappyTrader/work_whore_board1
+\board[路上売春]
+#{$story_stats["HiddenOPT0"][0]}トレードポイントで働く権利を購入することができる
+1日あたり最低#{$story_stats["HiddenOPT0"][1]}トレードポイントが保護費として必要(初日は適用外)
+保護費は自動的に借金に追加される
+仕事中は街の労働奴隷として扱われる
+
+HappyTrader/work_whore_board2
+\board[路上売春]
+仕事中の奴隷は勝手に場所を離れることができない
+休憩の際は左手の小屋へ
+完済した場合は退職とみなす
+保護費が支払われなかったり勝手に離れようとするとペナルティが課せられる
+
+HappyTrader/work_whore_accept0
+\SETpl[HappyMerchant_normal]\Lshake\m[shy]\c[4]商人：\c[0]    よしよし､これで我々の一員ですねぇ｡
+\CamMP[WhoreHouse]\SETpl[HappyMerchant_normal]\Lshake\m[shy]\c[4]商人：\c[0]    仕事中はここを離れず､休憩は左の小屋でしてくださいね｡
+
+HappyTrader/work_whore_accept1
+\CamMP[UniqueGangBoss]\SETpl[HappyMerchant_normal]\SETpr[NoerGangBoss]\Lshake\c[4]商人：\c[0]    そしてこちらのお兄さんがあなたの面倒を見てくれますからね｡
+\SETpl[NoerGangBoss]\m[flirty]\c[4]ギャングのボス：\c[0]    ......
+\SETpl[NoerGangBoss]\m[fear]\Lshake\c[4]ギャングのボス：\c[0]    仕事中に逃げンなよ､死ぬぞ｡
+
+
+HappyTrader/Arrears_NewTo0
+\m[flirty]\plf\c[6]ロナ：\c[0]    その...最近お金に困ってて､いいでしょうか....
+\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]商人：\c[0]    \{お金を借りる！
+\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    \{非常にイイですねぇ！
+\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    ささ！まずは規則を見てみましょう｡
+
+HappyTrader/Arrears_NewTo1
+\board[ニコニコローン]
+金主は自営業者､即日ご融資OK
+保証人ナシ､ブラックな方にオススメ｡
+銀行がムリでも大丈夫､カンタン日払い決済｡
+1～4金貨
+利息が元本を超過した時点で回収を開始する
+事前に7日分の利息を控除する
+
+HappyTrader/Arrears_NewTo2
+\m[confused]\plf\c[6]ロナ：\c[0]    \{\..\..\..\..\..
+\m[shocked]\Rshake\c[6]ロナ：\c[0]    \{高利貸しだこれ！
+\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]商人：\c[0]    まさか？！
+\Lshake\prf\c[4]商人：\c[0]    私がここにいるのカワイソーな難民を助けるため｡
+\Lshake\prf\c[4]商人：\c[0]    周り見て､私が助けなかったらこの人たち飢え死にしてるでしょ！
+\m[confused]\plf\c[6]ロナ：\c[0]    う....
+
+HappyTrader/Arrears1_opt
+\SETpl[HappyMerchant_normal]\c[4]商人：\c[0]    いくら借りたいんです？\optB[やめる,1金貨,2金貨,3金貨,4金貨]
+
+HappyTrader/opt_AboutArrears
+\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    見てみますね....
+
+HappyTrader/Arrears_info
+\board[ロナ・フェルディン]
+元本： #{$story_stats["BackStreetArrearsPrincipal"]}
+利息： #{$story_stats["BackStreetArrearsInterest"]}
+合計： #{$story_stats["BackStreetArrearsPrincipal"]+$story_stats["BackStreetArrearsInterest"]}
+額外保護費： #{$story_stats["BackStreetArrearsWhorePrincipal"]}
+
+HappyTrader/Arrears_accept
+\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    ヘっヘ
+\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    期限が来たら忘れずにお金返してくださいね！
+\m[shy]\plf\c[6]ロナ：\c[0]    ん... どうも｡
+
+HappyTrader/Arrears_return_opt
+\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    何で返してくれるんです？\optB[やめる,トレードポイント,質入れ]
+
+HappyTrader/Arrears_return_item
+\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    見てみますね｡
+
+HappyTrader/BecomeSlave_begin0
+\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    従業員になると実にいろんな特典がございます｡
+\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    まずは食事､住居､医療保険コミコミ｡
+\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    モチロン労働保険も完全カンペキ完備｡
+\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    さらにすべての借金や債務が帳消しに｡
+\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    ご興味がありましたら､是非サインを！
+
+HappyTrader/BecomeSlave_begin1
+\m[wtf]\plf\c[6]ロナ：\c[0]    まさか奴隷になれってことじゃないですよね？
+\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]商人：\c[0]    いいえ！そんなワケないじゃないですか！世の中そんなに捨てたモンじゃないですよ？
+\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]商人：\c[0]    私のコト悪い人だと思ってませんか？
+\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]商人：\c[0]    さっ､これをご覧ください！
+
+HappyTrader/BecomeSlave_begin2
+\board[ルーデシンド商会雇用契約書]
+ルーデシンド商会は従業員の飲食､住居､医療､そして身体の安全を保障する｡
+従業員は雇用主の業務上の一切の要求に従わなければならない｡
+従業員は職場を許可なく離れてはならない｡
+従業員が業務上の要求に従わなかった場合､雇用主は合理的な範囲で罰則を課すことが出来る｡
+\}従業員は業務上の必要性によりインガレンド王国民としての人権を一切放棄する｡
+従業員は業務上の必要性によりルーデシンド商会の奴隷となる｡
+\{私___は上記の条項に同意してルーデシンド商会の従業員となります
+
+HappyTrader/BecomeSlave_accept0
+\m[confused]\plf\c[6]ロナ：\c[0]    たぶん問題ないよね？
+\SND[SE/PenWrite1.ogg]\narrロナは契約書に自分の名前をサインした
+
+HappyTrader/BecomeSlave_accept1
+\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]商人：\c[0]    スゴくイイですねぇ！スバラシイ！
+\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]商人：\c[0]    お嬢サンもお疲れでしょ？
+\m[flirty]\plf\c[6]ロナ：\c[0]    えぇ？！ 大丈夫ですよ？
+\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]商人：\c[0]    さっコレ飲んでください､体力モリモリですよ｡
+\m[triumph]\plf\c[6]ロナ：\c[0]    やた！ありがとうございます｡
+\m[pleased]\plf\c[6]ロナ：\c[0]    おじさん本当にいい人ですね！
+\SETpl[HappyMerchant_normal]\Lshake\prf\c[4]商人：\c[0]    モチロンですよ！こういう災害の時こそみんなで助け合っていかないと！
+\m[shy]\plf\c[6]ロナ：\c[0]    そうですね｡
+\SND[SE/drink02.ogg]\narrロナは飲み物を飲み干した
+
+HappyTrader/BecomeSlave_accept2
+\m[confused]\plf\PRF\c[6]ロナ：\c[0]    \..\..\..\..
+\m[tired]\plf\PRF\c[6]ロナ：\c[0]    う\..\..目眩が\..\..\..
+
+HappyTrader/BecomeSlave_accept3
+\m[sad]\plf\PRF\c[6]ロナ：\c[0]    う\..\..
+\SETpl[MobHumanCommoner]\Lshake\prf\c[4]ギャング構成員：\c[0]    まだ意識があるのか！
+\SETpr[MobHumanCommoner]\Rshake\plf\c[4]ギャング構成員：\c[0]    そりゃ素晴らしいことだよな？泣き喚くのがおもしれェーンだからよ！
+\m[fear]\plf\PRF\c[6]ロナ：\c[0]    あなたたち\..\..何して\..\..
+\SETpl[MobHumanCommoner]\Lshake\CamCT\c[4]ギャング構成員：\c[0]  ジタバタすんじゃねぇや！動くと当たらないだろ！
+\m[p5sta_damage]\Rshake\c[6]ロナ：\c[0]    やだ！ 放して！
+\cg[event_SlaveBrand]\SETpl[MobHumanCommoner]\Lshake\CamCT\c[4]ギャング構成員：\c[0]    動くと当たらないだろぉ！ オラよぉ！
+\SndLib[sound_AcidBurnLong]\m[p5health_damage]\Rshake\c[6]ロナ：\c[0]    \{いやあああ!
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]ロナ：\c[0]    \{ああああ!
+\SETpl[MobHumanCommoner]\Lshake\c[4]ギャング構成員：\c[0]    はは！たーのしー！もっとでけェー声出せや！
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\Rshake\c[6]ロナ：\c[0]    \{ひいい！
+
+HappyTrader/BecomeSlave_accept4
+\cgoff\narrロナは奴隷になった
+
+#=================================================NAP AND TORTURE======================================================
+
+nap/WhoreWakeUp
+\CBmp[HappyMerchant,20]\SETpl[HappyMerchant_normal]\Lshake\c[4]商人：\c[0]    \{女の子たち！起きて働きましょうね！
+
+nap/drug_begin_FristTime
+\CBmp[UniqueGangBoss,5]\SETpl[NoerGangBoss]\prf\PLF\c[4]ギャングのボス：\c[0]    引きずり出してこい！
+\CBmp[stGang1,20]\CBmp[stGang1,20]\SETpr[MobHumanCommoner]\PRF\plf\c[4]ギャング構成員：\c[0]    へい！ボス！
+\CBct[6]\m[fear]\plf\PRF\c[6]ロナ：\c[0]    なんですか？傷つけないでください！
+\CBmp[UniqueGangBoss,20]\SETpl[NoerGangBoss]\prf\PLF\c[4]ギャングのボス：\c[0]    こいつを飲め｡
+\CBct[6]\m[tired]\plf\PRF\c[6]ロナ：\c[0]    これをですか？ うう....
+\CBmp[UniqueGangBoss,20]\SETpl[NoerGangBoss]\prf\PLF\c[4]ギャングのボス：\c[0]    飲むだけじゃねェーか､健康にいいンだぞぉー｡
+
+nap/drug_begin_SecondTime
+\CBmp[UniqueGangBoss,5]\SETpl[NoerGangBoss]\prf\PLF\c[4]ギャングのボス：\c[0]    クスリの時間だぞぉー｡
+
+nap/drug_begin_Eat
+\SndLib[sound_drink2]\CBct[8]\m[tired]\plf\PRF\c[6]ロナ：\c[0]    うう....
+
+nap/torture_begin
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\c[4]ギャング構成員：\c[0]    \{マンコども！よーく見ろ！
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\c[4]ギャング構成員：\c[0]    働かねェー！話聞かねェー！そンで逃げようとする！
+\CBmp[stGang1,20]\SETpl[MobHumanCommoner]\Lshake\c[4]ギャング構成員：\c[0]    そーすっとこうなるンだよ！
+\CBct[6]\m[terror]\plf\Rshake\c[6]ロナ：\c[0]    やだ！お願い！ゆるしてください！
+
+nap/WhorePrincipal_return
+\narr所有しているトレードポイントは全て彼らのものとなった
+
+nap/WhorePrincipal_returnEqp
+\narr奴隷には所有権がない､ロナの持ち物は全て没収された
+
+nap/SlavePrice
+\narrもっと稼ぐ必要がある #{$story_stats["BackStreetArrearsWhorePrincipal"]} トレードポイントは，昼と夜の終わりに決済される
+
+nap/SlaveTorture
+\narrロナを怠惰な奴隷だと思った彼らは､あとで彼女に懲罰を与えることにした｡
+
+#=============================================================================================================
+
+Escape/begin
+\SETpl[MobHumanCommoner]\Lshake\c[0]看守：\c[0]    クソビッチが逃げ出した！ 引っ捕らえろ！
+\m[shocked]\Rshake\c[6]ロナ：\c[0]    マズい！
+
+Escape/begin_NoCapture
+\SETpl[MobHumanCommoner]\Lshake\c[0]雜魚：\c[0]    トラブルを起こした奴は誰だ！ その女を殺せ！
+\CBct[6]\m[shocked]\Rshake\c[6]ロナ：\c[0]    マズい！
+
+Escape/failed
+\SETpl[MobHumanCommoner]\Lshake\c[0]看守：\c[0]    こりゃ一体何だ？
+\SETpr[MobHumanCommoner]\Rshake\c[0]看守：\c[0]    たぶん逃亡奴隷だろ？
+\SETpl[MobHumanCommoner]\Lshake\c[0]看守：\c[0]    まずはこいつが何持ってるか見て､残りは後で話そうぜ｡
+
+#=============================================================================================================
+
+GangBoss/begin
+\CBid[-1,20]\SETpl[NoerGangBoss]\prf\PLF\c[4]ギャングのボス：\c[0]    何見てンの？
+
+GangBoss/wait
+\CBid[-1,8]\SETpl[NoerGangBoss]\prf\PLF\c[4]ギャングのボス：\c[0]    ....
+
+GangBoss/begin_slave
+\CBid[-1,20]\SETpl[NoerGangBoss]\Lshake\c[4]ギャングのボス：\c[0]    \{仕事に行け！
+
+GangBoss/begin_NONtrigger1
+\CBid[-1,20]\m[confused]\SETpl[NoerGangBoss]\prf\PLF\c[4]ギャングのボス：\c[0]    ガキ､何がしてェーンだよ？
+\CBid[-1,2]\c[4]ギャングのボス：\c[0]  それとも\C[4]特別\C[0]な援助でもすンの？
+
+GangBoss/begin_NONtrigger2
+\CBct[2]\m[normal]\PRF\plf\c[6]ロナ：\c[0]    ん？\optD[特別な援助？]
+
+GangBoss/begin_NONtrigger3
+\CBid[-1,20]\prf\PLF\c[4]ギャングのボス：\c[0]    テメェーシバリスから来たンだよな？
+\CBct[20]\m[tired]\PRF\plf\c[6]ロナ：\c[0]    そうです｡
+\CBid[-1,20]\prf\PLF\c[4]ギャングのボス：\c[0]    同情するぜ､この災害で相当死んじまったからな｡
+\CBid[-1,20]\c[4]ギャングのボス：\c[0]    それでもそれなりに生き残った奴はいる､でもそいつらは金も身分証も持ってねェーンだわ｡
+\CBid[-1,20]\c[4]ギャングのボス：\c[0]    最後は道端で餓え死にするしかねェーってコトだよ｡
+\CBct[6]\m[sad]\PRF\plf\c[6]ロナ：\c[0]    う....
+\CBid[-1,20]\prf\PLF\c[4]ギャングのボス：\c[0]    俺はそいつらを助けられる､テメェーもな｡
+\CBct[2]\m[flirty]\PRF\plf\c[6]ロナ：\c[0]    わたし？どうやってですか？
+\CBid[-1,8]\prf\PLF\c[4]ギャングのボス：\c[0]    俺はいろんな証明書類を買い付けて､必要とするヤツに売っている｡
+\CBid[-1,8]\c[4]ギャングのボス：\c[0]    あるいは困ってる難民たちに金を貸してンだ｡
+\CBid[-1,8]\c[4]ギャングのボス：\c[0]    テメェもそいつらを助けてェーよな？
+\CBct[5]\m[confused]\PRF\plf\C[4] 詐欺師だ.. わたしのお父さんは商売をしていたの｡ わからないとでも思ってる？\C[0]
+\CBid[-1,20]\prf\PLF\c[4]ギャングのボス：\c[0]    金要るンだろ？ テメェの\C[4]正式\C[0]な身分証なら､金貨一枚でも構わねェーぞ｡
+\CBct[20]\m[shocked]\PRF\plf\Rshake\c[6]ロナ：\c[0]    金貨一枚？！
+\CBid[-1,20]\prf\PLF\c[4]ギャングのボス：\c[0]    興味あるか？ いいぜ｡
+
+GangBoss/begin_triggered
+\CBid[-1,20]\SETpl[NoerGangBoss]\optB[やめる,取引<r=HiddenOPT1>,身分証売却<r=HiddenOPT2>,返済<r=HiddenOPT3>]
+
+GangBoss/SellPassport
+\CBct[8]\m[confused]\PRF\plf\c[6]ロナ：\c[0]    一旦売ったらもう後戻りはできない､わたしそんなにお金ないかな？
+
+GangBoss/SellPassport_sold
+\CBid[-1,20]\prf\PLF\c[4]ギャングのボス：\c[0]    正しい決断だな｡
+\CBid[-1,20]\prf\PLF\c[4]ギャングのボス：\c[0]    ああ､確かに！シミやらも完璧､他のところもとんでもなく完成度が高ェーな､こりゃいいモンだ！
+
+GangBoss/Arrears_return_opt
+\SETpl[NoerGangBoss]\Lshake\c[4]ギャングのボス：\c[0]    いくらにすンの？\optB[やめる,トレードポイント,質入れ]
+
+#=============================================== PiercingTrader ====================================================
+
+Piercing/Begin
+\CBmp[PiercingTrader,4]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[0]半魚人技師：\c[0] フゥ... オンナ... ピアス ハ ダイジ....
+
+Piercing/Begin_slave
+\CBmp[PiercingTrader,4]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[0]半魚人技師：\c[0] ドレイ... トクベツ ナ ピアス... フゥ....
+
+Piercing/about
+\CBmp[PiercingTrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[0]半魚人技師：\c[0]    ウミノメガミ ハ イッタ.....
+\CBmp[PiercingTrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[0]半魚人技師：\c[0] オトコ ノ..ピアス ツヨサ ヲ アラワス
+\CBmp[PiercingTrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[0]半魚人技師：\c[0]    オンナ ノ..ピアス コヅクリ ヲ アラワス....
+\CBmp[PiercingTrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[0]半魚人技師：\c[0]    オンナ ノ..マンコ ニ ピアス...ドレイ ヲ アラワス｡
+\CBmp[PiercingTrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[0]半魚人技師：\c[0]    オマエ.... オンナ... コヅクリ....
+\CBct[2]\m[wtf]\plf\Rshake\m[wtf]\Rshake\c[6]ロナ：\c[0] 何言ってるんですいきなり？全然わかんないですよ？
+
+Piercing/piecing_start
+\CBct[2]\m[flirty]\plf\PRF\m[flirty]\C[6]ロナ：\c[0]    痛いですか？
+\CBmp[PiercingTrader,20]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[0]半魚人技師：\c[0]    スコシ.... ガマン..... コワクナイ...
+\CBct[2]\m[tired]\plf\PRF\m[tired]\C[6]ロナ：\c[0]    我慢すれば終わるの？
+
+Piercing/piecing_doing
+\SND[SE/Gore_hit1.ogg]\m[p5sta_damage]\Rshake\c[6]ロナ：\c[0]    うう！
+\SND[SE/Gore_hit2.ogg]\m[p5sta_damage]\Rshake\c[6]ロナ：\c[0]    いやぁ！
+\SND[SE/Gore_hit3.ogg]\m[p5sta_damage]\Rshake\c[6]ロナ：\c[0]    いいいっああ！
+\SND[SE/Gore_hit4.ogg]\m[p5sta_damage]\Rshake\c[6]ロナ：\c[0]    \{いっっいやぁあ！
+
+Piercing/end
+\CBmp[PiercingTrader,4]\SndLib[FishkindLgSpot]\SETpl[Mfat_FrogFisher]\Lshake\prf\c[0]半魚人技師：\c[0]   ピアス... ウツクシイ ウミノメガミ モ キニイル！
+
+#============================================ Tree hole house ====================================================
+
+Lona/WorkFailed
+\narrロナは客に訴えられた！
+
+sucker/Qmsg0
+仕事中だ
+
+sucker/Qmsg1
+邪魔をしてはいけない
+
+sucker/Qmsg2
+集中している
+
+sucker2/Qmsg0
+ここは私の穴よ！
+
+sucker2/Qmsg1
+しゃぶらなきゃいけないのよ！
+
+sucker2/Qmsg2
+放っておいて！
+
+hole/Qmsg0
+終わりのないブラックホールだ
+
+hole/Qmsg1
+何もない
+
+hole/Qmsg2
+空っぽだ
+
+treeHole/board
+\board[ウロ屋経営理念]
+お客様第一：無理というのは嘘つきの言葉
+誠心誠意：ありがとうの心を忘れない
+滅私奉公：売上を上司に納めて恩返し
