@@ -1,0 +1,71 @@
+Camp/Enter
+\m[confused]失踪した馬車\optB[やめる,入る]
+
+Guide/QuestNotDone
+\m[confused]\c[6]ロナ：\c[0] まだキャンプの状況を確認してないし､生存者がいるかもしれない｡
+
+Forest/Entry
+\m[serious]\c[6]ロナ：\c[0]    ここだね､あいつらの体臭がここまで臭ってきてるし｡
+\m[irritated]\c[6]ロナ：\c[0]    警戒はまったく緩めてないみたい｡\CamMP[DasWatcher]
+\m[confused]\c[6]ロナ：\c[0]    うん.......
+\m[normal]\c[6]ロナ：\c[0]    慎重に進もう｡ 見張りにバレたらマズい｡\CamCT
+
+Camp/GoblinSeen
+\m[shocked]\Rshake\c[6]ロナ：\c[0] 見つかった､声がたくさん集まってきてる｡
+\m[terror]\Rshake\c[6]ロナ：\c[0] 早く脱出しないと一生逃げられなくなる｡
+
+Camp/SawCamp
+\m[confused]\c[6]ロナ：\c[0]    テントが見える｡
+\m[fear]\c[6]ロナ：\c[0]    生き残った人はいないかな？\CamMP[Camp]
+\m[shocked]\Rshake\c[6]ロナ：\c[0]    あぁそんな！\CamMP[DedPpl]
+\m[terror]\c[6]ロナ：\c[0]    全員死んでる？！ あいつら人を調理してるんだ｡
+\m[confused]\c[6]ロナ：\c[0]    いえ､奥深くからかすかに泣き声が聞こえてくる｡
+\m[serious]\c[6]ロナ：\c[0]    ダメ､気を引き締めていかなきゃ｡\CamCT
+\m[angry]\c[6]ロナ：\c[0]    結果をこの目で確かめないと｡
+
+Camp/OrkindBabySaw
+\m[shocked]\Rshake\c[6]ロナ：\c[0]    うう！臭い！
+\m[terror]\c[6]ロナ：\c[0]    そんなっ！\CamMP[WakeUp]
+\m[fear]\c[6]ロナ：\c[0]    まだ生きてる！生きてる人がいる！
+\m[sad]\c[6]ロナ：\c[0] 何人かの女性は妊婦にするから残したんだ！
+\m[fear]\c[6]ロナ：\c[0] 少なくともあいつらがノエルの防衛線を越えちゃったのは間違い無い｡
+\m[serious]\c[6]ロナ：\c[0] わたしじゃあの人たちは救えないから､早く戻って報告しないと｡\CamCT
+
+Guild/completed
+\prf\c[4]ギルド職員：\c[0] なっ！既に繁殖し始めてるんですか？これはもう緊急項目に分類しないといけません｡
+
+Guild/completed2
+\prf\c[4]ギルド職員：\c[0] 良い成果ですね｡これで北方の圧力も軽減されるでしょう｡
+
+Guild/completed3
+\prf\c[4]ギルド職員：\c[0]    生きている？！ 連れ戻した？！
+\prf\c[4]ギルド職員：\c[0]    想像以上に優秀な方ですね！
+
+########################################################################################QUEST LINE 3
+
+CommonConvoyTarget/Hev0
+\SETpr[OrcCaveEvent]小さな洞窟内に生臭い臭いが充満している｡被害者の状態は非常に悪そうだ｡
+ゴブリンにとっては年齢や外見は問題ではなく､妊娠さえできれば優良な母体なのである｡
+被害者たちは長期にわたる激しい凌辱で､既に死亡あるいは発狂していた｡
+商人の娘は､全身が精液と汚物にまみれている｡
+ 腹にびっしりと刻まれた出産によるシワを見るに､彼女も長い時間ゴブリンに凌辱されていたようだ｡
+ もしロナが彼女の精神状態を確認出来なかったら､もはや諦めるほかないだろう｡
+
+CommonConvoyTarget/begin0
+\m[serious]\PRF\c[6]ロナ：\c[0]    生きてる！
+\prf\c[4]商人の娘：\c[0]    \..\..\..\..うう｡
+\m[shocked]\PRF\c[6]ロナ：\c[0] 大丈夫ですか？わたしの声は聞こえますか？
+
+CommonConvoyTarget/beginOPT
+\plf\c[4]商人の娘：\c[0]    う...あなたは...？\optB[通りすがりです,助けに来ました]
+
+CommonConvoyTarget/Arrivel
+\prf\c[4]商人の娘：\c[0]    ありがとうございました｡私が生きているのはあなたのお陰です｡
+\m[triumph]\PRF\c[6]ロナ：\c[0]    どういたしまして！当然のことをしたまでです！
+\prf\c[4]商人の娘：\c[0] 私は父のところに行きますので､どうかお元気で｡
+
+CommonConvoyTarget/Arrivel1
+\m[confused]\PRF\c[6]ロナ：\c[0]    まずはギルドに報告に戻ろう｡
+
+CommonConvoyTarget/CommonConvoyTarget
+\prf\c[4]商人の娘：\c[0]    ありがとうございます｡ 早くノエルに戻りましょう｡

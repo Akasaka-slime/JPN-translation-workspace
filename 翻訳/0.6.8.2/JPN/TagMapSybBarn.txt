@@ -1,0 +1,139 @@
+ThisMap/OmEnter
+\m[confused]シバリス 南西ゲートの納屋\optB[やめる,入る]
+
+QuProgSybBarn1/EnterQuestMode0
+\cg[map_region_AbomTown]\m[flirty]\PRF\c[6]ロナ：\c[0]    うーん､これはこうすればいいんじゃないですか？
+\SETpl[Mreg_guardsman]\plf\PRF\c[4]傭兵：\c[0]    おい！ 邪魔をするな！
+\SndLib[sound_punch_hit]\SETpl[Mreg_guardsman]\m[hurt]\Lshake\prf\c[6]ロナ：\c[0]    痛ぁ！
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]傭兵：\c[0]    最初にここに来たのは俺達だ､とっとと出ていけクソガキ！
+\m[confused]\plf\PRF\c[6]ロナ：\c[0]    どうして....
+\narr\ph\..\..\SndLib[sys_DoorLock]\..\..\SndLib[sys_DoorLock]\..\..\SndLib[sys_DoorLock]
+\narrOFF\SETpl[Mreg_guardsman]\Lshake\prf\c[4]傭兵：\c[0]    どうなっている？ 施錠されてんのか？
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]傭兵：\c[0]    オイ！ 壊せないか試してみろ！
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]傭兵：\c[0]    分かった｡
+\narr\ph\..\..\SndLib[sound_punch_hit]\..\..\SndLib[sound_punch_hit]\..\..\SndLib[sound_punch_hit]
+\narrOFF\SETpr[Mreg_pikeman]\plf\Rshake\c[4]傭兵：\c[0]    ダメだ､頑丈すぎる｡
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]傭兵：\c[0]    なら早くどけ！使えねぇな｡
+
+QuProgSybBarn1/EnterQuestMode1_OPT
+\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    うーん...\optD[様子を見る,試してみる<r=HiddenOPT0>]
+
+QuProgSybBarn1/EnterQuestMode1_WAIT
+\ph\narr\..\..\..しばらくして...
+\narrOFF\SETpl[Mreg_guardsman]\Lshake\c[4]傭兵：\c[0]    ようやく開いたな｡
+\SETpr[Mreg_pikeman]\plf\Rshake\c[4]傭兵：\c[0]    言っただろ？こうすりゃ開くんじゃねぇかって？
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]傭兵：\c[0]    おいガキ､先に入るのは俺達だからな｡良いモンあったら先に全部頂いちまうとするか！
+\m[confused]\plf\PRF\c[6]ロナ：\c[0]    ......
+\ph\narr\..\..\..更にしばらく経ったのち...\SndLib[BreedlingAtk]\..\..\SndLib[BreedlingAtk]
+\cg[map_AbomBreedlingRaid]\narrOFF\m[shocked]\Rshake\c[6]ロナ：\c[0]    魔物！！！！
+\cgoff\ph\narr ロナも続いて納屋に入っていった....
+
+QuProgSybBarn1/EnterQuestMode1_SCU
+\m[confused]\plf\PRF\c[6]ロナ：\c[0]    あの...私もやってみていいですか？
+\narr\ph\..\..\SndLib[sys_DoorLock]\..\..\SndLib[sys_DoorLock]\..\..\SndLib[sys_DoorLock]\..\..\SndLib[openChest]
+\narrOFF\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    やった！ 難しい鍵じゃなくて良かった｡
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]傭兵：\c[0]    やるじゃねぇかガキ！
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]傭兵：\c[0]    いいだろう！ お前にもブツを漁る権利がある！
+\m[confused]\plf\PRF\c[6]ロナ：\c[0]    あの...実はギルドから依頼を受けていて､ここで偵察をしていたんです｡
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    ギルドの依頼？ お前みたいなガキが？
+\m[serious]\plf\PRF\c[6]ロナ：\c[0]    わたしはガキじゃない！
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]傭兵：\c[0]    下らねぇことはどうでもいい！ 仕事を始めんぞ！
+\SETpl[Mreg_guardsman]\Lshake\prf\c[4]傭兵：\c[0]    ガキも一緒に来い､お前も手を貸せ！
+\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    はい！
+
+#########################################################################################
+
+Op/Begin0_3
+\CBmp[OpGuard2,20]\c[4]難民：\c[0]    生きてる人間だ！ 司祭の予言は正しかった！
+\CBmp[OpGuard1,5]\c[4]難民：\c[0]    早く扉を閉めろ！ 使徒が来るぞ！
+\CBmp[mama,20]\c[4]司祭：\c[0]    どうして本物の人間だと思うんだ？ 虚言者の幻惑かもしれないんだぞ？
+\CBmp[OpGuard1,2]\c[4]難民：\c[0]    彼らも....？  そんなまさか？
+\CBmp[mama,20]\c[4]祭司：\c[0]    静まれ！ 早く扉を閉じなさい！
+
+Op/Begin0
+\CBmp[OpGuard2,20]\c[4]難民：\c[0]    また来た！ 生きてる人間だ！
+\CBmp[OpGuard1,5]\c[4]難民：\c[0]    早く扉を閉めろ！ 使徒が来るぞ！
+\CBmp[mama,20]\c[4]司祭：\c[0]    虚言者の幻惑に違いない！
+
+Op/Begin1_3
+\CBmp[Gpicker,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    これじゃ誰も生きてないんじゃねぇか？
+\CBmp[Gscout,20]\SETpr[Mreg_guardsman]\plf\Rshake\c[4]傭兵：\c[0]    オイこれを見ろ､男には多く金を払うってギルドからのお達しだ｡
+\CBmp[Gpicker,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    マジなら山ほど貰えんじゃねぇか？！
+
+Op/Begin1
+\ph\CBct[2]\m[confused]\PRF\c[6]ロナ：\c[0]    あの...これはどうなってるの？
+\CBmp[mama,20]\c[4]司祭：\c[0]    お前は信仰者か？
+\CBct[8]\m[flirty]\PRF\c[6]ロナ：\c[0]    あーっと\..\..\..たぶん？
+\CBmp[mama,20]\prf\c[4]司祭：\c[0]    信者よ､我々は使徒の奇跡を必要としている｡
+\CBmp[mama,20]\prf\c[4]司祭：\c[0]    我々の家族や友人が地下にいる使徒に連れ去られてしまって､お前の助けがいるのだ｡
+\CBmp[OpGuard2,6]\c[4]難民：\c[0]    ちょっと待ってくれ司祭様! こいつは人間だぞ！ しかもただのガキだ!
+\CBmp[mama,20]\prf\c[4]司祭：\c[0]    うるさい！ これこそ使徒の意志なのです! 私には使徒の声が聞こえる!
+\CBmp[OpGuard2,8]\c[4]難民：\c[0]    \..\..\..わかったよ!
+\CBct[2]\m[confused]\PRF\c[6]ロナ：\c[0]    一体何が？使徒って？？
+
+Op/Begin2
+\CBmp[mama,20]\prf\c[4]司祭：\c[0]    私と来なさい､貴方なら私たちを助けることができるでしょう｡
+\CBct[20]\m[flirty]\PRF\c[6]ロナ：\c[0]    はい？
+
+Op/Begin2_3
+\CBmp[Gpicker,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    使徒だって？ 俺は魔物の事を言ってんのかと思ったぜ｡
+\CBmp[Gscout,20]\SETpr[Mreg_guardsman]\plf\Rshake\c[4]傭兵：\c[0]    ほっとけ､俺達にゃ関係ないことだ｡俺たちの仕事はこいつらを生きて帰す事だからな！
+\CBct[20]\m[serious]\PRF\c[6]ロナ：\c[0]    手を貸してあげて下さい､男なのにすぐ引き下がっちゃうんですか？
+\CBmp[Gpicker,8]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    \..\..\..
+\CBmp[Gpicker,20]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    いいだろう､そのガキの言う通りだ｡ここのゴミを処分してやろう｡
+
+Op/Begin3
+\CBmp[mama,20]\prf\c[4]司祭：\c[0]    ここです､ここに偽りの神の使徒が現れたのです!
+\CBct[2]\m[confused]\PRF\c[6]ロナ：\c[0]    えっと....ここには感染したものしかないですよね？
+
+Op/Begin3_3
+\CBmp[Gpicker,6]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    うへぇ､またキモイもんが出てきやがった｡
+\CBmp[Gscout,6]\SETpr[Mreg_guardsman]\plf\Rshake\c[4]傭兵：\c[0]    クソみてェな匂いだ｡こんなのずっと嗅いでたら鼻がイカレちまうぞ｡
+
+Op/Begin4
+\CBct[2]\m[flirty]\PRF\c[6]ロナ：\c[0]    ええと....？
+\CBmp[mama,20]\prf\c[4]司祭：\c[0]    もうすぐです｡我慢して､もう少し待ちなさい....
+\CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    ...........
+\CBmp[mama,8]\prf\c[4]司祭：\c[0]    ......
+
+Op/Begin5
+\CBmp[mama,20]\c[4]司祭：\c[0]    ........................
+\CBmp[mama,20]\c[4]司祭：\c[0]    私は正しかった！ 奴らは虚言者の嘘つきだ！！！
+\CBmp[OpGuard2,20]\c[4]難民：\c[0]    本当に人間じゃないのか？！！
+\CBmp[OpGuard1,20]\c[4]難民：\c[0]    使徒がそれを食ったんだ！ 奴らは虚言者だ！
+\CBmp[OpGuard2,20]\c[4]難民：\c[0]    祭司様の言ってたことは正しかったんだ！
+\CBmp[mama,20]\c[4]祭司：\c[0]    使徒に感謝を！ 使徒を讃えよ！
+
+Op/Begin6
+\CBmp[OpGuard2,20]\CBmp[OpGuard1,20]\CBmp[mama,20]\c[4]全員：\c[0]    使徒に感謝を！！ 使徒を讃えよ！！
+
+Op/Begin7
+\c[6]ロナ：\c[0]    \{痛ったぁ！！！
+
+Op/Begin8
+\CBmp[6]\m[fear]\PRF\c[6]ロナ：\c[0]    これは\..\..\..
+
+Op/Begin9
+\CBmp[20]\m[terror]\Rshake\c[6]ロナ：\c[0]    \{肉魔の巣穴？！
+
+Op/Begin9_3
+\CBmp[Gpicker,6]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    これは... ここは一体なんなんだ...
+\CBmp[Gscout,6]\SETpr[Mreg_guardsman]\plf\Rshake\c[4]傭兵：\c[0]    壁が生きてんのか？！
+\CBmp[Gpicker,6]\SETpl[Mreg_pikeman]\Lshake\prf\c[4]傭兵：\c[0]    あぁ使徒よ！... 壁が人を食ってるのか？！
+
+Op/Begin9_31
+\CBmp[Gscout,6]\SETpr[Mreg_guardsman]\plf\Rshake\c[4]傭兵：\c[0]    クソガキ！ てめぇのせいだぞ！ とっととこのクソみたいな場所から出せ！
+
+Op/Begin9_board
+\board[納屋の生存者]
+目標：納屋を出て南門キャンプへ戻る
+報酬：大銅貨3枚
+依頼主：南門キャンプ
+期限：1回
+生きて\c[4]南門キャンプ\c[0]の\c[6]希望の宿\c[0]へ戻り依頼を報告する。
+
+#################################### other
+mama/LastWords
+\CBmp[mama,7]\c[4]司祭：\c[0]    ダメだ！ 私のせいではない！
+\CBmp[mama,9]\c[4]司祭：\c[0]    私は正しかった！ 間違ってない！ 全て虚言者のせいだ！
+\CBmp[mama,5]\c[4]司祭：\c[0]    \{アアアア！！！

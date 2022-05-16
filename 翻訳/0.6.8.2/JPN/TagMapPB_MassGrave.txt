@@ -1,0 +1,23 @@
+thisMap/OvermapEnter
+\m[confused]集団墓地\optB[やめる,入る]
+
+#WIS夠高可以免除戰鬥
+#不然需與他交手30秒
+
+Keeper/QuProgPB_MassGrave1
+\m[confused]\c[6]ロナ：\c[0]    えっと....
+\m[flirty]\c[6]ロナ：\c[0]    わたしはギルドの依頼を受けて､ここの何か邪悪なものを駆除すると聞いて来たのですが？
+\SETpl[AnonMale2]\Lshake\prf\c[4]墓守：\c[0]    お前みたいのが駆除に来ただって？ 使徒よいずこへ！
+\SETpl[AnonMale2]\Lshake\prf\c[4]墓守：\c[0]    まあいいか.... あれは明らかに偽りの神々を崇拝する虚言者だ｡
+\SETpl[AnonMale2]\Lshake\prf\c[4]墓守：\c[0] \c[4]毎晩\c[0]ここで何かコソコソとやってるからな！
+\SETpl[AnonMale2]\Lshake\prf\c[4]墓守：\c[0]    亡くなった方を使って穢れた儀式を行っているに違いない｡
+
+Keeper/rand0
+\SETpl[AnonMale2]\Lshake\prf\c[4]墓守：\c[0]    寝るんじゃない､死ぬぞ！
+
+Keeper/rand1
+\SETpl[AnonMale2]\Lshake\prf\c[4]墓守：\c[0]    奴らはお前の脳ミソが大好物だ！
+
+Keeper/rand2
+\SETpl[AnonMale2]\Lshake\prf\c[4]墓守：\c[0]    信仰心はあるか？信仰心があれば奴らなぞ恐るるに足らず！
+

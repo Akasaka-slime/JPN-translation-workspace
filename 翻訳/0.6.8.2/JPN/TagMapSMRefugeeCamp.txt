@@ -1,0 +1,275 @@
+thisMap/OvermapEnter
+\m[confused]難民キャンプ\optB[やめる,入る]
+
+####################################################################### MissingChild
+
+MIAchildMAMA/prog0
+\CBid[-1,6]\prf\c[4]難民：\c[0]    私の子供が！ 子供が攫われたんです！
+\CBct[2]\m[confused]\PRF\c[6]ロナ：\c[0]    誰にですか？
+\CBid[-1,20]\prf\c[4]難民：\c[0]    \c[6]使徒教会\c[0]の信仰者にです！ きっと何か企んでるんです！
+\CBct[2]\m[flirty]\PRF\c[6]ロナ：\c[0]    あー？
+\CBid[-1,20]\prf\c[4]難民：\c[0]    奴らは子供を奪って､私を修道院から追い出しました｡
+\CBid[-1,6]\prf\c[4]難民：\c[0]    \c[6]使徒\c[0]よ！何故私がこのような目に！
+\CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    \c[6]使徒教会\c[0]の人がそんなことするかなぁ？
+
+MIAchildMAMA/prog0_board
+\board[彼女の子供]
+目標：彼女の子供を探しに修道院に行く
+報酬：無し
+依頼主：難民
+制限回数：一回
+行方不明の\c[6]トミー\c[0]のことを､西にある修道院で聞いてみよう｡
+彼女はただのかわいそうな難民だから､多分報酬とかは期待できないけど｡
+
+MIAchildMAMA/prog0_Taken
+\CBct[20]\m[triumph]\PRF\c[6]ロナ：\c[0]    任せてください､わたしが見つけますので､お嬢さんの名前はなんて言うんですか？
+\CBid[-1,20]\prf\c[4]難民：\c[0]    いえ､男の子で､\c[6]トミー\c[0]と言います｡
+\CBct[8]\m[flirty]\PRF\c[6]ロナ：\c[0]    えっと\..\..\..男の子？
+\CBct[20]\m[pleased]\c[6]ロナ：\c[0]    とにかく良い知らせを待っててください！
+
+MIAchildMAMA/prog1_noNews
+\CBid[-1,20]\prf\c[4]難民：\c[0]    \c[6]トミー\c[0]はどうなりました？
+\CBct[8]\m[flirty]\PRF\c[6]ロナ：\c[0]    あの\..\..\..まだです｡
+\CBid[-1,6]\prf\c[4]難民：\c[0]    私の\c[6]トミー\c[0]ちゃん！
+
+MIAchildMAMA/QdoneBegin
+\CBid[-1,6]\prf\c[4]難民：\c[0]    \c[6]トミー\c[0]は見つかりましたか？
+
+MIAchildMAMA/prog7_NotFound
+\CBct[8]\m[flirty]\PRF\c[6]ロナ：\c[0]    あの....
+\CBct[20]\m[confused]\PRF\c[6]ロナ：\c[0]    \c[4]使徒教会\c[0]の人たちは､あなたが子供を食べ物と交換したと言ってました｡
+\CBct[2]\m[flirty]\PRF\c[6]ロナ：\c[0]    これホントですか？
+\CBid[-1,6]\prf\c[4]難民：\c[0]    私は\..\..\..
+\CBid[-1,20]\prf\c[4]難民：\c[0]    そんなつもりじゃなかった！ お腹が空いて仕方なかったの！
+\CBid[-1,20]\prf\c[4]難民：\c[0]    ごめんなさい！ ごめんね\c[6]トミー\c[0]！
+\CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    つまりお子さんは奪われたわけじゃない？
+\CBct[2]\m[flirty]\PRF\c[6]ロナ：\c[0]    あなたが自分で売ったってこと？
+\CBid[-1,6]\prf\c[4]難民：\c[0]    はい\..\..\..私のせいです... すみません.....
+\CBid[-1,6]\prf\c[4]難民：\c[0]    私の\c[6]トミー\c[0]ちゃん､心配しないで！
+\CBid[-1,20]\prf\c[4]難民：\c[0]    ママが取り戻すからね！
+
+MIAchildMAMA/prog7_end
+\CBct[8]\m[sad]\PRF\c[6]ロナ：\c[0]    ああ....
+
+MIAchildMAMA/prog9_failed
+\CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    あの... その....
+\CBid[-1,6]\prf\c[4]難民：\c[0]    どうしました？ 私の\c[6]トミー\c[0]ちゃんは？
+\CBct[8]\m[sad]\PRF\c[6]ロナ：\c[0]    \..\..\..
+\CBct[20]\m[sad]\PRF\c[6]ロナ：\c[0]     もう戻りません､自分を\c[4]使徒\c[0]に捧げるそうです｡
+\CBid[-1,20]\prf\c[4]難民：\c[0]    そんな！ 嘘つき！
+\CBct[20]\m[shocked]\Rshake\c[6]ロナ：\c[0]    本当ですよ！嘘じゃないです！本人がそう言ってました！
+\CBct[20]\m[shocked]\Rshake\c[6]ロナ：\c[0]    あなたのことは嫌いって！
+\CBid[-1,20]\prf\c[4]難民：\c[0]    違う！ あなたも\c[6]使徒\c[0]も嘘つきよ！
+\CBid[-1,20]\prf\c[4]難民：\c[0] \{神様は一体どこにいるのよぉ！！！\}
+\CBid[-1,20]\prf\c[4]難民：\c[0] \{嘘つき！虚言者！嘘つきぃ！\}
+
+MIAchildMAMA/prog9_win0
+\CBct[20]\m[pleased]\Rshake\c[6]ロナ：\c[0]    お子さんを見つけましたよ！
+\CBid[-1,1]\prf\c[4]難民：\c[0]    ！！！！！！！
+
+MIAchildMAMA/prog9_win1
+\CBmp[Tommy,4]\prf\c[4]トミー：\c[0]    ママ！
+\CBid[-1,20]\prf\c[4]難民：\c[0]    \c[6]トミー\c[0]､私の坊や！
+\CBmp[Tommy,2]\prf\c[4]トミー：\c[0]    ママはボクがいらなかったの？
+\CBid[-1,6]\prf\c[4]難民：\c[0]    そんなわけない！ それは\c[6]使徒教会\c[0]の嘘つきたちが騙してたの！
+\CBid[-1,6]\prf\c[4]難民：\c[0] ママごめんね！ もう二度と離さないからね！
+\CBct[4]\m[triumph]\Rshake\c[6]ロナ：\c[0]    うん､それがいいです！
+\CBct[8]\m[flirty]\PRF\c[6]ロナ：\c[0]    じゃあわたしはこれで､再会できた二人をそっとしておいてあげよう｡
+
+MIAchildMAMA/prog9_win2
+\CBmp[Tommy,20]\prf\c[4]トミー：\c[0]    お姉ちゃん！ まって！
+
+MIAchildMAMA/prog9_win3
+\CBct[2]\m[confused]\PRF\c[6]ロナ：\c[0]    なあに？
+
+MIAchildMAMA/prog9_win4
+\CBmp[Tommy,20]\prf\c[4]トミー：\c[0]    この棒ボクのお尻に入ってたんだ｡
+\CBmp[Tommy,20]\prf\c[4]トミー：\c[0]    \c[6]信仰者\c[0]のおじさんたちは\c[6]使徒\c[0]に近づく為の試練なんだって言ってた｡
+\CBmp[Tommy,20]\prf\c[4]トミー：\c[0]    でももういらない｡
+\CBmp[Tommy,20]\prf\c[4]トミー：\c[0]    お姉ちゃんにあげるね！
+
+MIAchildMAMA/prog9_win5
+\CBct[2]\m[wtf]\Rshake\c[6]ロナ：\c[0]    えぇ？！ お尻に？！
+\CBct[2]\m[flirty]\PRF\c[6]ロナ：\c[0]    あの...ありがと？
+
+MAMAdone/Qmsg
+感謝致します！
+
+TOMMYdone/Qmsg
+ありがとうお姉ちゃん！
+
+####################################################################### CBT OP
+
+CBTop/Begin0
+\CBmp[CBTer2,20]\c[4]難民A：\c[0]    聞いて､あんたはこのクソよりも強いの｡
+\CBmp[CBTer1,6]\c[4]難民B：\c[0]   私は....
+
+CBTop/Begin1
+\CBmp[CBTer2,20]\c[4]難民A：\c[0]   こいつらゴミはそれだけの罪があるんだ､\c[6]使徒\c[0]はあんたを責めないよ｡
+
+CBTop/Begin2
+\CBmp[CBTer2,20]\c[4]難民A：\c[0]    怖がらないでって､もうあんたを傷つけることなんて出来ないんだから｡
+
+CBTop/Begin3
+\CBmp[CBTer1,8]\c[4]難民B：\c[0]    これは本当に良いことなの？
+\CBmp[CBTer2,20]\c[4]難民A：\c[0]    奴らに自分が何をされたか考えてみて｡
+\CBmp[CBTer2,20]\c[4]難民A：\c[0]    やろう､信じなよ｡
+\CBmp[CBTer1,8]\c[4]難民B：\c[0]    .....
+
+CBTop/Begin4
+\CBmp[CBTer2,20]\c[4]難民A：\c[0]    どう？ 続けて､怖がらないで｡
+\CBmp[CBTer1,8]\c[4]難民B：\c[0]    うう.....
+
+CBTop/Begin5
+\CBmp[CBTer1,20]\c[4]難民B：\c[0]    \{うあああ！\}
+
+CBTop/Begin6
+\CBmp[CBTer1,20]\c[4]難民B：\c[0]    \{殺してやるぁあ！\}
+\CBmp[CBTer2,20]\c[4]難民A：\c[0]    その調子､吐き出しちゃいなよ｡
+
+
+####################################################################### Hunter
+
+Hunter/begin
+\CBmp[CBThunter,20]\c[4]狩人：\c[0]    お前さんも復讐しに来たのかい？
+\CBmp[CBThunter,20]\c[4]狩人：\c[0]    やろうぜ､今日新しいのを捕まえたんだよ！#{$story_stats["HiddenOPT1"]}Pな！
+
+Hunter/begin_Payed
+\CBmp[CBThunter,20]\c[4]狩人：\c[0]    殺すなよ､血抜きしてからじゃないと肉が悪くなる｡
+
+Hunter/NeedPay0
+\CBmp[CBThunter,20]\c[4]狩人：\c[0]    オイ！ 触んな！ 金払えってんだ！
+
+Hunter/NeedPay1
+\CBct[6]\m[flirty]\c[6]ロナ：\c[0]    おぅ....
+
+HunterOpt/About
+会話
+
+Hunter/Pay
+金蹴り
+
+Hunter/PayPass
+\CBmp[CBThunter,4]\c[4]狩人：\c[0]    思い知らせてやれ！
+
+Hunter/PayNotEnough
+\CBmp[CBThunter,5]\c[4]狩人：\c[0]    冗談だろ？ 俺は#{$story_stats["HiddenOPT1"]}Pと言ったんだぞ！
+
+Hunter/WTF
+\CBmp[CBThunter,5]\prf\c[4]狩人：\c[0]    腐れビッチ！ 何してんだ！
+\CBct[6]\m[terror]\Rshake\c[6]ロナ：\c[0]    ひい！！
+
+Hunter/AboutDialog
+\CBct[2]\m[flirty]\PLF\c[6]ロナ：\c[0]    あの....この\c[4]ゴブリン\c[0]はなんですか？
+\CBmp[CBThunter,20]\prf\c[4]狩人：\c[0]    \c[6]ゴブリン\c[0]？何だ？この\c[6]ゴブリン\c[0]か？コイツは森で捕まえたモンで､この辺をうろついてたんだ｡
+\CBct[20]\m[confused]\PLF\c[6]ロナ：\c[0] あー...それがなんでここに居るのかなって｡
+\CBmp[CBThunter,20]\prf\c[4]狩人：\c[0] そりゃ\c[6]ゴブリン\c[0]に弄ばれた女の治療の為よ｡
+\CBct[2]\m[flirty]\PLF\c[6]ロナ：\c[0]    治療？
+\CBmp[CBThunter,20]\prf\c[4]狩人：\c[0] ヤられた女はいろいろぶっ壊れちまうだろ？
+\CBmp[CBThunter,20]\prf\c[4]狩人：\c[0]  だから俺になにか役立つもんを寄越したら､この\c[6]ゴブリン\c[0]をぶっ壊させてやるってことさ｡
+\CBmp[CBThunter,20]\prf\c[4]狩人：\c[0]    失ったモンは\c[6]ゴブリン\c[0]から取り返す｡
+\CBmp[CBThunter,20]\prf\c[4]狩人：\c[0] そんでもって...\c[6]ゴブリン\c[0]はかなり味がいい｡
+\CBct[1]\m[shocked]\Rshake\c[6]ロナ：\c[0]    あじ？！
+\CBmp[CBThunter,20]\prf\c[4]狩人：\c[0]    お前も試してみろって､この緑色のが慈悲を乞うツラはクソウケるぞ｡
+
+####################################################################### Common
+
+DedGob/Qmsg0
+気絶している...
+
+DedGob/Qmsg1
+潰れっちまった悲しみに...
+
+DedGob/Qmsg2
+非常に痛々しい表情だ...
+
+CapGob/Qmsg0
+かなり怯えた表情をしている...
+
+CapGob/Qmsg1
+無力で惨めだ
+
+CapGob/FaceIT
+正面に行かないと
+
+GobSemen/begin1
+\CBct[6]\m[p5sta_damage]\Rshake\c[6]ロナ：\c[0]    \{いいい！\}
+
+GobSemen/begin2_0
+\CBct[6]\m[hurt]\Rshake\c[6]ロナ：\c[0]    きったない！
+
+GobSemen/begin2_1
+\CBct[6]\m[wtf]\Rshake\c[6]ロナ：\c[0]    顔にかかったぁ！
+
+GobExit/Alive0
+\CBct[8]\m[flirty]\c[6]ロナ：\c[0]    大丈夫だよ､わたしは許すからね｡
+
+GobExit/Alive1
+\CBct[8]\m[sad]\c[6]ロナ：\c[0]    こんなの良くない､かわいそうだよ....
+
+GoblinCBT/begin0
+表情に恐怖が表れている.....
+
+GoblinCBT/begin1
+絶望した表情だ.....
+
+GoblinCBT/Kick
+蹴る
+
+GoblinCBT/Release
+解放する
+
+GoblinRelease/Begin1
+\CBct[20]\m[triumph]\c[6]ロナ：\c[0]    怖くないよ！ 助けるからね！
+
+GoblinRelease/Begin2
+\CBct[20]\m[pleased]\c[6]ロナ：\c[0]    よし､早く逃げて！
+\CBct[20]\m[confused]\c[6]ロナ：\c[0]    \..\..\..どうしたの？
+
+GoblinRelease/Begin3
+\CBct[6]\m[fear]\c[6]ロナ：\c[0]    あっ....
+
+GoblinRelease/UniqueGrayRat
+\CBfF[8]\SETpl[GrayRatNormalAr]\PLF\prf\c[4]グレイラット：\c[0]    \..\..\..
+
+GoblinRelease/CompOrkindSlayer
+\SETpl[OrkindSlayer]\CBfF[20]\Lshake\prf\c[4]ゴブリンキラー：\c[0]    駄目だ｡
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    善良な\c[6]ゴブリン\c[0]かもしれませんよ？
+\SETpl[OrkindSlayer]\CBfF[20]\Lshake\prf\c[4]ゴブリンキラー：\c[0]    死んだ\c[6]ゴブリン\c[0]だけが良い\c[6]ゴブリン\c[0]だ｡
+
+GoblinRelease/failed
+\CBct[8]\m[sad]\plf\PRF\c[6]ロナ：\c[0]    あう...わかりました....
+
+commoner0/refugeeF0
+\CBid[-1,20]\c[4]難民：\c[0]    私が間違っていた､\C[6]使徒\C[0]は存在するし､存在を疑うべきじゃなかった｡
+
+commoner0/refugeeF1
+\CBid[-1,20]\c[4]難民：\c[0]    おかげで私は生きることができます｡ 私は今までの自分の言動を恥じていますよ｡
+
+commoner0/refugeeF2
+\CBid[-1,20]\c[4]難民：\c[0]    もし\C[6]使徒\C[0]を疑うのなら､\C[6]修道院\C[0]に行ってみるといいでしょう｡
+\CBid[-1,20]\c[4]難民：\c[0]    善良なる\C[6]信仰者\C[0]が真実を見るために導いてくれますよ！
+
+commoner1/refugeeF0
+\CBid[-1,20]\c[4]難民：\c[0] 僧侶が時々食料品を届けに来てくれるが､本当に食っていくには自分がなんとかするしか無い｡
+
+commoner1/refugeeF1
+\CBid[-1,20]\c[4]難民：\c[0]    この辺りは魔物や野盜がいるから､修道院の僧兵だけじゃ守りきれない｡
+
+commoner1/refugeeF2
+\CBid[-1,20]\c[4]難民：\c[0]  この世の誰も\C[6]使徒\C[0]を信じなくなったせいで､\C[6]使徒\C[0]が罰を下したんだ｡
+\CBid[-1,20]\c[4]難民：\c[0]    連帯責任なのか？ 俺は信じている､ \C[6]使徒 \C[0]を信じているのに？ なぜ俺がこんな目に遭う？
+
+commoner2/Priest0
+\CBid[-1,20]\c[4]信仰者：\c[0] 来たれ！迷える子よ！\C[6]使徒\C[0]は汝らを赦す！
+
+commoner2/Priest1
+\CBid[-1,20]\c[4]信仰者：\c[0]    全て汝が\C[6]使徒\C[0]に背いたが故！頭を垂れて蹲い過ちを認めよ ！
+
+commoner2/Priest2
+\CBid[-1,20]\c[4]信仰者：\c[0]    その身を捧げよ！ 魂を捧げよ！
+
+Saint/board
+\board[名もなき使徒]
+名もなき使徒曰く：  邪悪見えし時は我が名を呼べ｡    忘れるなかれ､邪悪は我が名を見据えること能わず｡
+使徒による福音書896：4
