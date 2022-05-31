@@ -1,0 +1,455 @@
+overmap/OvermapEnter
+\m[confused]使徒教会修道院\optB[やめる,入る]
+
+priest/common
+\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    使徒が汝を導くだろう！\optB[やめる,取引,使徒教会について<r=HiddenOPT0>,さらなる使徒の恩寵<r=HiddenOPT1>]
+
+priest/trade
+\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    これらの物は全て使徒によって祝福されている！買えば君に使徒教会の加護があるぞ！
+
+priest/about
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\m[confused]\Lshake\prf\C[4]神父：\C[0] その昔､使徒は我々の為に邪悪を打倒した！
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    偽りの神と虚言者と罪人たちを滅ぼし！
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    我々罪無き者には安寧を与え給うた！
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    人々に己の血肉を捧げたのだ！
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    そして今日に至るまでの､あらゆるすべてが使徒の下した罰である！
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    全ては汝らの不信心故に！
+\CamMP[prayer0]\BonMP[prayer0,20]\ph\C[4]信仰者：\C[0]    使徒よ！私たちが間違っておりました！
+\CamMP[prayer1]\BonMP[prayer1,20]\ph\C[4]信仰者：\C[0]    罰してください！使徒よ！
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    使徒は明らかな啓示を下した！何故汝らは信じぬのだ！
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]      虚言者と罪人たちの再来を招きしは汝らの不信心！
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    何故！汝らはそのように忘れるのだ！
+\CamMP[prayer2]\BonMP[prayer2,20]\ph\C[4]信仰者：\C[0]    私のせいだ！私が信じなかったから！
+\CamMP[prayer3]\BonMP[prayer3,20]\ph\C[4]信仰者：\C[0]    使徒のお話に耳を傾けます！私のすべてをお受け取りください！
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    君！なぜ使徒を信じないのだ！
+\CamCT\m[shocked]\plf\Rshake\C[6]ロナ：\C[0]    なに？！わたしぃ？？\optD[信じてます！,使徒って？]
+
+priest/about_optY
+\CamCT\m[terror]\plf\Rshake\C[6]ロナ：\C[0] 信じています！わたしも敬虔な信仰者です！
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    さあ！皆彼女に祝福を！
+\CamCT\m[confused]\plf\Rshake\C[0]\C[6]ロナ：\C[0]    えっ？！
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    さァ！この少女を讃えよう！彼女は信仰者となるだろう！
+\CamMP[prayer0]\BonMP[prayer0,20]\ph\C[4]信仰者：\C[0]    使徒よ！少女を讃えます！
+\CamMP[prayer1]\BonMP[prayer1,20]\ph\C[4]信仰者：\C[0] 使徒よ感謝します！新たな信仰者を与えてくださいました！
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    ほら！洗礼を受けに来なさい！
+\CamCT\m[flirty]\plf\Rshake\C[0]\C[6]ロナ：\C[0]    あぇ？ええっ？？
+
+priest/about_optN
+\CamCT\m[confused]\plf\PRF\C[6]ロナ：\C[0]    ずっと.... 聞きたかったんですけど...
+\CamCT\m[flirty]\plf\PRF\C[6]ロナ：\C[0]    使徒は一体なにをしたんです？なん....
+\CamMP[MainPriest]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    貴様ァ！虚言者！使徒を愚弄しやがって､殺す！使徒に捧げる！\CamCT
+
+priest/BaptizePlayer1
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    使徒よ､この罪人の罪を清め給え！
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    罪人！罪よ去れ！
+
+priest/BaptizePlayer2
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    罪人！罪よ去れ！
+
+priest/BaptizePlayer3
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    罪人！罪よ去れ！
+\CamCT\m[confused]\plf\PRF\C[0]\C[6]ロナ：\C[0]    あの.....
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    罪人よォ！服を取り払え！物欲を捨てよ！さすれば使徒は汝のもとに降り来る！
+\CamCT\m[flirty]\plf\PRF\C[0]\C[6]ロナ：\C[0]    は？
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    \{服を脱ぎ､使徒を讃えよ！
+\CamCT\m[shocked]\plf\Rshake\C[0]\C[6]ロナ：\C[0]    \{ナンデ？！
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    少女よ！これは使徒が君の罪深き肉体を浄化するためだ！\optD[やだ,脱ぐ]
+
+priest/BaptizePlayer3_N
+\CamCT\m[wtf]\plf\Rshake\C[0]\C[6]ロナ：\C[0]    \{嫌です！
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    \{使徒に逆らいやがって！この虚言者ァ！殺す！\CamCT
+
+priest/BaptizePlayer3_Y
+\CamCT\m[shy]\plf\PRF\C[0]\C[6]ロナ：\C[0]    うう... わかりました...
+
+priest/BaptizePlayer3_touch0
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\Rshake\C[4]神父：\C[0]      見よ！この罪深き胴回り！使徒よ！ 浄化し給えェ！
+
+priest/BaptizePlayer3_touch1
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\Rshake\C[4]神父：\C[0]    見よ！この男を誘う尻！まさに邪悪だァ！
+
+priest/BaptizePlayer3_touch2
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\Rshake\C[4]神父：\C[0]    見よ！この罪液に満ちた悪満孔！なんたる堕落かァ！
+
+priest/BaptizePlayer3_touch3
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\Rshake\C[4]神父：\C[0]    見よ！この穢れた言葉に満ちた口！なんといやらしいィ！
+
+priest/BaptizePlayer4
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0] 使徒よ！我が身を！我が精神を護り給えェ！
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumanPenisHairly]\Lshake\prf\C[4]神父：\C[0]    使徒の恩寵にて汝の罪を浄化する！
+\CamCT\m[shocked]\Rshake\C[0]\C[6]ロナ：\C[0]    ひぃ！！
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumanPenisHairly]\Lshake\prf\C[4]神父：\C[0]    少女よ､恐れるな！使徒の恩寵を君の頭の中に注ぎ込めば！邪悪な考えは清まることだろう！
+
+priest/BaptizePlayer5
+\CamCT\m[fear]\plf\PRF\C[0]\C[6]ロナ：\C[0]    うう... まだ終わらないんですか？
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    これが最後の一歩！次は使徒の恩寵を体内に注ぎ込む！
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0] 君が過去に吐いてしまった虚言をかき消せることだろう！
+\CamCT\m[sad]\plf\PRF\C[0]\C[6]ロナ：\C[0]    ......
+
+priest/BaptizePlayer6
+\CamCT\m[tired]\plf\PRF\C[0]\C[6]ロナ：\C[0]    .........
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    綺麗になったぞ､君は使徒の門徒として認められ､信仰者となった｡
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    さァ！使徒を讃えよ！
+\CamCT\m[sad]\plf\PRF\C[0]\C[6]ロナ：\C[0]    \}使徒を讃えよ｡
+
+priest/BaptizePlayer_end
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    信仰者諸君ッ！私は使徒の啓示を聞いた！
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    この少女は使徒に認められた！
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    我々の一員！ 彼女を讃えよう！
+\CamMP[prayer1]\BonMP[prayer1,20]\ph\C[4]信仰者：\C[0]    使徒よ感謝します！使徒よ感謝します！
+\CamMP[prayer2]\BonMP[prayer2,20]\ph\C[4]信仰者：\C[0]    使徒よ！彼女を讃えます！
+\CamMP[prayer3]\BonMP[prayer3,20]\ph\C[4]信仰者：\C[0] 使徒よ感謝します！新たな信仰者を与えてくださいました！
+\CamCT\m[flirty]\plf\PRF\C[0]\C[6]ロナ：\C[0]    えへ... 皆さんありがとうございます？
+
+
+################################################################# 2nd
+
+priest/GraceAgain0
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\PLF\prf\C[4]神父：\C[0]    さらなる使徒の恩寵を求めると？ 少女よ､欲張り過ぎるのは良くないこと､使徒が憎む虚言者になってしまうぞ｡
+\CamCT\m[sad]\plf\PRF\C[0]\C[6]ロナ：\C[0]    ごめんなさい神父様....
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    だが大丈夫､私が赦そう､ついて来なさい｡
+
+priest/GraceAgain1
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    偽りの衣を取り払うのだ､裸身で虚言と罪に立ち向かえた使徒のように！
+\CamCT\m[shy]\plf\PRF\C[0]\C[6]ロナ：\C[0]    はい....
+
+priest/GraceAgain2
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0] 今回は使徒は君を導かない！自分の力で恩寵を吸い出すのだ！
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumanPenisHairly]\Lshake\prf\C[4]神父：\C[0]       使徒は汝に邪悪に打ち勝つ意志を与えるだろう！故に汝は！己の力で！
+\CamCT\m[tired]\plf\PRF\C[0]\C[6]ロナ：\C[0]    はい....
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumanPenisHairly]\Lshake\prf\C[4]神父：\C[0]    己の力で！使徒の意志の中で沐浴せよ！
+\CamCT\m[shy]\plf\PRF\C[0]\C[6]ロナ：\C[0]    はい..
+
+priest/GraceAgain3
+\Lshake\c[6]神父：\c[0]    \{うおう！
+\Lshake\c[6]神父：\c[0]    \{いいぞォ！！恩寵を感じてきたぞ！
+
+priest/GraceAgain4
+\Lshake\c[6]神父：\c[0] \{征くぞ！使徒よォ！イクゥ！
+
+priest/GraceAgain5
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    少女よ！よくぞ頑張った！君は邪悪に打ち勝ったぞ！
+\CamCT\m[tired]\plf\PRF\C[0]\C[6]ロナ：\C[0]    ありがとうございます....神父様｡
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]      君の心の中の虚言は消え去った！ しかし他の場所に邪悪が隠れ潜んでいるのを感じる！
+\CamCT\m[wtf]\plf\Rshake\C[0]\C[6]ロナ：\C[0]    どうしたらいいんですか？！ 神父様助けてください！
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    少女よ､私は君のことを見捨てはしないぞ！君の体内にさらなる使徒の恩寵を注ぎ込むからな！
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    我に身を委ねよォ！
+\CamCT\m[shocked]\plf\Rshake\C[0]\C[6]ロナ：\C[0]    はい！神父様！
+
+priest/GraceAgain6
+\CamCT\m[shy]\plf\C[0]\C[6]ロナ：\C[0]    ......
+
+priest/GraceAgain7
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    少女よ､よく頑張ったな｡これで虚言と罪がしばらくは君の体内から離れる｡
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    恩寵は定期的に受けに来なければならないからな｡  さもなくば虚言と罪によって体が蝕まれ､君は穢れてしまうであろう｡
+\CamCT\m[terror]\plf\Rshake\C[0]\C[6]ロナ：\C[0]    ハイ！
+
+
+########################add title
+
+priest/add_title1
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]      待て！ 使徒の聖諭が聞こえたぞ！ 準備はいいか？
+\CamCT\m[shocked]\plf\Rshake\C[0]\C[6]ロナ：\C[0]    はい！
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]      我が信仰は純粋なれど､他の男の信仰者と従者は罪深いままである！
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    君が！ 彼らの邪悪な体液を吸い出すのだ！
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    君が！ 彼らの罪深き肉体を浄化するのだ！
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    君の！ 肉体をもって彼らの虚言を消し去るのだ！
+\CamMP[MainPriest]\BonMP[MainPriest,20]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    征けェ！ 少女よ！虚言と罪悪に打ち勝て！ 使徒を讃えよ！
+\CamCT\m[serious]\plf\Rshake\C[0]\C[6]ロナ：\C[0]    はい！使徒を讃えよ！
+
+
+######################################################################################################################################### QUEST
+
+priest/QuProgScoutCampOrkind2_done
+\CamMP[MainPriest]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    汝が使徒に導かれし傭兵か？
+\CamCT\plf\PRF\m[flirty]\C[6]ロナ：\C[0]    導かれし？
+\CamCT\m[confused]\plf\PRF\C[6]ロナ：\C[0]    うーん､多分そうかと｡
+\CamMP[MainPriest]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    ご苦労である､あの魔物どもは以前より修道院への侵入を試みていた｡
+\CamMP[MainPriest]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    これより､使徒の導きによって虚無へと還るだろう｡
+\CamMP[MainPriest]\SETpl[HumPriest]\Lshake\prf\C[4]神父：\C[0]    使徒を讃えよ｡
+\CamCT\m[flirty]\plf\PRF\C[6]ロナ：\C[0]    使徒を讃えよ｡
+
+#########################################################################################################################################
+
+Merit/Box0
+\SETpl[HumPriest2]\Lshake\prf\C[4]信仰者：\c[0]    金銭は身外の物､物欲は汝の業である｡
+\Lshake\prf\C[4]信仰者：\c[0]    使徒は汝の罪を赦す､しかし汝は物欲を捨てねばならぬ｡
+
+Merit/Box1
+\board[功徳の為の寄付]
+2000トレードポイント毎にモラルが1上がる｡
+使徒を信じよ！さすれば汝を導くであろう！
+
+Merit/Box2
+\prf\C[4]信仰者：\c[0]    ...
+
+Merit/END_Good
+\SETpl[HumPriest2]\Lshake\prf\C[4]信仰者：\c[0]    使徒は汝の罪を赦す｡
+
+Merit/END_Bad
+\SETpl[HumPriest2]\Lshake\prf\C[4]信仰者：\c[0]    これだけか？虚言者のような者を使徒が赦すとでも？
+\m[shocked]\plf\Rshake\C[6]ロナ：\C[0]    すみません？！
+
+################################################################################################################################################
+
+Lona/WhoreJobStart0
+\CBct[8]\m[shy]\plf\PRF\C[6]ロナ：\C[0] 使徒にあなたの罪を吸い出すよう命じられて来ました.....
+
+MaleBeliever/CommonHuman_begin0
+\PLF\prf\c[4]従者：\c[0]    使徒よ！我に罪有り！
+
+MaleBeliever/CommonHuman_begin1
+\PLF\prf\c[4]従者：\c[0]    使徒よ！我が虚言を赦し給え！
+
+MaleBeliever/CommonHuman_begin2
+\PLF\prf\c[4]従者：\c[0]    使徒よ！罪深き私を！罰し給え！
+
+MaleBeliever/CommonHumanWhoreJobStart1
+\PLF\prf\c[4]従者：\c[0]    使徒よ！使徒よ感謝します！
+
+MaleBeliever/guard
+\PLF\prf\c[4]衛兵：\c[0]    .....
+
+MaleBeliever/Prayer_begin0
+\CBid[-1,20]\PLF\prf\c[4]信仰者：\c[0]    使徒よ！世界を救い給え！
+
+MaleBeliever/Prayer_begin1
+\CBid[-1,20]\PLF\prf\c[4]信仰者：\c[0]    使徒よ！我々はこの身を捧げます！
+
+MaleBeliever/Prayer_begin2
+\CBid[-1,20]\PLF\prf\c[4]信仰者：\c[0]    使徒よ！我々は虚言を捨てます！
+
+MaleBeliever/PrayerWhoreJobStart1
+\CBid[-1,4]\PLF\prf\c[4]信仰者：\c[0] 使徒よ感謝します！ 使徒の御加護があらんことを｡
+
+Nap/Capture
+\narr使徒の信仰者は虚言者のロナを捕らえた....
+
+Enter/AggroMode
+\cg[map_DarkestDungeon]\SETpr[nil]\SETpl[AnonFemale]\Lshake\C[4]信仰者：\C[0]      虚言者だ！ 虚言者が我らの聖域に侵入したぞ！
+\SETpr[AnonMale2]\plf\Rshake\C[4]信仰者：\C[0] 気をつけろ！ あの虚言者は胸が無い！薄汚い見た目をしたガキだ！ わかりやすいぞ！
+
+#---------------------#-------------------#---------------------  -------------------------------
+
+Healer/Begin1
+\CBid[-1,20]\prf\c[4]信仰者：\c[0]    四百年前､世界には罪があり､そして世の人々はありとあらゆる邪神を崇拝していた｡
+\CBid[-1,20]\prf\c[4]信仰者：\c[0]    邪神は人間が美徳を尊ぶことに嫌悪し､ 1321.5.6 に罪無き者に神罰を下した｡
+\CBid[-1,20]\prf\c[4]信仰者：\c[0]    世界中の人々はかの災害で滅びるはずだった､だがしかし使徒は！来たれり！正義の御姿にて罪無き者達を守り､邪神を次々に斬り伏せたのだ｡
+
+#---------------------#-------------------#---------------------  -------------------------------
+
+MIAchildMAMA/prog1
+\CBct[8]\m[flirty]\PRF\C[0]\C[6]ロナ：\C[0]    あの.. すみません､\C[4]トミー\C[0]をご存じですか｡
+\CBct[8]\m[confused]\PRF\C[0]\C[6]ロナ：\C[0]    男の子で､ムートなんです｡
+\CBid[-1,2]\prf\c[4]信仰者：\c[0]    トミー？ ムート？
+\CBct[1]\m[triumph]\PRF\C[0]\C[6]ロナ：\C[0]   そうです！
+\CBid[-1,20]\prf\c[4]信仰者：\c[0]    隣のシスターに聞いてみなよ､ガキたちは全てシスターが担当しているからな｡
+\CBct[1]\m[flirty]\PRF\C[0]\C[6]ロナ：\C[0]    わかりました！
+\CBid[-1,5]\prf\c[4]信仰者：\c[0]    それと俺の祈りの邪魔はするな！
+\CBct[6]\m[shocked]\Rshake\C[0]\C[6]ロナ：\C[0]    ご...ごめんなさい！
+
+MIAchildMAMA/prog2
+\CBct[8]\m[flirty]\PRF\C[0]\C[6]ロナ：\C[0]    \C[4]トミー\C[0]を知りませんか？ 男の子の､ムートなんです｡
+\CBct[8]\m[confused]\PRF\C[0]\C[6]ロナ：\C[0]    彼の母親が探してるんです｡
+\CBid[-1,2]\prf\c[4]シスター：\c[0]    トミー？ ムート？
+\CBid[-1,20]\prf\c[4]シスター：\c[0]    ここは人がいっぱい入っているし､誰が\C[6]トミー\C[0]を知っているやら｡
+\CBct[8]\m[flirty]\PRF\C[0]\C[6]ロナ：\C[0]    え...
+
+MIAchildMAMA/prog3
+\CBct[8]\m[flirty]\PRF\C[0]\C[6]ロナ：\C[0]    えっと...\C[4]トミー\C[0]って知らないかな？ 男の子でね､ムートなの｡
+\CBct[8]\m[confused]\PRF\C[0]\C[6]ロナ：\C[0]    君と同じくらいの歳の子なの｡
+\CBid[-1,20]\prf\c[4]難民：\c[0]    あ！ \C[6]トミー\C[0]！ あの黒いの！
+\CBct[2]\m[shocked]\PRF\C[0]\C[6]ロナ：\C[0]    わかるの？ どこに居るか知ってる？
+\CBid[-1,20]\prf\c[4]難民：\c[0]    \C[6]トミー\C[0]くっさいの！ 黒くて臭い！ あいつのママが連れてったんだ！
+\CBct[2]\m[flirty]\PRF\C[0]\C[6]ロナ：\C[0]    臭い？ 連れていった？ でも\C[4]トミー\C[0]は修道院の人に連れて行かれたって聞いたよ｡
+\CBid[-1,20]\prf\c[4]難民：\c[0]    そうだよ！ あいつ病気だったから､誰かに治してもらおうってママが連れ出したんだ｡
+\CBct[2]\m[confused]\PRF\C[0]\C[6]ロナ：\C[0] 治療？ お医者さん？それとも牧師さんかな？
+\CBid[-1,20]\prf\c[4]難民：\c[0]    知らない！
+\CBct[8]\m[flirty]\PRF\C[0]\C[6]ロナ：\C[0]    えっ...
+
+MIAchildMAMA/prog4
+\CBct[8]\m[flirty]\PRF\C[0]\C[6]ロナ：\C[0]    あの... \C[4]トミー\C[0]をご存じですか？
+\CBid[-1,2]\prf\c[4]シスター：\c[0]    \C[6]トミー\C[0]？
+\CBct[20]\m[flirty]\PRF\C[0]\C[6]ロナ：\C[0]    そうです､母親が探してるんです｡ 母親の話では修道院の人に連れていかれたらしくて｡
+\CBid[-1,20]\prf\c[4]シスター：\c[0]    ムートの？
+\CBct[20]\m[pleased]\PRF\C[0]\C[6]ロナ：\C[0]    そうです！
+\CBid[-1,20]\prf\c[4]シスター：\c[0]    懺悔室で聞いてみて､そこでその親子をよく見かけたから｡
+\CBct[20]\m[triumph]\PRF\C[0]\C[6]ロナ：\C[0]    ありがとうございます！
+
+MIAchildMAMA/prog5
+\CBct[8]\m[flirty]\PRF\C[0]\C[6]ロナ：\C[0]    あの... \C[4]トミー\C[0]を見かけませんでしたか？
+\CBct[8]\m[confused]\PRF\C[0]\C[6]ロナ：\C[0]    男の子で､ムートなんです｡
+\SETpl[HumPriest2]\Lshake\prf\CBid[-1,8]\c[4]信仰者：\c[0]    \C[6]トミー\C[0]？ ああ､知っているぞ｡
+\CBct[20]\m[pleased]\PRF\C[0]\C[6]ロナ：\C[0]    よかったぁ！ どこに居るかご存知ですか？ まだ修道院にいますか？
+\CBct[20]\m[triumph]\PRF\C[0]\C[6]ロナ：\C[0]    ママが探してるんです｡
+\SETpl[HumPriest2]\Lshake\prf\CBid[-1,2]\c[4]信仰者：\c[0]    母親だと？ その我が子を捨てたのは自分自身だろう？
+\CBct[20]\m[flirty]\PRF\C[0]\C[6]ロナ：\C[0]    捨てた\..\..\..？\m[shocked]\Rshake\{はぁ？！\}
+\SETpl[HumPriest2]\Lshake\prf\CBid[-1,20]\c[4]信仰者：\c[0]    ああ､奴は虚言者で､我が子を犠牲にして食料を使徒と交換したんだ｡
+\SETpl[HumPriest2]\Lshake\prf\CBid[-1,20]\c[4]信仰者：\c[0] 奴に言われて来たのか？信じてはならん｡
+\SETpl[HumPriest2]\Lshake\prf\CBid[-1,20]\c[4]信仰者：\c[0]    帰りたまえ｡
+\SETpl[HumPriest2]\Lshake\prf\CBid[-1,20]\c[4]信仰者：\c[0] 戻って将来\C[6]トミー\C[0]は確固たる信仰者になると伝えなさい｡
+\CBct[8]\m[flirty]\PRF\C[0]\C[6]ロナ：\C[0]    えっ...
+
+MIAchildMAMA/prog5_1
+\CBct[8]\m[confused]\PRF\C[0]\C[6]ロナ：\C[0]    これからどうしよう？ キャンプに戻る？
+
+#---------------------#-------------------#---------------------  ------------------------------- Nun Quest
+
+nun/keyBegin
+\CBid[-1,20]\prf\C[0]\C[4]シスター：\C[0]    
+
+ToMT_crunch/0
+\CBct[8]\m[confused]\PRF\C[0]\C[6]ロナ：\C[0]    えっと...
+\CBid[-1,20]\prf\C[0]\C[4]シスター：\C[0]    あぁ､外から来た罪なき者ですか｡
+\CBid[-1,20]\prf\C[0]\C[4]シスター：\C[0]    東にある\c[6]山の修道院\c[0]へ向かいなさい｡
+\CBct[2]\m[flirty]\PRF\C[0]\C[6]ロナ：\C[0]    なに？ わたし？
+\CBid[-1,20]\prf\C[0]\C[4]シスター：\C[0]    ええ､貴女です｡
+\CBct[2]\m[confused]\PRF\C[0]\C[6]ロナ：\C[0]    なんのために？
+\CBid[-1,20]\prf\C[0]\C[4]シスター：\C[0]    御覧の通り､ここは人手不足です｡
+\CBid[-1,20]\prf\C[0]\C[4]シスター：\C[0]    医学に精通した僧侶が必要なのです､貴女も使徒の福音に貢献したいでしょう？
+\CBid[-1,20]\prf\C[0]\C[4]シスター：\C[0]    \c[6]山の修道院\c[0]にいる兄弟姉妹をここに帰して来てください｡
+
+ToMT_crunch/0_brd
+\board[山の修道院へ]
+目標：山の修道院へ行く
+報酬：無し
+依頼主：使徒教会修道院
+期限：完了まで
+使徒教会修道院の東にある修道院へ行き､使徒が人手を必要としている事を修道士達に伝える｡
+
+ToMT_crunch/0_accept
+\CBct[20]\m[flirty]\PRF\C[0]\C[6]ロナ：\C[0]    じゃあ､近くを通った時にそこの修道士さんに伝えておきますね｡
+\CBid[-1,20]\prf\C[0]\C[4]シスター：\C[0]    分かりました､貴女に使徒の導きがあらんことを｡
+
+ToMT_crunch/1_alreadyDid
+\CBct[20]\m[flirty]\PRF\C[0]\C[6]ロナ：\C[0]    あの...そこに行ったことがあるんですけど...
+\CBct[8]\m[tired]\PRF\C[0]\C[6]ロナ：\C[0]    医療に覚えのある僧侶は魔物に殺されたって言ってました｡
+\CBid[-1,8]\prf\C[0]\C[4]シスター：\C[0]    そうでしたか\..\..\.. 使徒が彼らの魂を導かんことを｡
+\CBct[8]\m[confused]\PRF\C[0]\C[6]ロナ：\C[0]    ...
+
+ToMT_crunch/0_weak
+\CBid[-1]\m[confused]\C[0]\C[4]シスター：\C[0]    貴女のような弱者に構っている時間はありません｡
+\CBct[6]\m[sad]\PRF\C[0]\C[6]ロナ：\C[0]    すみません....
+\narrロナが弱すぎるようだ。
+
+nun/abandom_bb0
+\CBct[6]\m[tired]\PRF\C[0]\C[6]ロナ：\C[0]    えっと...私の子をお願いできるでしょうか....
+
+nun/abandom_bb1
+\CBid[-1,8]\prf\C[0]\C[4]シスター：\C[0]    貴女も自分の子を捨てるような虚言者なのですか？
+\CBid[-1,8]\prf\C[0]\C[4]シスター：\C[0]    \..\..\..
+\CBid[-1,8]\prf\C[0]\C[4]シスター：\C[0]    いいでしょう､ここへ｡
+\CBct[6]\m[sad]\PRF\C[0]\C[6]ロナ：\C[0]    すみません...
+
+nun/abandom_bb2
+\CBct[8]\m[tired]\PRF\C[0]\C[6]ロナ：\C[0]    \..\..\..
+\CBct[8]\m[sad]\PRF\C[0]\C[6]ロナ：\C[0]    ごめんね...わたしがママでごめんね...
+
+nun/abandom_bb1_failed
+\CBid[-1,5]\prf\C[0]\C[4]シスター：\C[0]    貴女には子はいないでしょう｡
+\CBct[20]\m[flirty]\PRF\C[0]\C[6]ロナ：\C[0]    えっと...そうでした｡
+
+nun/opt_abandom_bb
+赤子を棄てる
+
+nun/opt_abandom_tommy
+トミー
+
+nun/opt_TagMapMT_crunch
+えっと...
+
+#---------------------#-------------------#---------------------  -------------------------------
+
+healer/Qmsg0
+こんな薄汚い虚言者には触れたくもない
+
+healer/Qmsg1
+これぞ使徒の恩寵！
+
+healer/Qmsg2
+虚言者はこうなります
+
+healer/Qmsg3
+使徒なくして汝らが生き残ることはあり得ない！
+
+patient/Qmsg0
+うう....
+
+patient/Qmsg1
+......
+
+follower/Qmsg0
+偉大なる使徒よ！
+
+follower/Qmsg1
+降臨せよ！
+
+follower/Qmsg2
+我らの罪を赦し給え！
+
+follower/Qmsg3
+邪悪なる虚言を焼き払い給え！
+
+prayer/Qmsg0
+使徒よ！赦し給え！
+
+prayer/Qmsg1
+我に罪有り！
+
+prayer/Qmsg2
+使徒を讃えよ！ 偉大なる使徒よ！
+
+prayer/Qmsg3
+私が間違っておりました､申し訳ありません！
+
+kid1M/Qmsg0
+お姉ちゃんがいないの！
+
+kid1M/Qmsg1
+緑のやつらがさらったんだ！
+
+kid1M/Qmsg2
+お姉ちゃん！どこにいるの？
+
+mom/Qmsg0
+私の子供がぁ！
+
+mom/Qmsg1
+使徒よ！あの子を探すのをお助けください！
+
+mom/Qmsg2
+あの子がいないの！
+
+kid2M/Qmsg0
+くさーい！
+
+kid2M/Qmsg1
+パンツにうんちもらしたんでしょ！
+
+kid2M/Qmsg1
+くっちゃーい！ウケるー！
+
+SaintState/begin0
+\board[名もなき使徒]
+名もなき使徒曰く：形あるものを恃むは弱さの表れなれば､己を使徒と称する者､裸身にて新たな試練に挑むべし｡
+使徒による福音書1：28
+
+SaintState/begin1
+\board[名もなき使徒]
+名もなき使徒曰く：   我ら使徒は死を知れる者なれば､死と戦うに助けは不要なり｡
+使徒による福音書25：6
+
+SaintState/begin2
+\board[名もなき使徒]
+名もなき使徒曰く：惰弱な虚言者よ､我らは地獄の門前にて軽蔑する､汝は何故未だ躊躇うか！
+真と偽の使徒5：12
+
+SaintState/begin3
+\board[名もなき使徒]
+名もなき使徒曰く：人に助けを求むる者は､己を使徒と呼ぶべからず｡
+真と偽の使徒10：24
+
+SaintState/begin4
+\board[名もなき使徒]
+名もなき使徒曰く：落陽を見よ､そして讃えよ｡
+使徒による福音書123：456
