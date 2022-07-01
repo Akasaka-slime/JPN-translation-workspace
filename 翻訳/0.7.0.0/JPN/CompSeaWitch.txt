@@ -1,0 +1,375 @@
+Ded/ded
+\SETpl[SeaWitch_angry]\Lshake\C[4]海の女神：\C[0] やめろ！クソ人類！人間なんぞに負けてたまるか！
+
+0to1/begin0
+\CBmp[GuardM1,20]\SndLib[FishkindSmSpot]\C[4]魚人戦士：\C[0]    ミツケタゾ...！
+\CBmp[GuardM2,20]\SndLib[FishkindSmSpot]\C[4]魚人戦士：\C[0]    ニセ ノ ウミノメガミ...！
+\CBmp[GuardM3,20]\SndLib[FishkindSmSpot]\C[4]魚人戦士：\C[0]    ニセ ノ ウミノメガミ... オマエ ニハ ワレラ ヲ ダマスコト ハ デキナイ...
+\CBmp[SeaWitch,8]\C[4]？？？：\C[0]    うっ....
+
+0to1/begin1
+\CBmp[GuardM2,20]\SndLib[FishkindSmSpot]\C[4]魚人戦士：\C[0]    コイツヲ コロセ...！
+
+0to1/begin2
+\CBmp[GuardM3,20]\SndLib[FishkindSmSpot]\C[4]魚人戦士：\C[0]    イケニエ ニ シロ...！
+
+0to1/begin3
+\CBmp[GuardM1,20]\SndLib[FishkindSmSpot]\C[4]魚人戦士：\C[0]    ニセ ノ ウミノメガミ...サイゴ ニ... イイタイコト ハ...アルカ...
+\CBmp[SeaWitch,8]\C[4]？？？：\C[0]    はらへった......
+
+0to1/begin4
+\CBmp[GuardM2,2]\SndLib[FishkindSmSpot]\C[4]魚人戦士：\C[0]    ハラヘッタ\..\..\..
+\CBmp[GuardM1,20]\SndLib[FishkindSmSpot]\C[4]魚人戦士：\C[0]    ミロ...！ ヤハリ ニセモノ... ウミノメガミ... イクラデモ エモノヲ ツカマエラレル....！
+
+0to1/begin5
+\CBmp[GuardM1,20]\SndLib[FishkindSmSpot]\C[4]魚人戦士：\C[0]    ホンモノ ノ ウミノメガミ ハ ウエナイ...オマエハ ニセモノダ...！
+\CBmp[GuardM1,20]\SndLib[FishkindSmSpot]\C[4]魚人戦士：\C[0]    シネ...！
+\CBmp[SeaWitch,2]\C[4]？？？：\C[0]    嗚...
+
+0to1/begin6
+\CBmp[GuardM3,20]\SndLib[FishkindSmSpot]\C[4]魚人戦士：\C[0]    ダレダ...？！
+\CBmp[GuardM1,20]\SndLib[FishkindSmSpot]\C[4]魚人戦士：\C[0]    ジャアク ノ カケラ ダ...！
+\CBmp[GuardM2,20]\SndLib[FishkindSmSpot]\C[4]魚人戦士：\C[0]    コロス！
+\CBmp[SeaWitch,8]\C[4]？？？：\C[0]    イヤ\..\..\.. まって...\. たべもの\....
+
+0to1/begin7
+\CBct[20]\m[shocked]\Rshake\c[6]ロナ：\c[0]    なんの音！？
+
+1to2/begin0
+\CBct[20]\m[shocked]\Rshake\c[6]ロナ：\c[0]    ええっ！？ なにが起こってるの！？
+\CBct[20]\m[terror]\Rshake\c[6]ロナ：\c[0]    なんでこんなに死んで\..\..\..魚！？
+\CBmp[SeaWitch,8]\prf\C[4]？？？：\C[0]    ちょうはらへった.......
+\CBct[20]\m[shocked]\Rshake\c[6]ロナ：\c[0]    いっ...？
+\CBmp[SeaWitch,8]\prf\C[4]？？？：\C[0]    はらへったぁ...
+\CBct[8]\m[fear]\c[6]ロナ：\c[0]    ......
+
+2to3/begin0
+\CBct[2]\m[flirty]\c[6]ロナ：\c[0]    えと...すみませーん....
+\CBmp[SeaWitch,8]\prf\C[4]？？？：\C[0]    はらへった....
+\CBct[8]\m[confused]\c[6]ロナ：\c[0]    お腹空いてるんですか？
+\CBct[8]\m[flirty]\c[6]ロナ：\c[0]    この辺りに魚はあまりいないのかな？
+\CBmp[SeaWitch,8]\prf\C[4]？？？：\C[0]    オス汁... オス....
+\CBct[2]\m[confused]\c[6]ロナ：\c[0] 普通の半魚人には見えないよね？もしかして伝説の人魚？
+\CBct[2]\m[flirty]\c[6]ロナ：\c[0]    願い事とかしてもいいのかな？
+
+3to4/begin_opt
+\CBmp[SeaWitch,8]\prf\C[4]人魚：\C[0]    オスゥ....
+\m[confused]\c[6]ロナ：\c[0]    うーん....\optB[やめる,オス<r=HiddenOPT0>,精液<r=HiddenOPT1>,食べ物]
+
+3to4/begin_other0
+\CBct[2]\m[flirty]\c[6]ロナ：\c[0]    大丈夫ですか？ お腹ぺこぺこなんですね？ 何か探してきます､野菜がいいですか？お肉の方が良いですか？それとも...
+\CBmp[SeaWitch,8]\prf\C[4]人魚：\C[0]    イヤ... オスが欲しい... 救うにはオス汁しかない....
+\CBct[20]\m[confused]\c[6]ロナ：\c[0]    なんでそんな変なお願いを？ 本気ですか？
+\CBmp[SeaWitch,8]\prf\C[4]人魚：\C[0]    そうだ！うぐ...
+\CBmp[SeaWitch,8]\prf\C[4]人魚：\C[0]    ゴホッ！たのむぅ... たすけてくれぇ...
+\CBct[8]\m[flirty]\c[6]ロナ：\c[0]    わかりました....
+
+3to4/begin_other1
+\board[飢えた人魚]
+目標：人魚のためにオスか精液を探す｡
+報酬：えっ...
+依頼主：人魚
+期限：無し
+人魚が好きな勇者を探すか､精液を10､あるいは謎のタンパク質を5つ用意する｡
+
+####################################################### FOOD
+
+3to4/ItemTransfer
+\CBmp[SeaWitch,8]\prf\C[4]人魚：\C[0]    ウッ.......
+
+3to4/ItemTransfer_Win
+\CBct[20]\m[shy]\c[6]ロナ：\c[0]    ほんとに食べちゃったぁ....
+
+3to4/ItemTransfer_Failed
+\CBmp[SeaWitch,8]\prf\C[4]人魚：\C[0]    ウウウ.....
+\CBct[20]\m[confused]\c[6]ロナ：\c[0]    効き目がないみたい､間違ったのか足りないのかも？
+
+####################################################### MAN
+
+3to4/traveler_begin0
+\CBmp[MonsterLover,20]\prf\c[4]旅人：\c[0] 人外娘を知ってるか？俺は色々な奴とヤッたことあるぞ！モフモフとか､耳長なのとかな｡残るは半魚人だけ､半魚人娘はスゴイに違いない！
+\CBmp[MonsterLover,20]\prf\c[4]旅人：\c[0] そう！ 半魚人だけなんだ！ きっと半魚人娘はスーパーに違いないんだよ！
+\CBct[20]\m[flirty]\c[6]ロナ：\c[0]    えっと....
+\CBmp[MonsterLover,20]\prf\c[4]旅人：\c[0]  あぁ...楽しみだぁ！人魚伝説を聞いたことあるか？知ってるよな！
+\CBmp[MonsterLover,20]\prf\c[4]旅行者：\c[0]    ギョマンコがどんだけヤベーか想像もつかんぞ｡きっとサイコーだろうな。
+\CBct[20]\m[confused]\c[6]ロナ：\c[0]    おじさん.....
+\CBmp[MonsterLover,20]\prf\c[4]旅人：\c[0]    我慢できねぇ！ 今スグ一発ヤりてぇ！
+\CBct[20]\m[flirty]\c[6]ロナ：\c[0] おじさん！実はわたし人魚を見つけたんですけど､助けが要るみたいなので､もしかしたらデキるかも....
+\CBmp[MonsterLover,20]\prf\c[4]旅人：\c[0]    なにィ？！ 素晴らしいぞ！ どこだ！ 俺を連れてけ！
+\CBct[20]\m[shocked]\Rshake\c[6]ロナ：\c[0]    待って！ 急かさないで！
+
+3to4/traveler_begin1
+\CBmp[MonsterLover,5]\prf\c[4]旅人：\c[0]    \{今\.す\.ぐ\.連\.れ\.て\.行\.け！
+\CBct[20]\m[terror]\Rshake\c[6]ロナ：\c[0]    \{ハイィ！
+
+3to4/traveler_begin2
+\board[旅人の護送]
+目標：人魚を見せる
+報酬：大銅貨2枚
+依頼主：旅人
+期限：2日
+人魚ォ！！！
+
+3to4/CommonConvoyTarget0
+\CBid[-1,20]\c[4]旅人：\c[0]    早く人魚のところに連れて行け！ 急げ！
+
+3to4/CommonConvoyTarget1
+\CBid[-1,20]\c[4]旅人：\c[0]    俺の股間のドラゴンキャノンを見てくれ！ もう撃ち方待てんぞ！
+
+3to4/CommonConvoyTarget2
+\CBid[-1,20]\c[4]旅人：\c[0]    どこだ！ 人魚はどこだ！
+
+3to4/QmsgTar
+俺を人魚に連れてって！
+
+3to4/ManSucker_closer
+\CBct[2]\m[flirty]\c[6]ロナ：\c[0]    えっと... 大丈夫ですか？ 男の人連れてきましたよ｡
+\CBmp[SeaWitch,8]\prf\C[4]人魚：\C[0]    もうちょい近くに... 連れて... 来て... 匂うぞ... 早く....
+\CBct[2]\m[confused]\c[6]ロナ：\c[0]    わかりました｡
+
+3to4/ManSucker_win0
+\CBfE[20]\c[4]旅人：\c[0]    \..\..\..
+\CBfE[20]\c[4]旅人：\c[0]    こっ....これが人魚か？！
+\CBct[8]\m[confused]\c[6]ロナ：\c[0]    ん？ 違うんです？
+
+3to4/ManSucker_win1
+\CBfE[20]\prf\c[4]旅人：\c[0]    これはただの人魚じゃない！ タコ娘だ！！
+
+3to4/ManSucker_win2
+\CBfE[20]\prf\c[4]旅人：\c[0] サイコーだ！俺のチンチンを見ろよ！こんな大きくなっちまって！
+\CBct[8]\m[flirty]\c[6]ロナ：\c[0]    アハハ？
+
+3to4/ManSucker_win3
+\CBfE[20]\prf\c[4]旅人：\c[0]    センキュー！ こいつはその礼だ！
+\CBct[8]\m[confused]\c[6]ロナ：\c[0]    えと... どうも？
+
+3to4/ManSucker_win4
+\CBmp[SeaWitch,4]\prf\C[4]人魚：\C[0]    オス♥♥♥ オスだァ♥
+\CBfE[4]\prf\c[4]旅人：\c[0]    ワオ♥ そんな焦んなって♥ すぐに...
+
+3to4/ManSucker_win5
+\CBfE[4]\prf\c[4]旅人：\c[0]    おぅああ♥♥
+\CBfE[4]\prf\c[4]旅人：\c[0]    このアナっ♥ ヤッべ♥
+
+3to4/ManSucker_win6
+\CBct[2]\m[flirty]\c[6]ロナ：\c[0]    えっ... ｡
+\CBct[2]\m[confused]\c[6]ロナ：\c[0]    出会って10秒でヤッちゃうの？
+\CBct[2]\m[shy]\c[6]ロナ：\c[0]    こういうの見ないほうがいいよね？
+\narrロナ見てはいけないと考え､耳を塞いだ....
+
+3to4/ManSucker_win7
+\CBfE[4]\c[4]旅人：\c[0]    ああっ♥ イキソ♥ イクッ♥♥♥
+
+3to4/ManSucker_win8
+\CBfE[4]\c[4]旅人：\c[0]    ふは...♥ タコマンコ♥ サイコーだぜ♥
+
+3to4/ManSucker_win9
+\CBmp[SeaWitch,4]\C[4]人魚：\C[0]    もっと♥ もっとくれよォ♥ もっとだ♥
+\CBfE[1]\c[4]旅人：\c[0] ちょ待てよ！今亀頭が敏感なんだって！待てって！
+
+3to4/ManSucker_win10
+\CBfE[2]\c[4]旅人：\c[0]  俺の腰が？なんで勝手に動いてんだ？待ってくれぇ！
+\CBmp[SeaWitch,4]\C[4]人魚：\C[0]    もっとォ♥ もっとだァ♥
+
+3to4/ManSucker_win11
+\CBfE[1]\c[4]旅人：\c[0]    またイク！ またイクゥ！！！
+
+3to4/ManSucker_win12
+\CBfE[20]\c[4]旅人：\c[0]    変な射精が止まらないぞ？
+\CBfE[20]\c[4]旅人：\c[0]    やだァ！ 搾り取られる！
+\CBfE[20]\c[4]旅人：\c[0]    俺が間違ってた！ 放してくれぇ！
+
+3to4/ManSucker_win12_1
+\CBct[8]\m[confused]\c[6]ロナ：\c[0]    \..\..\..
+\CBct[20]\m[flirty]\c[6]ロナ：\c[0]    終わったかな？
+
+3to4/ManSucker_win13
+\CBct[8]\m[confused]\c[6]ロナ：\c[0]    \..\..\..
+\CBct[20]\m[shocked]\Rshake\c[6]ロナ：\c[0] ええっ！？ なにが起きたの？？また死んでる？！
+
+####################################################### live again
+
+3to4/Done0
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\C[4]人魚：\C[0]    我復活ッッ！
+\CBct[20]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    いっ！！
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]人魚：\C[0]    お前かァ？ 下等生物ゥ？ 我を目覚めさせたのはァ？
+\CBct[20]\m[fear]\plf\PRF\c[6]ロナ：\c[0]    \..\..\..たぶん？
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]人魚：\C[0]    この程度のオス汁じゃ動くことぐらいしかできんなァ｡
+\CBct[20]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    えっとぉ... 半魚人さんですか？ 普通にお話できますか？ わたしたちみたいな感じで？
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]海の女神：\C[0]    もちろんだ下等生物ゥッ！ 我は\c[6]海の女神\c[0]ッ！ 豊穣と豊漁の神だァ！
+\CBct[1]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    神ぃ！？
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]海の女神：\C[0]    お前がオス汁持ってきたのかァ？ それじゃあ...汝の願いを一つ叶えてやろうぞォ！ 言ってみろォ！
+\CBct[20]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    えっと\..\..\.. 
+\CBct[20]\m[confused]\plf\PRF\c[6]ロナ：\c[0] すべてを大災害の前まで戻してくれますか\..\..\..？
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]海の女神：\C[0]    マジで言ってんの？
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]海の女神：\C[0]    \..\..\..
+\CBct[20]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    できま...せんか？
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_normal]\Lshake\prf\C[4]海の女神：\C[0] それはまさに我らがやっていること故､お前の願いはノーカンだァ！
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]海の女神：\C[0]    我が力を取り戻したらもう一度聞くとしようぞォ！
+\CBct[20]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    そうですか...
+
+4to5/Question_beginNormal
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_normal]\Lshake\C[4]海の女神：\C[0]    今日はどうしたァ？ 下等生物ゥ｡
+
+4to5/Question_beginDeepone
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_normal]\Lshake\C[4]海の女神：\C[0]    我が子よォ､何事だァ？
+
+4to5/Question
+\CBct[20]\m[normal]\plf\PRF\c[6]ロナ：\c[0]    えっと....\optB[やめる,会話,偽の海の女神,探してますよ<r=HiddenOPT0>,我が子<r=HiddenOPT1>]
+
+4to5/Question_BloodLine0
+\CBct[2]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    我が子？
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_normal]\Lshake\prf\C[4]海の女神：\C[0]    そうだァ､お前は海の子､我が子だァ｡
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]海の女神：\C[0]    お前海に還りたくないのかァ？ 海の母の元に還りたいとは思わないのかァ？
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    思いません｡
+\CBmp[SeaWitch,8]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]海の女神：\C[0]    \...\...\...
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]海の女神：\C[0]    変だな｡
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]海の女神：\C[0]    だが...その年齢で人の形を保っているだと？ どうしてそうなる？
+\CBmp[SeaWitch,2]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]海の女神：\C[0]    本当に海に飛び込みたいと思ったことはないのかァ？
+\CBct[8]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    一度もないですし､なんで海に飛び込みたいと思うんです？
+\CBmp[SeaWitch,8]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]海の女神：\C[0]    \...\...\...
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]海の女神：\C[0]    一度も違和感とかなかったのか？ 下等生物の一員って訳じゃないだろ？
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    えっと... たぶんそんなことはないかと？
+\CBmp[SeaWitch,8]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]海の女神：\C[0]    待ってろ､ちょっとやってみるから....
+
+4to5/Question_BloodLine1
+\CBmp[SeaWitch,8]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]海の女神：\C[0]    \...\...\...
+\CBmp[SeaWitch,2]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]海の女神：\C[0]    全然効いてない？
+\CBmp[SeaWitch,2]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]海の女神：\C[0]    なにか感じないか？
+\CBct[8]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    えと... 本当になにも....
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]海の女神：\C[0]    くそぉ！ここまで弱体化しちまってるなんてぇ！
+\CBct[6]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    大丈夫ですか？ またお腹空いたんですか？
+\CBmp[SeaWitch,5]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]海の女神：\C[0]    放っとけ！ あっち行けよぉ！
+
+4to5/Question_AboutU
+\CBct[2]\m[confused]\plf\PRF\c[6]ロナ：\c[0] 本当に神様なんですか？ 偽りの神々はすべて\c[4]使徒\c[0]に滅ぼされたとかなんとかって？
+\CBmp[SeaWitch,1]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]海の女神：\C[0]    無礼者ォ！
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]海の女神：\C[0] 我は海に生ける者の母､\c[6]海の女神\c[0]ぞォ！
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]海の女神：\C[0]    使徒などというインチキな存在と､この我を比べるかァ？
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    あー？ すみません｡
+\CBct[2]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    じゃあ... 本物の神様ってことですか？
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_normal]\Lshake\prf\C[4]海の女神：\C[0]    無論だッ！
+\CBct[2]\m[tired]\plf\PRF\c[6]ロナ：\c[0]    もし本当の神様だったら､なんでこんなことが起きたんですか？
+\CBmp[SeaWitch,8]\SETpl[SeaWitch_confused]\PLF\prf\C[4]海の女神：\C[0]    \..\..\..
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_normal]\Lshake\prf\C[4]海の女神：\C[0]    我は唯一の神にあらずゥ､この世にはまだ悪しき神が存在するのだァ｡
+\CBct[2]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    じゃあこれは悪しき神の仕業ってことなんです？
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]海の女神：\C[0]    正解ッ！
+
+4to5/Question_AboutFake
+\CBct[2]\m[confused]\plf\PRF\c[6]ロナ：\c[0] わたし偽の海の女神がいるって聞いたんですけど､これってどういうことなんです？
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]海の女神：\C[0]    あんのクソバカどもがァ！ 海の女神はただ一柱ッ！ 偽者なんぞいるかァ！
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]海の女神：\C[0]    邪悪な神とその民の侵略から守るためにッ！ 我は全ての力を使い果たしたのだァ！
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]海の女神：\C[0]     故に我はさらに多くの海の幸を与え､そして異界の邪神の侵略に抵抗するよう命じたッ！
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]海の女神：\C[0] それなのにあのバカどもは母親を指して偽者と言ったのかァ？！
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]海の女神：\C[0]    ついでに弱りきっている時にボコボコにしやがってッ？！
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]海の女神：\C[0]    クソバカのアホタレのバカチンめッ！
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    あの... 言い方....
+\CBmp[SeaWitch,8]\SETpl[SeaWitch_confused]\PLF\prf\C[4]海の女神：\C[0]    \..\..\..
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]海の女神：\C[0]    クソカスがァ！
+
+4to5/Question_Some1Look0
+\CBct[8]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    あのぉ....
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]海の女神：\C[0]     どうしたァ､\C[6]海の女神\C[0]に改信した下等生物よォ？
+\CBct[20]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    してませんって､あなたを探してる人がいるみたいですよ？ 大家さん言ってました､家賃を滞納してるんですよね？
+\CBmp[SeaWitch,8]\SETpl[SeaWitch_confused]\PLF\prf\C[4]海の女神：\C[0]    \..\..\..
+\CBmp[SeaWitch,2]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]海の女神：\C[0]    どんな奴？
+\CBct[20]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    えっと... ちょっと死人みたいな？
+\CBmp[SeaWitch,2]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]海の女神：\C[0]    事あるごとに正義とか口走る？
+\CBct[20]\m[pleased]\plf\PRF\c[6]ロナ：\c[0]    そうです！ その人です！
+\CBmp[SeaWitch,8]\SETpl[SeaWitch_confused]\PLF\prf\C[4]海の女神：\C[0]    \..\..\..
+\CBmp[SeaWitch,6]\SETpl[SeaWitch_fear]\Lshake\prf\C[4]海の女神：\C[0]    クソカスがぁ！ 終わったぁ！
+\CBct[20]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    どうしたんですか？！
+\CBmp[SeaWitch,20]\SETpl[SeaWitch_fear]\Lshake\prf\C[4]海の女神：\C[0]    終わりだ！ 終わりだ！ 終わりだぁ！ おしまいだぁ！
+\CBct[20]\m[terror]\plf\Rshake\c[6]ロナ：\c[0]    一体どうしたんです？！
+\CBmp[SeaWitch,6]\SETpl[SeaWitch_fear]\Lshake\prf\C[4]海の女神：\C[0]    やだ！ あいつが来る！ あの邪神がぁ！ 早く助けてくれぇ！
+\CBct[20]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    は？！
+
+4to5/Question_Some1Look1
+\narr\SndLib[sound_UndeadSurprise]太陽から正義が降り来たる！
+\narrOFF\CBct[20]\m[terror]\plf\Rshake\c[6]ロナ：\c[0]    はえっ？！
+
+4to5/Question_Some1Look2
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]ジャスティス：\c[0]     正義は必ず蘇る！  邪悪は自らを滅ぼす！ 我は正義の代行者！
+\CBmp[SeaWitch,20]\SETpr[SeaWitch_fear]\plf\Rshake\C[4]海の女神：\C[0]      ちがっ！ これはあたしが悪いんじゃなくて！ あたしのせいにするんじゃないぞ！
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]ジャスティス：\c[0]    この邪悪の化身め！ 正義はお前の罪を赦さんぞ！
+
+4to5/Question_Some1Look3
+\CBct[5]\m[serious]\plf\Rshake\c[6]ロナ：\c[0]    なにするつもりなの！ 傷つけないで！
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]ジャスティス：\c[0]    \..\..\..
+
+4to5/Question_Some1Look4
+\CBmp[SeaWitch,20]\SETpr[SeaWitch_fear]\plf\Rshake\C[4]海の女神：\C[0]    アアッ！！！！
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]ジャスティス：\c[0]    すっとぼけんな！ あいつに聞いたんだぞ！ お前らバカ二人はこれがどれだけ俺に迷惑かけるか考えたことあるか？
+\CBmp[SeaWitch,20]\SETpr[SeaWitch_fear]\plf\Rshake\C[4]海の女神：\C[0]    ゴメンナサイ！！
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]ジャスティス：\c[0]    最悪島ごと処分しなきゃならんのだぞ！ お前ここが自分の家だとでもマジで思ってんのか？
+\CBmp[SeaWitch,20]\SETpr[SeaWitch_fear]\plf\Rshake\C[4]海の女神：\C[0]    ゴメンナサイ！！！
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]ジャスティス：\c[0]    もういいよ､お前のためにあいつは代わりに払ってくれたんだ､それでもふて腐れ続けるつもりか？
+\CBmp[SeaWitch,20]\SETpr[SeaWitch_fear]\plf\Rshake\C[4]海の女神：\C[0]    ゴメンナサイ！！！！！ 今すぐ謝りに行きますぅ！
+\CBmp[DedOne,20]\SETpl[DedOne_angry]\Lshake\prf\c[4]ジャスティス：\c[0]    次の主役は俺､そしてお前はずっと脇役！ わかったか！
+\CBmp[SeaWitch,20]\SETpr[SeaWitch_fear]\plf\Rshake\C[4]海の女神：\C[0]    ハイ！
+
+4to5/Question_Some1Look5
+\CBct[5]\m[serious]\plf\Rshake\c[6]ロナ：\c[0]    \..\..\..どかないんだから！
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]ジャスティス：\c[0]     善良なる狩人よ､お前にはこれがふさわしい｡
+
+4to5/Question_Some1Look6
+\CBmp[DedOne,20]\SETpl[DedOne_normal]\Lshake\prf\c[4]ジャスティス：\c[0] これは使徒の聖遺物､邪悪に向かって「GO！」と叫べば空から正義が降り注ぐ！
+\CBct[5]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    へ？
+
+4to5/Question_Some1Look7
+\CBct[5]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    はっ？！
+\CBct[5]\m[terror]\plf\Rshake\c[6]ロナ：\c[0]     なんなのこれ？ なにが起きたの？ みんなどこに行ったの？！
+
+######################################################################################### reverse rape in fishcave3
+
+reverseRape/begin1
+\C[4]海の女神：\C[0]    なんだァ？ もうダメって♥
+
+reverseRape/begin2
+\c[4]旅人：\c[0]    いやだぁ！射精が止まらねぇ！放してぇ！
+
+reverseRape/begin3
+\C[4]海の女神：\C[0] 早いなァ♥まだまだ食い足りないぞォ♥
+
+reverseRape/begin4
+\C[4]海の女神：\C[0]    あッ♥また出たァ♥
+\C[4]海の女神：\C[0]    口ではヤダヤダ言っても､体の方は正直だなァ♥
+
+reverseRape/begin5
+\c[4]旅人：\c[0]    ゆるし...て｡
+
+reverseRape/begin6
+\C[4]海の女神：\C[0]    おォい...まだ出せるだろォ？ イケるって♥
+
+reverseRape/begin7
+\C[4]海の女神：\C[0]    感謝するぞォ！
+\C[4]海の女神：\C[0]    お前の魂は海に還るゥ♥ 偉大なる我に還るのだァ♥
+
+reverseRape/begin8
+\narr精液を使い果たした後は血を出し続けた｡
+絶頂は彼が死ぬまで続くのであった｡
+
+######################################################################################### FirstMeet Combat UniqueFollower.
+FirstMeet/BothBegin
+\CBct[5]\m[flirty]\plf\Rshake\c[6]ロナ：\c[0]    呃....
+
+FirstMeet/Cocona0
+\CBfB[20]\SETcoconaPR[confused]\Rshake\c[4]ココナ：\c[0]    \..\..\..
+\CBfB[20]\SETcoconaPR[shocked]\Rshake\c[4]ココナ：\c[0]    きょげんしゃ！ わるいひと！
+\CBid[-1,8]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]海の女神：\C[0]    あぁん\..\..\..\..？
+\CBid[-1,2]\SETpl[SeaWitch_fear]\Lshake\prf\C[4]海の女神：\C[0]    このチカラは....？ お前ヤツとは何の関係もないよなァ？
+\CBid[-1,20]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]海の女神：\C[0]    ヤツはお前を見ているのか？ ヤツはどこだァ！？
+\CBfB[5]\SETcoconaPR[angry]\plf\Rshake\c[4]ココナ：\c[0]    フシャーッ！！
+\CBct[6]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    えっと....この子はココナ､わたしの友達です｡
+\CBid[-1,8]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]海の女神：\C[0]    \..\..\..我の誤解か？ ヤツはいないんだな？
+\CBid[-1,3]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]海の女神：\C[0]    ヨシ！ ならいい！
+\CBct[6]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    はぁ？
+
+FirstMeet/Cecily0
+\CBfB[2]\SETpr[CecilyNormalAr]\Rshake\C[4]セシリー：\C[0]    コイツ...魔物か？！
+\CBid[-1,5]\SETpl[SeaWitch_angry]\Lshake\prf\C[4]海の女神：\C[0]    魔物ォ？ 何を言ってるンだこの下等生物はァ？
+\CBfB[5]\SETpr[CecilyWtfAr]\plf\Rshake\C[4]セシリー：\C[0]    下等生物？ 何言ってんだこの魔物は？
+\CBid[-1,5]\CBfB[5]\SETpr[CecilyAngryAr]\SETpl[SeaWitch_angry]\Lshake\Rshake\C[4]セシリー：\C[0]    下等生物はお前だ！\n\C[4]海の女神：\C[0]    下等生物はお前だァ！
+\CBid[-1,8]\SETpl[SeaWitch_confused]\Lshake\prf\C[4]海の女神：\C[0]    \..\..\..\..\CBid[-1,9]\SETpl[SeaWitch_normal]\Lshake？
+\CBid[-1,3]\SETpl[SeaWitch_triumph]\Lshake\prf\C[4]海の女神：\C[0]    フッ！ 乳は我の方がデカいな！
+\CBfB[6]\SETpr[CecilySadAr]\plf\Rshake\C[4]セシリー：\C[0]    ハァ？！

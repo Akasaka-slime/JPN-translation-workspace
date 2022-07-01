@@ -1,0 +1,458 @@
+thisMap/OvermapEnter
+\m[confused]水濂洞\optB[やめる,入る]
+
+##########################################################################################  Inside
+
+keeper/0_opt
+\CBid[-1,20]\SETpl[AnonMale2]\PLF\c[4]教徒：\c[0]    お前は誰だ？！ ここに何の用だ？！\optB[通りすがり,ニグラス]
+
+keeper/1_1Passby
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    えっと...ただの通りすがりです！
+
+keeper/1_1HerName
+\CBct[20]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    \c[4]ニグラス\c[0]？
+\CBid[-1,20]\SETpl[AnonMale2]\PLF\prf\c[4]教徒：\c[0]    あなたは教会に来たばかりですか？ 私はあなたを見たことがありません｡
+\CBid[-1,20]\SETpl[AnonMale2]\PLF\prf\c[4]教徒：\c[0]    まぁいいでしょう､入ってください｡
+
+keeper/1_1Passby_cocona
+\CBfB[20]\SETcoconaPL[shocked]\Lshake\prf\c[4]ココナ：\c[0]    きょげんしゃ！ たべる！
+
+aggro/Cocona0
+\SETcoconaPL[shocked]\Lshake\prf\c[4]ココナ：\c[0]    ともだち！ いっしょに きょげんしゃ たべちゃえ！
+
+aggro/Cocona1
+\SETcoconaPL[angry]\Lshake\prf\c[4]ココナ：\c[0]    ここな おねえちゃん まもる！
+
+keeper/1_1HerName_cocona
+\CBfB[20]\SETcoconaPL[shocked]\Lshake\prf\c[4]ココナ：\c[0]    きょげんしゃ！ このひと きょげんしゃ！
+\CBct[8]\m[serious]\Rshake\plf\c[6]ロナ：\c[0]    ココナ！ ダメ！
+\CBfB[20]\SETcoconaPL[sad]\Lshake\prf\c[4]ココナ：\c[0]    でも... きょげんしゃ...きれいにたべなきゃ...
+\CBct[8]\m[shocked]\Rshake\plf\c[6]ロナ：\c[0]    よし､お姉ちゃんに任せなさい｡
+\CBfB[20]\SETcoconaPL[sad]\Lshake\prf\c[4]ココナ：\c[0]    うーみゃお...
+
+keeper/Aggro
+\CBid[-1,20]\SETpl[AnonMale2]\PLF\prf\c[4]教徒：\c[0]    \{誰かが侵入したぞ！！
+\CBct[8]\m[shocked]\Rshake\c[6]ロナ：\c[0]    \{えええ？！
+
+keeper/Aggro_captured
+\CBid[-1,20]\SETpl[AnonMale2]\PLF\prf\c[4]教徒：\c[0]    生贄が逃げたぞ！
+\CBct[8]\m[shocked]\Rshake\c[6]ロナ：\c[0]    \{えええ？！
+
+keeper/Aggro_captured_loop
+\CBid[-1,20]\SETpl[AnonMale2]\PLF\prf\c[4]教徒：\c[0]    .....
+
+thisMap/Aggro
+\SETpl[AnonMale2]\PLF\prf\c[4]教徒：\c[0]    侵入者だ！
+\CBct[8]\m[shocked]\Rshake\c[6]ロナ：\c[0]    \{まずい！
+
+thisMap/Aggro_captured
+\SETpl[AnonMale2]\PLF\prf\c[4]教徒：\c[0]    誰かが豊穣の母を裏切ったぞ！！
+\CBct[8]\m[terror]\Rshake\c[6]ロナ：\c[0]    \{ヤバイ！
+
+Df_Heresy/rg27_1
+\SETpl[AnonMale2]\PLF\prf\c[4]教徒：\c[0]    誰かが豊穣の母を裏切ったぞ！！！
+
+SexPartyOP/0
+\Rflash\SndLib[sound_Heartbeat]\CBct[6]\m[hurt]\Rshake\c[6]ロナ：\c[0]    ゴホ\..\Rshakedゴホッ\..\Rshakedゴホッ...！
+\CBct[20]\m[pain]\Rshake\c[6]ロナ：\c[0]    なんか生臭い.....
+
+SexPartyOP/1
+\CBct[2]\m[confused]\PRF\c[6]ロナ：\c[0]    うーん？
+
+SexPartyOP/2_1
+\BonMP[PigMan,20]\c[4]ボアヘッド：\c[0]    素晴らしい... ああ...そうだ....
+\BonMP[PigMan,20]\c[4]ボアヘッド：\c[0]    彼女が来る！！ やって来る！ 来るのだ！
+
+SexPartyOP/2_2
+\BonMP[PigMan,4]\c[4]ボアヘッド：\c[0]    ウオオオ！！！
+
+SexPartyOP/2_3
+\BonMP[PigMan,4]\c[4]ボアヘッド：\c[0]    私の種を飲み込むのです！ 同胞たちの幸せのために！
+
+SexPartyOP/3
+\BonMP[PigMan,4]\c[4]ボアヘッド：\c[0]    最高だ！！！
+\BonMP[PigMan,20]\c[4]ボアヘッド：\c[0]    おお！ 偉大なる\c[6]豊穣の母よ\c[0]！
+\BonMP[PigMan,20]\c[4]ボアヘッド：\c[0]    私達の声をお聞きください！ これはあなたへの賛辞です！
+\BonMP[PigMan,20]\c[4]ボアヘッド：\c[0]    恐怖を取り除いて下さい！ 私達に喜びをお与えください！
+\BonMP[PigMan,20]\c[4]ボアヘッド：\c[0]    さあ行くのです､かつての偽りの神々の民よ｡真なる神と向き合うのです....
+
+SexPartyOP/3_1
+\BonMP[PigMan,20]\c[4]ボアヘッド：\c[0]    兄弟よ､姉妹よ！ 新たな姉妹のために祈りましょう！
+
+SexPartyOP/4
+\BonMP[PPL1,20]\BonMP[PPL2,20]\BonMP[PPL3,20]\BonMP[PPL4,20]\BonMP[PPL5,20]\c[4]信者：\c[0]    いあ！いあ！ \c[6]ニグラス\c[0]！
+\BonMP[PPL1,20]\BonMP[PPL2,20]\BonMP[PPL3,20]\BonMP[PPL4,20]\BonMP[PPL5,20]\c[4]信者：\c[0]    いあ！いあ！ \c[6]ニグラス\c[0]！！
+\BonMP[PPL1,20]\BonMP[PPL2,20]\BonMP[PPL3,20]\BonMP[PPL4,20]\BonMP[PPL5,20]\c[4]信者：\c[0]    いあ！いあ！ \c[6]ニグラス\c[0]！！！
+
+SexPartyOP/4_1
+\c[4]生贄：\c[0]    \{いやあああ！！！！
+
+SexPartyOP/4_2
+\BonMP[PPL1,20]\BonMP[PPL2,20]\BonMP[PPL3,20]\BonMP[PPL4,20]\BonMP[PPL5,20]\c[4]信者：\c[0]    \c[6]豊穣の母\c[0]に感謝を！ \c[6]豊穣の母\c[0]に賛美を！
+
+SexPartyOP/5
+\BonMP[PPL1,20]\BonMP[PPL2,20]\BonMP[PPL3,20]\BonMP[PPL4,20]\BonMP[PPL5,20]\c[4]信者：\c[0]    \c[6]豊穣の母\c[0]よ！ 彼女の恐怖を取り除き給え！
+
+SexPartyOP/6
+\m[shocked]\Rshake\c[6]ロナ：\c[0]    あれは何？ 黒い霧の中の魔物？ 肉魔？
+\m[terror]\Rshake\c[6]ロナ：\c[0]    そんな... そんなはずない... そんなものいるはずがない....
+
+SexPartyOP/end_cocona
+\narr \......\......\......
+\narrOFF\CBfB[20]\SETcoconaPL[shocked]\Lshake\prf\c[4]ココナ：\c[0]    おねえちゃん！ おきて！
+\CBfB[20]\SETcoconaPL[sad]\Lshake\prf\c[4]ココナ：\c[0]    うーみゃお！ うーみゃお おいてかないで！
+
+SexPartyOP/end1
+\CBct[20]\m[shocked]\Rshake\c[6]ロナ：\c[0]    あれ....何が起こったの？！
+
+SexPartyOP/end1_cocona
+\CBfB[20]\SETcoconaPL[sad]\Lshake\prf\c[4]ココナ：\c[0]    おねえちゃん おともだちになっちゃった...
+\CBct[20]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    ともだち？ 死んじゃったと思ったの？
+\CBct[20]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    大丈夫､お姉ちゃんは元気だよ｡
+\CBfB[20]\SETcoconaPL[sad]\Lshake\prf\c[4]ココナ：\c[0]    うーみゃお....
+
+SexPartyOP/end2
+\Rflash\SndLib[sound_Heartbeat]\CBct[6]\m[hurt]\Rshake\c[6]ロナ：\c[0]    うう．．．．
+\CBct[20]\m[pain]\Rshake\c[6]ロナ：\c[0]    おなかがとても熱い\..\..　すごく欲しい\...
+\Rflash\SndLib[sound_Heartbeat]\CBct[6]\m[hurt]\Rshake\c[6]ロナ：\c[0]    \..\..\..
+\CBct[20]\m[serious]\Rshake\c[6]ロナ：\c[0]    ダメ､絶対､我慢しなきゃ｡
+
+SexPartyOP/end2_cocona
+\CBfB[20]\SETcoconaPL[sad]\Lshake\prf\c[4]ココナ：\c[0]    おねえちゃん？
+\CBct[20]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    心配しないで｡大丈夫､ほんとに大丈夫だから...
+
+######################################################################  Common Dialog
+
+Df_Heresy/4CommonerF_QuRng0_0
+\CBct[20]\m[flirty]\PRF\c[6]ロナ：\c[0]    \c[4]ランラン\c[0]が誰だか知ってますか？
+
+Df_Heresy/4CommonerF_QuRng0_1
+\CBct[20]\m[flirty]\PRF\c[6]ロナ：\c[0]    \c[4]ランラン\c[0]がどこにいるか知りませんか？
+
+Df_Heresy/4CommonerF_QuRng0_2
+\CBct[20]\m[flirty]\PRF\c[6]ロナ：\c[0]    えっと...\c[4]ランラン\c[0]？
+
+CommonerF/Rng0
+\CBid[-1,4]\prf\c[4]信徒：\c[0]    ヤリたくてたまらない！ 誰か私とヤッて！
+
+CommonerF/Rng1
+\CBid[-1,4]\prf\c[4]信徒：\c[0]    ヤッて！ ヤッて！ 私の恐怖を取り除いて！
+
+CommonerF/Rng2
+\CBid[-1,4]\prf\c[4]信徒：\c[0]    豊穣の母が私を見てる！ 彼女を感じる！
+
+Df_Heresy/4CommonerF_QuRngEND
+\CBct[20]\m[confused]\PRF\c[6]ロナ：\c[0]    ええと......
+
+Priest/Qmsg0
+感じる！
+
+Priest/Qmsg1
+彼女が来てる！
+
+Priest/Qmsg2
+アイシュブ＝ニグラス！
+
+Fcommoner/Qmsg0
+ハハハ...ハハ
+
+Fcommoner/Qmsg1
+ヒヒヒ...フフ...
+
+Fcommoner/Qmsg2
+ちんぽ...でかちんぽ...
+
+Mcommoner/Qmsg0
+ヌキてえ！
+
+Mcommoner/Qmsg1
+射精さなきゃ！
+
+Mcommoner/Qmsg2
+オオオ！！
+
+Mcommoner/RapeLoopPick_begin
+\CBct[4]\m[lewd]\PRF\c[6]ロナ：\c[0]    ボアヘッド様はわたしにあなたの肉棒をキレイにして欲しいのですか....？
+\CBct[6]\m[tired]\PRF\c[6]ロナ：\c[0]    好きなだけ犯してもいいんですよ？
+
+Mcommoner/RapeLoopPick_0
+\CBid[-1,4]\prf\c[4]信徒：\c[0]    ヤリたい！ ヤリたい！！！
+
+Mcommoner/RapeLoopPick_1
+\CBid[-1,4]\prf\c[4]信徒：\c[0]    俺のチンポを舐めろ！ 俺のチンポを舐めて欲しいんだ♥
+
+Mcommoner/RapeLoopPick_2
+\CBid[-1,4]\prf\c[4]信徒：\c[0]    おしっこしたい！ こっちに口を開いてくれ♥
+
+Mcommoner/RapeLoopPick_3
+\CBid[-1,4]\prf\c[4]信徒：\c[0]    射精したい！ はやく♥ 頭をこっち向けて♥
+
+Mcommoner/RapeLoopPick_Start
+\CBct[6]\m[tired]\PRF\c[6]ロナ：\c[0]    はい....
+
+Mcommoner/RapeLoopPick_END
+\CBid[-1,4]\prf\c[4]信徒：\c[0]    フゥフゥ....♥
+\CBct[3]\m[lewd]\PRF\c[6]ロナ：\c[0]    ありがとうございます♥
+
+Mcommoner/RapeLoopPick_SuckDick1_0
+\CBid[-1,4]\c[4]信徒：\c[0]    Foo！ 気持ちぃ～♥
+
+Mcommoner/RapeLoopPick_SuckDick1_1
+\CBid[-1,4]\c[4]信徒：\c[0]    いいよー！ そこそこ♥
+
+Mcommoner/RapeLoopPick_SuckDick2
+\CBid[-1,4]\c[4]信徒：\c[0]    \{オオオオ♥♥♥
+
+##########################################################################################  rapeloop
+
+NapCapture/0
+\narrロナは捕まり､全ての物を奪われた。
+
+NapRngRape/0_0
+\c[4]信徒：\c[0]    マンコだ！！ 俺のおまんこ！！ 豊穣の母よありがとう！
+
+NapRngRape/0_1
+\c[4]信徒：\c[0]    俺のマンコだ！ ぶち込みてぇ！
+
+NapRngRape/1_0_NO
+\c[4]信徒：\c[0]    抵抗するなよマンコ！ マンコは犯されるべきなんだ！
+
+RapeLoop/FirstTime0
+\m[tired]\c[6]ロナ：\c[0]    凄くしたい.... ちんちん欲しい...
+
+RapeLoop/FirstTime1
+\m[confused]\c[6]ロナ：\c[0]     ここはどこ？ わたしなにしてるんだろう？
+\Rflash\SndLib[sound_chcg_full]\Rshake\m[pain]口のまえに何かあるのかな？
+\Rflash\SndLib[sound_chcg_full]\Rshake\m[hurt]あぁ...いいにおい...
+
+RapeLoop/FirstTime2
+\Rflash\SndLib[sound_chcg_full]\CBmp[PigMan,20]\c[4]ボアヘッド：\c[0]    豊穣の母よ！ 彼女の恐怖心を取り除き給え！
+
+RapeLoop/FirstTime3
+\CBct[6]\m[hurt]\Rshake\c[6]ロナ：\c[0]    あぁ．．．．
+\CBmp[PigMan,20]\prf\c[4]ボアヘッド：\c[0]    豊穣の母があなたの憂いを払拭して下さったので､もう恐怖や痛みを感じることはありません｡
+\CBct[6]\m[tired]\Rshake\c[6]ロナ：\c[0]    あぁ．．．．あなたはだれ？
+
+RapeLoop/FirstTime3_1
+\CBct[2]\m[tired]\PRF\c[6]ロナ：\c[0]    ここはどこ？ わたしなにしてるんだろう？
+
+RapeLoop/FirstTime3_2
+\CBct[2]\m[confused]\PRF\c[6]ロナ：\c[0]    これは...なに？
+\CBmp[PigMan,20]\prf\c[4]ボアヘッド：\c[0]    恐れや不安をすべて忘れさせてくれる､豊穣の母の贈り物です｡
+\CBmp[PigMan,20]\prf\c[4]ボアヘッド：\c[0]    それを飲むことで､あなたは私たちの仲間になれるのです｡
+\CBct[2]\m[tired]\PRF\c[6]ロナ：\c[0]    はい...
+
+RapeLoop/FirstTime4
+\CBmp[PigMan,20]\c[4]ボアヘッド：\c[0]    良い！ とても良い！ あなたは我々の肉便器になるでしょう！
+\CBmp[PigMan,20]\c[4]ボアヘッド：\c[0]    これであなたは我々の仲間だ！ 我々の肉便器だ！
+\CBct[2]\m[confused]\PRF\c[6]ロナ：\c[0]    わたしは...便器？
+\CBmp[PigMan,20]\c[4]ボアヘッド：\c[0]    兄弟､姉妹よ！ 新たな姉妹に祝福を！
+
+RapeLoop/FirstTime4_1
+\BonMP[PPL4,20]\BonMP[PPL5,20]\BonMP[PPL6,20]\BonMP[PPL7,20]\c[4]信者：\c[0]    いあ！いあ！ \c[6]ニグラス\c[0]！
+
+RapeLoop/FirstTime5
+\CBmp[PigMan,20]\prf\c[4]ボアヘッド：\c[0]    子よ､あなたはもう私たちの仲間です｡
+\CBmp[PigMan,20]\prf\c[4]ボアヘッド：\c[0]    行きなさい....兄弟の愛を受け止めるのです｡恐怖を忘れさせてあげなさい｡
+\CBct[6]\m[tired]\Rshake\c[6]ロナ：\c[0]    はい...
+
+RG27StepOn/0
+\Rflash\SndLib[sound_Heartbeat]\CBct[6]\m[hurt]\Rshake\c[6]ロナ：\c[0]    あぁ．．．．
+\CBct[20]\m[lewd]\PRF\c[6]ロナ：\c[0]    すごくしたい\..\..　ほしいよぉ\...
+\CBct[20]\m[shy]\Rshake\c[6]ロナ：\c[0]    わたしのからだどうしちゃったんだろう？
+
+RG27StepOn/0
+\Rflash\SndLib[sound_Heartbeat]\CBct[6]\m[hurt]\Rshake\c[6]ロナ：\c[0]    あぁ．．．．
+\CBct[20]\m[lewd]\PRF\c[6]ロナ：\c[0]    あつい...あついよぉ！
+
+actionRapeLoop/Wall0_0
+\CBct[1]\m[shocked]\Rshake\c[6]ロナ：\c[0]    なに？ 出るべきじゃないよ？！
+
+actionRapeLoop/Wall0_1
+\CBct[1]\m[terror]\Rshake\c[6]ロナ：\c[0]    だれかとえっちしなきゃ！
+
+actionRapeLoop/Wall0_2
+\CBct[1]\m[serious]\Rshake\c[6]ロナ：\c[0]    ほかの兄弟たちをしあわせにしなきゃ！
+
+actionRapeLoop/Wall0_3
+\CBct[1]\m[sexhurt]\Rshake\c[6]ロナ：\c[0]    もっと出させてあげなきゃ！
+
+actionRapeLoop/Wall0_NotEnough
+\CBct[6]\m[pain]\Rshake\c[6]ロナ：\c[0]    あぁ....
+
+actionRapeLoop/Wall0_Break
+\CBct[20]\m[serious]\Rshake\c[6]ロナ：\c[0]    あ...もっと....がんばらなきゃ...
+
+actionRapeLoop/commoner_opt
+\CBct[6]\m[lewd]\Rshake\c[6]ロナ：\c[0]    わたし... わたしなにしてるの？\optB[きにしない,献身]
+
+actionRapeLoop/Wall1_opt
+\CBct[6]\m[tired]\Rshake\c[6]ロナ：\c[0]    わたし... わたしは何をしてるの？\optB[献身を続ける,抗う]
+
+actionRapeLoop/Sleep_opt
+\CBct[6]\m[shocked]\Rshake\c[6]ロナ：\c[0]    休めないよ！ まだやることがある！！\optD[献身を続ける,寝る]
+
+actionRapeLoop/Blocked0
+\CBct[6]\m[terror]\Rshake\c[6]ロナ：\c[0]    だめ！ みんなのきょうふを忘れさせてあげなきゃ！
+
+actionRapeLoop/Blocked1
+\CBct[6]\m[shocked]\Rshake\c[6]ロナ：\c[0]   いや！ わたしは豊穣の母をしんじてるの！ だれかとシなきゃ！
+
+actionRapeLoop/Blocked2
+\CBct[6]\m[bereft]\Rshake\c[6]ロナ：\c[0]    だめ！ 誰かをイカせてあげないと！ それがわたしのぎむなの！
+
+wakeUp/suckDick-0
+\CBct[6]\m[confused]\Rshake\c[6]ロナ：\c[0]    ここはどこ？ なにをすればいいんだっけ？
+\CBct[6]\m[lewd]\Rshake\c[6]ロナ：\c[0]    そうだ！ 臭い肉棒をしゃぶらなきゃ...
+
+wakeUp/suckDick0_0
+\CBct[6]\m[lewd]\Rshake\c[6]ロナ：\c[0]    肉棒... おいしい...
+
+wakeUp/suckDick0_1
+\CBct[6]\m[lewd]\Rshake\c[6]ロナ：\c[0]    もっときれいに舐めなきゃ...
+
+wakeUp/suckDick0_2
+\CBct[6]\m[lewd]\Rshake\c[6]ロナ：\c[0]    わたしのぎむ､きれいにしなきゃ。
+
+wakeUp/suckDick1_0
+\CBmp[PigMan,4]\c[4]ボアヘッド：\c[0]    はい､いいですよ､それでいいのです。
+
+wakeUp/suckDick1_1
+\CBmp[PigMan,4]\c[4]ボアヘッド：\c[0]    そう､それこそが豊穣の母に与えられた義務なのです｡
+
+wakeUp/suckDick1_2
+\CBmp[PigMan,4]\c[4]ボアヘッド：\c[0]    すばらしい！ 豊穣の母はあなたを誇りに思っていますよ！
+
+wakeUp/suckDick1_pee
+\CBmp[PigMan,4]\c[4]ボアヘッド：\c[0]    頭を上げなさい｡ 豊穣の因子を浴びるのです｡
+\CBct[6]\m[tired]\PRF\c[6]ロナ：\c[0]    はい....
+
+wakeUp/suckDick2
+\CBmp[PigMan,20]\prf\c[4]ボアヘッド：\c[0]    よく頑張りましたね｡ですが兄弟達はまだ恐怖の中で生きています｡
+\CBmp[PigMan,20]\prf\c[4]ボアヘッド：\c[0]    引き続き､彼らの恐怖心を解き放ってあげてください｡
+\CBct[4]\m[lewd]\PRF\c[6]ロナ：\c[0]    ありがとうございますボアヘッドさま｡ろなはみんなとせっくすします｡
+
+wakeUp/suckDick3
+\CBct[2]\m[lewd]\PRF\c[6]ロナ：\c[0]    だれかにシてもらわないといけない｡ 肉棒をしゃぶらなきゃ｡
+\CBct[2]\m[confused]\PRF\c[6]ロナ：\c[0]    だれのちんぽをたべようかな？
+
+wakeUp/GangRape0
+\CBmp[PigMan,20]\prf\c[4]ボアヘッド：\c[0]    子よ､あなたは素晴らしい仕事をしました｡
+\CBct[3]\m[lewd]\PRF\c[6]ロナ：\c[0]    ありがとうぼあへっどさま♥
+\CBmp[PigMan,20]\prf\c[4]ボアヘッド：\c[0]    しかしまだ信徒たちは大きな恐怖を感じています｡
+\CBmp[PigMan,20]\prf\c[4]ボアヘッド：\c[0]    振り返って見てみなさい､未だに恐怖の中で暮らしている可哀そうな人々がいます｡
+\CBmp[PigMan,20]\prf\c[4]ボアヘッド：\c[0]    解放しに行くのです！
+\CBct[6]\m[tired]\PRF\c[6]ロナ：\c[0]    はい....？
+
+wakeUp/GangRape1
+\CBct[3]\m[lewd]\PRF\c[6]ロナ：\c[0]    兄弟のみなさん...きがるにわたしとせっくすしてくださいね？
+
+wakeUp/Break0
+\CBmp[PigMan,20]\prf\c[4]ボアヘッド：\c[0]    子よ､あなたは素晴らしい仕事をしました｡
+\CBct[3]\m[lewd]\PRF\c[6]ロナ：\c[0]    ありがとうございますぼあへっどさまぁ♥
+\CBmp[PigMan,20]\prf\c[4]ボアヘッド：\c[0]    今日は休んでください｡明日はもっと多くの人の恐れを解放するのですよ｡
+\CBmp[PigMan,20]\prf\c[4]ボアヘッド：\c[0]    全ては豊穣の母の為に｡
+\CBct[3]\m[lewd]\PRF\c[6]ロナ：\c[0]    すべてはほうじょうのははのために♥
+
+wakeUp/Break1
+\CBct[2]\m[confused]\PRF\c[6]ロナ：\c[0]    わたしはだれだっけ？ここでなにしてるんだっけ？
+
+GameOver/0
+\m[tired]\PRF\c[6]ロナ：\c[0]    あれ...？
+\m[confused]\PRF\c[6]ロナ：\c[0]    あつい....？
+\m[tired]\PRF\c[6]ロナ：\c[0]    ......
+
+GameOver/1
+\BonMP[PigMan,20]\prf\c[4]ボアヘッド：\c[0]    彼女は偉大なる豊穣の母に反抗したのだ！
+\BonMP[PigMan,20]\prf\c[4]ボアヘッド：\c[0]    彼女には幸せになる権利はない！
+\BonMP[PigMan,20]\prf\c[4]ボアヘッド：\c[0]    こいつに恐怖心を取り戻さなければならない！
+
+GameOver/2
+\SndLib[sound_Bubble]\Rflash\m[p5health_damage]\Rshake ！！！！
+\SndLib[sound_Bubble]\Rflash\m[p5health_damage]\Rshake\c[6]ロナ：\c[0]    あつい！ あついよぉ！
+\SndLib[sound_Bubble]\Rflash\m[p5health_damage]\Rshake\c[6]ロナ：\c[0]    やだ！ しにたくない！ いやぁ！！
+\SndLib[sound_Bubble]\Rflash\m[p5crit_damage]\Rshake\c[6]ロナ：\c[0]    \{あああ！！
+
+GameOver/3
+\narrロナは調理された｡
+\narr彼女の肉は信者の間で分けられた｡
+\narr骨は煮込んで高いスープになった｡
+\narr最後には何も残らなかった....
+
+######################################################################  BlueBlue
+
+Df_Heresy4/BlueBlue0
+\CBid[-1,2]\prf\c[4]信徒：\c[0]    \c[6]ランラン\c[0]\..\..\..？
+\CBid[-1,5]\prf\c[4]信徒：\c[0]    私は\c[6]ランラン\c[0]？！
+\CBid[-1,4]\prf\c[4]信徒：\c[0]    わたしは\c[6]ランラン\c[0]？ おとこのひとにおかされなきゃ！
+
+Df_Heresy4/BlueBlue1
+\CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    えっと...
+\CBct[20]\m[flirty]\PRF\c[6]ロナ：\c[0]    あなたのお姉さんがあなたを探してるよ｡一緒に帰らない？
+\CBid[-1,8]\prf\c[4]ランラン：\c[0]    おねえちゃん\..\..\..？
+\CBid[-1,20]\prf\c[4]ランラン：\c[0]    おねえちゃんはわたしを嫌ってるの！ みんな私を見下してる！
+\CBct[20]\m[confused]\PRF\c[6]ロナ：\c[0]    えーっと...
+\CBct[20]\m[flirty]\PRF\c[6]ロナ：\c[0]    どうして彼女があなたを嫌ってると？
+\CBct[20]\m[confused]\PRF\c[6]ロナ：\c[0]    あなたのお姉さんはあなたの事すごい心配してるよ｡私がここに来たのもあなたを探してくれって言われたからだもん｡
+\CBid[-1,20]\prf\c[4]ランラン：\c[0]    いや！ 帰らない！ あんなひどい世界には！
+\CBid[-1,20]\prf\c[4]ランラン：\c[0]    世界の至る所に悪い人がいて､誰もが私を虐げたがっているの！
+\CBid[-1,20]\prf\c[4]ランラン：\c[0]    ここなら恐れは無いの！ わたしはここでならシアワセになれるの！
+
+Df_Heresy4/BlueBlue2
+\CBct[20]\m[flirty]\PRF\c[6]ロナ：\c[0]    わたしはここだと気分が悪くなるよ...
+\CBct[20]\m[confused]\PRF\c[6]ロナ：\c[0]    あなたは妊娠しているんだから､赤ちゃんの為にも考えてみて｡
+\CBid[-1,8]\prf\c[4]ランラン：\c[0]    赤ちゃん\..\..\..
+\CBid[-1,8]\prf\c[4]ランラン：\c[0]    わかった...一緒に行くよ...
+\CBct[3]\m[pleased]\PRF\c[6]ロナ：\c[0]    わかった！
+
+Df_Heresy4/BlueBlue3
+\CBct[6]\m[serious]\PRF\c[6]ロナ：\c[0]    ここはほんとに酷い､今すぐにでもここから出たい｡
+
+Df_Heresy4/BlueBlue4_opt
+\CBmp[BBguard,4]\prf\c[4]信徒：\c[0]    私の可愛い妹♥ セックスしよう♥ 恐怖を取り除こう♥
+\CBct[6]\m[angry]\Rshake\c[6]ロナ：\c[0]    やばい...\optD[無視する,ハッタリをかける<r=HiddenOPT1>,脅す<r=HiddenOPT2>]
+
+Df_Heresy4/BlueBlue4_WIS0
+\CBct[5]\m[serious]\PRF\c[6]ロナ：\c[0]    聞いて！ この子は私の物なの！
+\CBmp[BBguard,2]\prf\c[4]信徒：\c[0]    君は\..\..\..女じゃないのか？？
+\CBmp[BBguard,20]\prf\c[4]信徒：\c[0]    女と女じゃ子供を作れないだろう！
+\CBmp[BBguard,20]\prf\c[4]信徒：\c[0]    豊穣の母はこんなこと許さないぞ！
+\CBct[5]\m[angry]\Rshake\c[6]ロナ：\c[0]    女性が女性との間に子供を作ることができないと､なぜ分かるの？
+\CBct[5]\m[serious]\Rshake\c[6]ロナ：\c[0]    あなたは女性ですか？ 女性になった事はありますか？！
+\CBct[5]\m[angry]\Rshake\c[6]ロナ：\c[0]    偉大なる豊穣の母が「女性は子供を産めない」とあなたに言ったの？
+\CBmp[BBguard,6]\prf\c[4]信徒：\c[0]    私は...
+\CBct[5]\m[serious]\Rshake\c[6]ロナ：\c[0]    あなたはこの子と一緒にはなれない！ 彼女にはもう子供がいるのが分からないの？
+\CBmp[BBguard,6]\prf\c[4]信徒：\c[0]    私は間違っていた....
+\CBmp[BBguard,20]\prf\c[4]信徒：\c[0]    君の言う通り､彼女は君の物だ...
+
+Df_Heresy4/BlueBlue4_WIS1
+\CBct[3]\m[flirty]\PRF\c[6]ロナ：\c[0]    はは...？
+
+Df_Heresy4/BlueBlue4_CB0
+\CBmp[BBguard,6]\c[4]信徒：\c[0]    ウオアア！！！
+\CBmp[BBguard,20]\c[4]信徒：\c[0]    \{俺のキンタマが！！！！
+
+Df_Heresy4/BlueBlue4_CB1
+\CBct[5]\m[irritated]\Rshake\c[6]ロナ：\c[0]    今すぐここから逃げるよ！
+
+Df_Heresy4/BlueBlue4_AGGRO
+\CBmp[BBguard,2]\c[4]信徒：\c[0]    うん？ 会ったことない奴だな､お前は誰だ？
+\CBct[8]\m[flirty]\PRF\c[6]ロナ：\c[0]    えーっと.....
+\CBmp[BBguard,20]\prf\c[4]信徒：\c[0]    偽りの神の使徒だ！ 誰かすぐに来てくれ！
+\CBct[8]\m[shocked]\Rshake\c[6]ロナ：\c[0]    \{ヤバイ！
+
+Df_Heresy4/END
+\board[豊穣の母教]
+目標：\c[6]ランラン\c[0]を見つけて\c[6]モーモー\c[0]の元へ帰す
+期限：2日
+依頼主：運命ノ砦の難民キャンプの\c[6]モーモー\c[0]
+一刻も早く運命ノ砦の難民キャンプへ戻る｡
+
+Df_Heresy4/CompRng0
+\CBid[-1,8]\prf\c[4]ランラン：\c[0]    お姉ちゃん怒ってないかな？
+
+Df_Heresy4/CompRng1
+\CBid[-1,8]\prf\c[4]ランラン：\c[0]    私が間違ってた....
+
+Df_Heresy4/CompRng2
+\CBid[-1,8]\prf\c[4]ランラン：\c[0]    ごめんなさい...

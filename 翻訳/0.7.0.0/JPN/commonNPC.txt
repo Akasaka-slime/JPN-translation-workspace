@@ -1,0 +1,819 @@
+#return "_slave"                        if $lona_stats["SlaveBrand"] ==1
+#return "_maggot"                if $game_actors[1].dirt >= 200 <r=HiddenOPT1>
+#return "_sexy"                        if $game_actors[1].sexy >= 100
+#return "_weaker"                if $game_actors[1].weak >= 100
+#return "_moot"                        if $lona_stats["moot"] ==1
+#return "_lona"
+
+RandomNpc/OptUsed
+既に試している｡
+
+RandomNpc/choosed
+\ph\..\..\..\WF[10]
+
+#--------------------------------------------------------------------------- Overmap NoerHomeless
+
+NoerHomeless/beginM0
+\c[4]難民：\c[0]    なにかお恵みを.. お嬢さん...
+
+NoerHomeless/beginM1
+\c[4]難民：\c[0]    腹減った... 助けてくれ...
+
+NoerHomeless/beginM2
+\c[4]難民：\c[0]    お嬢さん... 施しを....
+
+NoerHomeless/beginF0
+\c[4]難民：\c[0]    なにかください...
+
+NoerHomeless/beginF1
+\c[4]難民：\c[0]    腹減ったなぁ....
+
+NoerHomeless/beginF2
+\c[4]難民：\c[0]    どうか施しを....
+
+NoerHomeless/Begin2
+\c[4]難民：\c[0]    .........
+
+NoerHomeless/END_Good0
+\c[4]難民：\c[0]    この恩は忘れません！
+
+NoerHomeless/END_Good1
+\c[4]難民：\c[0]    本当にありがとうございます！
+
+NoerHomeless/END_Good2
+\c[4]難民：\c[0]    ありがたいお恵みに感謝します！
+
+NoerHalp/get_reward0
+\c[4]難民：\c[0]    助けてくれてありがとう､これを持っていって｡
+
+NoerHalp/get_reward1_0
+\c[4]難民：\c[0]    あなたに使徒の御加護があらんことを｡
+
+NoerHalp/get_reward1_1
+\c[4]難民：\c[0]    重ねて感謝いたします｡
+
+#--------------------------------------------------------------------------- Overmap NoerMissionary
+
+NoerMissionary/Begin0
+\c[4]宣教師：\c[0]    使徒が汝を導く！
+
+NoerMissionary/Begin1
+\board[世界のための寄付]
+トレードポイントを1000点寄付するごとに､ワールド難易度が1減少する｡ 上限は10まで｡
+使徒が世界の罪と虚言を浄化する！使徒を讃えよ！
+現在のワールド難易度は\c[4] #{$story_stats["WorldDifficulty"]} \c[0]
+
+NoerMissionary/END_Good
+\c[4]宣教師：\c[0] 君の行く末に使徒の導きがあらんことを！
+
+NoerMissionary/END_Bad
+\c[4]宣教師：\c[0] この虚言者がぁ！使徒がお前を浄化する！
+\m[shocked]\plf\PRF\c[6]ロナ：\c[0]    え？！
+
+NoerMissionary/Qmsg
+使徒を讃えよ！
+
+#--------------------------------------------------------------------------- Overmap Quest Giver
+
+Qgiver/ConvoyToNoer_begin
+\c[4]難民：\c[0]    助けて欲しいんだ｡
+
+Qgiver/ConvoyToNoer_begin1
+\c[4]難民：\c[0]    この人を無事にノエルまで送ってくれ｡
+
+Qgiver/ConvoyToNoer_board
+\board[護送任務]
+目標：難民をノエルまで護送する
+報酬：大銅貨1枚､モラル5
+依頼主：難民
+期限：5日
+
+Qgiver/ConvoyToHobo_begin1
+\c[4]難民：\c[0]    この人を無事に難民キャンプまで送ってくれ｡
+
+Qgiver/ConvoyToHobo_board
+\board[護送任務]
+目標：難民を難民キャンプまで護送する。
+報酬：銅貨5枚､モラル2
+依頼主：難民
+期限：5日
+
+Qgiver/ConvoyToNoer_accept
+\prf\c[4]難民：\c[0]    あなたに感謝します｡
+
+Qtarget/Arrivel
+\prf\c[4]難民：\c[0]    ありがとう､あなたの善行を伝え広めるよ｡
+
+#-------------------#------COMMON CONVOY TARGET(victim)
+
+victim/Convoy_opt
+\plf\c[0]被害者：\c[0]    う... わたしをたすけにきたの？\optB[いいえ,はい]
+
+victim/Convoy_start0
+\plf\c[0]被害者：\c[0]    はい... ついていきます｡
+
+victim/Convoy_start1
+\board[被害者を護送する]
+護送対象を出口の3x3の範囲内まで連れて話しかける｡
+途中で護送対象を死なせてはならない｡
+
+victim/Convoy_start2
+\board[被害者を護送する]
+目標：被害者をノエルまで護送する
+途中で護送対象を死なせてはならない｡
+
+
+############################## COMMON EXT Convoy
+
+
+NPC/CommonConvoyTarget0
+\prf\c[4]同行者：\c[0]    まだ着かないかなー｡
+
+NPC/CommonConvoyTarget1
+\prf\c[4]同行者：\c[0]    急ごう｡
+
+NPC/CommonConvoyTarget2
+\prf\c[4]同行者：\c[0]    行こう｡
+
+
+##------------------------------------------common---------------------------------------------------sex trade
+
+RandomNpc/WhoreWork_normal
+\CBct[20]\cg[event_WhoreWork]\m[shy]\c[6]ロナ：\c[0]    あの.....えっちなことしたくないですか？
+
+RandomNpc/WhoreWork_tsun
+\CBct[6]\cg[event_WhoreWork]\m[terror]\c[6]ロナ：\c[0] 仕方なく!
+\CBct[6]\m[bereft]\Rshake\c[6]ロナ：\c[0] 仕方なくよ！
+
+RandomNpc/WhoreWork_weak
+\CBct[8]\cg[event_WhoreWork]\m[fear]\c[6]ロナ：\c[0]    ........
+
+RandomNpc/WhoreWork_slut
+\CBct[4]\cg[event_WhoreWork]\m[triumph]\c[6]ロナ：\c[0]    ねぇヤらない？
+
+RandomNpc/WhoreWork_overfatigue
+\CBct[8]\cg[event_WhoreWork]\m[tired]\c[6]ロナ：\c[0]    ........
+
+RandomNpc/WhoreWork_mouth_block
+\CBct[8]\cg[event_WhoreWork]\m[sad]\c[6]ロナ：\c[0]    うぅ.....
+
+RandomNpc/WhoreWork_win
+\BonID[-1,4]\m[shy]\cgoff\narr成功した｡
+
+RandomNpc/WhoreWork_failed
+\BonID[-1,4]\m[sad]\cgoff失敗した｡相手はロナに全く興味がない｡
+
+RandomNpc/WhoreWork_win_opt_win
+\CBct[8]\m[shy]\c[6]ロナ：\c[0]    んっ....
+
+prostituation/CustomerPick0
+相手は
+
+prostituation/CustomerPick1
+のサービスを要求した｡
+
+prostituation/CustomerPick2_CumInside
+相手はロナの中に出したがっている｡
+
+prostituation/CustomerPick2_CumOutside
+相手は外に出すことを約束した｡
+
+prostituation/reward0
+相手は
+
+prostituation/reward1
+倍のトレードポイントを提示した
+
+prostituation/Handjob
+手コキ
+
+prostituation/Blowjob
+フェラ
+
+prostituation/Anal
+アナルセックス
+
+prostituation/Virgin
+わたし処女です
+
+prostituation/Vaginal
+セックス
+
+prostituation/SemiAuto
+シてあげる
+
+prostituation/FullAuto
+好きにシて
+
+prostituation/Repent
+なかったことに
+
+prostituation/Wisdom
+価格交渉
+
+prostituation/Full
+フルコース
+
+prostituation/CumInside
+中に出させる
+
+prostituation/CumOutside
+外に出すよう頼む
+
+prostituation/Nymph
+無料サービス
+
+prostituation/CumInside_dialog_typical
+\m[shy]\Rshake\c[6]ロナ：\c[0]    うん.. 中に出していいですよ.....
+
+prostituation/CumInside_dialog_tsundere
+\m[sad]\Rshake\c[6]ロナ：\c[0]    そうよ！中に出していいって言ってんの！ わたしが許す！ラッキーね！
+
+prostituation/CumInside_dialog_gloomy
+\m[shy]\Rshake\c[6]ロナ：\c[0]    ん... いいです... 中に出してください.......
+
+prostituation/CumInside_dialog_slut
+\m[lewd]\Rshake\c[6]ロナ：\c[0]    ナカで！ 中出し！ カラダで感じたいの！
+
+prostituation/CumOutside_dialog_typical
+\m[terror]\Rshake\c[6]ロナ：\c[0]    ダメ！ 中で出しちゃダメです！
+
+prostituation/CumOutside_dialog_tsundere
+\m[wtf]\Rshake\c[6]ロナ：\c[0]    外に出して！ 外に出さないととわたし\..\..... お願いだから..\..外出しで！
+
+prostituation/CumOutside_dialog_gloomy
+\m[bereft]\Rshake\c[6]ロナ：\c[0]    いや！ 中はだめ... お願いします.....
+
+prostituation/CumOutside_dialog_slut
+\m[flirty]\Rshake\c[6]ロナ：\c[0]    ん？ だーめ！ 外に出して､わたしは肌で感じたいの｡
+
+###############
+
+prostituation/Virgin_dialog_typical
+\m[shy]\Rshake\c[6]ロナ：\c[0]    えと\....わたし\.... これが初めてで\.....
+
+prostituation/Virgin_dialog_tsundere
+\m[shy]\Rshake\c[6]ロナ：\c[0]    ん\...わたし...えっと.\... まだシたことないから.\..つまり.\..まだあるってこと.....
+
+prostituation/Virgin_dialog_gloomy
+\m[shy]\Rshake\c[6]ロナ：\c[0]    ちょっ\...ちょっと待ってください\.... わたしの... わたしのあそこはまだ綺麗で\......
+
+prostituation/Virgin_dialog_slut
+\m[shy]\Rshake\c[6]ロナ：\c[0]    ふふ.. わたしまだ処女なの！ アナタはわたしの人生で初めての男になっちゃうのよ！
+
+prostituation/Virgin_dialog_ans
+\narrロナの言葉に卑猥な笑みを浮かべている｡
+
+prostituation/Virgin_dialog_faggot
+\narrロナは大切なモノは大切な人のために取っておくようにと言われた｡
+
+################
+
+prostituation/Nymph_dialog
+\m[lewd]\c[6]ロナ：\c[0]    わたしセックスしたいだけだから､タダでサービスしてあげる｡
+\narr相手は喜んでいる！
+
+prostituation/Wisdom_dialog
+\m[shy]\c[6]ロナ：\c[0] もっとイイサービスして欲しくないですか？だからもうちょっとだけ....
+
+prostituation/Wisdom_dialog_more
+\m[shy]\c[6]ロナ：\c[0]    こういうサービスだからもっと多めに.....
+
+prostituation/Wisdom_dialog_angry
+\narr相手は焦れているように見える｡
+
+prostituation/Repent_dialog
+\m[flirty]\c[6]ロナ：\c[0]    えっと... やっぱりやめます｡
+
+prostituation/Repent_dialog_aggro
+\narrロナは諦めた｡ だがそれが相手の逆鱗に触れた！
+
+prostituation/Aggro
+\narr相手はキレた！
+\narrOFF\m[terror]\Rshake\c[6]ロナ：\c[0]    ひぃ！！
+
+RandomNpc/WhoreWork_win_opt_lose
+\narrロナは貧弱過ぎて､相手の望むことしかできない｡
+
+RandomNpc/WhoreWork_GotoPoint
+\narrロナは相手と一緒に薄暗い隅の方に歩いていく｡
+
+RandomNpc/WhoreWork_failed_GuardWrongPlace
+ここで盛るんじゃない！
+
+#---------------------#-------------------#---------------------Static Goblin-------------------------------
+#---------------------#-------------------#---------------------Static Goblin-------------------------------
+
+GoblinRandomNpc/CommonGoblin_begin1_0
+\SndLib[sound_goblin_roar]\SETpl[goblin]\c[4]魔物：\c[0]    ググ.. マンコ？
+
+GoblinRandomNpc/CommonGoblin_begin1_1
+\SndLib[sound_goblin_roar]\SETpl[goblin]\c[4]魔物：\c[0]    グハ！ グブハ！ ニク？
+
+GoblinRandomNpc/CommonGoblin_begin1_2
+\SndLib[sound_goblin_roar]\SETpl[goblin]\c[4]魔物：\c[0]    グブハ？！
+
+GoblinRandomNpc/CommonGoblin_CommonNpcOpt
+\SndLib[sound_goblin_roar]\SETpl[goblin]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    ん？
+
+#---------------------#-------------------#---------------------Static Orc-------------------------------
+#---------------------#-------------------#---------------------Static Orc-------------------------------
+
+OrcRandomNpc/CommonOrc_begin1_0
+\SndLib[sound_OrcQuestion]\SETpl[ogre_penis]\c[4]魔物：\c[0]    プギギ！！ ニク！！
+
+OrcRandomNpc/CommonOrc_begin1_1
+\SndLib[sound_OrcQuestion]\SETpl[ogre_penis]\c[4]魔物：\c[0]    ニククウ！ マンコ！ プギ！
+
+OrcRandomNpc/CommonOrc_begin1_2
+\SndLib[sound_OrcQuestion]\SETpl[ogre_penis]\c[4]魔物：\c[0]    プギマンコ！ マンコ！
+
+OrcRandomNpc/CommonOrc_CommonNpcOpt
+\SndLib[sound_OrcQuestion]\SETpl[ogre_penis]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    ん？
+
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+
+MaleHumanRandomNpc/CommonHuman_begin1_slave
+\c[4]通行人：\c[0]    どけ！卑しい奴隷め｡
+
+MaleHumanRandomNpc/CommonHuman_begin1_maggot
+\c[4]通行人：\c[0]    臭い！
+
+MaleHumanRandomNpc/CommonHuman_begin1_sexy
+\c[4]通行人：\c[0]    おお？
+
+MaleHumanRandomNpc/CommonHuman_begin1_weaker
+\c[4]通行人：\c[0]    乞食か？近づくんじゃない｡
+
+MaleHumanRandomNpc/CommonHuman_begin1_moot
+\c[4]通行人：\c[0]    ドブネズミめ､ヤる気かよ？
+
+MaleHumanRandomNpc/CommonHuman_begin1_lona
+\c[4]通行人：\c[0]    職探しか？
+
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+
+MaleGuardWild/CommonHuman_begin1_slave
+\c[4]通行人：\c[0]    奴隸か？ならヤらせろ！
+
+MaleGuardWild/CommonHuman_begin1_maggot
+\c[4]通行人：\c[0]    汚ねぇな！どっか行け！
+
+MaleGuardWild/CommonHuman_begin1_sexy
+\c[4]通行人：\c[0]    よう♥ 新入りの慰安婦かい？
+
+MaleGuardWild/CommonHuman_begin1_weaker
+\c[4]通行人：\c[0]    クソ乞食が！近寄るんじゃねぇ！
+
+MaleGuardWild/CommonHuman_begin1_moot
+\c[4]通行人：\c[0]    ドブネズミぃ！ナニ見てんだ！失せろ！
+
+MaleGuardWild/CommonHuman_begin1_lona
+\c[4]通行人：\c[0]    忙しいのが見てわからんか？
+
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+
+MaleDoomed/CommonHuman0
+\c[4]通行人：\c[0]    へっ､世界はもう終わりだ｡
+
+MaleDoomed/CommonHuman1
+\c[4]通行人：\c[0]    みんな死ぬんだ､死ぬ前に楽しもうぜ！
+
+MaleDoomed/CommonHuman2
+\c[4]通行人：\c[0]    死ぬんだぁ､使徒は俺らを見捨てたんだぁ！
+
+#---------------------#-------------------#---------------------Sailer-------------------------------
+
+MaleNoerDockNpc/Sailer_slave
+\c[4]通行人：\c[0]    奴隷じゃん｡ へへっ｡
+
+MaleNoerDockNpc/Sailer_maggot
+\c[4]通行人：\c[0]    臭すぎ､失せろ｡
+
+MaleNoerDockNpc/Sailer_sexy
+\c[4]通行人：\c[0]    へへっ､嬢ちゃん､一発どお？
+
+MaleNoerDockNpc/Sailer_weaker
+\c[4]通行人：\c[0]    よっ！メスガキ､しゃぶってくれよ？
+
+MaleNoerDockNpc/Sailer_moot
+\c[4]通行人：\c[0]    うぜぇ！
+
+MaleNoerDockNpc/Sailer_lona
+\c[4]通行人：\c[0]    忙しいのが見てわからんか？
+
+#---------------------#-------------------#---------------------
+
+MaleHumanRandomNpc/CommonHuman_CommonNpcOpt
+\m[confused]\c[6]ロナ：\c[0]    うん？
+
+commonNpc/Cancel
+やめる
+
+commonNpc/Barter
+取引
+
+commonNpc/Prostitution
+売春
+
+commonNpc/SexService
+性的サービス
+
+commonNpc/Talk
+会話
+
+commonNpc/Threaten
+威嚇
+
+commonNpc/Begging
+物乞い
+
+commonNpc/About
+会話
+
+commonNpc/Work
+仕事
+
+commonNpc/Convoy
+傭兵
+
+commonNpc/Slave
+奴隸
+
+commonNpc/Steal
+窃盗
+
+commonNpc/Deceive
+騙す
+
+commonNpc/Yes
+はい
+
+commonNpc/Storage
+保管庫を開く
+
+commonNpc/Chat
+会話
+
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+#---------------------#-------------------#---------------------RandomNpc-------------------------------
+
+MaleHumanRandomNpc/HoboM_begin1_slave
+\c[4]乞食：\c[0]    失せろ！俺に触るな！
+
+MaleHumanRandomNpc/HoboM_begin1_maggot
+\c[4]乞食：\c[0]    消えろ！触るな！
+
+MaleHumanRandomNpc/HoboM_begin1_sexy
+\c[4]乞食：\c[0]    ハハ....
+
+MaleHumanRandomNpc/HoboM_begin1_weaker
+\c[4]乞食：\c[0]    ん？
+
+MaleHumanRandomNpc/HoboM_begin1_moot
+\c[4]乞食：\c[0]    邪魔するな！
+
+MaleHumanRandomNpc/HoboM_begin1_lona
+\c[4]乞食：\c[0]    なんだ？
+
+
+MaleHumanRandomNpc/HoboF_begin1_slave
+\c[4]乞食：\c[0]    奴隷ねぇ？俺も自分を売ってみようかな｡
+
+MaleHumanRandomNpc/HoboF_begin1_maggot
+\c[4]乞食：\c[0]    あんたも大変そうだな｡
+
+MaleHumanRandomNpc/HoboF_begin1_sexy
+\c[4]乞食：\c[0]    そうだな､こんな時代だと自分を売るしか無いよな｡
+
+MaleHumanRandomNpc/HoboF_begin1_weaker
+\c[4]乞食：\c[0]    あんたも苦労してんだな｡
+
+MaleHumanRandomNpc/HoboF_begin1_moot
+\c[4]乞食：\c[0]    今日はなにか食べられるかなぁ？
+
+MaleHumanRandomNpc/HoboF_begin1_lona
+\c[4]乞食：\c[0]    お腹すいた｡
+
+
+MaleHumanNoerNpc/PplM_begin1_slave
+\c[4]市民：\c[0]    クソ奴隷！失せろ！
+
+MaleHumanNoerNpc/PplM_begin1_maggot
+\c[4]市民：\c[0]    消えろ！汚えガキが！
+
+MaleHumanNoerNpc/PplM_begin1_sexy
+\c[4]市民：\c[0]    へへ....
+
+MaleHumanNoerNpc/PplM_begin1_weaker
+\c[4]市民：\c[0]    なんだ？ お前やる金はないぞ！
+
+MaleHumanNoerNpc/PplM_begin1_moot
+\c[4]市民：\c[0]    失せろ！汚いムートめ！
+
+MaleHumanNoerNpc/PplM_begin1_lona
+\c[4]市民：\c[0]    なんだ？
+
+
+MaleHumanGangNpc/PplM_begin1_slave
+\c[4]チンピラ：\c[0]    クソ汚え奴隷が！失せろ！
+
+MaleHumanGangNpc/PplM_begin1_maggot
+\c[4]チンピラ：\c[0]    消えろ！汚えガキが！
+
+MaleHumanGangNpc/PplM_begin1_sexy
+\c[4]チンピラ：\c[0]    へへ....
+
+MaleHumanGangNpc/PplM_begin1_weaker
+\c[4]チンピラ：\c[0]    んだよ？ くれてやる金なんざねえぞ！
+
+MaleHumanGangNpc/PplM_begin1_moot
+\c[4]チンピラ：\c[0]    消え失せろ！
+
+MaleHumanGangNpc/PplM_begin1_lona
+\c[4]チンピラ：\c[0]    なんだよ？
+
+
+MaleHumanNoerNpc/PplF_begin1_slave
+\c[4]市民：\c[0]    臭い奴隷ね！消えて！
+
+MaleHumanNoerNpc/PplF_begin1_maggot
+\c[4]市民：\c[0]    ひどい臭い！
+
+MaleHumanNoerNpc/PplF_begin1_sexy
+\c[4]市民：\c[0]    どこの娼婦よ｡
+
+MaleHumanNoerNpc/PplF_begin1_weaker
+\c[4]市民：\c[0]    あげるお金なんてないよ！
+
+MaleHumanNoerNpc/PplF_begin1_moot
+\c[4]市民：\c[0]    ムート？
+
+MaleHumanNoerNpc/PplF_begin1_lona
+\c[4]市民：\c[0]    なに？
+
+
+MaleHumanGuardM/begin1_slave
+\c[4]傭兵：\c[0]    飼い主の所に帰れ！
+
+MaleHumanGuardM/begin1_maggot
+\c[4]傭兵：\c[0]    失せろ！
+
+MaleHumanGuardM/begin1_sexy
+\c[4]傭兵：\c[0]    ほほう？
+
+MaleHumanGuardM/begin1_weaker
+\c[4]傭兵：\c[0]    なに見てやがる？てめぇに構う時間はねぇぞ！
+
+MaleHumanGuardM/begin1_moot
+\c[4]傭兵：\c[0]    ナニ見てんだよ？見てっと牢にでもぶち込むぞ｡
+
+MaleHumanGuardM/begin1_lona
+\c[4]傭兵：\c[0]    なに見てんだぁ？
+
+
+MaleFishKindM/begin1_slave
+\SndLib[FishkindSmSpot]\c[4]半魚人：\c[0]    ドレイ... オンナ... オマンコ....
+
+MaleFishKindM/begin1_maggot
+\SndLib[FishkindSmSpot]\c[4]半魚人：\c[0]    クサイ... キエロ....
+
+MaleFishKindM/begin1_sexy
+\SndLib[FishkindSmSpot]\c[4]半魚人：\c[0]    \{オンナ... ヤリタイ....
+
+MaleFishKindM/begin1_weaker
+\SndLib[FishkindSmSpot]\c[4]半魚人：\c[0]    オンナ... コッチコイ....
+
+MaleFishKindM/begin1_moot
+\SndLib[FishkindSmSpot]\c[4]半魚人：\c[0]    ウルサイ... ジャマダ....
+
+MaleFishKindM/begin1_lona
+\SndLib[FishkindSmSpot]\c[4]半魚人：\c[0]    ナン... ダ....
+
+
+MaleFishKindGuard/begin1_slave
+\SndLib[FishkindSmSpot]\c[4]衛兵：\c[0]    ドレイ... ドレイ ムラ ニ イケ.....
+
+MaleFishKindGuard/begin1_maggot
+\SndLib[FishkindSmSpot]\c[4]衛兵：\c[0]    クサイオンナ... ウセロ...!
+
+MaleFishKindGuard/begin1_sexy
+\SndLib[FishkindSmSpot]\c[4]衛兵：\c[0]    オンナ... ハメタイ....
+
+MaleFishKindGuard/begin1_weaker
+\SndLib[FishkindSmSpot]\c[4]衛兵：\c[0]    オンナ... オンナ....
+
+MaleFishKindGuard/begin1_moot
+\SndLib[FishkindSmSpot]\c[4]衛兵：\c[0]    キモイ... キエロ....
+
+MaleFishKindGuard/begin1_lona
+\SndLib[FishkindSmSpot]\c[4]衛兵：\c[0]    ニンゲン.. キライ...！
+
+
+WencherM/begin0
+\c[4]通行人：\c[0]    へへ♥ 一発いくら？♥
+
+WencherM/begin1
+\c[4]通行人：\c[0]    フへ♥ ガキ！ ヤらせろよ？
+
+WencherM/begin2
+\c[4]通行人：\c[0]    しゃぶってよ♥
+
+#-------------------#-------------------#-------------------#-------------------RandomNpc商人
+#-------------------#-------------------#-------------------#-------------------RandomNpc商人
+#-------------------#-------------------#-------------------#-------------------RandomNpc商人
+#-------------------#-------------------#-------------------#-------------------RandomNpc商人
+#-------------------#-------------------#-------------------#-------------------RandomNpc商人
+
+MaleHumanRandomNpc/CommonMerchant_begin1_slave
+\m[normal]\c[4]行商人：\c[0]    奴隸か？ へへ...
+
+MaleHumanRandomNpc/CommonMerchant_begin1_maggot
+\m[normal]\c[4]行商人：\c[0]    う～ 汚えぇ.. 近づくなよ｡
+
+MaleHumanRandomNpc/CommonMerchant_begin1_sexy
+\m[normal]\c[4]行商人：\c[0]    フフ.. 何が買いたいんだい？ 何でもあるよ！ ヘヘ...
+
+MaleHumanRandomNpc/CommonMerchant_begin1_weaker
+\m[normal]\c[4]行商人：\c[0]    何が欲しい？
+
+MaleHumanRandomNpc/CommonMerchant_begin1_moot
+\m[normal]\c[4]行商人：\c[0]    なに買うんだ？
+
+MaleHumanRandomNpc/CommonMerchant_begin1_lona
+\m[normal]\c[4]行商人：\c[0]    何かご入用かな？
+
+MaleHumanRandomNpc/CommonMerchant_CommonNpcOpt
+\m[confused]ロナ：\c[0]    うん？
+
+#----------------------------溝通
+
+MaleHumanRandomNpc/CommonMerchant_comm
+\m[flirty]\c[6]ロナ：\c[0]    まずこれを見て....
+\m[pleased]\cg[temp](ロナは近くの情報を共有した)
+
+MaleHumanRandomNpc/CommonMerchant_comm_win
+\c[4]商人：\c[0]\n\prf\cgoff    本当に助かった､ありがとう｡
+\m[normal]ロナ：\c[0]\n\PRF    いいえ､どういたしまして｡
+
+MaleHumanRandomNpc/CommonMerchant_comm_failed
+\c[4]商人：\c[0]\n\prf\cgoff    それなら既に知っているぞ｡
+\m[confused]ロナ：\c[0]\n\PRF    うーん､そうでしたか｡
+
+#----------------------------威脅
+
+MaleHumanRandomNpc/CommonMerchant_threaten_normal
+\m[overkill]\c[6]ロナ：\c[0]\n\Rshake\cg[temp]    あの...すみませんが... お持ちのものをお渡しください｡
+
+MaleHumanRandomNpc/CommonMerchant_threaten_tsun
+\m[angry]\c[6]ロナ：\c[0]\n\Rshake\cg[temp]    あなたが持っているものを手放すなら､あなたを生かしておきます｡
+
+MaleHumanRandomNpc/CommonMerchant_threaten_weak
+\m[fear]\c[6]ロナ：\c[0]\n\Rshake\cg[temp]    ごめんなさい､悪いけど､それは私が貰います！
+
+MaleHumanRandomNpc/CommonMerchant_threaten_slut
+\m[overkill]\c[6]ロナ：\c[0]\n\Rshake\cg[temp]    ねぇ､素直に全部渡してください｡
+
+MaleHumanRandomNpc/CommonMerchant_threaten_overfatigue
+\m[tired]\c[6]ロナ：\c[0]\n\Rshake\cg[temp]    .....
+
+MaleHumanRandomNpc/CommonMerchant_threaten_mouth_block
+\m[confused]\c[6]ロナ：\c[0]\n\Rshake\cg[temp]    んんん！ んん...
+
+MaleHumanRandomNpc/CommonMerchant_threaten_win
+\c[4]商人：\c[0]\n\prf\cgoff    わかった！全部アンタにやる！俺を殺さないでくれ！
+\m[triumph]\c[6]ロナ：\c[0]\n\PRF    えぇ､それでいいんです｡
+
+MaleHumanRandomNpc/CommonMerchant_threaten_failed
+\c[4]商人：\c[0]\n\prf\cgoff    お前みたいなガキにか？！ 死ね！
+\m[shocked]\c[6]ロナ：\c[0]\n\PRF\Rshake    え？？待って！
+
+#-------------------#-------------------#-------------------#-------------------Random Noer House
+#-------------------#-------------------#-------------------#-------------------Random Noer House
+#-------------------#-------------------#-------------------#-------------------Random Noer House
+#-------------------#-------------------#-------------------#-------------------Random Noer House
+#-------------------#-------------------#-------------------#-------------------Random Noer House
+
+NoerHouse/HouseOpt
+\m[confused]ノエルの民家\optB[やめる,物乞い<r=HiddenOPT1>,詐欺<r=HiddenOPT2>,窃盗<r=HiddenOPT3>]
+
+NoerHouse/WarehouseOpt
+\m[confused]倉庫
+
+NoerHouse/Tent
+\m[confused]テント
+
+NoerHouse/HouseOpt_beg
+\narr\SndLib[sys_KnockDoor]...........
+\narrOFF\c[4]？？？：\c[0]    誰？
+\m[shy]\c[6]ロナ：\c[0]     お願いできませんか....  施しを...  お願いします....
+\narr\..\..\..\..
+
+NoerHouse/HouseOpt_beg_win
+\c[4]？？？：\c[0]    可哀想な子だな｡これでも食いなよ｡
+\m[flirty]\c[6]ロナ：\c[0]    ありがとうございます､お恵みに感謝します｡
+
+NoerHouse/HouseOpt_fail_night
+\c[4]？？？：\c[0]    今は夜中だってわかってんのか？
+
+NoerHouse/Tent_beg_fail0
+\c[4]？？？：\c[0]    俺も誰かの施しを待ってるんだよ！ うせな！
+\m[sad]\c[6]ロナ：\c[0]    ご... ごめんなさい...
+
+NoerHouse/HouseOpt_beg_fail0
+\c[4]？？？：\c[0]    お前シバリスから来たんだろ？ 昔はいい暮らししてたよなぁ？
+\m[sad]\c[6]ロナ：\c[0]    ご... ごめんなさ...
+\c[4]？？？：\c[0]\n\Lshake\RShake    \{失せろ！
+
+NoerHouse/HouseOpt_beg_fail1
+\c[4]？？？：\c[0]    お前のその態度､まだ自分が帝都人だとでも思ってんの？
+\m[sad]\c[6]ロナ：\c[0]    ご... ごめんなさ...
+\c[4]？？？：\c[0]\n\Lshake\RShake    \{消えろ！
+
+NoerHouse/TentOpt_lie_begin1
+\m[sad]\c[6]ロナ：\c[0]    あの...誰かいませんか?
+
+NoerHouse/HouseOpt_lie_begin1
+\narr\SndLib[sys_KnockDoor]...........
+
+NoerHouse/HouseOpt_lie_begin1_1
+\c[4]？？？：\c[0]    誰？
+
+NoerHouse/HouseOpt_lie_begin2_0
+\narr\..\..\..
+\narrOFF\m[confused]\c[6]ロナ：\c[0]    そうです､だからそれをください｡
+
+NoerHouse/HouseOpt_lie_begin2_1
+\narr\..\..\..
+\narrOFF\m[serious]\c[6]ロナ：\c[0]    同意していただけないと､何が起こるか保証できませんよ｡
+
+NoerHouse/HouseOpt_lie_begin3
+\narr\..\..\..\..
+
+NoerHouse/HouseOpt_lie_win
+\c[4]？？？：\c[0]    なるほどな､じゃあこれを｡
+\m[flirty]\c[6]ロナ：\c[0]    ふぅ.....
+
+NoerHouse/HouseOpt_lie_fail
+\c[4]？？？：\c[0]    \{信じるとでも思うか？！
+\m[shocked]\Rshakeバレた！
+
+NoerHouse/HouseOpt_steal
+\SND[SE/sneak_in.ogg]\narr\..\..\..\..
+
+NoerHouse/HouseOpt_steal_win
+\m[flirty]\c[6]ロナ：\c[0]   ふぅ ....
+
+NoerHouse/HouseOpt_steal_fail
+\c[4]？？？：\c[0]\n\Lshake\RShake    \{誰だ！！
+\m[shocked]\Rshake\c[6]ロナ：\c[0]    しまった！
+
+#-------------------#-------------------#-------------------#------------------- Begging
+
+Begging/Win
+\narr相手はロナを哀れに思った....
+
+Begging/Aggro0
+\narr相手はキレた......
+
+Begging/Aggro1
+\narr相手はロナをわからせるつもりだ｡
+
+Begging/Win_End
+\m[shy]\c[6]ロナ：\c[0]    ありがとうございます！
+
+Begging/check
+\m[shy]\c[6]ロナ：\c[0]     お願いできませんか....  施しを...  お願いします....
+\narr\..\..\..\..
+
+#-------------------#-------------------#-------------------#------------------- NPC Thx to Lona
+
+refVsExt/WinDialog0
+\CBid[-1,3]\c[4]難民：\c[0]    ありがとうございます，あなたが来てくれなかったら私たちは死んでいました。
+
+refVsExt/WinDialog1
+\CBid[-1,3]\c[4]難民：\c[0]    使徒よ感謝します！
+
+refVsExt/WinDialog2
+\CBid[-1,3]\c[4]難民：\c[0]    ありがとう...それしか言う言葉がみつからない...
+
+refVsExt/Help0
+\CBid[-1,20]\c[4]難民：\c[0]    私たちを助けて！ 追われてるんです！
+
+refVsExt/Help1
+\CBid[-1,20]\c[4]難民：\c[0]    いやだ！ まだ死にたくない！
+
+refVsExt/Help2
+\CBid[-1,20]\c[4]難民：\c[0]    使徒よ！ 私をお救い下さい！
+
+#update
+#-------------------#-------------------#-------------------#------------------- NPC animal (common only need update this on BOBO)
+
+Rabbit/rng0
+\CBid[-1,20]\c[4]ウサギ：\c[0]    

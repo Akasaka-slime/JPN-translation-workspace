@@ -1,0 +1,138 @@
+thisMap/Enter
+\m[confused]無人島\optB[やめる,入る]
+
+########################################################### Capture begin
+
+OPevent/0
+\SndLib[sound_chcg_full]\SFXfile[Cursor2]\SFXset[50,40,4]\BonMP[RngGuy1,3]\SETpr[raper1]\Rshake\c[4]難民：\c[0]    アアア♥♥
+\SndLib[sound_chcg_full]\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\SETpr[raper2]\Rshake\c[4]難民：\c[0]    オオオオ♥♥
+\SndLib[sound_chcg_full]\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]難民：\c[0]    \{イクウウ！！
+
+OPevent/1
+\SFXfile[Cursor2]\SFXset[50,60,4]\Bon[8]\m[tired]\plf\PRF\c[6]ロナ：\c[0]    .....
+
+OPevent/2
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]難民：\c[0]    あれは....
+
+OPevent/3_firsttime
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]難民：\c[0]    \{女だ！
+
+OPevent/4_firsttime
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]難民：\c[0]    使徒に感謝を！ 使徒が彼女を生き返らせたのだ！
+
+OPevent/5_firsttime
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]難民：\c[0]    お前ら！ ケツで遊ぶのを止めろ！
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]難民：\c[0]    \{女だぞ！
+
+OPevent/3
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]難民：\c[0]    \{彼女だ！
+
+OPevent/4
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]難民：\c[0]    使徒は俺たちの呼びかけを聞いたんだ！
+
+OPevent/5
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[SpotGuy,3]\SETpr[raper3]\Rshake\c[4]難民：\c[0]    彼が\c[6]ロナ\c[0]を連れ戻したんだ！
+
+OPevent/6
+\SFXfile[Cursor2]\SFXset[50,25,1]\BonMP[RngGuy1,2]\SETpr[raper_group]\Rshake\c[4]難民：\c[0]    なんだと？！
+
+OPevent/7_firsttime
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\SETpl[raper2]\Lshake\prf\c[4]難民：\c[0]    女っていったか？
+
+OPevent/7
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\SETpR[raper2]\plf\Rshake\c[4]難民：\c[0]    \c[6]ロナ\c[0]って言ったか？
+
+OPevent/8
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy5,3]\SETpl[raper1]\Lshake\prf\c[4]難民：\c[0]    女かぁ？！
+
+OPevent/9
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\SETpl[raper2]\Lshake\c[4]難民：\c[0]    まず治すのが先だ！ 早くしろ！ 今度は殺さないようにな！
+
+FirstRape/0
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[8]\m[tired]\plf\PRF\c[6]ロナ：\c[0]    うぅ...ここは....？
+\SFXfile[Cursor2]\SFXset[50,25,4]\CBmp[RngGuy1,4]\SETpl[raper1]\Lshake\c[4]難民：\c[0]    目覚めたぞ！ 先に行かせてくれ！
+
+FirstRape/1
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[8]\m[hurt]\plf\Rshake\c[6]ロナ：\c[0]    ひい？！
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[8]\m[pain]\plf\Rshake\c[6]ロナ：\c[0]    待って...あなた達は...
+
+FirstRape/2
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy2,4]\SETpl[raper2]\Lshake\c[4]難民：\c[0]    このおまんこは俺のだ♥
+
+FirstRape/3
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\SETpl[raper3]\Lshake\c[4]難民：\c[0]    さぁ，俺のを舐めて♥
+
+FirstRape/3_1
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[8]\m[p5sta_damage]\plf\Rshake\c[6]ロナ：\c[0]    うぇ？！！！
+
+########################################################### first time wake up
+
+Wakeup/0
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[2]\m[tired]\plf\Rshake\c[6]ロナ：\c[0]    ここはどこ...？
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[8]\m[sad]\plf\Rshake\c[6]ロナ：\c[0]    なんでこの人たちはおかしな行動してるんだろう？
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[8]\m[tired]\plf\Rshake\c[6]ロナ：\c[0]    ここから逃げる方法を見つけなきゃ｡
+
+########################################################### DailyFree
+
+WakeRape/0_0
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\c[4]難民：\c[0]    終わった♥ 腹減った♥ 食べる時間だ♥
+
+WakeRape/0_1
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\c[4]難民：\c[0]    女の方がいい♥ ヤルほうがよっぽど気持ちいい♥
+
+WakeRape/0_2
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy3,4]\c[4]難民：\c[0]    私は誰だ？ ここは何処だ？ 私は何をしているんだ？
+
+########################################################### daily celebrity 
+
+celebrity/0
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[2]\m[tired]\plf\PRF\c[6]ロナ：\c[0]    うー...
+
+celebrity/1
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy6,20]\SETpl[raper3]\Lshake\c[4]難民：\c[0]    俺達の肉穴を復活させてくれた使徒に感謝を！
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy6,20]\SETpl[raper3]\Lshake\c[4]難民：\c[0]    彼女の身体の全ての穴で楽しめる！
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy1,4]\SETpl[raper1]\Lshake\c[4]難民：\c[0]    使徒に感謝を♥
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy2,4]\SETpl[raper2]\Lshake\c[4]難民：\c[0]    使徒を讃えよ♥
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy5,4]\SETpl[raper1]\Lshake\c[4]難民：\c[0]    お祈りは終わりだ！ しょうもない！
+\SFXfile[Cursor2]\SFXset[50,25,4]\BonMP[RngGuy6,20]\SETpl[raper3]\Lshake\c[4]難民：\c[0]    お前ら！ 楽しむぞ！
+\SFXfile[Cursor2]\SFXset[50,60,4]\CBct[2]\m[tired]\plf\PRF\c[6]ロナ：\c[0]    ちょっと待って...なに？！
+
+########################################################### NapRape
+
+NapRape/0_0
+\SFXfile[Cursor2]\SFXset[50,25,4]\Lshake\c[4]難民：\c[0]    おいおいおい....穴だ...
+
+NapRape/0_1
+\SFXfile[Cursor2]\SFXset[50,25,4]\Lshake\c[4]難民：\c[0]    女！ 女だ！
+
+NapRape/1
+\SFXfile[Cursor2]\SFXset[50,25,4]\Lshake\c[4]難民：\c[0]    チンコがカッチカチだ....
+
+NapRape/2
+\SFXfile[Cursor2]\SFXset[50,25,4]\Lshake\c[4]難民：\c[0]    ヤリたい...どうしようもなく...
+
+NapRape/angry
+\SFXfile[Cursor2]\SFXset[50,25,4]\Lshake\c[4]難民：\c[0]    なにしてんだ！！ ヤラせてくれ！
+
+########################################################### Qmsg
+
+Qmsg/0
+ここはどこ？ 俺は何を？
+
+Qmsg/1
+ちんちんがバキバキだ...
+
+Qmsg/2
+お前は女か？！
+
+Qmsg/3
+女とヤリたい...
+
+Qmsg/Child0
+ケツの穴が閉じなくなっちまった｡
+
+Qmsg/Child1
+マンコにつっこみたい...
+
+Qmsg/Child2
+花はクソマズイ..

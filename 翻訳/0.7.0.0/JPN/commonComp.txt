@@ -1,0 +1,566 @@
+notice/ExtOverWrite
+\board[非戦闘員のパーティメンバー]
+加入できる非戦闘員の\c[6]パーティメンバー\c[0]は1人のみです！
+受理された場合､現在の非戦闘員のメンバーは自動的に脱退します｡
+護送任務中の場合､現在の任務は放棄されます｡
+現在実行中の護送任務もしくは非戦闘パーティメンバーを放棄しますか？
+
+Companion/Accept
+この人にする？\optD[やめる,決定]
+
+Companion/TeamUp
+パーティーを組む
+
+Companion/Follow
+フォロー
+
+Companion/Wait
+待機
+
+Companion/Other
+その他
+
+Companion/Disband
+解散
+
+Companion/SetFoe
+敵対対象を設定する
+
+Companion/Purr
+ゴロゴロ
+
+Companion/Extension
+期限を延長する
+
+################################# COMMON COMP INFO
+
+CompWarrior/CompData
+\board[傭兵戦士]
+\C[2]役割：\C[0]前衛
+\C[2]戦闘スタイル：\C[0]戦士､防御
+\C[2]陣営：\C[0]犯罪者
+\C[2]敵対：\C[0]魔物､衛兵､犯罪者
+\C[2]条件：\C[0]ビール2杯\i[590]
+\C[2]期限：\C[0]2日
+何処にもいる傭兵｡
+
+CompArcher/CompData
+\board[傭兵弓使い]
+\C[2]役割：\C[0]後衛
+\C[2]戦闘スタイル：\C[0]射撃､曲射
+\C[2]陣営：\C[0]犯罪者
+\C[2]敵対：\C[0]魔物､衛兵､犯罪者
+\C[2]条件：\C[0]ビール2杯\i[590]
+\C[2]期限：\C[0]2日
+何処にもいる傭兵｡
+
+CompCommon/Comp_disband
+\CBid[-1,20]\c[4]酔った傭兵：\c[0] 今度また一杯奢ってくれよ...げっぷ！
+
+CompHumanWarrior/Comp_disband
+\CBid[-1,20]\c[4]酔った傭兵：\c[0]    いいや! 俺は酔ってねぇ！
+
+CompHumanBow/Comp_disband
+\CBid[-1,20]\c[4]酔った傭兵：\c[0]    いやだ！もっと酒をくれ！
+
+CompCommon/Comp_win
+\CBid[-1,20]\c[4]酔った傭兵：\c[0]    げっぷ！ じゃあ行こうか｡
+
+CompCommon/Comp_failed
+\CBid[-1,5]\Lshake\prf\c[4]酔った傭兵：\c[0]    \{酒を持って来い！
+\CBct[6]\m[sad]\c[6]ロナ：\c[0]    ごめんなさい...
+
+CompCommon/Slave_failed0
+\CBid[-1,5]\Lshake\prf\c[4]酔った傭兵：\c[0]    奴隷風情が何を言う！
+\CBct[6]\m[sad]\c[6]ロナ：\c[0]    ごめんなさい...
+
+CompCommon/Slave_failed1
+\CBid[-1,5]\Lshake\prf\c[4]酔った傭兵：\c[0]    \{お前が？！ \}奴隷なんぞ､大人しく俺様の性欲処理をしろ！
+\CBct[6]\m[sad]\c[6]ロナ：\c[0]    ごめんなさい...
+
+CompCommon/Slave_failed2
+\CBid[-1,5]\Lshake\prf\c[4]酔った傭兵：\c[0]    \{お前､奴隷かよ？！ シッシッ！失せろ！
+\CBct[6]\m[sad]\c[6]ロナ：\c[0]    ごめんなさい...
+
+CompWarrior/begin
+\CBid[-1,20]\SETpl[MobHumanWarrior]\prf\c[4]酔った傭兵：\c[0]    げっぷ！ なんだ？
+
+CompArcher/begin
+\CBid[-1,20]\SETpl[MobMootBow]\prf\c[4]酔った傭兵：\c[0]    げっぷ！ なんだ？
+
+CompRogue/OvermapPop0
+娼婦街の女はいいね
+
+CompRogue/OvermapPop1
+俺も奴隷買いてぇ－
+
+CompRogue/OvermapPop2
+女やりてぇー
+
+CompRogue/OvermapPop3
+オエーーー！
+
+####################################################################################################################################################
+
+CompWarSister/CompData
+\board[バトルシスター]
+\C[2]役割：\C[0]前衛
+\C[2]戦闘スタイル：\C[0]戦士､防御､曲射
+\C[2]陣営：\C[0]使徒教会
+\C[2]敵対：\C[0]半魚人､アンデッド､忌まわしきものども
+\C[2]条件：\C[0]聖水､貧弱さが100以下\i[46]
+\C[2]期限：\C[0]10日
+光と正義の執行者｡
+
+CompWarSister/begin
+\CBid[-1,20]\c[4]バトルシスター：\c[0]    ああ､父なる使徒よ｡
+
+CompWarSister/Comp_disband
+\CBid[-1,20]\c[4]バトルシスター：\c[0]    信仰は最強の剣です！
+
+CompWarSister/Comp_win
+\CBid[-1,20]\c[4]バトルシスター：\c[0]    使徒は人々を救うでしょう｡
+
+CompWarSister/Comp_failed
+\CBid[-1,20]\c[4]バトルシスター：\c[0]    貴女にかける情けはありません｡
+\CBct[6]\m[sad]\c[6]ロナ：\c[0]    ごめんなさい...
+
+CompWarSister/Weak_failed
+\CBid[-1,20]\c[4]バトルシスター：\c[0]    貴女は救われる資格がありません｡
+\CBct[6]\m[sad]\c[6]ロナ：\c[0]    ごめんなさい...
+
+CompWarSister/End
+\CBid[-1,20]\c[4]バトルシスター：\c[0]    慈悲は不要です！
+
+CompWarSister/Fated_enemy
+\narr仲間は不浄な物はすべて浄化するべきと主張している｡
+
+CompWarSister/OvermapPop0
+慈悲をかける暇はありません
+
+CompWarSister/OvermapPop1
+慈悲は失敗の源！
+
+CompWarSister/OvermapPop2
+使徒の名において！
+
+CompWarSister/OvermapPop3
+許されない罪ですわ！
+
+####################################################################################################################################################
+
+CompOrkindSlayer/CompData
+\board[ゴブリンキラー]
+\C[2]役割：\C[0]前衛
+\C[2]戦闘スタイル：\C[0]戦士､防御､性技
+\C[2]陣営：\C[0]シバリス
+\C[2]敵対：\C[0]ゴブリン
+\C[2]条件：\C[0]肉野菜スープ1皿\i[110]
+\C[2]期限：\C[0]3.5日
+執念深い復讐者｡
+
+CompOrkindSlayer/begin
+\SETpl[OrkindSlayer]\Lshake\prf\CBid[-1,20]\c[4]ゴブリンキラー：\c[0]    奴らは俺の家族を殺した｡
+\SETpl[OrkindSlayer]\Lshake\prf\CBid[-1,20]\c[4]ゴブリンキラー：\c[0]    ゴブリン共は皆殺しだ！
+
+CompOrkindSlayer/Comp_disband
+\SETpl[OrkindSlayer]\Lshake\prf\CBid[-1,20]\c[4]ゴブリンキラー：\c[0]    駄目だ！もっとゴブリンを！
+
+CompOrkindSlayer/Comp_win
+\SETpl[OrkindSlayer]\Lshake\prf\CBid[-1,20]\c[4]ゴブリンキラー：\c[0]    行くぞ！ ゴブリンを殺しに！
+
+CompOrkindSlayer/Comp_failed
+\SETpl[OrkindSlayer]\Lshake\prf\CBid[-1,20]\c[4]ゴブリンキラー：\c[0]    そいつはゴブリンじゃない！
+\CBct[6]\m[sad]\plf\c[6]ロナ：\c[0]    ごめんなさい...
+
+CompOrkindSlayer/Slave_failed
+\SETpl[OrkindSlayer]\Lshake\prf\CBid[-1,20]\c[4]ゴブリンキラー：\c[0]    奴隷なんぞ餌になる以外何の役に立つ？
+\CBct[6]\m[sad]\plf\c[6]ロナ：\c[0]    ごめんなさい...
+
+CompOrkindSlayer/OrkindGroup_run
+\narr仲間はゴブリンは皆殺しにすべきだと主張した｡
+
+CompOrkindSlayer/OvermapPop0
+姉のシチューが恋しい...
+
+CompOrkindSlayer/OvermapPop1
+そいつはゴブリンじゃない！
+
+CompOrkindSlayer/OvermapPop2
+ゴブリンを切り刻め！
+
+CompOrkindSlayer/OvermapPop3
+ゴブリン 殺すべし！
+
+####################################################################################################################################################
+
+CompHumanExplorer/CompData
+\board[無職の冒険家]
+\C[2]役割：\C[0]後衛
+\C[2]戦闘スタイル：\C[0]牽制､トラップ解除､照明
+\C[2]陣営：\C[0]中立
+\C[2]敵対：\C[0]魔物､犯罪者
+\C[2]条件：\C[0]肉のスープ1皿\i[108]
+\C[2]期限：\C[0]2.5日
+\C[2]備考：\C[0]マップの危険度ダウン
+この島に留まった冒険家｡
+
+CompHumanExplorer/begin
+\SETpl[IndianaJones]\Lshake\prf\CBid[-1,20]\c[4]冒険家：\c[0]    元々はシバリスの地下遺跡を探索するつもりだったが｡
+\SETpl[IndianaJones]\Lshake\prf\CBid[-1,20]\c[4]冒険家：\c[0]    今じゃこんな所に閉じ込められて､ろくな生活もできない｡
+\SETpl[IndianaJones]\Lshake\prf\CBid[-1,20]\c[4]冒険家：\c[0]    何か探索したい場所があるか？まずは奢ってくれ｡
+
+CompHumanExplorer/Comp_disband
+\SETpl[IndianaJones]\Lshake\prf\CBid[-1,20]\c[4]冒険家：\c[0]    明日からの生活はどうなる？！
+
+CompHumanExplorer/Comp_win
+\SETpl[IndianaJones]\Lshake\prf\CBid[-1,20]\c[4]冒険家：\c[0]    感謝する！
+
+CompHumanExplorer/Comp_failed
+\SETpl[IndianaJones]\Lshake\prf\CBid[-1,20]\c[4]冒険家：\c[0]    俺をバカにしているのか？！
+
+CompHumanExplorer/OvermapPop0
+東大陸の遺跡に行ったことはあるか？
+
+CompHumanExplorer/OvermapPop1
+蛇！蛇が怖い！
+
+CompHumanExplorer/OvermapPop2
+この島に古の神々の遺跡があると信じている
+
+CompHumanExplorer/OvermapPop3
+シバリスの地下遺跡は凄く壮観だったぞ
+
+####################################################################################################################################################
+
+CompKitten/CompData
+\board[ネコちゃん]
+\C[2]役割：\C[0]後衛
+\C[2]戦闘スタイル：\C[0]ない
+\C[2]陣営：\C[0]動物
+\C[2]敵対：\C[0]中立
+\C[2]条件：\C[0]魚1匹\i[292]
+\C[2]期限：\C[0]気分次第
+\C[2]備考：\C[0]猫である､人間を見下している
+縁起の悪い猫｡
+
+CompKitten/begin
+\CBid[-1,8]\c[4]ネコちゃん：\c[0]    ....
+
+CompKitten/Comp_disband
+\CBid[-1,8]\c[4]ネコちゃん：\c[0]   .
+
+CompKitten/Comp_win
+\CBid[-1,3]\c[4]ネコちゃん：\c[0]    ゴロゴロ....
+
+CompKitten/Comp_failed
+\CBid[-1,5]\c[4]ネコちゃん：\c[0]    シャー！
+
+CompKitten/Command
+\CBid[-1,5]\c[4]ネコちゃん：\c[0]    シャー！
+
+CompKitten/OPT_PURR
+\CBid[-1,3]\c[4]ネコちゃん：\c[0]    ゴロゴロ....ゴロゴロ....
+\narr\..\..\..\..
+\CBct[8]\narrOFF\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    なんだか嬉しくなった
+
+####################################################################################################################################################
+
+CompDoggy/CompData
+\board[ワンちゃん]
+\C[2]役割：\C[0]前衛
+\C[2]戦闘スタイル：\C[0]速攻､トラップ解除
+\C[2]陣営：\C[0]動物
+\C[2]敵対：\C[0]中立､カスタム
+\C[2]条件：\C[0]肉のスープ1皿\i[108]
+\C[2]期限：\C[0]なし
+\C[2]備考：\C[0]マップの危険度ダウン
+誇りのない犬､買収されやすい｡
+
+CompDoggy/begin
+\CBid[-1,20]\c[4]ワンちゃん：\c[0]    ワン！
+
+CompDoggy/Comp_disband
+\CBid[-1,20]\SndLib[dogDead]\c[4]ワンちゃん：\c[0]   キャイーン～～
+
+CompDoggy/Comp_win
+\CBid[-1,20]\c[4]ワンちゃん：\c[0]    ワン！
+
+CompDoggy/Comp_failed
+\CBid[-1,5]\c[4]ワンちゃん：\c[0]    ガオーーー！
+
+CompDoggy/Command
+\CBid[-1,20]\SndLib[dogSpot]\c[4]ワンちゃん：\c[0]    ワンワン！
+
+CompDoggy/SetupFateEnemy
+敵対する対象を設定\optD[元に戻す,邪悪,正義,動物<r=HiddenOPT0>,ゴブリン<r=HiddenOPT1>,深きものども<r=HiddenOPT2>,忌まわしきものども<r=HiddenOPT3>,アンデッド<r=HiddenOPT4>]
+
+####################################################################################################################################################
+
+CompHumanSpear/CompData
+\board[ヤク中の傭兵]
+\C[2]役割：\C[0]前衛
+\C[2]戦闘スタイル：\C[0]戦士
+\C[2]陣営：\C[0]中立
+\C[2]敵対：\C[0]魔物､犯罪者
+\C[2]条件：\C[0]白竜草1束\i[203]
+\C[2]期限：\C[0]3日
+薬草中毒の傭兵｡
+
+CompHumanSpear/begin
+\CBid[-1,6]\c[4]ヤク中：\c[0]    お前白竜草持っているのか？頼むから！ 少し分けてくれ！
+
+CompHumanSpear/Comp_disband
+\CBid[-1,6]\c[4]ヤク中：\c[0]    もっとだ！ 少しでいいから！
+
+CompHumanSpear/Comp_win
+\CBid[-1,6]\c[4]ヤク中：\c[0]    くれ！ 早くくれ！
+
+CompHumanSpear/Comp_failed
+\CBid[-1,6]\c[4]ヤク中：\c[0]    いやあああああ！！
+
+CompHumanSpear/OvermapPop0
+白竜草？
+
+CompHumanSpear/OvermapPop1
+フフフ...
+
+CompHumanSpear/OvermapPop2
+へへへ...
+
+CompHumanSpear/OvermapPop3
+白竜草か？
+
+####################################################################################################################################################
+
+CompElfArcher/CompData
+\board[エルフの弓使い]
+\C[2]役割：\C[0]後衛
+\C[2]戦闘スタイル：\C[0]射撃､曲射
+\C[2]陣営：\C[0]中立
+\C[2]敵対：\C[0]魔物､犯罪者
+\C[2]条件：\C[0]600P
+\C[2]期限：\C[0]3日
+\C[2]備考：\C[0]マップの危険度ダウン
+この島に留まったエルフの弓使い｡
+
+CompElfArcher/begin
+\CBid[-1,20]\c[4]弓使い：\c[0]    人間の世界は面白いだと思ったけど､大間違いだわ！
+\CBid[-1,20]\c[4]弓使い：\c[0]    そう！エルフはウンコなんてしないわ！
+\CBid[-1,20]\c[4]弓使い：\c[0]    もううんざりだわ！お金貯めて家に帰る！
+
+CompElfArcher/Comp_disband
+\CBid[-1,20]\c[4]弓使い：\c[0]    楽しかったわ｡
+
+CompElfArcher/Comp_win
+\CBid[-1,20]\c[4]弓使い：\c[0]    冒険の時間かしら？
+
+CompElfArcher/Comp_failed
+\CBid[-1,5]\c[4]弓使い：\c[0]    やっぱりそうなると思った！ 人間なんて嘘つきばっかり！
+
+CompElfArcher/Comp_failed_slave
+\CBid[-1,5]\c[4]弓使い：\c[0]    奴隷？ 汚い！
+
+CompElfArcher/OvermapPop0
+なんでいい男はみんな鈍感なのかしら？
+
+CompElfArcher/OvermapPop1
+太ってるんじゃなくって筋肉
+
+CompElfArcher/OvermapPop2
+人間は臭い！
+
+CompElfArcher/OvermapPop3
+そう！あたしたちはウンコしない！
+
+####################################################################################################################################################
+
+CompHumanScout/CompData
+\board[ガイド]
+\C[2]役割：\C[0]前衛
+\C[2]戦闘スタイル：\C[0]接近戦､照明
+\C[2]陣営：\C[0]中立
+\C[2]敵対：\C[0]魔物､犯罪者
+\C[2]条件：\C[0]600P
+\C[2]期限：\C[0]3日
+退役軍人､今はガイドをやっている｡
+
+CompHumanScout/begin
+\CBid[-1,20]\c[4]ガイド：\c[0]    俺の家族はまだノエルにいる｡ほら､これはあの子たちの絵だ｡
+\CBid[-1,20]\c[4]ガイド：\c[0]    金を稼いでいるんだが､何か行きたい場所があるか？
+
+CompHumanScout/Comp_disband
+\CBid[-1,20]\c[4]ガイド：\c[0]    よし､俺も久しぶりに実家に帰るとしよう｡
+
+CompHumanScout/Comp_win
+\CBid[-1,20]\c[4]ガイド：\c[0]    よし､行こうか｡
+
+CompHumanScout/Comp_failed
+\CBid[-1,5]\c[4]ガイド：\c[0]    興味ない｡
+
+CompHumanScout/Comp_failed_slave
+\CBid[-1,5]\c[4]ガイド：\c[0]    飼い主の所に戻れ､奴隸｡
+
+CompHumanScout/OvermapPop0
+息子はお前と同じくらいの歳だ
+
+CompHumanScout/OvermapPop1
+半魚人の島に行ったことあるか？
+
+CompHumanScout/OvermapPop2
+北岸は綺麗だった
+
+CompHumanScout/OvermapPop3
+ほら見てくれ､息子の絵だ
+
+####################################################################################################################################################
+
+CompFishGuard/CompData
+\board[用心棒]
+\C[2]役割：\C[0]前衛
+\C[2]戦闘スタイル：\C[0]接近戦､拘束
+\C[2]陣営：\C[0]半魚人
+\C[2]敵対：\C[0]魔物､犯罪者､使徒教会
+\C[2]条件：\C[0]特性（堕落／娼婦）
+\C[2]期限：\C[0]3日
+半魚人族の戦士､独身､交尾希望｡
+
+CompFishGuard/begin
+\CBid[-1,4]\SndLib[FishkindLgSpot]\c[4]用心棒：\c[0]    オンナ ノ ニオイ...！オンナ､ワガハイ ガ マモル！
+
+CompFishGuard/sex0
+\CBid[-1,4]\SndLib[FishkindLgSpot]\c[4]用心棒：\c[0]    ワガハイ...オマエ ヲ マモル...！ オマエ...ワガハイ ト コウビ スル！
+
+CompFishGuard/sex1
+\CBid[-1,4]\SndLib[FishkindLgSpot]\c[4]用心棒：\c[0]    ゲヘヘ♥ イイ オンナ♥♥♥
+
+CompFishGuard/Comp_disband
+\CBid[-1,6]\SndLib[FishkindLgSpot]\c[4]用心棒：\c[0]    ワガハイ... マタ コウビ シタイ...！
+
+CompFishGuard/Comp_win
+\CBid[-1,4]\SndLib[FishkindLgSpot]\c[4]用心棒：\c[0]    オマエ…マンコ... イイ...♥
+
+CompFishGuard/Comp_failed
+\CBid[-1,5]SndLib[FishkindLgSpot]\c[4]用心棒：\c[0]    オマエ…マンコ... クサイ！
+
+CompFishGuard/Comp_failed_slave
+\CBid[-1,5]SndLib[FishkindLgSpot]\c[4]用心棒：\c[0]    ドレイ... ムラ ニ カエレ... コ ヲ ウメ..
+
+CompFishGuard/OvermapPop0
+マタ...コウビ シタイ
+
+CompFishGuard/OvermapPop1
+オマエ...サカナ...タクサン..ウム
+
+CompFishGuard/OvermapPop2
+マンコ...タネヅケ
+
+CompFishGuard/OvermapPop3
+オンナ... コ ヲ ウメ
+
+####################################################################################################################################################
+
+CompFishShaman/CompData
+\board[新米シャーマン]
+\C[2]役割：\C[0]後衛
+\C[2]戦闘スタイル：\C[0]射撃､魔法
+\C[2]陣営：\C[0]半魚人
+\C[2]敵対：\C[0]魔物､犯罪者､使徒教会
+\C[2]条件：\C[0]特性（堕落／娼婦）
+\C[2]期限：\C[0]3日
+新米シャーマン､父の言い付けで外の世界を見習っている｡
+
+CompFishShaman/begin
+\CBid[-1,4]\SndLib[FishkindSmSpot]\c[4]シャーマン：\c[0]    褐色っ娘...かわいい...ペロペロ...♥ お前に海の女神さまの祝福を♥
+
+CompFishShaman/sex0
+\CBid[-1,4]\SndLib[FishkindSmSpot]\c[4]シャーマン：\c[0]    ケロ♥ 吾輩と交尾！ 吾輩の子種！海の女神の加護がある！
+
+CompFishShaman/sex1
+\CBid[-1,4]\SndLib[FishkindSmSpot]\c[4]シャーマン：\c[0]    ケ♥ケロ♥ 吾輩の子種で孕ませる♥
+
+CompFishShaman/Comp_disband
+\CBid[-1,6]\SndLib[FishkindSmSpot]\c[4]シャーマン：\c[0]    待て...褐色っ娘...好き♥
+
+CompFishShaman/Comp_win
+\CBid[-1,4]\SndLib[FishkindSmSpot]\c[4]シャーマン：\c[0]    海の女神に感謝を...！ 吾輩...童貞卒業...！
+
+CompFishShaman/Comp_failed
+\CBid[-1,5]\SndLib[FishkindSmSpot]\c[4]シャーマン：\c[0]    海の女神を讃えよ...！ ブサイクな女！
+
+CompFishShaman/Comp_failed_slave
+\CBid[-1,5]\SndLib[FishkindSmSpot]\c[4]シャーマン：\c[0]    奴隷...村に帰れ...！
+
+CompFishShaman/OvermapPop0
+女だ....!
+
+CompFishShaman/OvermapPop1
+女...吾輩の物！
+
+CompFishShaman/OvermapPop2
+褐色っ娘...ペロペロ...
+
+CompFishShaman/OvermapPop3
+海の女神の祝福が...ある...！
+
+################################## fishkind follower unique sex dialog.
+
+Lona/notWhore0
+\CBct[6]\m[flirty]\c[6]ロナ：\c[0]    えっと...ごめんなさい､やっばりいいです｡
+
+Lona/notWhore1
+\CBct[6]\m[sad]\c[6]ロナ：\c[0]    ごめんなさい...
+
+CompFish/Extension
+\narrはロナとの交尾を条件にして､期限を二日延長すると約束した｡
+
+####################################################################################################################################################
+
+CompFireMage/CompData
+\board[火の魔法使い]
+\C[2]役割：\C[0]後衛
+\C[2]戦闘スタイル：\C[0]射撃､魔法
+\C[2]陣営：\C[0]中立
+\C[2]敵対：\C[0]魔物､犯罪者
+\C[2]条件：\C[0]精力剤1個／白竜草2束\i[213]\i[203]
+\C[2]期限：\C[0]2.5日
+魔法の才能を持つ貧乏少女｡
+
+CompFireMage/begin
+\SETpl[FireMageF]\Lshake\CBid[-1,20]\c[4]火の魔法使い：\c[0]    うぅ...力尽きました｡
+
+CompFireMage/Comp_disband
+\SETpl[FireMageF]\Lshake\CBid[-1,20]\c[4]火の魔法使い：\c[0]    うぅ...どうして誰もパーティを組んでくれないのでしょう？
+
+CompFireMage/Comp_win
+\SETpl[FireMageF]\Lshake\CBid[-1,20]\c[4]火の魔法使い：\c[0]    本当ですか？！ ありがとうございます！
+
+CompFireMage/Comp_failed
+\SETpl[FireMageF]\Lshake\CBid[-1,20]\c[4]火の魔法使い：\c[0]    うぅ... 疲れました...
+
+CompFireMage/OvermapPop0
+焼ける匂いは最高ですね！
+
+CompFireMage/OvermapPop1
+炎より素晴らしいものはないです！
+
+CompFireMage/OvermapPop2
+この世界を焼き尽くしてもいいですか？ダメ？
+
+CompFireMage/OvermapPop3
+火をつけたい...
+
+CompFireMage/OvermapPop4
+もう我慢できません!
+
+####################################################################################################################################################
+
+CompHorseCarry/CompData
+\board[輓馬]
+\C[2]役割：\C[0]非戦闘
+\C[2]陣營：\C[0]動物
+\C[2]敵対：\C[0]無し
+馬のレンタル料は半日当たり#{$story_stats["HiddenOPT1"]}Pです｡
+輓馬は大容量の収納スペースを備えています｡
+パーティの解散や､輓馬を離脱させる､あるいは死亡する前に貨物を回収していない場合､
+その貨物は失われます｡

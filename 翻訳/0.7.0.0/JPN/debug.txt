@@ -1,0 +1,26 @@
+set/persona
+\SETpl[SeaWitch_normal]\m[normal] normal default sound vol=50 pitch=60 dest =4
+\SFXfile[DialogWisper0]\SFXset[60,190,2]\SETpl[BoboNormal]\SETpr[CecilyAngry]\PLF 60,190,2
+\SFXfile[DialogDed0]\SFXset[60,190,2]\SETpl[BoboNormal]\plf 60,190,2 DialogDed0
+\SFXfile[DialogDed0]\SFXset[60,190,2]\SETpl[BoboNormal]\PLF 60,190,2 DialogDed0
+\SFXfile[DialogWisper0]\SFXset[60,190,2]\SETpl[BoboNormal]\plf 60,190,2 DialogWisper0
+\SFXfile[DialogWisper0]\SFXset[60,190,2]\SETpl[BoboNormal]\Lshake 60,190,2 DialogWisper0
+\SFXfile[DialogDed0]\SFXset[60,10,2]\SETpl[BoboNormal]\Lshake 60,10,2 DialogDed0
+\SFXfile[DialogDed0]\SFXset[60,10,2]\SETpr[BoboNormal]\PRF 60,10,2 DialogDed0
+\SFXfile[DialogWisper0]\SFXset[60,10,2]\SETpr[BoboNormal]\prf 60,10,2 DialogWisper0
+\SFXfile[DialogWisper0]\SFXset[60,10,2]\SETpr[BoboNormal]\PRF 60,10,2 DialogWisper0
+\SFXfile[DialogWisper0]\SFXset[100,10,2]\SETpr[BoboNormal]\prf \{ 100 190 1 DialogWisper0
+\pswasdasd
+\phasdasd
+
+asd1/test
+\board[Slay Orkind monsters and collect 10 ears]
+\{ "ł", "ę", "ś", "ż"
+
+asd2/asd2
+\SndLib[FishkindSmSpot]\cg[map_FishPPL]\c[4]guard：\c[0]    ぐわぁ！
+\narr入り口には沢山の警備員がいた
+
+victim/Convoy_start2
+\board[Escort to the Town of Noer]
+Objective： Escort the refugees to the streets of Noer Town

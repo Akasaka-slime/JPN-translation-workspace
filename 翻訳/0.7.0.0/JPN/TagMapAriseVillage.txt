@@ -1,0 +1,248 @@
+thisMap/OvermapEnter
+開拓村アレイス\optB[やめる,入る]
+
+############################################################################### COMMON
+
+GateKeeper/NormalBegin0
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\c[4]村人：\c[0]    止まれ！ お前は誰だ！
+\CBct[6]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    えっと....わたしは....
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\prf\c[4]村人：\c[0]    お前は魚どもの件を解決しに来た傭兵か？
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\prf\c[4]村人：\c[0]    ならいい､入れ｡
+\CBct[8]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    .....
+
+GateKeeper/Enter0
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\c[4]村人：\c[0]    ここは\c[6]開拓村アレイス\c[0]だ｡
+\CBid[-1,5]\SETpl[AnonMale1]\Lshake\c[4]村人：\c[0]    俺達は乞食や魚共の嫌がらせにはほとほとウンザリしていてな｡
+
+GateKeeper/AggroAlert
+\SETpl[AnonMale1]\Lshake\c[4]村人：\c[0]    侵入者だ！
+
+GateKeeper/TooWeakBegin0
+\CBid[-1,5]\SETpl[AnonMale1]\c[4]村人：\c[0]    出てけ！シバリスの物乞いはここじゃ歓迎してないぞ！
+\CBct[8]\m[sad]\plf\PRF\c[6]ロナ：\c[0]    ごめんなさい...
+\narr洛娜看起來太弱了。
+
+Archer0/0
+\CBid[-1,20]\c[4]村人：\c[0]    一番厄介な魚は何だと思う？
+\CBid[-1,20]\c[4]村人：\c[0]    イヤ間違えた､一番の厄介者はシバリスの難民だった｡
+\CBid[-1,20]\c[4]村人：\c[0]    帝都のクソどもは信用できんからな！
+
+Archer0/1
+\CBid[-1,20]\c[4]村人：\c[0]    頭の単純な魔物は問題じゃないが､それを操る半魚人が問題なんだ！
+
+Archer0/2
+\CBid[-1,20]\c[4]村人：\c[0]    あの日以来ここは魚の匂いがしてしょうがねぇ｡
+
+CommomerM0/Rng0
+\CBid[-1,20]\c[4]村人：\c[0]    沼地の魔物は半魚人が連れてきたに違いない､奴らは同類だからな｡
+\CBid[-1,20]\c[4]村人：\c[0]    じゃなきゃ奴らが半魚人に襲われない理由が分からんだろ？
+
+CommomerM0/Rng1
+\CBid[-1,20]\c[4]村人：\c[0]    シバリス？ あそこはもう終わっただろ？
+
+CommomerM0/Rng2
+\CBid[-1,20]\c[4]村人：\c[0]    いくつかの村が被災したと聞いたぜ｡
+\CBid[-1,20]\c[4]村人：\c[0]    その村は外からの物乞いを受け入れたせいで､すぐに自分たちも物乞いになったってな｡
+
+CommomerM1/Rng0
+\CBid[-1,20]\c[4]村人：\c[0]    お前は誰だ？ 見たことない顔だな｡
+
+CommomerM1/Rng1
+\CBid[-1,20]\c[4]村人：\c[0]    何をしに来た？ 部外者はここじゃ歓迎されんぞ｡
+
+CommomerM1/Rng2
+\CBid[-1,20]\c[4]村人：\c[0]    貧乳は興味ない！
+
+CommomerF/Rng0
+\CBid[-1,20]\c[4]村人：\c[0]    近所の友達の兄の妹が半魚人が夜に子供を盗むって言ってたな｡
+
+CommomerF/Rng1
+\CBid[-1,20]\c[4]村人：\c[0]    兄の父の姉の姉が外のヤツは信用できないと言っていた｡
+
+CommomerKid/Rng0
+\CBid[-1,20]\c[4]村人：\c[0]    俺は処刑されるのを見るのが好きだぜ､あいつらがもがく姿は超面白いからな｡
+
+CommomerKid/Rng1
+\CBid[-1,20]\c[4]村人：\c[0]    最近ずっと魚ばっか食ってるから､いい加減飽きてきたよ｡
+
+CommomerKid/Rng2
+\CBid[-1,20]\c[4]村人：\c[0]    お前と話したくない､大人が部外者を信用するなって言ってるからな！
+
+Ded/Nap
+\SndLib[sound_gore]\SndLib[sound_combat_hit_gore]\c[4]村人：\c[0]    このガキはトラブルを起こしに来たんだ！殺せ！
+
+###############################################################################   AriseVillage 0to1_0
+
+AriseVillage/0to1_0
+\ph\c[4]村人：\c[0]    オラ立て！ この野郎！
+
+AriseVillage/0to1_1
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,6]\c[4]半魚人：\c[0]    オレ... デキナイ... コキュウ...
+\CBmp[GuardL,5]\c[4]村人：\c[0]    言え！ 偽りの神を信じる半魚人がここで何をしている！
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,6]\c[4]半魚人：\c[0]    ナンニモ... シテナイ...
+\CBmp[GuardR,5]\c[4]村人：\c[0]    とぼけるな！
+
+AriseVillage/0to1_2
+\CBmp[GuardR,20]\c[4]村人：\c[0]    お前の連れを見てみろ､あの隣はお前のためにあるんだぞ｡
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,6]\c[4]半魚人：\c[0]    イヤダ...コロサナイデ... シニタクナイ....
+
+AriseVillage/0to1_3
+\CBmp[GuardR,20]\c[4]村人：\c[0]    他の臭え魚はどこにいやがる！
+\CBmp[GuardR,20]\c[4]村人：\c[0]    言え！  言わなきゃ殺すぞ！
+
+AriseVillage/0to1_Rng0
+\CBid[-1,20]\c[4]村人：\c[0]    偽りの神を信じる半魚人共が！ こいつらは邪悪な虚言者だ！
+
+AriseVillage/0to1_Rng1
+\CBid[-1,20]\c[4]村人：\c[0]    全部この忌々しい半魚人の仕業だ！
+
+AriseVillage/0to1_Fishman0
+\CBct[2]\m[flirty]\PRF\c[6]ロナ：\c[0]    どうしたの？
+
+AriseVillage/0to1_Fishman0_0
+\SndLib[FishkindSmSpot]\CBid[-1,6]\prf\c[4]半魚人：\c[0]    ワタシハ...チョウサニ...キタンダ....
+\SndLib[FishkindSmSpot]\CBid[-1,6]\prf\c[4]半魚人：\c[0]    ソセン...ノ...ボウソウヲ...
+\SndLib[FishkindSmSpot]\CBid[-1,6]\prf\c[4]半魚人：\c[0]    ニンゲンハ...ワレワレヲ コウゲキスル...
+\CBct[2]\m[confused]\PRF\c[6]ロナ：\c[0]    えっと....祖先の暴走？
+
+AriseVillage/0to1_Fishman0_1
+\SndLib[FishkindSmSpot]\CBid[-1,6]\prf\c[4]半魚人：\c[0]    ワタシヲ...タスケテクレ...ワタシハ ムジツダ....
+\SndLib[FishkindSmSpot]\CBid[-1,6]\prf\c[4]半魚人：\c[0]    ワタシハ イキネバナラナイ キタノ...キャンプニ イクタメニ...
+\SndLib[FishkindSmSpot]\CBid[-1,6]\prf\c[4]半魚人：\c[0]    カネ モ ヤル... ワタシハ カネヲ モッテル....
+
+AriseVillage/0to1_Fishman0_brd
+\CamCT\board[困っている半魚人を助ける]
+目標：北のキャンプ
+報酬：大銅幣4枚
+依頼主：開拓村アレスの半魚人
+期限：5日
+開拓村の人はこの無実の半魚人を殺そうとしているが､彼は本当に無実なのだろうか？
+こんな醜い半魚人なら無実のはずがないって？！
+
+AriseVillage/0to1_Fishman1_opt
+\CBmp[GuardTop,5]\SETpl[AnonMale1]\Lshake\c[4]村人：\c[0]    外来種？！ お前はアイツの仲間か？
+\CBct[6]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    えぇ？！ \optD[ちがう,えっと...,わたしは傭兵です<r=HiddenOPT0>]
+
+AriseVillage/0to1_Fishman1_opt_Cecily
+\CBfB[20]\SETpr[CecilyNormalAr]\plf\PRF\C[4]セシリー：\C[0]    オイ！
+\CBmp[GuardTop,1]\SETpl[AnonMale1]\Lshake\prf\c[4]村人：\c[0]    街から来た兵士か？！
+\CBfB[2]\SETpr[CecilyWtfAr]\plf\PRF\C[4]セシリー：\C[0]    この半魚人たちが何をしたっていうんだ？
+\CBmp[GuardTop,6]\SETpl[AnonMale1]\Lshake\prf\c[4]村人：\c[0]    いえ！申し訳ありません！人違いだったみたいです！
+\CBmp[GuardTop,6]\SETpl[AnonMale1]\Lshake\prf\c[4]村人：\c[0]    すぐに解放します｡
+\CBfB[5]\SETpr[CecilyAngryAr]\plf\PRF\C[4]セシリー：\C[0]    ペッ！
+
+AriseVillage/0to1_Fishman1_opt_No
+\CBct[6]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    ちがいます！ たまたま通りかかっただけです！
+\CBmp[GuardTop,5]\SETpl[AnonMale1]\Lshake\prf\c[4]村人：\c[0]    とっとと出ていけ！ 部外者は歓迎しない！
+\CBct[8]\m[tired]\plf\Rshake\c[6]ロナ：\c[0]    ごめんなさい..
+
+AriseVillage/0to1_Fishman1_opt_Yes
+\CBct[8]\m[flirty]\plf\Rshake\c[6]ロナ：\c[0]    えっと...わたし...
+\CBmp[GuardTop,5]\SETpl[AnonMale1]\Lshake\prf\c[4]村人：\c[0]    トラブルを起こしに来た外来種め！ 殺せ！
+\CBct[20]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    えぇ？！
+
+AriseVillage/0to1_Fishman1_opt_WIS
+\CBct[20]\m[serious]\plf\Rshake\c[6]ロナ：\c[0]    わたしはノエルから来た傭兵です，この邪悪な半魚人を連行するために来ました｡
+\CBmp[GuardTop,5]\SETpl[AnonMale1]\Lshake\prf\c[4]村人：\c[0]    それは本当か？ ならとっとと連れてってくれ､ここは部外者は歓迎しないからな｡
+\CBct[20]\m[serious]\plf\Rshake\c[6]ロナ：\c[0]    分かりました｡
+
+AriseVillage/0to1_Fishman2_joined
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]半魚人：\c[0]    ワレワレハ....スグニ コウドウ セネバ ...
+
+###############################################################################   church TODO
+
+Rho/begin0_weak
+\CBid[-1,20]\SETpl[AnonFemale]\c[4]女性：\c[0]    私は傭兵を探してるの､アンタには無理よ！
+
+Rho/begin0
+\CBid[-1,20]\SETpl[AnonFemale]\c[4]女性：\c[0]    あぁ！ やっと来た！ 使徒に導かれた傭兵が来てくれた！
+\CBct[8]\m[flirty]\plf\Rshake\c[6]ロナ：\c[0]    ふぇ？ 導かれた傭兵？
+
+Rho/begin1
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]女性：\c[0]    聞いて下さい､助けが必要なの｡
+\CBct[8]\m[confused]\plf\Rshake\c[6]ロナ：\c[0]    えぇと...何かあったんですか？
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]女性：\c[0]    天におわします使徒よ､こんなのあんまりです｡
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]女性：\c[0]    今､村の外は大混乱で男たちがそれに乗じて女を奪っていくの｡
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]女性：\c[0]    あの子らはまだ子供なのに！
+
+Rho/begin2_brd
+\CamCT\board[苦しむ少女を救え]
+目標：アレイス村の西側の家に幽閉された少女を救出する｡
+報酬：モラル4､2000P
+依頼主：主婦
+期限：無し
+ノエル島の混乱に乗じてアレイス村の男の人が女の人を誘拐している？なんと酷いことだろうか｡
+子供たちを助けなければ｡村の西側の小屋へ行き､幽閉された女の子を解放してこの家まで連れてきてあげよう｡
+
+Rho/begin3_yes
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]女性：\c[0]    どうかお願いします､若い傭兵さん､あの子を助けてあげて｡
+\CBct[20]\m[serious]\plf\Rshake\c[6]ロナ：\c[0]    はい，私が必ず助け出します！
+\CBid[-1,4]\SETpl[AnonFemale]\Lshake\prf\c[4]女性：\c[0]    よろしくお願いします！
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]女性：\c[0]    あの子は村の西のはずれにある倉庫に監禁されているはずよ｡
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]女性：\c[0]    気をつけてね､男たちは女に邪魔されるのを嫌ってるの､あなたのような外から来た人は特に｡
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]女性：\c[0]    お願いね...私はあの子に謝りたいの...
+\CBct[20]\m[pleased]\plf\Rshake\c[6]ロナ：\c[0]    まかせて！
+
+Rho/begin3_no
+\CBct[8]\m[flirty]\plf\PLF\c[6]ロナ：\c[0]    うーん...わたしには無理だと思います｡
+
+Rho/RG14_x
+\CBct[2]\m[flirty]\PLF\c[6]ロナ：\c[0]    動物の鳴き声？ サルかな？
+
+Rho/RG14_0
+\c[4]村人：\c[0]    キツキツだ，こりゃいいや！
+\c[4]村人：\c[0]    \{ウオオオオ！
+
+Rho/RG14_1
+\CBmp[ApeGuard1,5]\c[4]村人A：\c[0]    ああっ！ クソッ！ 死んじまった｡
+
+Rho/RG14_2
+\CBmp[ApeGuard2,20]\c[4]村人B：\c[0]    サイコーだな！ たまらねぇぜ！
+\CBmp[ApeGuard1,3]\c[4]村人A：\c[0]    思ってもみなかったけど､女よかこっちの方が断然良いな！
+\CBmp[ApeGuard1,4]\c[4]村人A：\c[0]    だがこの小せえ穴の締まりは､うちのババアよりよっぽどひでぇや！
+\CBmp[ApeGuard2,20]\c[4]村人B：\c[0]    \{あーヤバい！  イクぞ！
+
+Rho/RG14_3
+\CBct[8]\m[flirty]\PLF\c[6]ロナ：\c[0]    ええと...女の子って...サルのこと？
+\CBct[8]\m[confused]\PLF\c[6]ロナ：\c[0]    まさかね.....
+
+Rho/RG14_4
+\CBct[8]\m[flirty]\PLF\c[6]ロナ：\c[0]    うーん...見なかったことにすべきなのかな？
+\CBct[8]\m[confused]\PLF\c[6]ロナ：\c[0]    でも約束しちゃったし...
+
+Rho/Ape0_opt
+可哀そうな母猿の拘束を解いてあげる？\optB[やめる,解く]
+
+Rho/Ape1
+\CBct[3]\m[pleased]\PLF\c[6]ロナ：\c[0]    ほら､これで自由だよ！
+\CBmp[Ape1,20]\SndLib[MonkeyLost]....
+\CBct[3]\m[triumph]\PLF\c[6]ロナ：\c[0]    わたしと一緒に来て､安全なところまで連れてってあげる｡
+\CBmp[Ape1,20]\SndLib[MonkeyLost]....
+
+Rho/Ape2_brd
+\CamCT\board[苦しむサルを救え]
+目標：苦しむサルを東の家へ連れていく｡
+報酬：モラル4､2000P
+依頼主：主婦
+期限：無し
+
+Rho/QuestDone0
+\CBct[8]\m[confused]\PLF\c[6]ロナ：\c[0]    えぇと...その...それで...
+\CBct[8]\m[flirty]\PLF\c[6]ロナ：\c[0]    わたしはその...サル...じゃなかった...女の子を助けてきました｡
+
+Rho/QuestDone1
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]女性：\c[0]    あぁありがとう導かれし傭兵さん！ 使徒に賛美を！
+
+Rho/QuestDone2
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\prf\c[4]女性：\c[0]    可哀そうな子､苦しかったでしょう｡
+
+Rho/QuestDone3
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\c[4]女性：\c[0]    この子の傷を治したら､あなたの勇気ある行動を広めるわ｡
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\c[4]女性：\c[0]    本当にありがとう､使徒に導かれた傭兵さん｡
+\CBct[3]\m[pleased]\PLF\c[6]ロナ：\c[0]    やった！
+
+Rho/Rng0
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\c[4]女性：\c[0]    使徒よ...わたしたちの罪をお許しください｡
+
+Rho/Rng1
+\CBid[-1,20]\SETpl[AnonFemale]\Lshake\c[4]女性：\c[0]    わたしは罪を犯しました...どうかお許しください..

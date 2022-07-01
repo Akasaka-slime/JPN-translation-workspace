@@ -1,0 +1,37 @@
+ThisMap/OvermapEnter
+\m[confused]遠くから助けを求める声が聞こえる｡\optB[やめる,入る]
+
+enterMap/begin
+\CBct[2]\m[flirty]\PRF\c[6]ロナ：\c[0]    えっと....誰か近くにいるのかな？
+\CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    うーん\..\..\..\m[serious]気を付けた方がいいかも｡
+
+crying/begin1
+\c[6]難民：\c[0]    いやだ！ 助けて！ 誰か助けてくれ！
+
+crying/begin2
+\CBmp[Hum,6]\c[6]難民：\c[0]    やめろ！ 触るんじゃない！ 俺は男だ！
+
+crying/begin3
+\CBmp[Hum,6]\c[6]難民：\c[0]    頼む待ってくれ！ 俺の尻はまだ処女なんだ！
+
+crying/begin4
+\CBmp[Hum,20]\c[6]難民：\c[0]    \{アッー！！！
+
+crying/begin5
+\CBmp[Hum,6]\c[6]難民：\c[0]    死ぬゥ！ 後ろが裂けちまってる！！！
+
+crying/begin6
+\CBmp[Hum,2]\c[6]難民：\c[0]    もしかして... 俺の中に出すのか？！
+\CBmp[Hum,20]\c[6]難民：\c[0]    イヤだ！ 孕みとうない！ まだパパになりたくないよぉ！
+
+crying/begin7
+\CBmp[Hum,20]\c[6]難民：\c[0]    \{オラーーッ！！！
+\CBmp[Hum,20]\c[6]難民：\c[0]    ハハ！ 使徒の元へ行け魔物どもめ！
+
+enterMap/end0
+\CBct[2]\m[flirty]\PRF\c[6]ロナ：\c[0]    男が？孕む？....聞き間違えかな？
+\CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    となると､最初の声はもしかして\..\..\..
+\CBct[1]\m[shocked]\Rshake\c[6]ロナ：\c[0]    \{ゴブリン？！
+
+
+
