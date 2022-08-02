@@ -1,0 +1,293 @@
+thisMap/OvermapEnter
+\m[confused]雲中村\optB[やめる,入る]
+
+############################################################################################## COMMON ALL, ENEMY, RAPELOOP
+
+alert/Captured
+\SETpl[AnonMale1]\Lshake\prf\c[4]村人：\c[0]    まさかあんな所で転ぶとはな｡
+\SETpr[AnonMale2]\plf\Rshake\c[4]村人：\c[0]    せめて少しは抵抗したらどうなんだ？
+\m[tired]\plf\PRF\c[6]ロナ：\c[0]    うぅ....
+
+alert/CatchHer
+\SETpl[AnonMale1]\Lshake\c[4]村人：\c[0]    捕まえろ！
+\CBct[6]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    えっ？！ なに？！
+
+alert/CatchEnemy
+\narr 雲中村は敵対した！
+
+alert/ChestLoot
+\SETpl[AnonMale1]\Lshake\c[4]村人：\c[0]    この音は？！
+\SETpr[AnonMale2]\Rshake\c[4]村人：\c[0]    侵入者だ！
+\CBct[6]]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    え？！ なに？！
+
+##############################################################################################
+
+#to translator.  first line is "你" mean male  secone "妳" mean female
+BradgeGuard/Begin0
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\c[4]村人：\c[0]    お前は誰だ？！ ここで何をしている！！
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    えっと...ただの通りすがりですが？
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\prf\c[4]村人：\c[0]    お前は\..\..\..
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\prf\c[4]村人：\c[0]    待て! 長兄....いや....村長から聞いているぞ！
+\CBct[8]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    え？
+
+BradgeGuard/Already
+\CBmp[GateGuard,20]\SETpl[AnonMale1]\Lshake\c[4]村人：\c[0]    あぁ､お前か？
+\CBmp[GateGuard,8]\SETpl[AnonMale1]\Lshake\c[4]村人：\c[0]    \..\..\..
+\CBmp[GateGuard,20]\SETpl[AnonMale1]\Lshake\c[4]村人：\c[0]    よし､入っていいぞ｡
+
+BradgeGuard/Begin1
+\CBmp[GateGuard,8]\SETpl[AnonMale1]\Lshake\prf\c[4]村人：\c[0]    本当に残念だ...
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    うん？
+\CBmp[GateGuard,20]\SETpl[AnonMale1]\Lshake\prf\c[4]村人：\c[0]    いや､何でもない｡入っていいぞ｡
+\CBct[8]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    嗯...
+
+BradgeGuard/Begin2
+\CBct[20]\m[shocked]\Rshack\c[6]ロナ：\c[0]    何？！ 何をしてるの？
+\CBmp[GateGuard,20]\SETpl[AnonMale1]\Lshake\prf\c[4]村人：\c[0]    どうした？ 早く入らないのか？
+\CBct[8]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    わたしは...タダの通りすがりですよ？
+\CBmp[GateGuard,20]\SETpl[AnonMale1]\Lshake\prf\c[4]村人：\c[0]    細かいことはどうでもいい､早く入ってくれ｡ 私達は君の助けを必要としているんだ｡
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    おぉ...？
+
+BradgeGuard/Opened
+\CBmp[GateGuard,20]\SETpl[AnonMale1]\Lshake\prf\c[4]村人：\c[0]    助けに来てくれたんじゃないのか？ さぁ来てくれ？
+
+BradgeGuard/letLeave
+\CBct[6]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    えっと...そこを通してもらってもいいでしょうか？
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\prf\c[4]村人：\c[0]    何？ このまま帰らせる訳ないだろう？
+\CBct[2]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    長兄の許可でも？
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\prf\c[4]村人：\c[0]    大丈夫！ もう行っていいぞ｡
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    うーん...
+
+BradgeGuard/letLeaveLoop
+\CBid[-1,20]\SETpl[AnonMale1]\Lshake\c[4]村人：\c[0]    どうしてまだここにいるんだ？
+
+BradgeGuard/CecilyExtra
+\CBfF[8]\SETpr[GrayRatConfusedAr]\plf\Rshake\c[4]グレイラット：\c[0]    ......
+\CBfB[2]\SETpl[CecilyWtfAr]\Lshake\c[4]セシリー：\c[0]    どうした？
+\CBfF[8]\SETpr[GrayRatNormalAr]\plf\Rshake\c[4]グレイラット：\c[0]    お気をつけを､何か違和感を感じます...
+\CBfB[6]\SETpl[CecilyShyAr]\Lshake\c[4]セシリー：\c[0]    ....
+
+BradgeGuard/Anon0
+\CBid[-1,20]\c[4]村人：\c[0]    今この村の外は魔物ばかりだ､食われちまうかもしれないぞ？
+
+BradgeGuard/Anon1
+\CBid[-1,20]\c[4]村人：\c[0]    最近は獲物が減ってきたな....
+
+BradgeGuard/Anon2
+\CBid[-1,2]\c[4]村人：\c[0]    新入りか？ へへ...
+
+BradgeGuard/DoorGuard0
+\CBid[-1,5]\c[4]村人：\c[0]    おい！ こっちに来るな！
+
+BradgeGuard/DoorGuard1
+\CBid[-1,5]\c[4]村人：\c[0]    あっちに行け！ ここから出てけ！
+
+BradgeGuard/DoorGuard2
+\CBid[-1,5]\c[4]村人：\c[0]    おい！ ここで何してんだ！
+
+BradgeGuard/TreeBad0
+\CBid[-1,5]\c[4]村人：\c[0]    この家はよくもまぁ､こんなに食い物を隠してたもんだな｡
+
+BradgeGuard/TreeBad1
+\CBid[-1,5]\c[4]村人：\c[0]    クソ､アイツがあの家のガキを逃がして無けりゃなぁ｡
+
+BradgeGuard/TreeBad2
+\CBid[-1,5]\c[4]村人：\c[0]    俺が思うにあいつらは偽の神の奴隷に違いねぇ｡
+
+BradgeGuard/TreeSaint0
+\CBid[-1,8]\c[4]村人：\c[0]    食料を盗まれたんだ､仕方がなかったんだ｡
+
+BradgeGuard/TreeSaint1
+\CBid[-1,8]\c[4]村人：\c[0]    使徒は私達を許してくれるはずだ...
+
+###################################################################### boss talk
+
+Boss/aggro0
+\CBid[-1,1]\c[4]村長：\c[0]    そこのお前！ どこから入った？！
+\CBct[8]\m[flirty]\PRF\c[6]ロナ：\c[0]    えっと....
+
+Boss/aggro1
+\CBid[-1,20]\prf\c[4]村長：\c[0]    早く来い！ 侵入者だ！
+
+Boss/begin0
+\CBid[-1,3]\c[4]村長：\c[0]    あぁ､あんたが我々を助けてくれる傭兵か？
+\CBct[8]\m[flirty]\PRF\c[6]ロナ：\c[0]    ええっと...ほんとにただの通りすがりなんですけど...
+\CBid[-1,20]\prf\c[4]村長：\c[0]    大丈夫だ､問題ない｡
+
+Boss/beginOPT_KilltheKid
+彼を助ける
+
+Boss/beginOPT_TheKidSaid
+子供が言ってた
+
+Boss/beginOPT_TheKidDeadLie
+グリオが死んだと嘘をつく
+
+Boss/beginOPT_TheKidDead
+グリオは死んだ
+
+Boss/KillTheKid1_alreadyAccepted
+\CBid[-1,20]\prf\c[4]村長：\c[0]    何故まだここにいるんだ､早く出発したらどうだ？
+
+Boss/SMCloudVillage_KillTheKid0_1
+\CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    うーん...具体的に何をすればいいんですか？
+
+Boss/SMCloudVillage_KillTheKid0_2
+\CBid[-1,20]\CamMP[DedTree]\prf\c[4]村長：\c[0]    あのつるし上げられた二人が見えるか？
+\CBid[-1,20]\CamMP[DedTree]\prf\c[4]村長：\c[0]    あの家族は我らの食料を盗んだのだ｡
+
+Boss/SMCloudVillage_KillTheKid0_3
+\CBid[-1,20]\prf\c[4]村長：\c[0]    兄弟は二人を捕まえ､あのクソ夫婦を絞首刑にした｡
+\CBid[-1,20]\prf\c[4]村長：\c[0]    しかし残念なことに一部の日和ったバカが､一家のガキを逃がしてしまった｡
+\CBid[-1,20]\prf\c[4]村長：\c[0]    ガキの名前は\c[6]グリオ\c[0]､どうやらノエルの外に隠れているらしい｡
+\CBid[-1,20]\prf\c[4]村長：\c[0]    これ以上あのムシケラを捨ておくわけにはいかん｡
+\CBid[-1,20]\prf\c[4]村長：\c[0]    いいか､あのガキには死んでもらわないといけない｡奴を見つけて､殺してくれ｡
+
+Boss/SMCloudVillage_KillTheKid0_4_brd
+\board[ガキを殺す]
+目標：ノエルの街へ逃げたガキを殺す
+報酬：大銅貨4枚
+依頼主：雲中村の村長
+期限：一度切り
+我々の食料を盗んで逃げやがった！
+あの家族は我々の食料を盗んでいったのです｡
+兄弟たち､奴らを捕まえて吊し上げました｡
+しかし残念なことに､一人の軟弱者がガキを逃がしてしまったのです｡
+クソガキの名前は\c[6]グリオ\c[0]､ノエルの外に隠れているらしい｡
+いいか､あのガキには死んでもらわないといけない｡奴を見つけて､殺してくれ｡｡
+
+Boss/SMCloudVillage_KillTheKid1_A
+\CBct[2]\m[flirty]\PRF\c[6]ロナ：\c[0]    殺すの？ ただの子供を？
+\CBct[8]\m[confused]\prf\c[6]ロナ：\c[0]    えーっと....
+
+Boss/SMCloudVillage_KillTheKid1_yes
+\CBct[20]\m[flirty]\PRF\c[6]ロナ：\c[0]    分かりました｡報酬はお願いしますよ？
+\CBid[-1,20]\prf\c[4]村長：\c[0]    良かった､やはり街の傭兵は違うな｡
+\CBid[-1,20]\prf\c[4]村長：\c[0]    さぁ､行ってきてくれ｡
+
+Boss/SMCloudVillage_KillTheKid1_no
+\CBct[20]\m[flirty]\PRF\c[6]ロナ：\c[0]    忘れて下さい...
+
+Boss/SMCloudVillage_KillTheKid2_1
+\CBct[8]\m[flirty]\PRF\c[6]ロナ：\c[0]   えっと...始末してきましたよ､えっと\..\..\..\c[4]グリオ\c[0]って奴を｡
+\CBid[-1,20]\prf\c[4]村長：\c[0]    素晴らしい､最高だ｡流石は大都会の傭兵だ！
+\CBct[8]\m[confused]\..\..\..
+\CBid[-1,8]\prf\..\..\..
+\CBct[8]\m[flirty]\PRF\c[6]ロナ：\c[0]   それで...約束の報酬は？
+\CBid[-1,6]\prf\c[4]村長：\c[0]    はいはいはい！ 金ね！ ちゃんと払おう！しっかりね！
+\CBid[-1,20]\prf\c[4]村長：\c[0]    だがしかし...金は我が家の中に隠してあるんだ｡
+\CBid[-1,20]\prf\c[4]村長：\c[0]    そして今は緑色の魔物どもがいるもんでね､それを退治してくれ｡
+\CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    綠色\..\..\..
+\CBct[8]\m[shocked]\Rshake\c[6]ロナ：\c[0]    ゴブリン？！
+\CBid[-1,1]\prf\c[4]村長：\c[0]    ゴブリン\..\..\..？ あぁそうそう､ゴブリンだ｡
+
+Boss/TheKidSaid_play
+\CBct[8]\m[angry]\Rshake\c[6]ロナ：\c[0]    嘘つき！\c[4]グリオ\c[0]はあなたこそが強盜だって言ってた！
+\CBid[-1,8]\prf\..\..\..
+\CBct[8]\m[confused]\..\..\..
+
+Boss/SMCloudVillage_KillTheKid2_2
+\CBid[-1,20]\prf\c[4]村長：\c[0]    じゃ､頼んだよ｡
+\CBct[8]\m[flirty]\PRF\c[6]ロナ：\c[0]   えぇー...
+
+Boss/Talked0
+\CBid[-1,20]\c[4]村長：\c[0]    どうした､入っていいぞ｡
+
+Boss/Talked1
+\CBid[-1,20]\c[4]村長：\c[0]    村の未来はお前次第だ｡
+
+Boss/Talked2
+\CBid[-1,20]\c[4]村長：\c[0]    魔物の討伐を手伝ってくれれば､多額の報酬を払おう｡
+
+Boss/CatcheLona
+\CBmp[Boss,20]\c[4]村長：\c[0]    \{捕まえろ！
+\CBmp[Boss,20]\c[4]村長：\c[0]    \{そいつは我々の秘密を知っているぞ！
+\CBct[20]\m[shocked]\Rshake\c[6]ロナ：\c[0]    \{えぇ？！
+
+Boss/Trap1
+\CBct[2]\m[confused]\PRF\c[6]ロナ：\c[0]   えーっと...ゴブリンはどこだろう？
+
+Boss/Trap2
+\CBmp[Boss,20]\prf\c[4]村長：\c[0]    ヘヘヘ...
+\CBct[8]\m[flirty]\PRF\c[6]ロナ：\c[0]   それで...その...ゴブリンは？
+\CBmp[Boss,20]\prf\c[4]村長：\c[0]    ゴブリンなどいない､グリーンスキンなど我々の敵じゃないからな｡
+\CBmp[Boss,20]\prf\c[4]村長：\c[0]    我々は物資の為に殺しをするだけだ､特にお前みたいなマヌケをな！
+\CBmp[Boss,20]\prf\c[4]村長：\c[0]    我々の秘密を知った以上解放するわけにはいかんからなぁ｡
+\CBct[6]\m[shocked]\Rshake\c[6]ロナ：\c[0]   \{えぇ？！
+
+Boss/Trap_ATKboss_alive
+\CBmp[BossAtk,4]\prf\c[4]村長：\c[0]    長兄よ､コイツは垢ぬけてなくて､貧乳で､俺の好みにピッタリだ♥
+\CBmp[Boss,3]\prf\c[4]村長：\c[0]    次兄よ､気に入ったならヤッていいぞ♥
+
+Boss/Trap3
+\CBmp[Boss,20]\prf\c[4]村長：\c[0]    殺らないように気をつけろ！
+\CBmp[Boss,20]\prf\c[4]村長：\c[0]    あと2日くらいで奴隷相が来る､街じゃ奴隷が不足してるからな｡
+\CBmp[Boss,20]\prf\c[4]村長：\c[0]    わかったかお前ら！
+\CBct[5]\m[serious]\Rshake\c[6]ロナ：\c[0]   ...
+
+############################################################# rapeloop
+
+beginEvent/begin
+\CBmp[Raper1,20]\C[4]村人：\C[0]    買い手がつくまでは俺に付き合ってもらうぜ！
+\CBct[8]\m[sad]\plf\PRF\c[6]ロナ：\c[0]    私はどうなるの...
+\CBct[8]\m[fear]\plf\PRF\c[6]ロナ：\c[0]    奴隸....
+\CBct[20]\m[bereft]\plf\Rshake\c[6]ロナ：\c[0]    \{イヤ！ 奴隷になんてなりたくない！
+
+Common/PlaceFood0
+\C[4]村人：\C[0]    \{オラ！ ビッチが！ 咥えな！
+
+Common/WakeUpCall0
+\SndLib[sound_hit_whip]\{オイ！ いつまで寝てんだ！
+
+Common/WakeUpCall1
+\SndLib[sound_hit_whip]\{起きろ！ ビッチ！
+
+Common/WakeUpCall2
+\SndLib[sound_hit_whip]\{クソビッチ！ とっとと起きな！
+
+BossAtk/NightRngRape
+\CBmp[BossAtk,4]\C[4]次兄：\C[0]    へへ､長兄が好きなだけヤッていいって言ってたぜ｡
+\CBct[6]\m[tired]\PRF\c[6]ロナ：\c[0]    うう....
+\CBmp[BossAtk,20]\prf\C[4]次兄：\C[0]    \{脚を開きな！
+
+BossAtk/NightRng_revenge
+\CBmp[BossAtk,5]\C[4]次兄：\C[0]    長兄の仇を討ってやる！
+\CBct[6]\m[tired]\PRF\c[6]ロナ：\c[0]    うう....
+\CBmp[BossAtk,5]\C[4]次兄：\C[0]    くたばれ！
+
+Common/NapRape1
+\C[4]村人：\C[0]    ヘヘヘ｡
+
+Common/NapRape3_0
+\C[4]村人：\C[0]    丁度いい息抜きになるぜ｡
+
+Common/NapRape3_1
+\C[4]村人：\C[0]    横になって俺に犯されたらどうだ？
+
+Common/NapRape3_2
+\C[4]村人：\C[0]    とっととマンコ出しなビッチ！
+
+Common/NapRape_withSta_NoFight
+\C[4]村人：\C[0]    よしよしイイ子だ♥
+
+Common/NapRape_withSta_Fight
+\C[4]村人：\C[0]    \{ビッチ！ クソアマが！
+
+Common/NapRape
+\CBmp[Raper1,20]\C[4]村人：\C[0]    おい､まだ殺してないよな｡
+\CBmp[Raper2,20]\C[4]村人：\C[0]    あぁまだな､さてもう一発ヤッとくか｡
+\CBmp[Raper1,20]\C[4]村人：\C[0]    殺すなよ､ボスが買い手を見つけたようだ｡
+
+Common/NapTorture1
+\CBmp[Raper1,20]\C[4]村人：\C[0]    おいクソアマ､どこ行くつもりだ？
+\CBmp[Raper2,20]\C[4]村人：\C[0]    ぶっ飛ばせ！
+\CBmp[Raper1,20]\C[4]村人：\C[0]    \{オラ！ 目ェ覚ましな！
+
+Common/NapTorture2
+\CBct[2]\m[tired]\C[6]ロナ：\C[0]    ふぇ？
+\CBmp[Raper1,20]\prf\C[4]村人：\C[0]    ボクシングの腕試ししてみっかな！
+\CBct[6]\m[terror]\prf\C[6]ロナ：\C[0]    \{ヒイイイ！！！
+
+Common/NapTorture3
+\CBct[6]\m[pain]\Rshake\C[6]ロナ：\C[0]    やめて...おねがい....
+\CBmp[Raper2,20]\prf\C[4]村人：\C[0]    つまんねぇな､別の遊びするか｡
