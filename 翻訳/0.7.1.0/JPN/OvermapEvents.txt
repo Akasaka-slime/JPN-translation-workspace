@@ -1,0 +1,797 @@
+#--------------------------------------------------------------------------- MAIN
+
+Lona/Exit
+\m[confused]ここから出る？ \optB[用事が済んでいない,出る]
+
+Lona/OutOfSta
+\m[tired]\c[6]ロナ：\c[0]    うぅ､疲れた｡
+
+#--------------------------------------------------------------------------- WILD DANGER
+
+Lona/WildnessNapSpawn
+\cg[event_Eyes]あちこちから怪しい足音が聞こえてくる...
+\m[shocked]\cgoff\c[6]ロナ：\c[0]    誰？！
+
+Lona/WildnessNapRobber0
+\narr持ち物をすべて奪われた｡
+
+Lona/WildnessNapRobber1_normal
+\m[bereft]\c[6]ロナ：\c[0]    いや！返して！
+
+Lona/WildnessNapRobber1_tsun
+\m[angry]\c[6]ロナ：\c[0]    あなたたち..... わたしの物を返して！
+
+Lona/WildnessNapRobber1_slut
+\m[fear]\c[6]ロナ：\c[0]    いや！返して！
+
+Lona/WildnessNapRobber1_weak
+\m[sad]\c[6]ロナ：\c[0]    傷つけないで... 全部あげます... あなたたちの物ですから...
+
+Lona/WildnessNapRobber1_overfatigue
+\m[tired]\c[6]ロナ：\c[0]    .....
+
+Lona/WildnessNapRobber1_mouth_block
+\m[tired]\c[6]ロナ：\c[0]    うう.....
+
+#--------------------------------------------------------------------------- Capture by
+#---------------                                                NoerGuard
+
+Lona/CaptureByNoerGuard
+\SETpl[Mreg_guardsman]\Lshake\c[4]衛兵：\c[0]    大人しくしろ！
+\SETpr[Mreg_pikeman]\Rshake\c[4]衛兵：\c[0]    クソガキ！早く牢に入れ！
+\plf\PRF\m[fear]\c[6]ロナ：\c[0]    うう.....
+
+Lona/CaptureByNoerGuard_SlaveOwner
+\SETpl[Mreg_guardsman]\Lshake\c[4]衛兵：\c[0]    奴隷のくせに抵抗しやがって！
+\SETpr[Mreg_pikeman]\Rshake\c[4]衛兵：\c[0]    てめえの飼い主のところに戻れ！
+\plf\PRF\m[fear]\c[6]ロナ：\c[0]    うう.....
+
+#---------------                                                FishPPL
+
+Lona/CaptureByFishPPL_rape
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]衛兵：\c[0]    ヤラセロ！
+\SndLib[FishkindSmSpot]\SETpr[FrogCommon]\Rshake\c[4]衛兵：\c[0]    ハラメ！
+
+Lona/CaptureByFishPPL
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]衛兵：\c[0]    メス！ オンナダ！
+\SndLib[FishkindSmSpot]\SETpr[FrogCommon]\Rshake\c[4]衛兵：\c[0]    シンセンナ メス！！
+\plf\PRF\m[fear]\c[6]ロナ：\c[0]    うう.....
+
+Lona/CaptureByFishPPL_isSlave
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]衛兵：\c[0]    コイツ.... ニゲタ ドレイ！
+\SndLib[FishkindSmSpot]\SETpr[FrogCommon]\Rshake\c[4]衛兵：\c[0]    ワルイ ドレイ！
+
+Lona/CaptureByFishPPL_NotSlave
+\m[p5sta_damage]\plf\Rshake\c[6]ロナ：\c[0]    やだ！ 放して！
+\SndLib[FishkindSmSpot]\cg[event_SlaveBrand]\SETpl[FrogSpear]\plf\prf\C[4]衛兵：\C[0]    メス！ ダマレ！
+\SndLib[sound_AcidBurnLong]\m[p5health_damage]\plf\Rshake\c[6]ロナ：\c[0]    \{いやあああ！
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\plf\Rshake\c[6]ロナ：\c[0]    \{ああああ！
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\prf\C[4]衛兵：\C[0]    ツカマエタ... アタラシイ ドレイ！
+\SndLib[sound_AcidBurnLong]\m[p5crit_damage]\plf\Rshake\c[6]ロナ：\c[0]    \{ひいい！
+
+#---------------                                                Orkind
+
+Lona/CaptureByOrkind0
+\cg[event_captured]魔物たちはロナを孕み袋にするため､巣に連れ帰った｡
+
+Lona/CaptureByOrkind1_normal
+\m[terror]\c[6]ロナ：\c[0]    いや！放して！魔物の赤ちゃんなんて産みたくない！
+
+Lona/CaptureByOrkind1_tsun
+\m[wtf]\c[6]ロナ：\c[0]    クソッ！ クソ虫！ 放せ！ 触るな！
+\m[hurt]\c[6]ロナ：\c[0]    ああ！ やだ！！！
+
+Lona/CaptureByOrkind1_weak
+\m[sad]\c[6]ロナ：\c[0]    うぅ....誰か助けて｡
+
+Lona/CaptureByOrkind1_slut
+\m[bereft]\c[6]ロナ：\c[0]    やだ... どうしよう､流石に魔物の孕み袋はちょっと｡
+\m[hurt]\c[6]ロナ：\c[0]    アソコが壊れちゃう｡
+
+Lona/CaptureByOrkind1_overfatigue
+\m[tired]\c[6]ロナ：\c[0]    いや.....
+
+Lona/CaptureByOrkind1_mouth_block
+\m[pain]\c[6]ロナ：\c[0]    うぅ.....
+
+#=------------------------------------------------------
+
+Lona/CaptureByBandits0
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盗：\C[0]    クソガキ！言うことを聞け！
+
+Lona/CaptureByBandits1_typical
+\m[terror]\c[6]ロナ：\c[0]    やだ！どこに連れてくの！
+
+Lona/CaptureByBandits1_tsundere
+\m[wtf]\c[6]ロナ：\c[0]    放して！ わたしに触るな！
+
+Lona/CaptureByBandits1_gloomy
+\m[sad]\c[6]ロナ：\c[0]    うう.... 誰か助けて｡
+
+Lona/CaptureByBandits1_slut
+\m[bereft]\c[6]ロナ：\c[0]    やだ... どうしよう､売られちゃうのは流石に...
+
+#=------------------------------------------------------
+
+Lona/CaptureByGang0
+\SETpl[MobHumanCommoner]\Lshake\C[4]取り立て人：\C[0]    オウ！遅かれ早かれ返すことになるんやぞ！
+
+Lona/CaptureByGang1_typical
+\m[terror]\c[6]ロナ：\c[0]    ごめんなさい！もう少し時間をください！
+
+Lona/CaptureByGang1_tsundere
+\m[wtf]\c[6]ロナ：\c[0]    放して！ わたしに触れるな！
+
+Lona/CaptureByGang1_gloomy
+\m[sad]\c[6]ロナ：\c[0]    うう.... ごめんなさい...
+
+Lona/CaptureByGang1_slut
+\m[bereft]\c[6]ロナ：\c[0]    いや... 返さないつもりじゃなかったの！
+
+Lona/CaptureByGang2
+\SETpl[MobHumanCommoner]\Lshake\C[4]取り立て人：\C[0]    連れて行け！
+
+#--------------------------------------------------------------------------- Capture Arrived
+
+Lona/Capture_arrived_normal
+\m[bereft]\c[6]ロナ：\c[0]    誰か助けて！
+
+Lona/Capture_arrived_tsun
+\m[hurt]\c[6]ロナ：\c[0]    ウジ虫ィ！ わたしから離れろ！！！
+
+Lona/Capture_arrived_weak
+\m[pain]\c[6]ロナ：\c[0]    もう許して....
+
+Lona/Capture_arrived_slut
+\m[bereft]\c[6]ロナ：\c[0]    いや... このままじゃ死んじゃう｡
+
+Lona/Capture_arrived_overfatigue
+\m[tired]\c[6]ロナ：\c[0]    あ.....
+
+Lona/Capture_arrived_mouth_block
+\m[pain]\c[6]ロナ：\c[0]    う... う.....
+
+############################################### Z觸發之地形事件 ##############################
+############################################### Z觸發之地形事件 ##############################
+############################################### Z觸發之地形事件 ##############################
+
+World/Region1
+\cg[map_region_PlainField]平原
+
+World/Region2
+\cg[map_Shore]海岸
+
+World/Region3
+\cg[map_region_CreepMountain]汚染された山
+
+World/Region4
+\cg[map_region_deadforest]密林
+
+World/Region5
+\cg[map_region_deadforest]松林
+
+World/Region6
+\cg[map_region_deadforest]死せる森
+
+World/Region7
+\cg[map_region_mountain]山
+
+World/Region8
+\n\cg[map_region_Swamp]沼地
+
+World/Region9
+\cg[map_region_AbanbonedHouse]廃墟
+
+World/Region10
+\cg[map_region_slum]スラム
+
+World/Region11
+\cg[map_region_Road]道路
+
+World/Region12
+\cg[map_region_RoadNoerNob]ルーデシンド別荘
+
+World/Region13
+\cg[map_region_Swamp]沼地の小径
+
+World/Region14
+\cg[map_region_badland]汚染された荒野
+
+World/Region15
+\cg[map_region_Swamp]湿地
+
+World/Region16
+\cg[map_region_Creep]忌まわしき平野
+
+World/Region17
+\cg[map_region_AbomRoad]汚染された道路
+
+World/Region18
+\cg[map_region_AbomTown]汚染された都市
+
+World/Region19
+\cg[map_region_badland]砂漠化した土地
+
+World/Region20
+\cg[map_human_camp]難民キャンプ
+
+World/Region21
+\cg[map_region_NoerRoad]ノエル市街地
+
+World/Region22
+\cg[map_region_NoerRoad]ノエルの道路
+
+World/Region23
+\cg[map_region_Boulevard]大通り
+
+World/Region28
+\cg[map_region_Creep]忌まわしき平野
+
+############# FISH ISLE ONLY
+
+World/Region24
+\cg[map_region_Swamp]沼地の小径
+
+World/Region25
+\cg[map_region_Swamp]沼地
+
+World/Region26
+\cg[map_region_Swamp]湿地
+
+World/Region27
+\cg[map_Shore]海岸
+
+############################################### options ##############################
+
+World/Region_option_start
+どうする？
+
+World/Region_option_Cancel
+やめる
+
+World/Region_option_Relax
+休憩
+
+World/Region_option_Observe
+観察
+
+World/Region_option_RemoveTracks
+痕跡を消す
+
+World/Region_option_Enter
+入る
+
+World/Region_option_Kyaaah
+転ぶ
+
+World/Region_option_check_danger
+\SndLib[stepBush]ここはまずい､かなり危険な様子だ｡
+
+World/Region_option_check_unknow
+\SndLib[stepBush]ロナには何も見えなかった｡
+
+World/Region_option_check_peace
+\SndLib[stepBush]ここはおそらく安全だ｡
+
+World/Region_option_check_peaceful
+\SndLib[stepBush]ここは安全だ｡
+
+World/Region_option_erase_win0
+\SndLib[sound_equip_armor]ロナは多くの痕跡を消した｡
+
+World/Region_option_erase_win1
+\SndLib[sound_equip_armor]痕跡は少なくなってきている｡
+
+World/Region_option_WatchThemDead
+\cg[map_DeadPPL]ロナは彼らが一人ずつ死んでいくのを見た｡
+\narr\..\..\..
+
+World/Region_option_erase_failed0
+失敗した､ロナにとっては困難だ｡
+
+World/Region_option_erase_failed1
+失敗した､ロナの技術が不足している｡
+
+############################################### RAND事件 ##############################
+############################################### RAND事件 ##############################
+############################################### RAND事件 ##############################
+
+World/ThingHappen_begin
+\m[confused]\SND[SE/Cancel1.ogg]\narr前方に何かが現れた｡
+
+World/ThingVS_begin
+\m[confused]\SND[SE/Cancel1.ogg]\narr遠くから戦いの音が聞こえる...
+
+World/Ambush_begin
+\m[confused]\SND[SE/Cancel1.ogg]\narrロナは慎重に足を運ぶ､しかし......
+
+World/RerollEvent_begin
+\m[confused]\SND[SE/Cancel1.ogg]\narr何かを恐れているようだ､そして.....
+
+############################################### 主動性事件 ##############################
+############################################### 主動性事件 ##############################
+############################################### 主動性事件 ##############################
+############################################### 主動性事件 ##############################
+############################################### 主動性事件 ##############################
+############################################### 主動性事件 ##############################
+
+World/ThingHappen_who_unknow_HumanGuard
+\cg[map_guards]ノエルの街の兵士たちだ！
+
+World/ThingHappen_who_unknow_Vs_Refugee_Orkind
+\cg[map_VS]オークが難民の集団を追いかけている？！
+
+World/ThingHappen_who_unknow_PPLsos
+\m[confused]\cg[map_sos]何か助けが必要そうに見える｡
+
+World/ThingHappen_who_unknow_PPLsosHynger
+\cg[map_sos_hunger]助けを求めているようだ！
+
+World/ThingHappen_who_unknow_UnknowCamp
+\cg[map_human_camp]未知のキャンプだ｡
+
+World/ThingHappen_who_unknow_AbandonedCropses
+\cg[map_DeadPPL]死体の臭いがするが，もしかしたら何かあるかも？
+
+World/ThingHappen_who_unknow_AbandonedResources
+\cg[map_AbandonedResources]放置された物資のようだ､なにか良いものがあるかもしれない｡
+
+World/ThingHappen_who_bad_AbomManager
+\m[shocked]\cg[map_AbominationGroup]忌まわしきものどもが現れた！
+
+World/ThingHappen_who_bad_AbomSpider
+\m[shocked]\cg[map_AbominationSpider]クモの大群と巣だ！ ロナは囲まれていることに気づく！
+
+World/ThingHappen_who_bad_WolfGroup
+\cg[map_WolfGroup]オオカミの群れだ！
+
+World/ThingHappen_who_bad_OrkindCamp
+\cg[map_monster_camp]ゴブリンのキャンプだ！
+
+World/ThingHappen_who_bad_OrkindPlayGround
+\cg[map_OrcHappy]オークの遊び場だ！
+
+World/ThingHappen_who_bad_RougeWave
+\cg[map_RogueWaves]\m[shocked]\Rshake 狂犬の群れだ！ 巨大な波となってロナに押し寄せる！
+
+World/ThingHappen_who_bad_AbomBreedlingTrap
+\cg[map_TrapHole]\SndLib[BreedlingSpot]罠だ！ ロナは巨大な穴に囚われた！
+
+World/ThingHappen_who_bad_AbomBreedlingRaid
+\cg[map_AbomBreedlingRaid]\SndLib[BreedlingSpot]忌まわしきものどもだ！ 繁殖者の群れが向かってくる！
+
+World/ThingHappen_who_bad_FishkindGroup
+\cg[map_FishkindGroup]深きものどもだ！
+
+World/ThingHappen_who_bad_UndeadWalking
+\cg[map_undead_group]大量のアンデッドが現れた！
+
+World/ThingHappen_who_bad_BanditMobs
+\cg[map_bandits]野盗だ！人買いが現れた！
+
+World/ThingHappen_who_bad_FishPPL
+\cg[map_FishPPL]\SndLib[FishkindSmSpot]半魚人の警備隊だ！
+
+World/ThingHappen_who_bad_GangDebtCollet
+\cg[map_bandits]取り立て人だ！債権者が怒っているようだ！
+
+World/ThingHappen_who_bad_BanditsCiv
+\cg[map_bandits_farmer]暴徒？野盗？間違いなく好意的ではない！
+
+World/ThingHappen_who_good_Merchant
+\cg[map_merchant]行商人が現れた！
+
+World/ThingHappen_who_good_NoerMissionary
+\cg[map_missionary]宣教師！宣教師だ！
+\c[4]宣教師：\c[0]    終焉は近い！罪無き者は使徒の従者となるのだ！これは終焉の前の最後の機会だ！使徒を信じよ！
+
+World/ThingHappen_who_Good_NoerHomeless
+\cg[map_homeless]大量の難民が現れた！
+\c[4]難民：\c[0]    どうか... お恵みを....
+
+World/ThingHappen_who_Good_NoerHomeless_SneakFailed
+\narr難民に囲まれた｡
+\narrOFF\c[4]難民：\c[0]    お嬢さん... どうかお助けを....
+\m[confused]\c[6]ロナ：\c[0]    えっと.....
+
+World/ThingHappen_who_Bad_RoadHalp
+\cg[map_Halp]誰かが襲われているようだ！
+
+World/ThingHappen_who_Bad_RoadHalp_SneakFailed
+\narrロナに向かって駆け寄ってきた｡
+\narrOFF\c[4]難民：\c[0]    助けて！ お願いします！
+\m[shocked]\Rshake\c[6]ロナ：\c[0]    ふぇ？！ ちょっと待ってください！
+
+World/ThingHappen_who_good_RefugeeCamp
+\cg[map_human_camp]難民キャンプだ！
+
+World/ThingHappen_who_bad_FishPPL_SneakFailed
+\SndLib[FishkindSmSpot]\SETpl[FrogSpear]\Lshake\c[4]衛兵：\c[0]    メス！ ニゲタ メス！
+\SndLib[FishkindSmSpot]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    ひゃっ？！ ちょっと待ってください！
+
+################################################ 隱匿檢查 ##################################
+
+World/ThingHappen_SneakWin
+ロナに気づかなかったようだ｡
+
+World/ThingHappen_SneakFailed
+ロナは見つかった！
+
+World/ThingHappen_SneakTrueDeepone
+\narrロナの卑猥な体臭に惹きつけられ､追いかけてきた｡
+
+World/Check_NoEnemy_SneakWin
+\narr\..\..\..
+見たところ特に問題はない､ここはおそらく安全だ｡
+
+World/Check_Enemy_SneakWin
+\narr\..\..\..
+非常に不自然な印象を受ける､絶対に危険だ｡
+
+World/Check_SneakFailed
+\narr\..\..\..
+ロナの技術ではなにも見つけられなかった｡
+
+World/Check_Hide
+\narr\..\..\..\SndLib[sys_StepChangeMap]
+ロナは闇に溶け込み....\n相手はロナを見失った....
+
+################################################ ロナ的決定 ##################################
+
+Lona/Options
+どうする？
+
+Lona/Options_Escape
+逃げる
+
+Lona/Options_Observe
+観察
+
+Lona/Options_Talk
+対話
+
+Lona/Options_Approach
+近づく
+
+Lona/Options_Kyaaah
+転ぶ
+
+Lona/Options_Bomb
+爆破
+
+Lona/Options_Hide
+隠れる
+
+Lona/Options_Leave
+立ち去る
+
+Lona/Options_Intimidate
+威嚇
+
+Lona/Options_Bluff
+騙す
+
+Lona/Options_Cocona
+ともだち！
+
+Lona/Options_Struggle
+頑張る
+
+Lona/Options_GetHelp
+協力者
+
+##################################### Options_Struggle ##############################################
+Lona/Options_StruggleLoop
+\narr\m[p5defence]\Rshake\SndLib[sound_punch_hit]まだ足りない！ ロナはさらに努力しなければならない！
+
+Lona/Options_StruggleWin
+\narr\m[p5defence]\Rshake\SndLib[sound_punch_hit]出口だ！ あと一歩！
+
+#####################################逃跑##############################################
+
+Lona/Options_sneakpass_RunningWin
+\SND[SE/sneak_in.ogg]\narr\m[normal]ロナは逃げ､誰もついて来なかった｡
+
+Lona/Options_sneakpass_RunningFailed
+\SND[SE/sneak_in.ogg]\narr\m[shocked]ロナは逃げようとしたが､失敗した｡
+
+Lona/Options_sneakpass_SneakWin
+\SND[SE/sneak_in.ogg]\narr\m[normal]ロナは隠れ､発見されることはなかった｡
+
+Lona/Options_sneakpass_SneakFailed
+\SND[SE/sneak_in.ogg]\narr\m[shocked]ロナの足跡を辿って来た｡
+
+Lona/Options_sneakpass_JustLeave
+\SND[SE/sneak_in.ogg]\narr\m[normal]ロナは立ち去った｡
+
+Lona/Options_FollowerHelp
+\cg[map_FollowerHelp]\m[p5sta_damage]ロナのチームメイトが助けてくれた....
+
+####################################觀察##############################################
+####################################觀察##############################################
+####################################觀察##############################################
+
+World/ThingHappen_who_unknow_HumanGuard_ChkGood
+\m[confused]近くの駐屯地の兵士だ｡
+
+World/ThingHappen_who_unknow_PPLsos_ChkGood
+\m[confused]\cg[map_sos]本当に助けを必要としているように見える｡
+
+World/ThingHappen_who_unknow_UnknowCamp_ChkGood
+\m[confused]\cg[map_guards]敵意があるようには見えない｡
+
+#####################################################################
+World/ThingHappen_who_unknow_Guards_ChkBad
+\m[shocked]ロナは指名手配されている可能性があるので､関わるべきではない｡
+
+World/ThingHappen_who_unknow_Guards_ChkBad_SlaveOwner
+\m[shocked]ロナは逃亡奴隷なので､兵士に近づかないようにしなければならない｡
+
+World/ThingHappen_who_unknow_PPLsos_ChkBad
+\m[confused]\cg[map_bandits]あの人々は非常に怪しい....
+
+World/ThingHappen_who_unknow_UnknowCamp_ChkBad
+\m[confused]\cg[map_bandits_farmer]あの人々はとても善人には見えない｡
+
+World/ThingHappen_who_unknow_HumanGuard_WisCheckWin
+\m[flirty]ロナは言葉を濁し､兵士は自分が誤解していたと考えた｡
+
+World/ThingHappen_who_unknow_HumanGuard_WisCheckLose
+\m[shocked]\Rshake ロナは言葉を濁したが､兵士たちは全く納得していない｡
+
+#####################################################################
+World/ThingHappen_who_unknow_Guards_ChkUnknow
+\narr\m[confused]ロナは相手が何をしようとしているかわからなかった｡
+
+World/ThingHappen_who_unknow_PPLsos_ChkUnknow
+\narr\m[confused]ロナは相手の意図を確認できなかった｡
+
+World/ThingHappen_who_unknow_UnknowCamp_ChkUnknow
+\narr\m[confused]ロナはこのキャンプの状況がわからなかった｡
+
+World/ThingHappen_who_unknow_NoerMissionary_CheckWin
+\c[4]宣教師：\c[0]     罪無き者達よ！ 使徒のしもべとなれ！ 使徒の輝きが嘘と罪をすべて浄化するであろう！
+\m[confused]特に怪しい所はないね....
+
+World/ThingHappen_who_unknow_NoerHomeless_CheckWin
+\m[confused]臭いがひどいが､特に怪しい所はない｡
+
+World/ThingHappen_who_bad_AbomSpider_CheckWin
+\narr\..\..\..\..
+出口を見つけた｡
+ロナは逃げられた！
+
+############################################### 嘗試溝通 ##############################
+############################################### 嘗試溝通 ##############################
+############################################### 嘗試溝通 ##############################
+
+Lona/Options_Talk_begin
+\narr\..\..\..
+ロナは彼らと対話しようとしている｡
+
+Lona/Options_Intimidate_begin
+\narr\..\..\..
+ロナは威嚇を試した｡
+
+Lona/Options_Intimidate_begin2_typical
+\m[overkill]\Rshake\c[6]ロナ：\c[0]    わんわんわんわん！！！
+
+Lona/Options_Intimidate_begin2_tsundere
+\m[overkill]\Rshake\c[6]ロナ：\c[0]    邪魔するな！ 失せろ！
+
+Lona/Options_Intimidate_begin2_gloomy
+\m[bereft]\Rshake\c[6]ロナ：\c[0]    わたし... わたし怖くないもん！
+
+Lona/Options_Intimidate_begin2_slut
+\m[overkill]\Rshake\c[6]ロナ：\c[0]    消えなさい！じゃないとぶっ潰すわよ！
+
+##############################
+
+World/ThingHappen_who_unknow_HumanGuard_ComGood
+\m[normal]ここは安全ではないと､兵士たちはロナに早く立ち去るように促した｡
+
+World/ThingHappen_who_unknow_PPLsos_ComGood
+\m[sad]\cg[map_sos]ロナに自分たちの悲惨な話をし､助けを求めた｡
+
+World/ThingHappen_who_bad_AbomManager_ComGood
+\cgoff\m[flirty]爆発した！巨大な音が轟く！忌まわしきものどもは逃げ出した！
+
+World/ThingHappen_who_bad_WolfGroup_ComGood
+\m[flirty]ロナの手を嗅ぐと､興味を失った｡
+
+World/ThingHappen_who_bad_WolfGroup_VsComp_ComGood
+\m[flirty]ロナが一人ではないため､動物たちは怯えている｡
+
+World/ThingHappen_who_bad_WolfGroup_VsComp_ComNonWeak
+\m[irritated]\Rshake 動物たちはロナに手を出すべきでないと感じ､立ち去った｡
+
+World/ThingHappen_who_bad_OrkindCamp_ComGood
+\m[flirty]奴らはロナを仲間であると考えるほど愚かだった｡
+
+World/ThingHappen_who_bad_FishkindGroup_ComGood
+\m[flirty]なぜかは不明だが､奴らはロナへの興味を失った｡
+
+World/ThingHappen_who_bad_UndeadWalking_ComBad
+\m[shocked]\Rshakeアンデッドはロナの言葉を理解できないが､脳の味には興味があるようだ｡
+
+World/ThingHappen_who_bad_Bandits_ComGood
+\m[sad]\cg[map_sos]彼らは自分たちの窮状を語り､後悔をしている｡
+
+World/ThingHappen_who_bad_GangDebtCollet_ComGood
+\m[sad]\cg[map_sos]ロナはもっと時間をくれるよう頼んだ｡
+\m[sad]\cg[map_bandits]彼らは同意した｡
+
+World/ThingHappen_who_bad_BanditsCiv_ComGood
+\m[sad]\cg[map_sos_hunger]彼らは自分たちの窮状を語り､背後の飢えた家族の姿を見せた｡
+
+World/ThingHappen_who_good_Merchant_ComGood
+\m[flirty]\cg[map_merchant]商人は興味がないのか､怪訝そうな顔でロナを見ている｡
+
+World/ThingHappen_who_unknow_UnknowCamp_ComGood
+\m[normal]\cg[map_guards]ここは安全ではないと､兵士たちはロナに早く立ち去るよう促した｡
+
+World/ThingHappen_who_good_NoerMissionary_ComGood
+\c[4]宣教師：\c[0]    シバリスの末路は虚言と罪の末路と同義なり！罪無き者よ！使徒を信じよ！
+\c[4]宣教師：\c[0]    彼は再び人間として復活する！彼は全ての存在を救うために降臨するのだ！
+\m[confused]......
+
+World/ThingHappen_who_bad_FishPPL_NotSlave
+\narr\m[flirty]ロナは自分は奴隷ではないと言い､立ち去った｡
+
+World/ThingHappen_who_bad_FishPPL_ComGood
+\narr\SndLib[FishkindSmSpot]彼らは同族に気づいた､
+\narr\SndLib[FishkindSmSpot]ロナはその同族の女だと思われた｡
+\m[flirty]\c[6]ロナ：\c[0]    えっ.....
+
+World/ThingHappen_who_bad_FishPPL_BluffGood
+\narr\SndLib[FishkindSmSpot]彼らは自分の過ちに気付いた｡
+\narr\SndLib[FishkindSmSpot]ロナはオスだと思われた｡
+\narrOFF\m[flirty]\c[6]ロナ：\c[0]    えっ.....
+
+#####################################################################
+
+World/ThingHappen_who_unknow_HumanGuard_ComBad
+\narrロナは犯罪者だと思われている､
+\narrロナは囲まれた！
+
+World/ThingHappen_who_unknow_PPLsos_ComBad
+\cg[map_bandits_farmer]ロナに身ぐるみを置いていき､さらに体で奉仕するよう要求した｡
+\m[wtf]\c[6]ロナ：\c[0]    いや....来ないで！
+
+World/ThingHappen_who_unknow_PPLsos_ComLowMorality
+\cg[map_bandits_farmer]ロナを悪人だと思い､武器を手に取った｡
+
+World/ThingHappen_who_bad_AbomManger_ComBad
+\m[terror]\Rshake\narr囲まれた！ロナの体を使って繁殖するつもりのようだ！
+
+World/ThingHappen_who_bad_WolfGroup_ComBad
+\m[terror]\Rshake\narrロナを美味しそうに感じ､唸りながら取り囲んでくる！
+
+World/ThingHappen_who_bad_OrkindCamp_ComBad
+\c[6]ゴブリン：\c[0]    \cg[event_OrkindGonnaRape]アナ！ マンコ！
+\narr\m[fear]悪臭のする唾液を垂らしながら取り囲んでくる､
+\narrロナを肉便器にするつもりのようだ｡
+
+World/ThingHappen_who_bad_FishkindGroup_ComBad
+\c[6]深きもの：\c[0]    \cg[event_FishkindGonnaRape]グル！グハ！
+\narr\m[fear]生臭い体臭を漂わせながら取り囲んでくる､
+\narrロナを孕み袋にするつもりのようだ｡
+
+World/ThingHappen_who_bad_BanditMobs_ComBad
+\m[wtf]\cg[map_bandits]\c[6]ロナ：\c[0]    いや....来ないで！
+\narrロナの身ぐるみを剥ぐつもりだ｡
+
+World/ThingHappen_who_bad_GangDebtCollet_ComBad
+\m[wtf]\cg[map_bandits]\c[6]ロナ：\c[0]    ごめんなさい！わざとじゃないんです！
+\narr抵抗を諦めて債務としてすべてを提供することを要求した｡
+
+World/ThingHappen_who_bad_BanditsCiv_ComBad
+\cg[map_bandits_farmer]ロナに身ぐるみを置いていき､さらに体で奉仕するよう要求した｡
+\m[wtf]\c[6]ロナ：\c[0]    いや....来ないで！
+
+World/ThingHappen_who_good_Merchant_ComBad
+\m[flirty]\cg[map_merchant]商人は興味がないのか､怪訝そうな顔でロナを見ている｡
+
+World/ThingHappen_who_unknow_UnknowCamp_ComBad
+\m[wtf]\cg[map_bandits]\c[6]ロナ：\c[0]    いや....来ないで！
+\narrロナに身ぐるみを置いていき､さらに体で奉仕するよう要求した｡
+
+World/ThingHappen_who_bad_CommonMobs_ComBad1
+\m[normal]\cg[map_bandits_farmer]彼らは
+
+World/ThingHappen_who_bad_CommonMobs_ComBad2
+トレードポイントに相当する物資を置いていくよう要求し､それに応じなければロナを攻撃する｡
+
+World/ThingHappen_who_bad_CommonMobs_ComBad_win
+\narrロナの協力的な態度に非常に満足した｡
+\narr彼らは去った｡
+
+World/ThingHappen_who_bad_CommonMobs_ComBad_failed
+ロナの非協力的な態度に非常に不満を感じている｡
+\m[wtf]\cg[map_bandits]\c[6]ロナ：\c[0]    いや....来ないで！
+\narrロナに身ぐるみを置いていくよう要求した｡
+
+####################################滑了一跤##############################################
+
+Lona/OvermapSlip
+\m[shocked]\Rshake\c[6]ロナ：\c[0]    \{きゃあああ！！！
+\narr\m[hurt]\Rshakeロナは転び､その音は周辺の生物の注意を引いた｡
+
+Lona/OvermapSlipDrowning
+\SndLib[sound_Bubble]\m[p5health_damage]\Rshake\c[6]ロナ：\c[0]    \{ゴボボボボ！！
+\SndLib[sound_Bubble]\narr\m[p5health_damage]\Rshake ロナは溺れ､潮に流され見知らぬ場所へ...
+
+##################################### ノエル 大門衛兵 #############################################
+
+GateGuard/begin1
+\SETpl[Mreg_pikeman]\prf\cg[map_NoerGate]ノエルの城門\optB[やめる,通る,隠れて通る<r=HiddenOPT1>]
+
+GateGuard/enter_no_passport
+\prf\c[4]衛兵：\c[0]    上からの命令だ､身分証のない者は立ち入り禁止だ｡
+\m[confused]\plf\PRF\c[6]ロナ：\c[0]    はい.....
+
+GateGuard/enter_LowMorality
+\prf\PLF\c[4]衛兵：\c[0]    ん？ お前... 待て！
+\Lshake\c[4]衛兵：\c[0]    お前知ってるぞ！ \{捕まえろ！
+\m[shocked]\plf\PRF\Rshake\c[6]ロナ：\c[0]    しまった！
+
+GateGuard/enter_sneak
+\plf\prf\..\..\..
+
+GateGuard/enter_sneak_win
+\m[flirty]\PRF\c[6]ロナ：\c[0]    ふぅ... なんとか通れた....
+
+GateGuard/enter_sneak_failed
+\prf\PLF\c[4]衛兵：\c[0]    ん？ お前... 待て！
+\Lshake\c[4]衛兵：\c[0]    どこへ行くつもりだ！ \{捕まえろ！
+\m[shocked]\plf\PRF\Rshake\c[6]ロナ：\c[0]    しまった！
+
+NobleGateGuard/NapCapture
+\SETpl[Mreg_pikeman]\Lshake\prf\c[4]衛兵：\c[0]    この乞食どうやって忍び込んだんだ？
+\SETpr[Mreg_guardsman]\plf\Rshake\c[4]衛兵：\c[0]    捕まえろ！
+\m[shocked]\plf\PRF\Rshake\c[6]ロナ：\c[0]    なに！なんなの！？
+
+################################################################# 劇本專用區 #################################################################
+################################################################# 劇本專用區 #################################################################
+################################################################# 劇本專用區 #################################################################
+################################################################# 劇本專用區 #################################################################
+################################################################# 劇本專用區 #################################################################
+
+NoerTavern/FristTimeNotice0
+\ph\board[ワールドマップ]
+ワールドマップでの移動はターン制｡
+移動するたびに一定の体力を消費する｡
+昼夜が切り替わる度に自動で休憩する｡
+ただし体力が不足している場合は強制的にそのエリアに入って一夜を過ごすことになる｡
+\C[2]CTRL\C[0]   ターンスキップ（その場で時間経過､体力消費なし）
+\C[2]SHIFT\C[0] 高速移動（1マスごとの時間経過を抑える､体力を多く消費）
+
+NoerTavern/FristTimeNotice1
+\board[エリアマップ操作]
+\C[2]観察\C[0]：エリア内の環境の危険度を調べる｡
+\C[2]痕跡を消す\C[0]：危険度を減らす､サバイバル技術に依存｡
+\C[2]エリアに入る\C[0]：そのままの意味｡
+\C[2]転ぶ\C[0]：危険度を最大まで上げ､強制的にエリアに入る｡
+
+NoerTavern/FristTimeNotice2
+\board[イベント時の操作]
+\C[2]立ち去る\C[0]：そのままの意味｡
+\C[2]対象の観察\C[0]：追加イベントの誘発を試みる｡
+\C[2]対話\C[0]：追加イベントの誘発を試みる｡
+\C[2]エリアに入る\C[0]：そのままの意味｡
+\C[2]転ぶ\C[0]：危険度を最大まで上げ､強制的にエリアに入る｡
+
+NoerTavern/FristTimeNotice3
+\SND[SE/Book1]\bg[bg_TutorialWorldDifficulty]\C[2]ワールド危険度\C[0]： 日数が経過するにつれて増加し､それに比例して敵の数と強さも増加する｡
+\SND[SE/Book1]\bg[bg_TutorialTime]\C[2]時間\C[0]：100を超えると半日経過し､同時に休憩する｡
+\SND[SE/Book1]\bg[bg_TutorialCarrying]\C[2]重量\C[0]：0以下になると移動コストが増える､メニューでのアイテム整理を推奨｡
+
+NoerTavern/FristTimeNotice4
+\{ロケーション
+\bgoff\CamMP[NoerTavern]「燃える樽亭」
+ノエルで一番有名な酒場､同時に傭兵ギルドの事務所でもある｡
+食事､宿泊､依頼の受託ができる｡
+\CamMP[NoerDock]「ノエル港」\BonMP[NoerDock,19]
+今も難民を乗せてくれる船が出ているが､
+一般人には手が出ないほど高い｡
+\CamCTまずは酒場に行って魔物が出没したことをギルドに報告すること｡

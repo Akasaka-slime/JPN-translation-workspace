@@ -1,0 +1,108 @@
+
+Adam/NonFristTimeBegin
+\CBmp[Adam,2]\SETpl[Adam_normal]\Lshake\c[4]？？？：\c[0]    お前､俺とどっかで会った事あるか？
+\CBct[20]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    多分気のせいだと思いますけど...？
+
+Adam/0_Begin0
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\c[4]？？？：\c[0]    俺は隠密行動が得意なスカウトを探しているんだが､お前はどうだ？
+
+Adam/0_Begin2
+\CBct[8]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    わたし？\optB[いいえ,はい]
+
+Adam/1_Begin_yes
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    一応..ね？
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]？？？：\c[0]    でもお前... 普通のガキとあまり変わらないな｡
+\CBct[1]\m[serious]\plf\Rshake\c[6]ロナ：\c[0]    ガキじゃないです！
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]？？？：\c[0]    はぁ\..\..\.. そういえばお前､シバリス出身か？
+\CBct[2]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    はい､どうしてそれを？
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]？？？：\c[0]    知ってるか？ 島の軍隊はシバリス人を搾取することで維持されているんだ｡
+\CBct[2]\m[sad]\plf\PRF\c[6]ロナ：\c[0]    え... 嘘？
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]？？？：\c[0]    だからそれをなんとかするために助力が必要だ｡
+\CBmp[Adam,20]\SETpl[Adam_sad]\Lshake\prf\c[4]？？？：\c[0]    まずは自分の能力を証明しろ､軍営にいる\c[6]百卒長\c[0]の勲章を盗んでくれ！
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]？？？：\c[0]    タダ仕事じゃないぜ､報酬は銅貨一枚だ｡
+\CBct[8]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    えっと...
+
+Adam/1_Begin_done0
+\CBct[20]\m[pleased]\c[6]ロナ：\c[0]    持って来ましたよ！
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]？？？：\c[0]    よくやった､お前なら出来ると思ったぜ｡
+
+Adam/1_Begin_done1
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]？？？：\c[0]    二日後また来い､まだいい仕事があるからな！
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]？？？：\c[0]    受け取れ！
+
+Adam/1_Begin_done2
+\CBct[8]\m[triumph]\plf\PRF\c[6]ロナ：\c[0]    ありがとうございます！
+
+Adam/2_begin_1
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]？？？：\c[0]    よう！ お嬢ちゃん､また会ったな｡
+\CBct[2]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    えっと､どうも？
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]？？？：\c[0]    お前に頼みたいことがある｡
+\CBmp[Adam,8]\SETpl[Adam_normal]\Lshake\prf\c[4]？？？：\c[0]   \c[4]火縄銃\c[0]を知ってるかい？
+\CBct[8]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    いえ...
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]？？？：\c[0]    まあ､お前は戦士じゃないからしょうがないか､でも大砲なら知ってるんだろう？
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]？？？：\c[0]    簡単に言うと大砲を一人でも持てるサイズにしたやつだ､魔法で作動する武器だが使用者に魔法の知識が必要ない｡
+\CBct[2]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    なんかすごそうですね？
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]？？？：\c[0]    ああ､すごいんだぜ！
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]？？？：\c[0]    要塞の東にある兵器庫が最近火縄銃を手に入ったらしい､お前にはそれを数本盗んで欲しい｡
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]？？？：\c[0]    報酬は\..\..\.. とにかく損をしないさ！
+
+Adam/2_begin_board
+\board[火縄銃盗み]
+目標：火縄銃を盗む
+報酬：金貨2枚
+依頼主：？？？
+制限回数：一回
+兵器庫に行って火縄銃を盗もう｡
+
+Adam/2_begin_decide
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]？？？：\c[0]    返事は？\optB[まだ決まっていない,いいよ]
+
+Adam/2_begin_accept1
+\CBct[20]\m[triumph]\plf\Rshake\c[6]ロナ：\c[0]    大丈夫！ 任せてください！
+\CBmp[Adam,3]\SETpl[Adam_happy]\Lshake\prf\c[4]？？？：\c[0]    いい子だ！ これを持って行け！
+
+Adam/2_begin_accept2
+\CBct[1]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    えっ？！
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]？？？：\c[0]    この前お前が盗んだ勲章だ､これは通行許可証でもある.\c[4]警備司令部\c[0]に勤める証明になれるだろう｡
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]？？？：\c[0]    こいつを持って行け､でないと中に入れないぞ｡
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]？？？：\c[0]    \c[6]火縄銃\c[0]は木の槍みたいで､前端の部分はパイプのような外見をしている｡
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]？？？：\c[0]    あと､ギルドの依頼で十卒長の\c[4]カシラ\c[0]の手帳を転写して欲しいとあいつらに教えればいい｡
+\CBct[20]\m[triumph]\plf\PRF\c[6]ロナ：\c[0]    ありがとうございます！
+
+Adam/5_win1
+\CBct[3]\m[Adam_sad]\plf\PRF\c[6]ロナ：\c[0]    手に入りました！
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]？？？：\c[0]    まじか､見せてくれ！
+\CBct[3]\m[normal]\plf\PRF\c[6]ロナ：\c[0]    はい｡
+\CBmp[Adam,20]\SETpl[Adam_sad]\Lshake\prf\c[4]？？？：\c[0]    \..\...\..
+
+Adam/5_win2
+\CBmp[Adam,8]\SETpl[Adam_sad]\Lshake\prf\c[4]？？？：\c[0]    見たことのないタイプだな....
+\CBmp[Adam,8]\SETpl[Adam_sad]\Lshake\prf\c[4]？？？：\c[0]    ほう... さすがは\c[4]ミロ\c[0]､こんな物まで手に入ったのか｡
+\CBmp[Adam,8]\SETpl[Adam_sad]\Lshake\prf\c[4]？？？：\c[0]    エネルギーチャージも前のやつより早くなったのか？
+\CBmp[Adam,8]\SETpl[Adam_sad]\Lshake\prf\c[4]？？？：\c[0]    \..\..\.. 面白い.....
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]？？？：\c[0]    よし､確かにこれは例のブツだ､もう帰っていいぞ｡
+\CBct[8]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    \..\..\..
+\CBct[20]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    報酬は...？
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]？？？：\c[0]    金がないんだ､どうする？やる気か？
+\CBct[20]\m[tired]\plf\PRF\c[6]ロナ：\c[0]    うぅぅ... ごめんなさい...
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]？？？：\c[0]    おう？ 先に謝った？
+\CBmp[Adam,20]\SETpl[Adam_happy]\Lshake\prf\c[4]？？？：\c[0]    まあいい､ほれ｡
+\CBct[1]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    えっ？！
+
+Adam/5_win3
+\CBct[8]\m[shocked]\plf\PRF\c[6]ロナ：\c[0]    あ､ありがとうございます？
+\CBct[2]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    でもこれはただの木の棒なんですよ？
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]？？？：\c[0]    いえ！ これは銃だ！ 敵に向けてバンバンバンッしたら倒せるぞ！
+\CBct[2]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    はい？
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]？？？：\c[0]    こいつは貴重なんだぞ！ 百聞より一見だ､どこかの荒野で試してみればわかる｡
+
+Adam/else
+\CBmp[Adam,10]\SETpl[Adam_sad]\Lshake\prf\c[4]？？？：\c[0]    グォーー......
+\CBct[2]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    ん？
+\CBmp[Adam,10]\SETpl[Adam_sad]\Lshake\prf\c[4]？？？：\c[0]    グォーー......
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    寝てるんですか？
+
+
+Adam/ElseDialog
+\CBmp[Adam,20]\SETpl[Adam_normal]\Lshake\prf\c[4]？？？：\c[0]    見たか？ ルーデシンド家に支配されてちゃ俺達は前に進めない！
+\CBmp[Adam,20]\SETpl[Adam_angry]\Lshake\prf\c[4]？？？：\c[0]    ノエル島の実権を取り戻さねばな｡

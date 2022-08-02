@@ -1,0 +1,296 @@
+thisMap/OvermapEnter
+ディープワンのキャンプ\optB[やめる,入る]
+
+###############################################################################   Common dialog
+
+Commoner0/rng0
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]戦士：\c[0]    ニンゲンハ シンヨウ デキナイ....
+
+Commoner0/rng1
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]戦士：\c[0]    オマエ...オンナ...？
+
+Commoner0/rng2
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]戦士：\c[0]    ウセロ....
+
+###############################################################################   Comp Fish Dude Explorer
+
+ConvoyTar/begin0
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]ディープワン：\c[0]    イッタイ...ドウシタ...？
+
+ConvoyTar/begin1
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]ディープワン：\c[0]    アリガトウ....アリガトウ ウミノメガミ...
+
+ConvoyTar/begin2
+\SndLib[FishkindSmSpot]\CBid[-1,20]\c[4]ディープワン：\c[0]    イカネバ....キャンプヘ....
+
+ConvoyTar/About_opt
+\CBct[2]\m[flirty]\PRF\c[6]ロナ：\c[0]    あの...お聞きしたいんですけど...
+\SndLib[FishkindSmSpot]\CBid[-1,2]\prf\c[4]ディープワン：\c[0]    ナンノ...コトダ...？
+
+ConvoyTar/OPT_WhyFishHereAise
+アリス村
+
+ConvoyTar/OPT_OutControll
+祖先の暴走
+
+ConvoyTar/OPT_CaveExplore
+洞窟の探索
+
+ConvoyTar/OPT_OutControll0
+\CBct[2]\m[confused]\PRF\c[6]ロナ：\c[0]    祖先の暴走って？ どういう意味なんですか？
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]ディープワン：\c[0]    ワレラノ チョウロウ...ソセンタチ...カレラハ ミズノ ナカ カラ モドッテキタ...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]ディープワン：\c[0]    チョクゴ ジャアクノ...ハヘンガ...ワレワレヲ コウゲキ シテキタ...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]ディープワン：\c[0]    シャーマン サマハ...ワタシニ イライシタ...ゲンイン ノ チョウサ...
+\CBct[20]\m[flirty]\PRF\c[6]ロナ：\c[0]    うーん...よくわからないかな。
+
+ConvoyTar/WhyFishHereAise0
+\CBct[2]\m[confused]\PRF\c[6]ロナ：\c[0]    それであなたはなんで\c[4]アリス村\c[0]にいたの？半魚人の人は町に留まれないの？
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]ディープワン：\c[0]    ソレハ...シャーマンサマガ...ソセンヲ アヤツレナクナッタ....ゲンインヲ シラベニ...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]ディープワン：\c[0]    シマ カラ キタノダ...チョウサ スルタメ...シカシ ニンゲンハ ワレワレヲ コウゲキスル...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]ディープワン：\c[0]    ワタシノ キョウダイハ...シンダ...
+\CBct[20]\m[flirty]\PRF\c[6]ロナ：\c[0]    うーん...よくわからないかな。
+
+####################################################   探索洞窟
+
+ConvoyTar/TooWeak
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]ディープワン：\c[0]    オンナト...ハンショクスルニハ....
+\CBct[20]\m[tired]\PRF\c[6]洛娜：\c[0]    ........
+
+ConvoyTar/OPT_CaveExplore0
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]ディープワン：\c[0]    \c[6]允杯（ユンカップ）\c[0]ガ...デタ...！
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]ディープワン：\c[0]    サンカイトモ\c[6]聖筊\c[0]ダ.....
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]ディープワン：\c[0]    ウミノメガミヨ ワタシヲ イセキヘ ミチビイテクレ...ウチナル シンジツヲ シルタメニ...！
+\CBct[2]\m[flirty]\PRF\c[6]ロナ：\c[0]    えっと...\c[6]聖筊（シンポエ）\c[0]?
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]ディープワン：\c[0]    シンジツハ....イセキノナカニ...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]ディープワン：\c[0]    ムラノ シャーマンサマモ....カクニンシタ...！
+\CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    ハァ？
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]ディープワン：\c[0]    シカシ ソコハ....ニンゲンノ....リョウイキ....キケンスギル....
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]ディープワン：\c[0]    ザンネンナガラ...ワレラノドレイハニゲタ...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]ディープワン：\c[0]    アナタノ タスケガ ヒツヨウダ....ワタシト カコノ イセキヘ キテクレ...
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]ディープワン：\c[0]    シンジツヲ シルタメニ...！
+
+ConvoyTar/OPT_CaveExplore_BRD
+\CamCT\board[洞窟を探索する]
+目標：近くの洞窟
+報酬：大銅貨4枚
+依頼主：ディープワンのキャンプ
+期限：5日
+キャンプでディープワンの古代遺跡の探検を手伝う｡
+
+ConvoyTar/OPT_CaveExplore_N
+\CBct[8]\m[flirty]\PRF\c[6]ロナ：\c[0]    えっと...今はちょっとタイミングが悪くて｡
+\SndLib[FishkindSmSpot]\CBid[-1,6]\prf\c[4]ディープワン：\c[0]    ソウカ...
+
+ConvoyTar/OPT_CaveExplore_Y
+\CBct[8]\m[flirty]\PRF\c[6]ロナ：\c[0]    わかった､大丈夫だと思います｡
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]ディープワン：\c[0]    ウミノ メガミニ カンシャヲ！
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]ディープワン：\c[0]    ニンゲンノ オンナ...チュウイガヒツヨウダ....
+\SndLib[FishkindSmSpot]\CBid[-1,20]\prf\c[4]ディープワン：\c[0]    ショウキヲ ウシナッタ ソセンハ...コウハイヲ...カツボウシテイル....
+\CBct[2]\m[confused]\PRF\c[6]ロナ：\c[0]    哈？ 什？
+
+####################################################   探索洞窟2
+
+AriseVillageFish/2to3_0
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]ディープワン：\c[0]    アァ....ココデ...ジュモンヲ トナエナケレバ...
+\CBct[2]\m[confused]\PRF\c[6]ロナ：\c[0]    おぉ？
+
+AriseVillageFish/2to3_1
+\SndLib[FishkindSmSpot]\CBfE[8]\c[4]ディープワン：\c[0]    カグン カルオ カグン マ...
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]ディープワン：\c[0]    カグンマ...\{カグンマ...！
+
+AriseVillageFish/2to3_2
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]ディープワン：\c[0]    \{コウカクノ アシノ オキナヨ...！
+\CBct[2]\m[flirty]\PRF\c[6]ロナ：\c[0]    えっと？
+
+AriseVillageFish/2to3_3
+\CBct[20]\c[6]ロナ：\c[0]    \{ヒイイイ！？
+
+AriseVillageFish/2to3_4
+\CBct[5]\m[serious]\c[6]ロナ：\c[0]    \{なにをしてるの？！
+\CBfE[8]\prf\c[4]ディープワン：\c[0]    .....
+
+AriseVillageFish/2to3_5
+\SndLib[FishkindSmSpot]\CBfE[8]\c[4]ディープワン：\c[0]    オワッタ....
+
+AriseVillageFish/2to3_6
+\CBct[8]\m[flirty]\PRF\c[6]ロナ：\c[0]    \..\..\..
+\CBct[2]\m[confused]\PRF\c[6]ロナ：\c[0]    わかったけど､なんでわたしの胸に触るの？
+\SndLib[FishkindSmSpot]\prf\CBfE[20]\c[4]ディープワン：\c[0]    ニンゲンノ オンナヤ...ドレイノ チチハ....ウミノメガミニ ササゲラレタ....
+\SndLib[FishkindSmSpot]\prf\CBfE[20]\c[4]ディープワン：\c[0]    ウミノメガミハ...キョニュウノ ドレイヲ コノマナイ...
+\SndLib[FishkindSmSpot]\prf\CBfE[20]\c[4]ディープワン：\c[0]    ワレラハ コウウンダ...アナタハ センシデアリ...ナイチチ...
+\SndLib[FishkindSmSpot]\prf\CBfE[20]\c[4]ディープワン：\c[0]    ウミノメガミノ モンハ....アナタノ タメニ ヒラカレタ....
+\CBct[2]\m[flirty]\PRF\c[6]ロナ：\c[0]    は\..\..\..\CBct[6]\m[tired]\prf わたしのが小さい\..\..\..？
+
+####################################################   探索洞窟3 #update
+
+AriseVillageFish/3to4_0
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]ディープワン：\c[0]    ウミノメガミニ カンシャヲ...ヤハリ シャーマンハ タダシカッタ...！
+\CBct[8]\m[flirty]\PRF\c[6]ロナ：\c[0]    えっと...それってすごいことなの？
+
+AriseVillageFish/3to4_1
+\CBct[20]\m[shocked]\Rshake\c[6]ロナ：\c[0]    門が閉じた？！
+
+AriseVillageFish/3to4_2
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]ディープワン：\c[0]    オソレル コトハ ナイ...シャーマンハ イッタ...ホカニモ デグチガ アルト...
+\CBct[20]\m[flirty]\PRF\c[6]ロナ：\c[0]    そうなんですか？
+
+AriseVillageFish/4to5_0
+\SndLib[FishkindSmSpot]\CBfE[20]\c[4]ディープワン：\c[0]    ニンゲンノ センシヨ....コレヲ ミテクレ...
+
+AriseVillageFish/4to5_1
+\SndLib[FishkindSmSpot]\c[4]ディープワン：\c[0]    ナンネンモマエ...センソウノ サナカ...ジンルイハ ココヲ ハカイシタ...
+\SndLib[FishkindSmSpot]\c[4]ディープワン：\c[0]    ワレラノ シンデンヲ ハカイシ...ワレラノ ドレイヲ ウバッタ...
+\SndLib[FishkindSmSpot]\c[4]ディープワン：\c[0]    スベテ ウバワレタ...ニンゲンハ バケモノダ...
+\m[confused]\PRF\c[6]ロナ：\c[0]    えっと...ごめんなさい...？
+\prf\SndLib[FishkindSmSpot]\c[4]ディープワン：\c[0]    スギタコトダ...ワタシハ センシヲ ユルス...
+
+AriseVillageFish/4to5_2
+\BonMP[EXIT,19]\SndLib[FishkindSmSpot]\c[4]ディープワン：\c[0]    アレヲミロ...デグチダ...
+\m[flirty]\PRF\c[6]ロナ：\c[0]    おお？
+\BonMP[fishF1,19]\BonMP[fishF2,19]\prf\SndLib[FishkindSmSpot]\c[4]ディープワン：\c[0]    タダシ マワリニ\c[6]ジャアクノカケラ\c[0]ガ イル....
+\prf\SndLib[FishkindSmSpot]\c[4]ディープワン：\c[0]    ココヲ デル マエニ...ウミノメガミノ ゾウヲ ミツケナケレバナラナイ....
+\prf\SndLib[FishkindSmSpot]\c[4]ディープワン：\c[0]    デハヤツラヲ....\c[6]ジャアクノカケラ\c[0]ヲ タオシテクレ....
+
+AriseVillageFish/4to5_3
+\BonMP[Ca2,19]\SndLib[FishkindSmSpot]\c[4]ディープワン：\c[0]    オソラク...ワレワレハ...ソコニイクベキカ...？
+\SndLib[FishkindSmSpot]\c[4]ディープワン：\c[0]    ソウスレバ ヤツラヲ....\c[6]ジャアクノカケラ\c[0]ヲ カイヒデキル...？
+
+AriseVillageFish/4to5_4
+\CBfE[20]\SndLib[FishkindSmSpot]\c[4]ディープワン：\c[0]    ニンゲンノ...オンナセンシ...アナタ シダイダ...
+
+AriseVillageFish/5to6_0
+\CBfE[20]\SndLib[FishkindSmSpot]\c[4]ディープワン：\c[0]    ココニ...コレガソウダ.....
+
+AriseVillageFish/5to6_1_1
+\CBfE[20]\SndLib[FishkindSmSpot]\c[4]ディープワン：\c[0]    イダイナル ウミノメガミ ヨ...ワレワレハ モドッテ キマシタ...
+
+AriseVillageFish/5to6_1_2
+\CBfE[20]\SndLib[FishkindSmSpot]\c[4]ディープワン：\c[0]    ワレワレハ カエッテ キタノデス......
+
+AriseVillageFish/5to6_1_3
+\CBfE[20]\SndLib[FishkindSmSpot]\c[4]ディープワン：\c[0]    ナゼ ソセンハ ショウキヲ ウシナッタノカ...ナゼ カケラハ クルッタノカ....
+
+AriseVillageFish/5to6_1_4
+\CBfE[20]\SndLib[FishkindSmSpot]\c[4]ディープワン：\c[0]    オシエテクダサイ...シンジツヲ....
+
+AriseVillageFish/5to6_2
+\CBmp[Justice,5]\SETpl[DedOne_angry]\Lshake\c[4]？？？：\c[0]    そこにいるのは誰だ！ 貴様は？
+\CBmp[Justice,5]\SETpl[DedOne_angry]\Lshake\c[4]？？？：\c[0]    隠れても無駄だ！ 誰かがお前を呼んでいるのが聞こえたぞ！
+
+AriseVillageFish/5to6_3
+\CBmp[Justice,5]\SETpl[DedOne_angry]\Lshake\c[4]？？？：\c[0]    そこか？！ あの巨乳の知恵遅れがまだ隠れるか！！
+
+AriseVillageFish/5to6_3_KnowLona
+\CBmp[Justice,8]\SETpl[DedOne_normal]\Lshake\c[4]ジャスティス：\c[0]    えっ､おまえだったのか
+\CBct[8]\m[flirty]\PRF\c[6]ロナ：\c[0]    えっと...あなたはその...誰ですか？
+
+AriseVillageFish/5to6_4
+\CBfE[5]\SndLib[FishkindSmSpot]\plf\prh\c[4]ディープワン：\c[0]    オマエ....ウミノメガミジャナイ...！
+\CBfE[5]\SndLib[FishkindSmSpot]\plf\prh\c[4]ディープワン：\c[0]    オマエハ ジャアクナ....イツワリノ カミ...！
+
+AriseVillageFish/5to6_5
+\CBmp[Justice,5]\SETpl[DedOne_angry]\Lshake\c[4]ジャスティス：\c[0]    邪悪は貴様だ！ 貴様の一族全てが邪悪だ！
+\CBmp[Justice,20]\SETpl[DedOne_angry]\Lshake\c[4]ジャスティス：\c[0]    俺は正義のために戦う戦士だ！
+\CBmp[Justice,20]\SETpl[DedOne_angry]\Lshake\c[4]ジャスティス：\c[0]    真実を話してやろう！ 貴様にも誰が悪か理解できるようにな！
+
+AriseVillageFish/5to6_6
+\BonMP[Table,6]\SndLib[FishkindSmSpot]\c[4]ディープワン：\c[0]    \{ウガガ！
+
+AriseVillageFish/5to6_7
+\BonMP[Table,6]\SndLib[FishkindSmSpot]\c[4]ディープワン：\c[0]    \{チガウ...ソレハ シンジツデハ ナイ...！
+
+AriseVillageFish/5to6_8
+\BonMP[Table,20]\SndLib[FishkindSmSpot]\c[4]ディープワン：\c[0]    \{ウソツキ...！ ウソツキメ...！
+
+AriseVillageFish/5to6_9
+\BonMP[Table,20]\SndLib[FishkindSmSpot]\c[4]ディープワン：\c[0]    \{ウグワアアア！
+
+AriseVillageFish/5to6_10_1
+\CBct[20]\m[terror]\Rshake\c[6]ロナ：\c[0]    \{ヒイイ！！！
+
+AriseVillageFish/5to6_10_2
+\CBct[20]\m[bereft]\Rshake\c[6]ロナ：\c[0]    いや...こないで！
+
+AriseVillageFish/5to6_11
+\CBct[20]\m[confused]\PRF\c[6]ロナ：\c[0]    ええと...一体どうしたんだろう？
+
+AriseVillageFish/5to6_12
+\CBct[6]\m[shocked]\Rshake\c[6]ロナ：\c[0]    誰もいないの？！ 死んじゃったの？！
+\CBct[6]\m[terror]\Rshake\c[6]ロナ：\c[0]    さっきまで着いて来てたのに？
+\CBct[8]\m[tired]\PRF\c[6]ロナ：\c[0]    あの人の友達になんて言えばいいの...
+\CBct[8]\m[sad]\PRF\c[6]ロナ：\c[0]    うぅ.....
+
+AriseVillageFish/6to7
+\CBct[8]\m[tired]\PRF\c[6]ロナ：\c[0]    ....
+
+CampHumWatcher/6and7_0
+\CBid[-1,20]\c[4]民兵：\c[0]    俺たちはアリス村の自警団だ､安心するといい｡
+
+CampHumWatcher/6and7_1
+\CBid[-1,20]\c[4]民兵：\c[0]    恐れる事は無い､邪悪な深きものどもは既にみんな死んだ｡
+
+CampHumLooter/6and7_0
+\CBid[-1,20]\c[4]民兵：\c[0]    街の衛兵がこの野郎どもに触るなと言ったんだ｡
+\CBid[-1,20]\c[4]民兵：\c[0]    遭難した半魚人は保護されて､ノエルの街に戻されるんだと｡
+\CBid[-1,20]\c[4]民兵：\c[0]    お偉いさんたちはいつもふざけてるよ｡
+
+CampHumLooter/6and7_1
+\CBid[-1,20]\c[4]民兵：\c[0]    こいつら雑種が沢山の魚を運んで来てくれるお陰で､村をかなりの期間養うことができる｡
+\CBid[-1,20]\c[4]民兵：\c[0]    しかも2人の女奴隷まで連れて来てな､そのうちの一人をウチで貰ったんだ｡
+\CBid[-1,20]\c[4]民兵：\c[0]    これがなかなか､乳もデカくて､ベッドの上でもいい声で鳴きやがる｡
+
+CampHumLooter/6and7_2
+\CBid[-1,20]\c[4]民兵：\c[0]    お前や､俺が言わなければ､街の奴らは知らないままだ｡
+\CBid[-1,20]\c[4]民兵：\c[0]    俺達が\c[6]半魚人\c[0]や強盗に襲われた時も奴らは何もしなかった｡
+\CBid[-1,20]\c[4]民兵：\c[0]    それでこれ以上何を聞きたいってんだ？
+
+CampHumGuard/6and7_0
+\CBid[-1,20]\c[4]民兵：\c[0]    この野郎どもは死ぬ前に自分たちの祖先は自分たちの狂気とは無関係だとか叫んでたな｡
+\CBid[-1,20]\c[4]民兵：\c[0]    何言ってるかまるで分からなかったが､とにかく奴らは死んだ｡
+
+CampHumGuard/6and7_1
+\CBid[-1,20]\c[4]民兵：\c[0]    こんな醜い亜人の言葉なんざ信じられるか､ムートども以上にゲロ吐きそうなやつらだぜ｡
+
+CampHumGuard/6and7_2
+\CBid[-1,5]\c[4]民兵：\c[0]    くっせぇ､くっせぇなぁ！ くたばった後は更にひでえや！
+
+##############################################################################################################
+
+AriseVillage/1to2_rg5_0
+\Bon[8]\m[shocked]\Rshake\c[6]ロナ：\c[0]    これは...死体？
+\SndLib[FishkindSmSpot]\BonMP[FishExplorer,20]\prf\c[4]ディープワン：\c[0]    キャンプガ...ニンゲンニ...コウゲキサレテイル？
+\SndLib[FishkindSmSpot]\BonMP[FishExplorer,20]\prf\c[4]ディープワン：\c[0]    ハヤク.....イソガネバ...
+
+AriseVillage/1to2_rg5_1
+\SndLib[FishkindSmSpot]\BonMP[QuTar,20]\prf\c[4]戦士：\c[0]    ニンゲン...！　ニンゲンニ...ミツカッタ！コロス！
+\CBct[6]\m[terror]\Rshake\c[6]ロナ：\c[0]    なんで？ わたしを殺すの？！
+
+AriseVillage/1to2_rg5_2
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,20]\c[4]ディープワン：\c[0]    マテ キョウダイ...！ ワタシヲ タスケテ クレタンダ...！
+
+AriseVillage/1to2_rg5_3
+\SndLib[FishkindSmSpot]\CBmp[QuTar,20]\c[4]戦士：\c[0]    キョウダイ...ブジ ダッタカ...！
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,20]\c[4]ディープワン：\c[0]    アァ キョウダイ...ワタシハ イキテイル...！
+
+AriseVillage/1to2_rg5_4
+\SndLib[FishkindSmSpot]\CBmp[QuTar,4]\c[4]戦士：\c[0]    ウミノメガミニ カンシャヲ...！
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,4]\c[4]ディープワン：\c[0]    ウミノメガミヲ タタエマス...！！
+\CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    えっと.....
+
+AriseVillage/1to2_rg5_5
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,20]\c[4]ディープワン：\c[0]    カンシャスル...ニンゲンノセンシ...
+\SndLib[FishkindSmSpot]\CBmp[FishExplorer,20]\c[4]ディープワン：\c[0]    コレハ アナタヘノ ヘンレイ ダ...
+
+AriseVillage/1to2_rg5_6
+\CBct[4]\m[triumph]\Rshake\c[6]ロナ：\c[0]    ありがとう！
+
+AriseVillage/1to2_rg5_7
+\SndLib[FishkindSmSpot]\prf\CBmp[QuTar,20]\c[4]戦士：\c[0]    キョウダイヨ...オマエハ...オンナニ スクワレタノカ？
+\SndLib[FishkindSmSpot]\prf\CBmp[FishExplorer,20]\c[4]ディープワン：\c[0]    オンナ...？ コノヒトハ オンナ...？
+\SndLib[FishkindSmSpot]\prf\CBmp[QuTar,20]\c[4]戦士：\c[0]    ソウダ...キョウダイ...
+
+AriseVillage/1to2_rg5_8
+\SndLib[FishkindSmSpot]\prf\CBmp[FishExplorer,20]\c[4]ディープワン：\c[0]    アナタハ オンナ ダッタノカ...？！
+\CBct[2]\m[flirty]\PRF\c[6]ロナ：\c[0]    わたし？ そうだけど？
+\prf\CBmp[FishExplorer,8]\c[4]ディープワン：\c[0]    ......
+\CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    .....うん？

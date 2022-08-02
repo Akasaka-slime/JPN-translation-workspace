@@ -1,0 +1,1073 @@
+#--------------------------------       narr
+
+Lona/Group_disbanded
+\narrパーティーは解散した｡
+
+Lona/Follower_disbanded
+\narrコンパニオンが離脱した｡
+
+Lona/FollowerExt_disbanded
+\narr同行者が離脱した｡
+
+Lona/NarrDriveAway
+\narr追い出されてしまった｡
+
+#================================     OPT
+
+Lona/Decide_optD
+\m[confused]\c[6]ロナ：\c[0]    うーん？\optD[やめる,決定]
+
+Lona/Decide_optB
+\m[confused]\c[6]ロナ：\c[0]    うーん？\optB[やめる,決定]
+
+Lona/CompCommand
+\m[confused]\c[6]ロナ：\c[0]    うーん？
+
+Lona/EnterSub
+\m[confused]\c[6]ロナ：\c[0]    どうする？\optB[やめる,進む]
+
+Lona/SkipEv
+イベントをスキップする？\optD[スキップ,再生]
+
+###################################################################     COMMON NAP RAPE
+#------------------------------------------------- Human
+
+Noer/NapRape_Human0
+\c[4]通行人：\c[0]    なんでこのガキはこんなところで寝てるんだ？
+
+Noer/NapRape_Human1
+\c[4]通行人：\c[0]    へへ､なんでこんな可愛い娘が寝てるんだ？
+
+Noer/NapRape1_Human
+\c[4]通行人：\c[0]    ふーん｡
+
+Noer/NapRape2_Human
+\narrどこかに運ばれた
+
+Noer/NapRape3_Human0
+\c[4]通行人：\c[0]    大丈夫大丈夫､チンポをキレイにしてくれって頼んでるだけだ､出来るよな？
+
+Noer/NapRape3_Human1
+\c[4]通行人：\c[0]    起きたか？
+
+Noer/NapRape3_Human2
+\c[4]通行人：\c[0]    くだらねぇこと言うな！ヤらせろ！
+
+
+
+Noer/NapRape_Moot0
+\c[4]通行人：\c[0]    なんでこのガキはこんなところで寝てるんだ？
+
+Noer/NapRape_Moot1
+\c[4]通行人：\c[0]    へへ､なんでこんな可愛い娘が寝てるんだ？
+
+Noer/NapRape1_Moot
+\c[4]通行人：\c[0]    ふーん｡
+
+Noer/NapRape2_Moot
+\narrどこかに運ばれた
+
+Noer/NapRape3_Moot0
+\c[4]通行人：\c[0]    大丈夫大丈夫､チンポをキレイにしてくれって頼んでるだけだ､出来るよな？
+
+Noer/NapRape3_Moot1
+\c[4]通行人：\c[0]    起きたか？
+
+Noer/NapRape3_Moot2
+\c[4]通行人：\c[0]    くだらねぇこと言うな！ヤらせろ！
+
+
+
+
+Noer/NapRape_withSta_Fight2_Human0
+\c[4]通行人：\c[0]    死にたいみてぇだな？
+
+Noer/NapRape_withSta_Fight2_Human1
+\c[4]通行人：\c[0]    \{殴られたいか？
+
+Noer/NapRape_withSta_Fight2_Human2
+\c[4]通行人：\c[0]    \{よくも逆らったな？！
+
+Noer/NapRape_withSta_NoFight2_Human0
+\m[sad]\c[4]通行人：\c[0]    ぐふふ♥
+
+Noer/NapRape_withSta_NoFight2_Human1
+\m[sad]\c[4]通行人：\c[0]    イヒヒ♥
+
+Noer/NapRape_withSta_NoFight2_Human2
+\m[sad]\c[4]通行人：\c[0]    いいゾ〜これ♥
+
+#moot.   same like human,  but nibba
+
+Noer/NapRape_withSta_Fight2_Moot0
+\c[4]通行人：\c[0]    イカレ女！ 死にたいのか？！
+
+Noer/NapRape_withSta_Fight2_Moot1
+\c[4]通行人：\c[0]    \{ブッ飛ばされてぇんだな？やってやるよ！
+
+Noer/NapRape_withSta_Fight2_Moot2
+\c[4]通行人：\c[0]    \{ゴミ野郎が！！ クソ！
+
+Noer/NapRape_withSta_NoFight2_Moot0
+\m[sad]\c[4]通行人：\c[0]    ヒヒヒ♥
+
+Noer/NapRape_withSta_NoFight2_Moot1
+\m[sad]\c[4]通行人：\c[0]    ヘヘヘ♥
+
+Noer/NapRape_withSta_NoFight2_Moot2
+\m[sad]\c[4]通行人：\c[0]    グヘヘ♥
+
+#------------------------------------------------- Fishkind
+
+Noer/NapRape_Fishkind0
+\SndLib[FishkindSmSpot]\c[4]漁師：\c[0]    グァグ？！ オンナ！
+
+Noer/NapRape_Fishkind1
+\SndLib[FishkindSmSpot]\c[4]漁師：\c[0]    ググ.. オンナ.. タネヅケ...
+
+Noer/NapRape1_Fishkind
+\SndLib[FishkindSmSpot]\c[4]漁師：\c[0]    ググァ？！
+
+Noer/NapRape2_Fishkind
+\narrどこかに運ばれた｡
+
+Noer/NapRape3_Fishkind0
+\SndLib[FishkindSmSpot]\c[4]漁師：\c[0]    オンナ！ ハラマセ！
+
+Noer/NapRape3_Fishkind1
+\SndLib[FishkindSmSpot]\c[4]漁師：\c[0]    オンナ！ ヤラセロ！
+
+Noer/NapRape3_Fishkind2
+\SndLib[FishkindSmSpot]\c[4]漁師：\c[0]    オンナ！ タネヅケ！
+
+Noer/NapRape_withSta_Fight2_Fishkind0
+\SndLib[FishkindSmSpot]\c[4]漁師：\c[0]    \{テイコウ？ グァグ！ コロス！
+
+Noer/NapRape_withSta_Fight2_Fishkind1
+\SndLib[FishkindSmSpot]\c[4]漁師：\c[0]    \{グァグ！ ナグル！
+
+Noer/NapRape_withSta_Fight2_Fishkind2
+\SndLib[FishkindSmSpot]\c[4]漁師：\c[0]    \{ググァ？！
+
+Noer/NapRape_withSta_NoFight2_Fishkind0
+\SndLib[FishkindSmSpot]\m[sad]\c[4]漁師：\c[0]    グフフ♥
+
+Noer/NapRape_withSta_NoFight2_Fishkind1
+\SndLib[FishkindSmSpot]\m[sad]\c[4]漁師：\c[0]    グァグァ♥
+
+Noer/NapRape_withSta_NoFight2_Fishkind2
+\SndLib[FishkindSmSpot]\m[sad]\c[4]漁師：\c[0]    ハメハメ♥
+
+#------------------------------------------------- Lona
+
+Lona/NapRape3
+\m[tired]\c[6]ロナ：\c[0]    えぁ？
+\m[fear]\Rshake\c[6]ロナ：\c[0]    なっ！何する気？！
+
+Lona/NapRape_withSta
+\optD[諦める<t=3>,抵抗]
+
+Lona/NapRape_withSta_Fight1_typical
+\m[shocked]\Rshake\c[6]ロナ：\c[0]    離れて！
+
+Lona/NapRape_withSta_Fight1_slut
+\m[flirty]\c[6]ロナ：\c[0]    あら...今気分じゃないの｡
+
+Lona/NapRape_withSta_Fight1_tsundere
+\m[irritated]\Rshake\c[6]ロナ：\c[0]   いや！触るな！
+
+Lona/NapRape_withSta_Fight1_gloomy
+\m[terror]\Rshake\c[6]ロナ：\c[0]    ひぃっ！！
+
+Lona/NapRape_withSta_NoFight1_typical
+\m[sad]\c[6]ロナ：\c[0]    う....
+
+Lona/NapRape_withSta_NoFight1_slut
+\m[lewd]\c[6]ロナ：\c[0]    来て♥
+
+Lona/NapRape_withSta_NoFight1_tsundere
+\m[sad]\c[6]ロナ：\c[0]    くっ....
+
+Lona/NapRape_withSta_NoFight1_gloomy
+\m[fear]\c[6]ロナ：\c[0]    痛くしないで.. 怖い....
+
+Lona/NapRape_noSta
+\m[tired]\c[6]ロナ：\c[0]    う....
+
+#--------             ---寄生蟲
+
+Lona/PooMoonWorm
+月虫が肛門から出続けたため､アナルが大きなダメージを受けた｡
+
+Lona/PeePotWorm
+壷虫がのたうち回りながら尿道から出続けたため､尿道が大きなダメージを受けた｡
+
+Lona/BirthedWorms
+産まれたての寄生虫が新しい宿主を探し始めた｡
+
+Lona/ParasiteHit_pot
+\m[p5shame]\cg[event_PotWorm]\SND[Hevent_CHS/Buchu01.ogg]\Rshake\c[6]ロナ：\c[0] いや！入らないで､そこはおしっこするとこなの！
+\m[p5sta_damage]\SND[Hevent_CHS/Buchu02.ogg]\Rshake\c[6]ロナ：\c[0]    \{うああ！裂けちゃう！
+\m[p5health_damage]\SND[Hevent_CHS/Buchu03.ogg]\Rshake\c[6]ロナ：\c[0]    \{いやああぁ！！
+
+Lona/ParasiteHit_moon
+\m[p5shame]\cg[event_MoonWorm]\SND[Hevent_CHS/Buchu01.ogg]\Rshake\c[6]ロナ：\c[0]    いや！わたしのお尻に入らないで！
+\m[p5sta_damage]\SND[Hevent_CHS/Buchu02.ogg]\Rshake\c[6]ロナ：\c[0]    \{うああ！壊れちゃう！
+\m[p5health_damage]\SND[Hevent_CHS/Buchu03.ogg]\Rshake\c[6]ロナ：\c[0]    \{いやああぁ！！
+
+Lona/Parasite_Wakeup
+腹の中で寄生虫が蠢き続けている
+\m[p5shame]\SND[Hevent_CHS/Buchu01.ogg]\Rshake\c[6]ロナ：\c[0]    ううう！
+\m[p5sta_damage]\SND[Hevent_CHS/Buchu02.ogg]\Rshake\c[6]ロナ：\c[0]    \{いやあぁ！！
+\m[p5health_damage]\SND[Hevent_CHS/Buchu03.ogg]\Rshake\c[6]ロナ：\c[0]    \{うあああ！！
+\m[pain]\c[6]ロナ：\c[0]    うう... これはまずいよ｡
+\m[sad]\c[6]ロナ：\c[0]    虫を取り除かないと｡
+
+#---------------------------------------------------------------------------when overweight
+
+Lona/overweight
+\m[pain]\c[6]ロナ：\c[0]    うう！ 重いぃ､荷物が多すぎるよ｡
+\m[tired]\c[6]ロナ：\c[0]    いらない物は捨てないと｡
+
+#---------------------------------------------------------------------------When cuff is on
+
+Lona/cuff_on_normal
+\m[bereft]\c[6]ロナ：\c[0]    やめて！放して！
+
+Lona/cuff_on_slut
+\m[triumph]\c[6]ロナ：\c[0]    うそっ！
+
+Lona/cuff_on_tsun
+\m[shocked]\c[6]ロナ：\c[0]    くっ！油断した！
+
+Lona/cuff_on_weak
+\m[sad]\c[6]ロナ：\c[0]    お願い､やめてください｡
+
+Lona/cuff_on_mouth_block
+\m[bereft]\c[6]ロナ：\c[0]    う！ううう！！
+
+Lona/cuff_on_overfatigue
+\m[tired]\c[6]ロナ：\c[0]    はぁ...はぁ....
+
+###-------when cuff is on , day passed -----------------
+#--------------------------------------------------------------------------when 穴內放尿
+
+narrator/peein_mouth
+\Rshake 太い肉棒が容赦なく小さな口内で何度も何度も痙攣する｡
+\Rshake 生臭い小便が喉に流れ込み､小さな口はそれに耐えきれず､すぐに溢れ出した｡
+\Rshake 尿の刺激臭が鼻から脳に飛んできて､脳神経に衝撃を与える｡
+
+narrator/peein_vag
+\Rshake 太い肉棒が容赦なく膣を貫いた｡
+\Rshake 生臭い小便が膣から子宮に流れ込み､生温い感触が全身を震わせる｡
+\Rshake 溢れ出た小便が膣口から流れて､床に滴り落ちた｡
+
+narrator/peein_anal
+\Rshake 肉棒が容赦なくアナルを貫いた｡
+\Rshake 生臭い小便が腸内に流れ込み､生温い感触が全身を震わせる｡
+\Rshake 溢れ出た小便が鼠径部に流れて､床に滴り落ちた｡
+
+#--------------------------------------------------------------------------Semen addiction
+
+Lona/Ograsm_addiction_add_a_level
+\narr\m[shy]\c[4]体が次第にセックスに依存する体質になっていく｡
+
+Lona/Ograsm_addiction_almost
+\narr\m[pain]\c[4]強烈なセックスへの渇望の影響で集中することができない｡
+\narrOFF\m[shy]\c[6]ロナ：\c[0]    わたし.... すっごくえっちしたい｡
+
+Lona/Ograsm_addiction_overLv1
+\narr\m[fear]\Rshake\c[4]セックス以外何もしたくないと思い始めた｡
+\narrOFF\m[sexhurt]\c[6]ロナ：\c[0]    うぅ.... 体がすごく熱い｡
+
+Lona/Ograsm_addiction_overLv2
+\narr\m[sexhurt]\Rshake\c[4]ヤること以外何もしたくない｡
+\narrOFF\m[p5shame]\Rshake\c[6]ロナ：\c[0]    うううぅ～～
+\m[sexhurt]\Rshake\c[6]ロナ：\c[0]    ダメ.. あそこが熱い...
+
+Lona/Ograsm_addiction_overLv3
+\narr\m[terror]\Rshake\c[4]ヤること以外考えられず､気が狂いそうだ｡
+\narrOFF\m[sexhurt]\Rshake\c[6]ロナ：\c[0]    うう～～助けて！
+\m[p5shame]\Rshake\c[6]ロナ：\c[0]    \{あああ！！！誰でもいい！
+\m[hurt]\c[6]ロナ：\c[0]    ......誰でもいい！
+\m[sexhurt]\c[6]ロナ：\c[0]    誰かセックス！誰かヤッて！セックス！ハメに来てぇ！
+
+#--------------------------------------------------------------------------Semen addiction
+
+Lona/Semen_addiction_add_a_level
+\narr\m[pain]\c[4]体は次第に精液に依存するようになっていく｡
+
+Lona/Semen_addiction_almost
+\narr\m[pain]\c[4]強烈な精液への渇望の影響で集中することができない｡
+\narrOFF\m[fear]\c[6]ロナ：\c[0]    わたし.. 精液欲しい.. もう保たない｡
+
+Lona/Semen_addiction_overLv1
+\narr\m[fear]\Rshake\c[4]精液以外を口にする気が起きない｡
+\narrOFF\m[sexhurt]\c[6]ロナ：\c[0]    うう.. 誰か精液ちょうだい｡
+
+Lona/Semen_addiction_overLv2
+\narr\m[sexhurt]\Rshake\c[4]精液が欲しいあまり食事も喉を通らない｡
+\narrOFF\m[p5shame]\Rshake \c[6]ロナ：\c[0]    うう～～
+\m[hurt]\Rshake\c[6]ロナ：\c[0]    だめ.. 精液ほしい.. 死んじゃう！
+
+Lona/Semen_addiction_overLv3
+\narr\m[terror]\Rshake\c[4]精液が欲しいあまり食事も喉を通らない上に､気が狂いそうだ｡
+\narrOFF\m[sexhurt]\Rshake\c[6]ロナ：\c[0]    うう～～
+\m[p5shame]\Rshake\c[6]ロナ：\c[0]    \{あああ！！！
+\m[sad]\c[6]ロナ：\c[0]    ...
+\m[sexhurt]\c[6]ロナ：\c[0]    うう.. がまんできない！
+
+#--------------------------------------------------------------------------drug_addiction
+
+Lona/Drug_addiction_add_a_level
+\narr\m[pain]\c[4]薬の飲みすぎで､薬に依存してしまった｡
+
+Lona/Drug_addiction_almost
+\narr\m[pain]\c[4]薬物中毒の影響で､徐々に集中力を失いつつある｡
+\narrOFF\m[fear]\c[6]ロナ：\c[0]    わたし.. 薬が欲しい.. じゃないと耐えられない｡
+
+Lona/Drug_addiction_overLv1
+\narr\m[fear]\Rshake\c[4]薬物中毒の影響で､全身に痛みを感じ､意識は朦朧としている｡
+\narrOFF\m[sad]\c[6]ロナ：\c[0]    うぅ.. 早くクスリを見つけないと...
+
+Lona/Drug_addiction_overLv2
+\narr\m[pain]\Rshake\c[4]薬物中毒の影響で､全身に痛みを感じ､意識は朦朧としている｡
+\narrOFF\m[p5sta_damage]\Rshake \c[6]ロナ：\c[0]    うぅ \{うああああ！！
+\m[terror]\Rshake \c[6]ロナ：\c[0]    ダメ.. クスリが欲しい.. 死んじゃう....
+
+Lona/Drug_addiction_overLv3
+\narr\m[p5sta_damage]\Rshake\c[4]薬物中毒の影響で､気が狂いそうになる｡
+\narrOFF\m[p5health_damage]\Rshake\c[6]ロナ：\c[0]    うう\{うっ\{あっ\{あああ！！！！
+\m[p5health_damage]\Rshake\c[6]ロナ：\c[0]    ひぇ\{う\{わ\{あああ！！！
+\m[p5health_damage]\Rshake\c[6]ロナ：\c[0]    おねがい！！\{クスリちょうだい！！\{ちょうだいよぉ！！
+\m[p5health_damage]\Rshake\c[6]ロナ：\c[0]    \{なんでもいうこときくから.. \n\{なんでもするから...
+\m[p5sta_damage]\Rshake\c[6]ロナ：\c[0]    \{あああ！！！
+\m[terror]\c[6]ロナ：\c[0]    .......
+\m[sad]\c[6]ロナ：\c[0]    うう.. わたしどうしちゃったの？
+
+
+#--------------------------------------------------------------------------when Dress is out
+
+Lona/dress_out_normal0
+\prh！！！！！！
+\m[pain]\c[6]ロナ：\c[0]    寒い！ わたしの服...
+
+Lona/dress_out_normal1
+\prh！！！！！！
+\m[fear]\c[6]ロナ：\c[0]    早く服を取り戻さないと！
+
+Lona/dress_out_normal2
+\prh！！！！！！
+\m[shocked]\c[6]ロナ：\c[0]    服は？！
+
+Lona/dress_out_tsun0
+\prh！！！！！！
+\m[angry]\c[6]ロナ：\c[0]    なんで裸なのよ！
+
+Lona/dress_out_tsun1
+\prh！！！！！！
+\m[irritated]\c[6]ロナ：\c[0]    服を持っていくなんて信じられない！許せない！
+
+Lona/dress_out_tsun2
+\prh！！！！！！
+\m[angry]\c[6]ロナ：\c[0]    屈辱！ 絶対取り返してやる！
+
+Lona/dress_out_weak0
+\prh！！！！！！
+\m[shy]\c[6]ロナ：\c[0]    服が見つかるといいんだけど｡
+
+Lona/dress_out_weak1
+\prh！！！！！！
+\m[sad]\c[6]ロナ：\c[0]    寒い､スースーする｡
+
+Lona/dress_out_weak2
+\prh！！！！！！
+\m[sad]\c[6]ロナ：\c[0]    もし服が見つからなかったら...
+
+Lona/dress_out_slut0
+\prh！！！！！！
+\m[pleased]\c[6]ロナ：\c[0]    何も着ないなんて､ちょっと変態さんみたいね...
+
+Lona/dress_out_slut1
+\prh！！！！！！
+\m[triumph]\c[6]ロナ：\c[0]    心臓がバクバクする､わたしったらナニを期待してるの？
+
+Lona/dress_out_slut2
+\prh！！！！！！
+\m[triumph]\c[6]ロナ：\c[0]    きもちぃ... ちょっと興奮するかも？次はどうしよっかなぁ？
+
+Lona/dress_out_overfatigue0
+\prh！！！！！！
+\m[tired]\c[6]ロナ：\c[0]    ふぅ... はぁ... 寒い...
+
+Lona/dress_out_overfatigue1
+\prh！！！！！！
+\m[tired]\c[6]ロナ：\c[0]    .....
+
+Lona/dress_out_overfatigue2
+\prh！！！！！！
+\m[tired]\c[6]ロナ：\c[0]    だめ... 寒い...
+
+Lona/dress_out_mouth_block0
+\prh！！！！！！
+\m[shocked]\c[6]ロナ：\c[0]    ううう！
+\m[shy]\c[6]ロナ：\c[0]    うっ！
+
+Lona/dress_out_mouth_block1
+\prh！！！！！！
+\m[hurt]\c[6]ロナ：\c[0]    ううう！
+\m[tired]\c[6]ロナ：\c[0]    うっ！
+
+Lona/dress_out_mouth_block2
+\prh！！！！！！
+\m[wtf]\c[6]ロナ：\c[0]    ううう！
+\m[shy]\c[6]ロナ：\c[0]    うっ！
+
+#------------------------------------- Ext
+
+Lona/dress_out_ext_normal0
+\m[pleased]\c[6]ロナ：\c[0]    んん.... 服なんていらない！
+
+Lona/dress_out_ext_normal1
+\m[pleased]\c[6]ロナ：\c[0]    やっと自由になれた！
+
+Lona/dress_out_ext_tsun0
+\m[serious]\c[6]ロナ：\c[0]    ふん！ 服なんて着ても動きが鈍るだけ！ 笑ってる奴は嫉妬してるだけよ！
+
+Lona/dress_out_ext_tsun1
+\m[serious]\c[6]ロナ：\c[0]    強者に服は必要ないのよ！
+\m[shy]\c[6]ロナ：\c[0]    うぁ....
+
+Lona/dress_out_ext_weak0
+\m[fear]\c[6]ロナ：\c[0]    裸じゃダメ...なのに....
+
+Lona/dress_out_ext_weak1
+\m[flirty]\c[6]ロナ：\c[0]    服.. 誰かにバレないようにしないと....
+
+Lona/dress_out_ext_slut0
+\m[lewd]\c[6]ロナ：\c[0] 何も着ないなんて､わたしったら変態さん♥
+
+Lona/dress_out_ext_slut1
+\m[lewd]\c[6]ロナ：\c[0] あら♥わたしったら裸だなんてえっちぃ♥
+
+Lona/dress_out_ext_overfatigue0
+\m[tired]\c[6]ロナ：\c[0]    服が重過ぎ...着ないと楽になるかも....
+
+Lona/dress_out_ext_overfatigue1
+\m[flirty]\c[6]ロナ：\c[0]    いいや... 服重いし....
+
+Lona/dress_out_ext_mouth_block0
+\m[tired]\c[6]ロナ：\c[0]    ううう
+
+Lona/dress_out_ext_mouth_block1
+\m[tired]\c[6]ロナ：\c[0]    うっ！
+
+#--------------------------------------------------------------------------when collar is on
+
+Lona/collar_on_normal
+\m[bereft]\c[6]ロナ：\c[0]    やめて！！ 外してよぉ！
+
+Lona/collar_on_slut
+\m[flirty]\c[6]ロナ：\c[0]    これ､重ぉい！
+
+Lona/collar_on_tsun
+\m[shocked]\c[6]ロナ：\c[0]    くっ！ これ取れないの？！
+
+Lona/collar_on_weak
+\m[confused]\c[6]ロナ：\c[0]    うう... 重い...
+
+Lona/collar_on_mouth_block
+\m[bereft]\c[6]ロナ：\c[0]    うっ！ううう！！
+
+Lona/collar_on_overfatigue
+\m[tired]\c[6]ロナ：\c[0]    はぁ.......
+
+#--------------------------------------------------------------------------when lost her baby
+
+Lona/lost_baby
+\m[shocked]\c[6]ロナ：\c[0]    赤ちゃんは？赤ちゃんはどこ？
+\m[sad]\c[6]ロナ：\c[0]    わたし一人ぼっちになるの？
+
+#-----------------------------when lost too many babys
+
+Lona/lost_baby_again
+\m[sad]\c[6]ロナ：\c[0]    赤ちゃんは？....？
+\m[confused]\c[6]ロナ：\c[0]    やっぱり､またいなくなっちゃった...
+\m[tired]\c[6]ロナ：\c[0]    もういい､どうせこうなるってわかってたから｡
+
+#--------------------------------------------------------------------------when cums too heavy
+
+Lona/heavy0
+\narr腹に精液が溜まっている
+\narrOFF\m[shy]\c[6]ロナ：\c[0]    お腹がいっぱい､パンパンな感じ....
+
+Lona/heavy1
+\narr腹に精液が溜まっている
+\narrOFF\m[shy]\c[6]ロナ：\c[0]    お腹がすっごく重たい...
+
+Lona/heavy2
+\narr腹に精液が溜まっている
+\narrOFF\m[shy]\c[6]ロナ：\c[0]    ダメ...重過ぎ...休みたい｡
+
+#-----------------when cums not heavy anymore
+
+Lona/heavy_regen0
+\narr精液による膨満感が治まってきた
+\narrOFF\m[shy]\c[6]ロナ：\c[0]    気分が良くなった！
+
+Lona/heavy_regen1
+\narr精液による膨満感が治まってきた
+\narrOFF\m[shy]\c[6]ロナ：\c[0]    ちょっと楽になってきた！
+
+Lona/heavy_regen2
+\narr精液による膨満感が治まってきた
+\narrOFF\m[shy]\c[6]ロナ：\c[0]    もうちょっと休みたい｡
+
+#-------------------------------------------------------------------------when eat cums
+
+Lona/eat_cums_normal0
+\narrやむを得ず口の中の精液を飲み込んだ
+\narrOFF\m[pain]\c[6]ロナ：\c[0]    臭い！なんて嫌な臭いなの！
+
+Lona/eat_cums_normal1
+\narrやむを得ず口の中の精液を飲み込んだ
+\narrOFF\m[shy]\c[6]ロナ：\c[0]    は..はぁ...喉痛い！
+
+Lona/eat_cums_tsun0
+\narrやむを得ず口の中の精液を飲み込んだ
+\narrOFF\m[angry]\c[6]ロナ：\c[0]    ホント気持ち悪い､こんなの食べちゃうなんて！
+
+Lona/eat_cums_tsun1
+\narrやむを得ず口の中の精液を飲み込んだ
+\narrOFF\m[serious]\c[6]ロナ：\c[0]    ぜ､絶対に次はしない！
+
+Lona/eat_cums_weak0
+\narr精液が喉を通った｡
+\narrOFF\m[pain]\c[6]ロナ：\c[0]    ダメ...ほんとに無理...
+
+Lona/eat_cums_weak1
+\narr精液が喉を通った｡
+\narrOFF\m[pain]\c[6]ロナ：\c[0]    ゲホ...ゲホ....
+
+Lona/eat_cums_slut0
+\narr精液を飲んだ｡
+\narrOFF\m[lewd]\c[6]ロナ：\c[0]    ちんぽぉ.. ざーめん.. はぁ...
+
+Lona/eat_cums_slut1
+\narr精液を飲んだ｡
+\narrOFF\m[lewd]\c[6]ロナ：\c[0]    ちょうだい！ もっとちょうだい！
+
+Lona/eat_cums_mouth_block0
+\narr精液を飲んだ｡
+\narrOFF\m[shy]\c[6]ロナ：\c[0]    う！
+
+Lona/eat_cums_mouth_block1
+\narr精液を飲んだ｡
+\narrOFF\m[shy]\c[6]ロナ：\c[0]    ううう！
+
+Lona/eat_cums_overfatigue0
+\narr精液を飲んだ｡
+\narrOFF\m[shy]\c[6]ロナ：\c[0]    うぅぐ.... んぅ.....
+
+Lona/eat_cums_overfatigue1
+\narr精液を飲んだ｡
+\narrOFF\m[shy]\c[6]ロナ：\c[0]    ぐぅ... んぐ...
+
+#-------------------------------------------------------------------------WHEN HUNGER
+
+Lona/hunger0
+\narr満腹感が心身を癒した
+\narrOFF\m[triumph]\c[6]ロナ：\c[0]    うんうん！ お腹いっぱいで幸せ｡
+
+Lona/hunger1
+\m[confused]\c[6]ロナ：\c[0]    まだそんなにお腹は空いてないけど､満腹にしておいたほうがいいかも｡
+
+Lona/hunger2
+\narr空腹感が収まらない
+\narrOFF\m[sad]\c[6]ロナ：\c[0] うぅ... お腹空いた､早く食べ物を探さなきゃ
+
+Lona/hunger3
+\narr収まらない空腹感が胃袋を圧迫する
+\narrOFF\m[pain]\c[6]ロナ：\c[0]    なにか食べないと飢え死にしちゃうよ！
+
+#-------------------------------------------------------------------------WHEN low sta
+
+Lona/lowsta0
+\m[pain]\c[6]ロナ：\c[0]    う... 足が動かない....
+
+Lona/lowsta1
+\m[pain]\c[6]ロナ：\c[0]    う... 体が重い....
+
+Lona/lowsta2
+\m[pain]\c[6]ロナ：\c[0]    うぅ... 足が痛い...体も重いよ....
+
+Lona/lowsta3
+\m[pain]\c[6]ロナ：\c[0]    うぅ... 立ってられない､休む場所を探さないと｡
+
+#------------------------------------------------------------------------NAP
+
+Lona/nap
+\m[tired]\c[6]ロナ：\c[0]    うーん.........
+
+#--------------------------------------------------------------------況張傷害
+
+Lona/vag_damaged
+\m[shy]陰部がキクラゲのように開き､閉じなくなった
+\m[fear]\c[6]ロナ：\c[0]    わたしの体はどうなってるの？
+
+Lona/urinary_damaged
+\m[shy]尿意が止まらない､尿道と膀胱が役に立たなくなったようだ｡
+\m[fear]\c[6]ロナ：\c[0]    尿意が 止まらない？
+
+Lona/anal_damaged
+\m[shy]便意が止まらない､アナルと直腸が役に立たなくなったようだ｡
+\m[fear]\c[6]ロナ：\c[0]    わたしの体はどうなってるの？
+
+#---------------------------------------------------------便意尿意
+
+Lona/pee_dialog
+\m[confused]\c[6]ロナ：\c[0]    ん､おしっこしたい｡
+\m[shy]\c[6]ロナ：\c[0]    安全な場所を探さないと｡
+
+Lona/scat_dialog
+\m[confused]\c[6]ロナ：\c[0]    ん､うんちしたい｡
+\m[shy]\c[6]ロナ：\c[0]    安全な場所を探さないと｡
+
+#---------------------------------泌尿系統受損後
+
+Lona/auto_pee
+\m[confused]堪えきれずに尿道口から小便が漏れ出し､アンモニア臭と不快感が下半身に充満した｡
+\m[shy]\c[6]ロナ：\c[0]    どこか... キレイにする場所を探した方がいいね｡
+
+Lona/auto_pee_nap
+\narr寝ている間も尿は漏れ続けた｡
+\narrおねしょをした｡
+
+Lona/auto_poo
+\m[confused]堪えきれずにアナルから大便が漏れ出し､糞の匂いとべっとりとした感触が下半身に充満した｡
+\m[shy]\c[6]ロナ：\c[0]    どこか... キレイにする場所を探した方がいいね｡
+
+Lona/auto_poo_nap
+寝ている間も大便は漏れ続けた｡
+
+###############################################################COMMON SEX TRAIT/LURE##############################################################
+
+Lona/lure_normal0
+\m[shy]\c[6]ロナ：\c[0]    どうぞ.... わたしのあそこを使ってください｡
+
+Lona/lure_normal1
+\m[shy]\c[6]ロナ：\c[0]    わたしはケダモノです､どうぞ遠慮なく犯してください｡
+
+Lona/lure_tsun0
+\m[shy]\c[6]ロナ：\c[0]    どうぞ... 好きにしていいから....
+
+Lona/lure_tsun1
+\m[shy]\c[6]ロナ：\c[0]    う... ここ... 好きに使っていいから....
+
+Lona/lure_weak0
+\m[shy]\c[6]ロナ：\c[0]    わたしは家畜です､いい子にしてます｡
+
+Lona/lure_weak1
+\m[shy]\c[6]ロナ：\c[0]    あそこ... どうぞ好きに使ってください...
+
+Lona/lure_slut0
+\m[lewd]\c[6]ロナ：\c[0]    どうぞ... わたしの卑しいおまんこを使ってください
+
+Lona/lure_slut1
+\m[lewd]\c[6]ロナ：\c[0]    ハメてください！ 卑しいビッチなんですぅ！
+
+Lona/lure_mouth_block0
+目の前で､自らの陰部を押し開いた
+\m[shy]\c[6]ロナ：\c[0]    うう.....
+
+Lona/lure_mouth_block1
+目の前で､自らのアナルを押し開いた
+\m[shy]\c[6]ロナ：\c[0]    うう.....
+
+Lona/lure_overfatigue0
+目の前で､自らの陰部を押し開いた｡
+\m[shy]\c[6]ロナ：\c[0]    ...
+
+Lona/lure_overfatigue1
+目の前で､自らのアナルを押し開いた
+\m[shy]\c[6]ロナ：\c[0]    ...
+
+############################################333EQUIP WOUNDS########################33
+
+Lona/cuff_wound
+\m[pain]\c[4]手枷...
+\m[fear]\c[6]ロナ：\c[0]    外す方法を見つけなきゃ､なにもできないよ｡
+
+Lona/collar_wound
+\m[pain]\c[4]首枷...
+\m[bereft]\c[6]ロナ：\c[0]    いや！ 奴隷になんてなりたくない！
+
+###############################################PUKE######################
+
+Lona/puke_cums
+\narr粘り気のある精液が喉や気管に絡みついている｡
+\narr強い吐き気がロナを襲った｡
+
+Lona/puke_begin1
+\PRF\c[6]ロナ：\c[0]    \{うっぷ！
+
+Lona/puke_begin2
+\narr抑えきれずに胃の中身を噴き出した
+
+Lona/puke1
+\c[6]ロナ：\c[0]    \{うぐぉぇ！
+
+Lona/puke2
+\c[6]ロナ：\c[0]    \{ぉうっぷ！
+
+Lona/puke3
+\c[6]ロナ：\c[0]    \{っぷごえっ！
+
+Lona/puke4
+\c[6]ロナ：\c[0]    ぐおぇ！ おげぇ！
+
+Lona/puke5
+\c[6]ロナ：\c[0]    げほっ！！     げほ！げほぉ！
+
+Lona/puke_end1
+\c[6]ロナ：\c[0]    おぅ... うあ.. っはぁ....
+
+Lona/puke_end2_normal
+\c[6]ロナ：\c[0]    おっぅ！！..っう！全部吐いちゃった｡
+
+Lona/puke_end2_preg
+\c[6]ロナ：\c[0]    気持ち悪い....
+
+###########################################SICK################################
+
+Lona/sick
+\m[pain]\c[6]ロナ：\c[0]    うう....
+\m[tired]\c[6]ロナ：\c[0]      体調がおかしい､今日はもう動かない方がいいかも｡
+
+###########################################3# MILK OVERCHARGE################################
+
+Lona/Milk_feed_notEnough
+\m[confused]\c[6]ロナ：\c[0]    \..\..\..
+\m[shocked]\Rshake\c[6]ロナ：\c[0]    まだ溜まってないみたい!
+
+Lona/MilkSpray_overcharge
+\narr胸が非常に張っているのを感じ､母乳が溢れそうになっていた
+\narrOFF\m[shy]\c[6]ロナ：\c[0]    うう....どこかで処理できるところを探さないと｡
+
+########################################3####MENSES SYSTEM#######################################
+
+Lona/menses
+\m[pain]\c[6]ロナ：\c[0]    うう､月のモノが来ちゃったかも？
+\m[shy]\c[6]ロナ：\c[0]    水で洗える場所を探したほうがいいね｡
+\m[tired]\c[6]ロナ：\c[0]    でも... うぅ.. お腹痛い...
+
+Lona/menses_bad
+\m[pain]\c[6]ロナ：\c[0]    ヨゴレがどんどん出てくるし､体が重い｡
+\m[tired]\c[6]ロナ：\c[0]    今日は休んだ方がいい｡
+
+Lona/menses_ovulate
+\m[confused]\c[6]ロナ：\c[0]    まただ....
+\m[shy]\c[6]ロナ：\c[0]    お腹の奥が熱い､体が何かを期待しているみたい｡
+
+################################################ PREG DIALOGS ##################################################
+#########LV1
+
+Lona/preglv1_puke_exped
+\m[sad]\c[6]ロナ：\c[0]    こういうの聞いたことがある｡
+\m[confused]\c[6]ロナ：\c[0]    わたし妊娠してるの？
+
+#########LV2
+
+Lona/preglv2_puke
+\m[sad]\c[6]ロナ：\c[0]    ぐおぇ！ 来た！ また！
+
+Lona/preg_lv2
+\m[confused]\c[6]ロナ：\c[0]    お腹がすごい変な感じする､それに空腹感がどんどん強くなってる｡
+
+Lona/preg_lv2_exped
+\m[shy]\c[6]ロナ：\c[0]    この違和感.....
+\m[fear]\c[6]ロナ：\c[0]    また妊娠しちゃった｡
+
+Lona/preglv2_pain
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]ロナ：\c[0]    \{いやぁぁぁ！
+\m[tired]\c[6]ロナ：\c[0]    うぁっ！
+\m[sad]\c[6]ロナ：\c[0]    陣痛が怖いよ｡
+
+#########LV3
+
+Lona/preglv3
+\m[shocked]\c[6]ロナ：\c[0]    うう.. お腹がいつの間にかこんなに大きくなってる｡
+\m[confused]\c[6]ロナ：\c[0]    みんな気づくよね｡
+
+Lona/preglv3_puke
+\m[sad]\c[6]ロナ：\c[0]    うおぅっ！ いや！ また！ おぅっ！
+
+Lona/preglv3_pain
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]ロナ：\c[0]    \{いやぁぁぁ！！
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]ロナ：\c[0]    \{いっおううぁ！！
+\m[tired]\c[6]ロナ：\c[0]    ふぁ.. ふ...
+\m[sad]\c[6]ロナ：\c[0]    あぁ.... 陣痛が恐ろしい｡
+\m[confused]\c[6]ロナ：\c[0]    お腹の中で赤ちゃんが動いているのを感じる｡
+
+#########LV4
+
+Lona/preglv4
+\m[pain]\c[6]ロナ：\c[0] 赤ちゃん動いてる､どんどん感覚が強くなってきてる｡
+\m[fear]\c[6]ロナ：\c[0]    出産が近いみたい､どうしよう｡
+
+Lona/preglv4_weak
+\m[shy]\c[6]ロナ：\c[0]    だめ... 動かないで｡
+\m[bereft]\c[6]ロナ：\c[0]    こんなつらい世界であなたを産みたくない｡
+
+Lona/preglv4_pain
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]ロナ：\c[0]    \{いやぁぁ！
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]ロナ：\c[0]    \{ひいやああぁ！
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]ロナ：\c[0]    \{うぎぃやあああ！！
+\m[tired]\c[6]ロナ：\c[0]    はぁ... ふぁ…｡ ふぅ...
+\m[sad]\c[6]ロナ：\c[0]    うう.... 赤ちゃんがまた蹴ってる｡
+\m[confused]\c[6]ロナ：\c[0]    怖くないよ､ママが守ってあげるよ｡
+
+#####################birth
+
+Lona/preglv5_ready_to_birth
+！！！！！！
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]ロナ：\c[0]    \{水！水が止まらない！
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]ロナ：\c[0]    \{水...水が出てきた！
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]ロナ：\c[0]    \{なんか､何か出てる！
+\m[pain]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]ロナ：\c[0]    水が止まらない､このままじゃダメ！
+\m[shy]\c[6]ロナ：\c[0]    安全な場所を探さないと！
+
+Lona/preglv5_ready_birth_shake0
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]ロナ：\c[0]    \{痛いぃ！
+
+Lona/preglv5_ready_birth_shake1
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]ロナ：\c[0]    \{ぉうっ！
+
+Lona/preglv5_ready_birth_shake2
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]ロナ：\c[0]    \{やあぁ！
+
+Lona/preglv5_birth_start
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]ロナ：\c[0]    \{いたいよ！\}おなか､うごいてっ！
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]ロナ：\c[0]    \{はあっ！\}でてくるかんじするぅ！
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]ロナ：\c[0] うぅ！またきた！\{いっ\{い\{いっ
+\m[p5sta_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]ロナ：\c[0]    いたくなってきてる！\{いたぁっ\{あ\{あっ
+
+Lona/preglv5_birth_start_pain0
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]ロナ：\c[0]    \{あああああああ！
+\Rshake\c[6]ロナ：\c[0]    \{とめて！すぐとめてぇ！
+
+Lona/preglv5_birth_start_pain1
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]ロナ：\c[0]    \{うおおおおっ！
+\Rshake\c[6]ロナ：\c[0]    \{うおおおおお！
+\Rshake\c[6]ロナ：\c[0]    \{うぅおおぉおぉお！
+
+Lona/preglv5_birth_start_pain2
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]ロナ：\c[0]    \{いたい！いたいよぉ！
+\Rshake\c[6]ロナ：\c[0]    \{むり！ むりぃ！
+
+Lona/preglv5_birth_start_pain3
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]ロナ：\c[0]    \{はっあ！
+\Rshake\c[6]ロナ：\c[0]    \{うぅうっ！
+
+Lona/preglv5_birth_start_pain4
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]ロナ：\c[0]    \{でてくるぅ！
+\call[Data/Batch/common_stats_damage_sta.rb]\c[6]ロナ：\c[0]    \{ひぃぃいあっ！！！
+
+######################################流產
+
+Lona/preg_miscarriage_start
+\narr突然強烈な陣痛が襲ってきた
+\narrOFF\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]ロナ：\c[0]    \{\{！！！\}！！\}！！\{！！！\{！！！！！\}！！！！\{！！！
+
+Lona/preg_miscarriage_begin0
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]ロナ：\c[0]    \{痛い！ いたいよぉ！
+
+Lona/preg_miscarriage_begin1
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]ロナ：\c[0]    \{うおおおお！
+
+Lona/preg_miscarriage_begin2
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]ロナ：\c[0]    \{いや！ ゆるしてぇ！
+
+Lona/preg_miscarriage_begin3
+\m[p5health_damage]\call[Data/Batch/common_stats_damage_sta.rb]\c[6]ロナ：\c[0]    \{ひいいぃ！ \{あああ！
+
+Lona/preg_miscarriage_end0
+\m[pain]\c[6]ロナ：\c[0]    これ... わたしの赤ちゃん？
+\m[fear]\c[6]ロナ：\c[0]    赤ちゃん､あかちゃんしんじゃった｡
+
+Lona/preg_miscarriage_end1
+\m[sad]\c[6]ロナ：\c[0]    うううう... ママごめんなさい...わたしお母さん失格なの｡
+
+##_------------------------------異種強制流產  使用於ｒａｐｅ ｌｏｏｐ連鎖事件 本事件僅適用ORKIND
+
+Lona/MonsterPregCheckbegin1_unexped
+\narrロナを立ち上がらせた｡
+\narrOFF\c[6]ロナ：\c[0]    \m[p5shame]うう.. なにしてるの｡
+\narr陰部を嗅ぎ続けている､何かを探しているようだ｡
+
+Lona/MonsterPregCheckbegin1_exped
+\narr陰部を嗅ぎ続けている､自分たちの種を孕んでいないと疑っているようだ｡
+\narrOFF\c[6]ロナ：\c[0]    \m[p5shame]うう.. もう妊娠してる､本当！ 嘘じゃない！
+
+Lona/MonsterPregCheckbegin2_normal
+\m[p5shame]\call[Data/Batch/harassment_frame_VagLick.rb]\c[6]ロナ：\c[0]    いや.. 舐めないで...
+
+Lona/MonsterPregCheckbegin2_tsun
+\m[p5shame]\call[Data/Batch/harassment_frame_VagLick.rb]\c[6]ロナ：\c[0]    くそっ！ いやぁ！ 汚い口を離せ！
+
+Lona/MonsterPregCheckbegin2_weak
+\m[p5shame]\call[Data/Batch/harassment_frame_VagLick.rb]\c[6]ロナ：\c[0]    いや！ 痛くしないで！ ああ！
+
+Lona/MonsterPregCheckbegin2_slut
+\m[p5shame]\call[Data/Batch/harassment_frame_VagLick.rb]\c[6]ロナ：\c[0]    いやぁ！ なにしてるの！
+
+Lona/MonsterPregCheckbegin2_mouth_block
+\call[Data/Batch/harassment_frame_VagLick.rb]\c[6]ロナ：\c[0]    ううう！ うぉうう！
+
+Lona/MonsterPregCheckbegin2_overfatigue
+\call[Data/Batch/harassment_frame_VagLick.rb]\c[6]ロナ：\c[0]    うぁ... ああ...
+
+Lona/MonsterPregCheckbegin3
+\m[p5shame]\call[Data/Batch/harassment_frame_VagLick.rb]\c[6]ロナ：\c[0]    ぉあ....
+\m[p5shame]\call[Data/Batch/harassment_frame_VagLick.rb]\c[6]ロナ：\c[0]    うぅ...
+\m[p5shame]\call[Data/Batch/harassment_frame_VagLick.rb]\c[6]ロナ：\c[0]    うわぁ！
+
+Lona/MonsterPregChecked_pregnant
+\narr子宮の中の状態に非常に満足したので､ロナを犯すことにした｡
+\narrOFF\c[6]ロナ：\c[0]    \m[fear]あなたたち... 何するの？
+
+Lona/MonsterPregChecked_no_pregnant
+\narrまだ子を孕んでいない､つまり交尾をしなければならないということになる｡
+\narrOFF\c[6]ロナ：\c[0]    \m[fear]あなたたち... 何するの？
+
+Lona/MonsterPregChecked_race_error
+\narr自分たちの子を妊娠していないことを理解し､激怒している｡
+\narrOFF\c[6]ロナ：\c[0]    \m[fear]あなたたち... 何するの？
+\narr最も原始的な方法で流産を手伝うことにした｡
+
+
+#-----------------------------
+
+Lona/use_as_MeatToilet_normal
+\m[shocked]\Rshake\c[6]ロナ：\c[0]    いや！！！ 放して！！！
+\m[terror]\Rshake\c[6]ロナ：\c[0]    \{誰か助けて！！！
+
+Lona/use_as_MeatToilet_tsun
+\m[angry]\Rshake\c[6]ロナ：\c[0]    放して！ お前らキモいっ@#$@...うう！！@#$@#
+\m[hurt\Rshake]\c[6]ロナ：\c[0]    \{うううう！！！
+
+Lona/use_as_MeatToilet_weak
+\m[fear]\Rshake\c[6]ロナ：\c[0]    わたし... いい子にします... 乱暴しないで...
+\m[bereft]\Rshake\c[6]ロナ：\c[0]    痛いぃ！！ \{いや！！！
+
+Lona/use_as_MeatToilet_slut
+\m[flirty]\Rshake\c[6]ロナ：\c[0]    わたしのカラダが欲しいの？ どっち負けるかはまだわからないわよぉ！
+\m[sexhurt]\Rshake\c[6]ロナ：\c[0]    いやぁ！！ やさしくしてぇ！！！
+
+Lona/use_as_MeatToilet_overfatigue
+\m[tired]\Rshake\c[6]ロナ：\c[0]    うぅ........
+\m[hurt]\Rshake\c[6]ロナ：\c[0]    もう休ませて､おねがい... \{いや！！
+
+Lona/use_as_MeatToilet_mouth_block
+\m[tired]\Rshake\c[6]ロナ：\c[0]    うう........
+\m[hurt]\Rshake\c[6]ロナ：\c[0]    \{うううう！！！
+
+#-----------------------------  BerserkDrug
+
+Lona/BerserkDrug0
+\m[p5sta_damage]\SndLib[sound_Heartbeat]\Rshake\c[6]ロナ：\c[0]    \{ううぅあっ！
+
+Lona/BerserkDrug1
+\m[p5health_damage]\SndLib[sound_Heartbeat]\Rshake\c[6]ロナ：\c[0]    感じる......\n\{アアアア！！！
+
+Lona/BerserkDrug2
+\cg[event_RipAndTear]\Rflash\SndLib[sound_Heartbeat]奴らは君を嘲笑い､ウジ虫のように見下している｡
+\Rflash\SndLib[sound_Heartbeat]だが今の君は今までとは違う｡
+\Rflash\SndLib[sound_Heartbeat]奴ら以上に邪悪で､強い｡
+\Rflash\SndLib[sound_Heartbeat]\{切り裂け､全てが終わるまで！
+
+Lona/BerserkDrug3
+\cgoff\SndLib[sound_Heartbeat]\c[6]ロナ：\c[0]    \{アハハハハハッ！
+
+Lona/BerserkDrug4
+\SndLib[sound_Heartbeat]\c[6]ロナ：\c[0]    感じるゥ....\n\{怒りだァ！
+
+#-----------------------------  Drunk
+
+Lona/DrunkLv1
+\m[p5sta_damage]\SndLib[sound_Heartbeat]\Rshake\c[6]ロナ：\c[0]    ひっく！
+\m[pleased]\PRF\c[6]ロナ：\c[0]    アハハ！
+
+Lona/DrunkLv2
+\m[p5sta_damage]\SndLib[sound_Heartbeat]\Rshake\c[6]ロナ：\c[0]    ひっく！
+\m[pleased]\PRF\c[6]ロナ：\c[0]    ..
+\m[flirty]\PRF\c[6]ロナ：\c[0]    もう飲むのはやめた方がいいね。
+
+#-----------------------------  Locked , house or dungeon loot.
+
+Lona/PickLock
+\m[confused]閉ざされている､体力を消費して#{$story_stats["HiddenOPT1"]}開けますか？
+
+#-----------------------------  Nightmare(PTSD)
+
+Lona/PTSD_begin0
+\Rflash\SndLib[sound_Heartbeat]！！！
+
+Lona/PTSD_begin1
+\Rflash\SndLib[sound_Heartbeat]！！！！！！
+
+Lona/PTSD_begin2
+\Rflash\SndLib[sound_Heartbeat]！！！！！！！！！！
+
+Lona/PTSD_Common_0
+\m[terror]\Rshake\Rflash\SndLib[sound_Heartbeat]\c[6]ロナ：\c[0]    ううう....
+
+Lona/PTSD_Common_1
+\m[bereft]\Rshake\Rflash\SndLib[sound_Heartbeat]\c[6]ロナ：\c[0]    \{いや....\} どっかいって...
+
+Lona/PTSD_Common_2
+\m[pain]\Rshake\Rflash\SndLib[sound_Heartbeat]\c[6]ロナ：\c[0]    \{ごめんなさい...\} 許して...
+
+Lona/PTSD_Common_3
+\m[hurt]\Rshake\Rflash\SndLib[sound_Heartbeat]\c[6]ロナ：\c[0]    \{ちがうの...\} やめて...
+
+Lona/PTSD_CecilyBetray
+\SETpl[CecilyAngryAr]\Rshake\Rflash\SndLib[sound_Heartbeat]\c[6]セシリー：\c[0]    なんであんなことしたんだ....
+\SETpl[CecilyAngryAr]\Rshake\Rflash\SndLib[sound_Heartbeat]\c[6]セシリー：\c[0]    お前を許さないぞ！
+\SETpl[CecilyAngryAr]\Rshake\Rflash\SndLib[sound_Heartbeat]\c[6]セシリー：\c[0]    \{死ね！
+
+Lona/PTSD_Orkind
+\cg[event_Eyes]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_goblin_spot]！！！
+\cg[map_OrcHappy]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_goblin_spot]！！！！！
+\cg[event_OrkindGonnaRape]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_goblin_spot]！！！！！！！！
+
+Lona/PTSD_Fishkind
+\cg[event_Eyes]\Rflash\SndLib[sound_Heartbeat]\SndLib[FishkindLgSpot]！！！
+\cg[map_FishkindGroup]\Rflash\SndLib[sound_Heartbeat]\SndLib[FishkindLgSpot]！！！！！
+\cg[event_FishkindGonnaRape]\Rflash\SndLib[sound_Heartbeat]\SndLib[FishkindLgSpot]！！！！！！！！
+
+Lona/PTSD_Abomination
+\cg[event_Eyes]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_ManagerHurt]！！！
+\cg[map_AbominationSpider]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_ManagerHurt]！！！！！
+\cg[map_AbominationGroup]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_ManagerHurt]！！！！！！！！
+
+Lona/PTSD_Bandit
+\cg[event_Eyes]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_punch_hit]！！！
+\cg[event_needle_begin]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_punch_hit]！！！！！
+\cg[event_miscarriage_low]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_punch_hit]！！！！！！！！
+
+Lona/PTSD_Slave
+\cg[event_captured]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_slap]！！！
+\cg[event_needle_begin]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_slap]！！！！！
+\cg[event_Eyes]\Rflash\SndLib[sound_Heartbeat]\SndLib[sound_slap]！！！！！！！！
+
+Lona/PTSD_begin4
+\cgoff\m[bereft]\Rshake\Rflash\SndLib[sound_Heartbeat]\c[6]ロナ：\c[0]    \{\{イヤ！！
+
+Lona/PTSD_begin5_0
+\m[terror]\c[6]ロナ：\c[0]    ...........
+\m[tired]\c[6]ロナ：\c[0]    またこの悪夢....?
+
+Lona/PTSD_begin5_1
+\m[terror]\c[6]ロナ：\c[0]    ...........
+\m[tired]\c[6]ロナ：\c[0]    夢だったの....？

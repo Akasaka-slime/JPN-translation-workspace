@@ -1,0 +1,123 @@
+UniquePigBobo/CompData
+\board[種豚ボボ]
+\C[2]役割：\C[0]前衛
+\C[2]戦闘スタイル：\C[0]近接戦闘
+\C[2]陣営：\C[0]動物
+\C[2]敵対：\C[0]中立､カスタム
+\C[2]条件：\C[0]ロナの下半身が\C[4]濡れている\C[0]状態
+\C[2]期限：\C[0]2日
+\C[2]特別：\C[0]このキャラクターは蘇生できない
+\C[2]備考：\C[0]特性\C[4]娼婦\C[0]や\C[4]墮落\C[0]持ちで交尾することにより期限を伸ばすことができる｡
+ボア・オブ・ザ・シバリスを何度も受賞した種豚のボボは､その体もペニスも通常の豚と比べ数倍大きい｡
+彼はロナを雌の豚として認識しており､痩せたメス豚としての彼女との交尾を望んでいる｡
+
+UniquePigBobo/begin
+\SETpl[BoboNormal]\Lshake\SndLib[pigQuestion]\CBid[-1,4]\c[4]ボボ：\c[0]    ブウブウ♥♥ ブヒ♥♥♥♥
+
+UniquePigBobo/Comp_disband
+\SETpl[BoboNormal]\Lshake\SndLib[SwineDed]\CBid[-1,5]\c[4]ボボ：\c[0]    ブブウ！！！！
+
+UniquePigBobo/Comp_win
+\SETpl[BoboYell]\Lshake\SndLib[SwineAtk]\CBid[-1,20]\c[4]ボボ：\c[0]    \{ブヒ～～♥♥♥
+
+UniquePigBobo/Comp_failed
+\SETpl[BoboNormal]\Lshake\SndLib[pigQuestion]\CBid[-1,8]\c[4]ボボ：\c[0]    ブフゥ.....
+
+UniquePigBobo/Extension0_k0_NotMated
+\SETpl[BoboYell]\plf\narrOFF\CBct[2]\m[confused]\Rshake\c[6]洛娜：\c[0]    何しようとしてるの？
+\SETpl[BoboYell]\plf\BonID[-1]\CBct[6]\m[flirty]\Rshake\c[6]洛娜：\c[0]    やだ！ 匂い嗅がないでよ！
+
+UniquePigBobo/Extension0_k0_MatedB4
+\SETpl[BoboYell]\plf\narrOFF\CBct[1]\m[shocked]\Rshake\c[6]ロナ：\c[0]    あなたは...またしたいの？！
+
+UniquePigBobo/Extension0_k1
+\SETpl[BoboYell]\plf\SndLib[SwineAtk]\narrボボは目の前の動物と交尾したいとしきりに鳴き続けている
+\SETpl[BoboYell]\plf\SndLib[SwineAtk]\narrどうする？ ボボは大きすぎて交尾相手に優しくする方法など知らない｡
+
+UniquePigBobo/Extension1
+\SETpl[BoboYell]\plf\CBct[6]\m[shy]\plf\c[6]ロナ：\c[0]    うぅ.....
+
+UniquePigBobo/Extension2
+\SETpl[BoboYell]\plf\CBct[6]\m[fear]\plf\c[6]ロナ：\c[0]    わかった､おいで｡
+
+UniquePigBobo/Extension3_loop
+\SETpl[BoboYell]\Lshake\SndLib[pigQuestion]\CBid[-1,5]\c[4]ボボ：\c[0]    ブウブウ♥♥ ブヒィ♥♥♥♥
+\narrボボの射精はまだまだ続く.....
+
+UniquePigBobo/OvermapPop0
+ブヒィ～～♥♥♥
+
+UniquePigBobo/OvermapPop1
+ブウブウ！ ブゥ！！
+
+UniquePigBobo/SetupFateEnemy
+敵対する対象を設定\optD[元に戻す,邪悪,正義,動物<r=HiddenOPT0>,ゴブリン<r=HiddenOPT1>,深きものども<r=HiddenOPT2>,忌まわしきものども<r=HiddenOPT3>,アンデッド<r=HiddenOPT4>]
+
+UniquePigBobo/OMbegin
+\narr\SndLib[SwineDed]遠くで豚の鳴き声が聞こえる\..\..\..
+
+#################################################################################################################################################### BanditCamp2
+
+PigBoboQu0/begin0
+\CBct[6]\SETpl[BoboNormal]\plf\m[shocked]\Rshake\c[6]ロナ：\c[0]    ！！！！！！！！
+
+PigBoboQu0/begin1
+\CBct[20]\SETpl[BoboYell]\Lshake\m[bereft]\Rshake\c[6]ロナ：\c[0]    イヤ！ 食べないで！
+
+PigBoboQu0/begin2
+\narrボボはロナの傷口を優しく舐めてくれた...
+
+PigBoboQu0/begin3
+\CBct[8]\m[fear]\PRF\c[6]ロナ：\c[0]    \..\..\..\m[tired]ありがとう？
+
+PigBoboQu0/begin4
+\CBct[6]\m[p5sta_damage]\Rshake\c[6]ロナ：\c[0]    うぅ....
+\narrボボはロナの身体から拘束具を引き剥がした...
+
+PigBoboQu0/follower_0
+\CBct[8]\SETpl[BoboNormal]\plf\m[confused]\PRF\c[6]ロナ：\c[0]    なに....？ 何をしたいの？
+\SndLib[SwineSpot]\SETpl[BoboYell]\Lshake\prf ....
+\CBid[-1,20]\SETpl[BoboNormal]\plf\SndLib[SwineAtk]\.\.\CBct[8]\m[flirty]\PRF\c[6]ロナ：\c[0]    \..\..\..付いてきて欲しいの？
+
+PigBoboQu0/follower_1
+\board[駆け落ち]
+目標：ここから逃げる
+報酬：無
+依頼主：種豚
+期限：一度きり
+種豚のボボは目の前の小さな雌豚を助けたいようだ....
+ボボは目の前の雌豚を当然自分の伴侶だと思っているが､まずは毛のない悪いサルの支配から逃れるべきだと考えている｡
+共に自由を手に入れてから､雌豚と共に沢山の子豚が欲しいのでしょう｡
+悲しいかな､愚かなボボはこの小さな雌豚に子豚を抱かせることができない事を知らないまま...
+
+PigBoboQu1/accept0
+\CBct[8]\m[tired]\PRF\c[6]ロナ：\c[0]    わかった.....
+
+PigBoboQu1/accept1
+\CBct[20]\SETpl[BoboNormal]\plf\m[shocked]\Rshake\c[6]ロナ：\c[0]    ！！！！！！！！
+\CBct[20]\SETpl[BoboNormal]\plf\m[triumph]\PRF\c[6]ロナ：\c[0]    ありがとう..？
+
+PigBoboQu1/ExitFailedQmsg
+ボボが出口の近くにいる必要がある
+
+PigBoboQu1/ExitEnd0
+\SETpl[MobHumanCommoner]\Lshake\C[4]野盜：\C[0]    追え！ そのビッチを逃がすな！
+\CBct[6]\m[shocked]\Rshake\c[6]ロナ：\c[0]    ！！！！
+
+PigBoboQu1/ExitEnd1
+\narrボボは忌々しい毛のないサルを抑える為､ここに残ると示した｡
+\narrそしていつかまた会おうと...
+\narrOFF\CBct[8]\m[tired]\PRF\c[6]ロナ：\c[0]    ......
+
+PigBoboQu0/WhenPlayerNotCap0
+\CBct[8]\m[confused]\PRF\c[6]ロナ：\c[0]    \..\..\..
+\CBct[20]\m[shocked]\Rshake\c[6]ロナ：\c[0]    大きなブタさん！
+
+PigBoboQu0/WhenPlayerNotCap1
+\CBct[6]\SETpl[BoboYell]\plf\m[hurt]\Rshake\c[6]ロナ：\c[0]    うわっ！ 何してるの！？ 放して！！
+
+PigBoboQu0/WhenPlayerNotCap2
+\CBct[6]\SETpl[BoboYell]\plf\m[hurt]\Rshake\c[6]ロナ：\c[0]    いやだ！ 舐めないで！
+
+PigBoboQu0/WhenPlayerNotCap3
+\CBct[8]\SETpl[BoboYell]\plf\m[confused]\PRF\c[6]ロナ：\c[0]    これは....？

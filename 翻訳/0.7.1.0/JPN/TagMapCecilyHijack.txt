@@ -1,0 +1,432 @@
+thisMap/OvermapEnter
+\SETpl[CecilyWtfAr]\Lshake\C[4]セシリー：\C[0]    準備はいい？ 決めたらあとがないよ！
+\m[confused]\plf\PRF\c[6]ロナ：\c[0]    えっと....\optB[やめる,はじめよう]
+
+QuestQmsg/XY
+場所は
+
+QuestStart/Begin0
+\CBfB[2]\SETpl[CecilyWtfAr]\PLF\C[4]セシリー：\C[0]    ここか？
+\CBfF[20]\SETpr[GrayRatNormalAr]\plf\PRF\C[4]グレイラット：\C[0]    はい､お嬢様｡
+\CBct[2]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    何すればいいですか？
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]セシリー：\C[0]    偵察を頼む､前方にアタシ達の味方が居るはず｡
+\CBct[8]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    えっと... わかりました｡
+
+region/0_exit
+\CBct[8]\m[flirty]\c[6]ロナ：\c[0]    ちゃんとやるべき事をしなきゃ､約束したから｡
+
+QuestStart/flash0
+\CBmp[ThunderFlash,20]\prf\C[4]草：\C[0]    イカズチ...
+\CBct[1]\m[shocked]\Rshake\c[6]ロナ：\c[0]    わぁっ？！
+
+QuestStart/flash1
+\CBmp[ThunderFlash,20]\prf\C[4]草：\C[0]    \{イカズチ！
+\CBct[2]\m[confused]\PRF\c[6]ロナ：\c[0]    なに？
+\CBfF[8]\SETpl[GrayRatConfusedArAr]\PLF\prf\C[4]グレイラット：\C[0]    ....
+
+QuestStart/flash2
+\CBfF[8]\SETpl[GrayRatNormalAr]\PLF\prh\C[4]グレイラット：\C[0]    イナズマ...
+\CBmp[ThunderFlash,8]\plf\C[4]草：\C[0]    ...
+
+########################################################################################
+
+QuestStart/ShowUp_AdamAlive0_t0
+\CBmp[Adam,1]\SETpr[Adam_angry]\plh\PRF\C[4]アダム：\C[0]    お前か...
+\CBfF[8]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]グレイラット：\C[0]    .....
+\CBmp[Adam,20]\SETpl[Adam_happy]\PLF\prf\C[4]アダム：\C[0]    ガキ､この前はご苦労だったな｡
+\CBct[2]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    はい？わたし？
+\CBct[20]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    いえいえ...
+\CBfF[8]\SETpl[GrayRatNormalAr]\PLF\prf\C[4]グレイラット：\C[0]    彼女とはお知り合いですか？
+\CBmp[Adam,20]\SETpl[Adam_happy]\PLF\prf\C[4]アダム：\C[0]    このお嬢ちゃんに色々と手伝ってもらった事がある､信頼できるやつだ｡
+\CBmp[Adam,20]\SETpl[Adam_normal]\PLF\prf\C[4]アダム：\C[0]    で､後ろに居る方は...
+\CBmp[Adam,20]\SETpl[Adam_sad]\PLF\prf\C[4]アダム：\C[0]    セシリー様ですね､お会い出来て光栄です｡
+
+QuestStart/ShowUp_AdamAlive0_t1
+\CBmp[Adam,8]\SETpr[Adam_normal]\plh\PRF\C[4]アダム：\C[0]    お前か...
+\CBfF[8]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]グレイラット：\C[0]    .....
+\CBmp[Adam,2]\SETpl[Adam_angry]\m[confused]\PLF\prf\C[4]アダム：\C[0]    で､隣に居るのがセシリー様ですね？
+\CBct[2]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    はい？わたし？
+\CBct[20]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    わたしはただのお付きです！セシリーさんなら後ろに居ます！
+\CBmp[Adam,20]\SETpl[Adam_sad]\PLF\prf\C[4]アダム：\C[0]    あっ......
+\CBmp[Adam,20]\SETpl[Adam_happy]\PLF\prf\C[4]アダム：\C[0]    セシリー様ですね､お会い出来て光栄です｡
+
+QuestStart/ShowUp_AdamAlive1
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]セシリー：\C[0]    あんたがアダム？
+\CBmp[Adam,20]\SETpr[Adam_normal]\plf\PRF\C[4]アダム：\C[0]    はい｡
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]セシリー：\C[0]    状況はどう？
+\CBmp[Adam,20]\SETpr[Adam_sad]\plf\PRF\C[4]アダム：\C[0]    今回の荷物はいつもより多いらしい､衛兵もです｡
+\CBmp[Adam,20]\SETpr[Adam_sad]\plf\PRF\C[4]アダム：\C[0]    今はその荷馬車隊への近道を探しています｡
+
+########################################################################################
+
+QuestStart/ShowUp_AdamDed0
+\CBfF[2]\SETpl[GrayRatNormalAr]\PLF\prf\C[4]グレイラット：\C[0]    アダム様は？
+\CBmp[replacer,20]\plf\C[4]傭兵：\C[0]    あいつは失踪した､もう何日連絡が来ていないんだ､恐らくは...
+\CBfF[8]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]グレイラット：\C[0]    残念です...
+
+QuestStart/ShowUp_AdamDed0_milo
+\CBct[8]\m[tired]\plf\Rshake\c[6]ロナ：\c[0]    え... アダムって....
+\CBfF[2]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]グレイラット：\C[0]    どうしましたか？
+\CBct[8]\m[flirty]\plf\Rshake\c[6]ロナ：\c[0]    いえ....
+\CBfF[8]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]グレイラット：\C[0]    .....
+
+QuestStart/ShowUp_AdamDed1
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]セシリー：\C[0]    状況はどう？
+\CBmp[replacer,20]\plf\C[4]傭兵：\C[0]    今回の荷物はいつもより多いらしい､衛兵もな｡
+\CBmp[replacer,20]\plf\C[4]傭兵：\C[0]    今はその荷馬車隊への近道を探している｡
+
+########################################################################################
+
+QuestStart/ShowUp_Quest0
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]セシリー：\C[0]    こいつに任せろ！
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\prf\C[4]セシリー：\C[0]    ロナ！
+
+QuestStart/ShowUp_Quest1
+\CBct[20]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    えっ？！はい！
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prf\C[4]セシリー：\C[0]    この前あんたがアタシを助けた時みたいに､安全なルートを探してくれ！\optD[はい！,うぅ...]
+
+QuestStart/ShowUp_Quest2
+\board[難民を救う]
+目標：偵察
+出来れば見つからないように
+前方の道を偵察する｡
+
+QuestStart/ShowUp_Quest3
+\CBct[20]\m[pleased]\plf\PRF\c[6]ロナ：\c[0]    任せてください！
+
+QuestStart/ShowUp_Quest3_kill
+\CBct[20]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    無理です...
+\CBfB[20]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]セシリー：\C[0]    平民には荷が重いか？
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\prf\C[4]セシリー：\C[0]    じゃあ正面突破だ！
+
+########################################################################################
+
+Commoner/Qmsg0
+この先は衛兵が多い
+
+Commoner/Qmsg1
+気をつけて
+
+Commoner/Qmsg2
+バレんなよ
+
+########################################################################################
+
+ReachedEnd/Success_NonSpot
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\C[4]セシリー：\C[0]    バレてない？凄いね！
+\CBct[6]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    えへへ...
+\CBfB[20]\SETpl[CecilyAngryAr]\Lshake\C[4]セシリー：\C[0]    荷物は目の前だ､行動を続けよう｡
+
+ReachedEnd/Success_Spoted
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\C[4]セシリー：\C[0]    ロナ....
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\C[4]セシリー：\C[0]    あんた､頼りない所もあるね...
+\CBfF[20]\SETpr[GrayRatConfusedAr]\plf\PRF\C[4]グレイラット：\C[0]    ....
+\CBct[6]\m[sad]\plf\PRF\c[6]ロナ：\c[0]    ごめんなさい...
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\C[4]セシリー：\C[0]    まぁいい､荷物は目の前だ､行動を続けよう｡
+
+ReachedEnd/FailedWarning
+\m[serious]\Rshake\c[6]ロナ：\c[0]    衛兵に見つかっちゃった､早く\C[4]セシリー\C[0]さんたちと合流しないと！
+
+########################################################################################
+########################################################################################
+########################################################################################  PART 2
+########################################################################################
+########################################################################################
+
+Part2/Enter
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\C[4]セシリー：\C[0]    雨か....
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    いいことじゃないですか？ わたしたちの足音も雨で消されるし｡
+\CBfB[20]\SETpl[GrayRatConfusedAr]\Lshake\PRF\C[4]グレイラット：\C[0]    ...
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\prh\C[4]セシリー：\C[0]    おい！あんた！
+\CBmp[Follower1,2]\plf\C[4]傭兵：\C[0]    俺？
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\prh\C[4]セシリー：\C[0]    あんたは待機だ！ 何かあったらすぐに知らせて！
+\CBmp[Follower1,20]\plf\C[4]傭兵：\C[0]    オスッ！
+\CBct[2]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    わたしは？どうしますか？
+\CBfB[20]\SETpl[CecilyWtfAr]\Lshake\prf\C[4]セシリー：\C[0]    荷物はこの先に居るはず､さっきと同じ､あんたは斥候の仕事をしてくれ！
+
+Part2/SpotQuAcc0
+\CBct[1]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    見てください！
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\C[4]セシリー：\C[0]    ん？
+
+Part2/SpotQuAcc0_Maani0
+\CBmp[Maani,20]\SETpr[MaaniNormal]\Rshake\C[4]マーレ：\C[0]    人数が合ってません､足りない分は契約報酬から差し引きます｡
+\CBmp[AnonMale1,20]\SETpl[AnonMale1]\Lshake\prf\C[4]商人：\C[0]    知ってるよ！努力したんだ！ でもシバリスの所にはもうほどんどん人間が居ないんだよ！
+\CBmp[Maani,20]\SETpr[MaaniNormal]\plf\Rshake\C[4]マーレ：\C[0]    貴方達の事情は､私の主人に関係ありません､すべては契約通りです｡
+\CBmp[AnonMale1,20]\SETpl[AnonMale1]\Lshake\prf\C[4]商人：\C[0]    チッ！
+
+Part2/SpotQuAcc0_Maani1
+\SETpl[AnonMale1]\Lshake\prh\C[4]商人：\C[0]    クソ！
+\SETpl[AnonMale1]\Lshake\prh\C[4]商人：\C[0]    奴隷の分際で！
+
+part2/SpotQuAcc1
+\CBmp[Guard1,20]\SETpl[MobHumanCommoner]\PLF\prh\C[4]衛兵：\C[0]    また蚊かよ！ 一体何匹居るんだ！
+\CBmp[Guard2,20]\SETpr[AnonMale2]\plf\PRF\C[4]衛兵：\C[0]    おまけに雨まで降っている｡
+\CBmp[Guard3,8]\SETpl[MobHumanWarrior]\PLF\prf\C[4]衛兵：\C[0]    はあ... 商品がますます少なくなってきた...
+\CBmp[Guard4,8]\SETpl[AnonMale1]\PLF\prf\C[4]衛兵：\C[0]    .....
+\CBmp[Story2]\SETpl[CecilyAngryAr]\PLF\prh\C[4]セシリー：\C[0]    衛兵が四人...
+\CBmp[SlaveCart2,19]\SETpl[CecilyWtfAr]\PLF\prh\C[4]セシリー：\C[0]    荷物はそこだね！
+\CBmp[SlaveCart2]\SETpl[CecilyNormalAr]\PLF\prh\C[4]セシリー：\C[0]    ロナ､あいつらをなんとか出来るか？
+\CBmp[SlaveCart2]\m[shocked]\plf\Rshake\c[6]ロナ：\c[0]    え！ わたし？\optD[殴って気絶させる,無理]
+
+part2/SpotQuAcc1_yes
+\CBct[20]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    後ろから殴って気絶させられるかも？多分？
+\CBfB[20]\SETpl[CecilyNormalAr]\PLF\prf\C[4]セシリー：\C[0]    じゃあ任せるよ｡
+\CBfB[20]\SETpl[CecilyAngryAr]\PLF\prf\C[4]セシリー：\C[0]    もしダメだったらアタシ達が出る！
+\CBfF[20]\SETpl[GrayRatConfusedAr]\PLF\prf\C[4]グレイラット：\C[0]    お気をつけて....
+\CBct[20]\m[pleased]\plf\PRF\c[6]ロナ：\c[0]    いってきます！
+
+part2/SpotQuAcc1_no
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    それは..ちょっと...
+\CBfB[20]\SETpl[CecilyShyAr]\PLF\prf\C[4]セシリー：\C[0]    そうか....
+\CBfB[20]\SETpl[CecilyAngryAr]\PLF\prf\C[4]セシリー：\C[0]    ええい面倒だ！ あいつらをぶっ殺せ！
+
+part2/SpotQuAcc2_board
+\board[難民を救う]
+衛兵を四人共々気絶させ､あるいは殲滅する｡
+
+
+Part2/SpotQuWin
+\CBfB[20]\SETpl[CecilyAngryAr]\Lshake\prh\C[4]セシリー：\C[0]    よくやった！
+\CBfB[20]\SETpl[CecilyNormalAr]\Lshake\prh\C[4]セシリー：\C[0]    難民たちを解放しよう｡
+
+################################################################################################ Quest end  milo
+################################################################################################ Quest end  milo
+
+Part2/EndMilo_0
+\SETpl[GrayRatShockedAr]\Lshake\C[4]グレイラット：\C[0]    \{お嬢様！
+
+Part2/EndMilo_1
+\SETpr[CecilyShockedAr]\plh\Rshake\C[4]セシリー：\C[0]    なにっ？！
+
+Part2/EndMilo_2
+\CBmp[Cecily,20]\SETpr[CecilyShockedAr]\Rshake\C[4]セシリー：\C[0]    グレイラット！ いやあああああ！
+\CBmp[Cecily,20]\SETpr[CecilySadAr]\Rshake\C[4]セシリー：\C[0]    起きて！ ヴィニート！
+
+Part2/EndMilo_3
+\CBct[1]\m[shocked]\Rshake\c[6]ロナ：\c[0]    どうして？！ 何が起きているの？！
+\CBmp[Cecily,20]\SETpr[CecilySadAr]\Rshake\C[4]セシリー：\C[0]    起きて！
+\CBmp[Cecily,20]\SETpr[CecilyShockedAr]\Rshake\C[4]セシリー：\C[0]    嘘！ お願い起きてよ！
+
+Part2/EndMilo_4
+\BonMP[Milo,3]\SETpr[MiloNormal]\Rshake\C[4]ミロ：\C[0]    ラララララ♫
+
+Part2/EndMilo_5
+\CBmp[Cecily,20]\SETpr[CecilyShockedAr]\Rshake\C[4]セシリー：\C[0]    \{ミロ\..フォン\..ルーデシンド\. そんなバカな！
+
+Part2/EndMilo_5_1
+\BonMP[Milo,20]\SETpr[MiloNormal]\Rshake\C[4]ミロ：\C[0]    理解に苦しむね､どうして君たちはヘルメットを被るのが嫌なんです？
+\BonMP[Milo,20]\SETpr[MiloNormal]\Rshake\C[4]ミロ：\C[0]    偉大なる使徒を見てくださいよ！ 彼は頭防具の重要性をよく知っていたじゃありませんか！
+
+Part2/EndMilo_6
+\CBmp[FollowerTop1,20]\C[4]傭兵：\C[0]    早く逃げろ！ 失敗した！ 待ち伏せされてる！
+
+Part2/EndMilo_7
+\CBmp[FollowerTop1,20]\C[4]傭兵：\C[0]    逃げろ！ 罠だ！
+
+Part2/EndMilo_8_manni
+\BonMP[Milo,20]\SETpr[MiloNormal]\Rshake\C[4]ミロ：\C[0]    ナイスシュート！
+\BonMP[MaaniRF,20]\SETpl[MaaniNormal]\Lshake\C[4]マーレ：\C[0]    ありがとうございます｡
+
+Part2/EndMilo_9
+\CBct[8]\m[shocked]\plh\Rshake\c[6]ロナ：\c[0]    死んだ？！ 死んじゃった？！
+
+Part2/EndMilo_10
+\CBct[20]\m[shocked]\plh\Rshake\c[6]ロナ：\c[0]    ミロさん？！
+\BonMP[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]ミロ：\C[0]    おやおや！ ロナ・ムシケラくんではありませんか？ 君もここに居るとは...
+\CBmp[Cecily,20]\SETpl[CecilyShockedAr]\Lshake\prf\C[4]セシリー：\C[0]    あんた達....
+\BonMP[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]ミロ：\C[0]    よくできましたね虫くん､彼女達が釣れたのは君のお陰です｡
+\CBmp[Cecily,20]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]セシリー：\C[0]    ロナ... あんた！何をした？！
+\CBct[8]\m[terror]\plf\Rshake\c[6]ロナ：\c[0]    わ､わたしは何も...
+\CBmp[Cecily,20]\SETpl[CecilyShockedAr]\Lshake\prf\C[4]セシリー：\C[0]    なんて事してくれたんだ！！
+\BonMP[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]ミロ：\C[0]    私の可愛いロナくんよ！ おいで､君を傷つけませんから｡
+\BonMP[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]ミロ：\C[0]    約束します！ それに金貨ももっとあげますから｡
+\BonMP[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]ミロ：\C[0]    お金が必要なんでしょう？
+
+Part2/EndMilo_10_opt
+\CBct[8]\m[sad]\plf\Rshake\c[6]ロナ：\c[0]    わたし....\optD[わたし...,この嘘つき]
+
+Part2/EndMilo_1_optNo1
+\CBct[20]\m[bereft]\plf\Rshake\c[6]ロナ：\c[0]    嘘つき！ 虚言者！ わたしを騙したね！
+\BonMP[Milo,8]\SETpl[MiloAngry]\Lshake\prf\C[4]ミロ：\C[0]    おう？
+\CBct[20]\m[angry]\plf\Rshake\c[6]ロナ：\c[0]    ただ友達になりたいって言ったのに！ この嘘つき！ 地獄に落ちればいい！
+\BonMP[Milo,8]\SETpl[MiloAngry]\Lshake\prf\C[4]ミロ：\C[0]    \..\..\..\.. やれ｡
+
+Part2/EndMilo_1_optNo2
+\BonMP[Milo,3]\SETpl[MiloNormal]\Lshake\prh\C[4]ミロ：\C[0]    君に使徒の導きがあらんことを♫
+
+Part2/EndMilo_11
+\CBct[8]\m[sad]\plf\Rshake\c[6]ロナ：\c[0]    わたし....
+\CBmp[Cecily,20]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]セシリー：\C[0]    この裏切り者！
+\CBmp[Cecily,20]\SETpl[CecilyAngryAr]\Lshake\prf\C[4]セシリー：\C[0]    あんたはアタシ達の信頼を利用した！
+\CBct[8]\m[bereft]\plf\Rshake\c[6]ロナ：\c[0]    いえ！してないです！
+\CBmp[Cecily,20]\SETpl[CecilyShockedAr]\Lshake\prf\C[4]セシリー：\C[0]    死ね！
+
+Part2/EndMilo_12
+\CBct[8]\m[terror]\plf\Rshake\c[6]ロナ：\c[0]    いえ！本当にわざとじゃないです！
+
+Part2/EndMilo_13
+\CBmp[Cecily,20]\SETpl[CecilyTrapA_Shocked]\Lshake\prf\C[4]セシリー：\C[0]    ！！！
+\BonMP[Milo,20]\SETpl[MiloAngry]\Lshake\prf\C[4]ミロ：\C[0]    ロナくん､君のお金はここに居ますよ｡
+
+Part2/EndMilo_14
+\CBct[8]\m[sad]\plf\Rshake\c[6]ロナ：\c[0]    わたしは... 一体何を....
+
+Part2/EndMilo_15
+\BonMP[Milo,3]\SETpl[MiloNormal]\Lshake\prf\C[4]ミロ：\C[0]    君はするべき事をした､ノエル島の安定を守った､何も悪くありません｡
+\CBct[8]\m[tired]\plf\Rshake\c[6]ロナ：\c[0]    ......
+
+Part2/EndMilo_16
+\CBmp[Milo,3]\SETpl[MiloNormal]\Lshake\prf\C[4]ミロ：\C[0]    でも君には最後まで見てもらいます｡
+\CBmp[Milo,3]\SETpl[MiloNormal]\Lshake\prf\C[4]ミロ：\C[0]    友人である彼女を裏切った君に､その結末を見届ける責任がありますからね｡
+\CBmp[Milo,3]\SETpl[MiloNormal]\Lshake\prf\C[4]ミロ：\C[0]    抵抗も助けも無駄ですよ､銃口はそっちに向けていますから｡
+\CBct[8]\m[sad]\plf\Rshake\c[6]ロナ：\c[0]    ......
+\CBmp[RifleR1,4]\ph\C[4]傭兵：\C[0]    ひひっ...
+\SndLib[sound_DressTear]\CBmp[Cecily,1]\SETpl[CecilyTrapB_Shocked]\Lshake\C[4]セシリー：\C[0]    ！！！
+\CBmp[RifleR2,3]\ph\C[4]傭兵：\C[0]    へへへ...
+\CBmp[Cecily,8]\SETpl[CecilyTrapB_Shy]\Lshake\C[4]セシリー：\C[0]    いや....
+\CBmp[RifleR3,4]\ph\C[4]傭兵：\C[0]    くっくっ...
+\CBmp[Cecily,8]\SETpl[CecilyTrapB_Shy]\Lshake\prh\C[4]セシリー：\C[0]    やめて...
+\CBmp[Cecily,8]\SETpl[CecilyTrapB_Shy]\Lshake\prh\C[4]セシリー：\C[0]    助けて.....
+
+Part2/EndMilo_17
+\CBmp[RifleR1,3]\ph\C[4]傭兵：\C[0]    旦那！ やってもいいっすか？
+\CBmp[Milo,2]\SETpl[MiloAngry]\Lshake\prf\C[4]ミロ：\C[0]    なにを？ 女ならもうそこに転がっているんじゃないですか？
+\CBmp[RifleR1,3]\plf\C[4]傭兵：\C[0]    あっ､ちっちゃいほうの女のことっす､穴が足りねえからさぁ｡
+\CBct[1]\m[terror]\plf\Rshake\c[6]ロナ：\c[0]    ！！！
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\C[4]ミロ：\C[0]    なに？ 君たちは悪魔か？
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\C[4]ミロ：\C[0]    彼女はついさっき友人を裏切ったんですよ！ その悲しんでいる姿が見えないのですか？ 君達には人の心がないんですか！
+\CBmp[RifleR1,6]\plf\C[4]傭兵：\C[0]    あ... すいません｡
+
+Part2/EndMilo_18
+\CBct[8]\m[sad]\plf\Rshake\c[6]ロナ：\c[0]    ......
+\CBct[8]\m[tired]\plf\Rshake\c[6]ロナ：\c[0]    彼女はどうなるんですか...
+\CBmp[Milo,2]\SETpl[MiloAngry]\Lshake\prf\C[4]ミロ：\C[0]    セシリー・イーグルモアのこと？
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]ミロ：\C[0]    彼女はたくさんの人を殺しました､衛兵､商人､平民｡いろんな人もね｡
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]ミロ：\C[0]    被害者たちにも家族がいますからね｡
+\CBmp[Milo,20]\SETpl[MiloAngry]\Lshake\prf\C[4]ミロ：\C[0]    彼女にはその代償を払ってもらうよ｡
+\CBct[8]\m[sad]\plf\Rshake\c[6]ロナ：\c[0]    .....
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]ミロ：\C[0]    君はもう帰っていいですよ｡
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]ミロ：\C[0]    ここでずっと泣いてもいいですよ｡
+\CBmp[Milo,20]\SETpl[MiloNormal]\Lshake\prf\C[4]ミロ：\C[0]    あの獣達が我慢できなくなって､君を襲う時までにね｡
+\CBct[8]\m[tired]\plf\Rshake\c[6]ロナ：\c[0]    \..\..\.. はい...
+\narr\phロナは去った
+
+################################################################################################ Quest end  Cecily
+################################################################################################ Quest end  Cecily
+
+Part2/EndCecily_1
+\CBmp[Slave1,20]\C[4]難民：\C[0]    あんたたち誰？
+\CBmp[Slave3,20]\C[4]難民：\C[0]    買主はどこ？
+\CBmp[Slave5,20]\C[4]難民：\C[0]    腹減った！
+\CBmp[Cecily,20]\SETpl[CecilyNormalAr]\Lshake\C[4]セシリー：\C[0]    あんた達は自由だ｡
+\CBmp[Slave2,20]\plf\C[4]難民：\C[0]    自由？
+\CBmp[Cecily,20]\SETpl[CecilyNormalAr]\Lshake\C[4]セシリー：\C[0]    そう！ あんた達は解放された！
+\CBmp[Slave4,20]\plf\C[4]難民：\C[0]    腹減ったよ！ 食べ物くれるの？
+\CBmp[Cecily,20]\SETpl[CecilyAngryAr]\Lshake\C[4]セシリー：\C[0]    なに？
+\CBmp[Slave6,20]\plf\C[4]難民：\C[0]    奴隷になれなきゃご飯はない！
+\CBmp[Slave2,20]\plf\C[4]難民：\C[0]    奴隷契約で子供の安全を保障しているんだ！ なんて事してくれたんだ！
+\CBmp[Slave4,20]\plf\C[4]難民：\C[0]    外はいま魔物ばかりなのよ､私たちの命を守れるの？
+\CBmp[Slave5,20]\plf\C[4]難民：\C[0]    食べ物をたくさんもらったんだ！ 腹いっぱい食えるチャンスだったのに！ どうしてくれるんだおい！
+\CBmp[Cecily,20]\SETpl[CecilyShockedAr]\Lshake\C[4]セシリー：\C[0]    あんた達は誇りがないのか？ インガレンド王国の民は奴隷になるべきではない！
+\CBmp[Slave3,20]\plf\C[4]難民：\C[0]    はあ... また騎士ごっこしてるの貴族様か....
+\CBmp[Slave1,20]\plf\C[4]難民：\C[0]    明日からの生活はどうなるの？
+\CBmp[Slave5,20]\plf\C[4]難民：\C[0]    奴隷商人の所へ戻ってお前らを告発するよ！ 追加食糧を貰えるかもしれねぇ！ お前らはもうおしまいだ！
+
+Part2/EndCecily_2
+\CBmp[Cecily,20]\SETpl[CecilySadAr]\Lshake\C[4]セシリー：\C[0]    あんた達！ 話を聞いて...戻ってきて！
+\CBmp[GrayRat,8]\SETpr[GrayRatConfusedAr]\plf\Rshake\C[4]グレイラット：\C[0]    お嬢様... それが平民というものです...
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    うぅ...
+
+Part2/EndCecily_3
+\CBmp[Cecily,20]\SETpl[CecilySadAr]\Lshake\prf\C[4]セシリー：\C[0]    どうしてこうなった？！
+\CBct[8]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    わたしたち平民は普通そんな感じなんです....
+\CBmp[Cecily,8]\SETpl[CecilyFailedAr]\PLF\prf\C[4]セシリー：\C[0]    ........
+\CBct[20]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    わたしたちもそろそろ....
+\CBmp[Cecily,8]\SETpl[CecilyFailedAr]\PLF\prf\C[4]セシリー：\C[0]    .....
+\CBct[20]\m[confused]\plf\PRF\c[6]ロナ：\c[0]    あの....
+\CBmp[Cecily,8]\SETpl[CecilyFailedAr]\PLF\prf\C[4]セシリー：\C[0]    ...
+\CBmp[GrayRat,8]\SETpr[GrayRatConfusedAr]\plf\Rshake\C[4]グレイラット：\C[0]    行きましょう....
+
+Part2/EndCecily_4
+\CBmp[GrayRat,20]\SETpl[GrayRatConfusedAr]\Lshake\prf\C[4]グレイラット：\C[0]    お嬢様をそっとしておいてあげてください｡
+\CBmp[GrayRat,20]\SETpl[GrayRatNormalAr]\Lshake\prf\C[4]グレイラット：\C[0]    お約束の金です｡
+
+Part2/EndCecily_5
+\CBct[20]\m[flirty]\plf\PRF\c[6]ロナ：\c[0]    ありがとうございます....
+
+##########################################################################################################   HEV
+
+CecilyRape/rape_scene1
+\C[4]傭兵A：\C[0]    みんな見ろよ！ 貴族に乗ってるぞ！
+
+CecilyRape/rape_scene2
+\C[4]傭兵A：\C[0]    長年の夢が叶ったぜ！
+
+CecilyRape/rape_scene3
+\C[4]セシリー：\C[0]    いや... どうして！
+
+CecilyRape/rape_scene4
+\C[4]セシリー：\C[0]    ヴィニートを返して！
+
+CecilyRape/rape_scene5
+\SndLib[sound_chcg_full]\C[4]傭兵B：\C[0]    あいつはおめえの男か？
+
+CecilyRape/rape_scene6
+\SndLib[sound_chcg_full]\C[4]傭兵A：\C[0]    あの雑種はもう死んだぞ！ 今から俺らがお前の男だ！
+
+CecilyRape/rape_scene7
+\SndLib[sound_chcg_full]\C[4]傭兵B：\C[0]    いいね！ 他の男の目の前でそいつの女を犯すのは最高だったぜ！
+
+CecilyRape/rape_scene8
+\SndLib[sound_chcg_full]\C[4]傭兵A：\C[0]    まっ､その男はもう死んじゃったけどなぁ！ ハハハハハ！
+
+CecilyRape/rape_scene9
+\C[4]セシリー：\C[0]    いや！ いやあああ！ 誰か助けて！
+
+CecilyRape/rape_scene10
+\SndLib[sound_chcg_full]\C[4]傭兵B：\C[0]    \{ぐっ！！！
+
+CecilyRape/rape_scene11
+\SndLib[sound_chcg_full]\C[4]傭兵B：\C[0]    \{出るぞ！ ちゃんと受け取れよ！
+
+CecilyRape/rape_scene12
+\C[4]セシリー：\C[0]    \{いや！いや！いやっ！
+
+CecilyRape/rape_scene13
+\C[4]傭兵B：\C[0]    気持ちイイぃ！ 俺のガキが出来てちまうかもなぁ！
+\C[4]傭兵B：\C[0]    これで俺も貴族だ､へへっ！
+
+CecilyRape/rape_scene14
+\SndLib[sound_chcg_full]\C[4]セシリー：\C[0]    \{うぅぅ...
+
+CecilyRape/rape_scene15
+\C[4]傭兵A：\C[0]    俺の番！俺の番！
+
+CecilyRape/rape_scene16
+\SndLib[sound_chcg_full]\C[4]セシリー：\C[0]    やめて！ もう嫌ぁ！ 放して！
+
+CecilyRape/rape_scene17
+\SndLib[sound_chcg_full]\C[4]傭兵A：\C[0]    安心しな！ 俺ら全員も中に出してやるからよぉ！
+\SndLib[sound_chcg_full]\C[4]傭兵A：\C[0]    俺らの子を産んでもらうぜ～！
+
+CecilyRape/rape_scene18
+\C[4]セシリー：\C[0]    ごめんなさい！ 許してください！ お願い！
+
+CecilyRape/rape_scene19
+\SndLib[sound_chcg_full]\C[4]傭兵A：\C[0]    \{うっ！
+
+CecilyRape/rape_scene19_1
+\SndLib[sound_chcg_full]\C[4]傭兵A：\C[0]    \{出る！ イクイク！
+
+CecilyRape/rape_scene20
+\C[4]傭兵A：\C[0]    これが貴族マンコか？ 娼婦街の女とあまり変わらないなぁ｡
+\C[4]傭兵A：\C[0]    次は誰だ！
+
+CecilyRape/rape_scene21
+\SndLib[sound_chcg_full]\C[4]傭兵B：\C[0]    早くしろ！ みんなが待ってるぞ！
+
+CecilyRape/rape_scene22
+\C[4]セシリー：\C[0]    うぅ....
+
+CecilyRape/rape_scene23
+\C[4]セシリー：\C[0]    助けて... 誰か....

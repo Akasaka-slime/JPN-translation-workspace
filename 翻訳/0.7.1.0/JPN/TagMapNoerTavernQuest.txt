@@ -1,0 +1,355 @@
+
+
+##########---------------------------------------------------------------------------------- QUEST BOARD
+
+QuestBoard/List
+ギルドの掲示板
+
+QuestBoard/None_list
+やめる
+
+QuestBoard/StaHerbCollect_list
+白竜草の収集
+
+QuestBoard/StaHerbCollect
+\board[白竜草の収集]
+目標：白竜草を4つ集める\i[203]
+報酬：銅貨2枚
+依頼主：エリス産婦人科クリニック
+制限回数：なし
+街の外の密林で白竜草を採取してください｡最近は魔物が出るので､派遣員は自分で身の安全を確保してください｡
+収集し終えたら直接エリス産婦人科クリニックに届けてください｡
+
+QuestBoard/MineCaveAbomHunt_list
+鉱山の魔物を一掃
+
+QuestBoard/MineCaveAbomHunt
+\board[鉱山の魔物を一掃]
+目標：鉱山に居る魔物の繭をすべて破壊する
+報酬：大銅貨2枚､銅貨3枚
+依頼主：ルーデシンド商会
+制限回数：なし
+東にいる鉱山が黒い霧に汚染されたため､魔物の繭を一掃するための傭兵を募集します｡照明や武器は各自でご用意ください｡
+一掃したら鉱山の管理人に報告してください｡
+報告後はギルドに報酬を受け取りに来てください｡
+
+QuestBoard/CataUndeadHunt_list
+墓地のアンデッド
+
+QuestBoard/CataUndeadHunt
+\board[墓地のアンデッドを一掃]
+目標：墓地に居るアンデッドを20匹討伐する
+報酬：銅貨7枚
+依頼主：ルーデシンド商会
+制限回数：なし
+墓地の中に大量のアンデッドが現れたので､それらを一掃するために傭兵を募集します｡
+一掃したら墓守に報告してください｡
+報告後はギルドに報酬を受け取りに来てください｡
+
+QuestBoard/ScoutCampOrkind_list
+失踪した馬車
+
+QuestBoard/ScoutCampOrkind
+\board[失踪した馬車]
+目標：失踪した難民の馬車を探す
+報酬：大銅貨1枚
+依頼主：シバリス復興会
+制限回数：一回
+一ヶ月前到着するはずだった馬車が､途中で魔物に襲われました｡
+生還した者の説明によると､最後にいたのは北東の道付近だったと思われます｡
+
+QuestBoard/ScoutCampOrkind2_list
+北の関所の監視塔
+
+QuestBoard/ScoutCampOrkind2
+\board[北の関所の監視塔]
+目標：監視塔内の魔物を一掃する
+報酬：大銅貨2枚
+依頼主：使途教会修道院
+制限回数：一回
+北の監視塔が陥落して魔物の巣になりました｡一掃するためには\C[4]プロ\C[0]の傭兵が必要です｡
+一掃したら修道院に報告してください｡
+報告後はギルドに報酬を受け取りに来てください｡
+
+QuestBoard/ScoutCampOrkind3_list
+娘が行方不明
+
+QuestBoard/ScoutCampOrkind3
+\board[娘が行方不明]
+目標：商人の娘を探す
+報酬：金貨1枚
+依頼主：ノエル警備司令部
+制限回数：一回
+街の商人の娘がゴブリン襲撃され行方不明となった｡
+彼女が最後に目撃されたのは北東部の難民支援のための車列である｡
+彼女を探し出して連れ戻して欲しい｡
+
+QuestBoard/CataUndeadHunt2_list
+墓地の負のエネルギー
+
+QuestBoard/CataUndeadHunt2
+\board[墓地の負のエネルギー]
+目標：エネルギーの発生源を調査する
+報酬：大銅貨4枚
+依頼主：ルーデシンド商会
+制限回数：完了まで
+墓地の負のエネルギー源を調査するために傭兵を募集します｡
+詳細は墓地にいる墓守から聞いてください｡
+
+QuestBoard/SewerKickMobs_list
+下水道の浮浪者
+
+QuestBoard/SewerKickMobs
+\board[下水道の浮浪者]
+目標：下水道の浮浪者たちを追い払う
+報酬：大銅貨1枚
+依頼主：ルーデシンド商会
+制限回数：なし
+下水道の入り口付近で行方不明者の報告が相次いでいます､
+警備司令部ではいくつかの失踪事件が､下水道での違法な浮浪者の仕業であると確認しました､
+浮浪者のせいで街に深刻な治安問題が発生しているため､彼らを駆除するために傭兵を募集します｡
+
+QuestBoard/NoerToPirate_list
+募集：海賊殲滅砦
+
+QuestBoard/NoerToPirate
+\board[募集：海賊殲滅砦]
+目標：目的地まで行く
+報酬：銅幣5枚
+依頼主：傭兵ギルド
+期限：一度
+東の沼地の中央にある\c[4]海賊殲滅砦\c[0]へ行って､傭兵ギルドの職員に報告してください｡
+
+QuestBoard/NoerToDoom_list
+募集：運命ノ要塞
+
+QuestBoard/NoerToDoom
+\board[募集：運命ノ要塞]
+目標：目的地まで行く
+報酬：銅幣5枚
+依頼主：傭兵ギルド
+期限：一度
+島の最北端にある\c[4]運命ノ要塞\c[0]へ行って､傭兵ギルドの職員に報告してください｡
+
+QuestBoard/OrkindEars_list
+ゴブリンの殺戮者
+
+QuestBoard/OrkindEars
+\board[ゴブリンの殺戮者]
+目標：ゴブリンの耳を10枚収集する
+報酬：大銅貨1枚､銅貨5枚
+依頼主：ルーデシンド商会
+制限回数：なし
+ゴブリンは皆殺しだ！
+ゴブリン 殺すべし！
+
+QuestBoard/decide
+\m[confused]この依頼にする？\optB[やめる,依頼書を取る]
+
+######################################################################################## GUILD
+
+QuestBoard/decide2
+\CBmp[GuildEmpolyee,20]\m[confused]\prf\c[4]ギルド職員：\c[0] お決まりですか？ギルドの依頼は確定したら完了まで継続しなければなりません｡\optB[やめる,決定]
+
+QuestBoard/decide2_win
+\CBct[20]\m[serious]\prf\c[6]ロナ：\c[0]    がんばります！
+
+QuestBoard/decide2_lose
+\CBmp[GuildEmpolyee,20]\m[confused]\prf\c[4]ギルド職員：\c[0]    申し訳ございません､あなたは現在依頼が終了していません｡
+
+QuestBoard/completed0
+\CBmp[GuildEmpolyee,20]\m[confused]\prf\c[4]ギルド職員：\c[0]    うん.... 確かに当ギルドが発行した依頼の証明書類ですね｡
+
+QuestBoard/completed1
+\CBmp[GuildEmpolyee,20]\prf\c[4]ギルド職員：\c[0]    報酬を受け取ってください｡
+\CBct[3]\m[triumph]\c[6]ロナ：\c[0]    ありがとうございます！
+
+QuestBoard/completed1_slave
+\CBmp[GuildEmpolyee,20]\prf\c[4]ギルド職員：\c[0]     貢献に感謝します､あなたが奴隷であったとしても｡
+\CBmp[GuildEmpolyee,20]\prf\c[4]職員：\c[0]    早死にしないように｡
+\CBct[8]\m[sad]\c[6]ロナ：\c[0]    はぃ...
+
+QuestBoard/other
+\CBmp[GuildEmpolyee,20]\m[confused]\prf\c[4]ギルド職員：\c[0]    傭兵ギルド事務所です､ご用件は何でしょうか？\optB[やめる,会話,依頼を取り消す<r=HiddenOPT0>]
+
+QuestBoard/other_about
+\CBmp[GuildEmpolyee,20]\prf\c[4]ギルド職員：\c[0]    はい､傭兵ギルドの始まりは972年､かつては魔神戦争中に無所属の者をまとめて軍として率いていました｡
+\CBct[2]\m[normal]\c[6]ロナ：\c[0]    その...今は？
+\CBmp[GuildEmpolyee,20]\prf\c[4]ギルド職員：\c[0]    全大陸を股に掛ける､世界最大の人材派遣ギルドです｡
+
+QuestBoard/other_quest_cancel
+\CBct[8]\m[sad]\c[6]ロナ：\c[0]    ごめんなさい....
+\CBmp[GuildEmpolyee,20]\prf\c[4]ギルド職員：\c[0]    いいですよ｡
+\CBmp[GuildEmpolyee,8]\prf\c[4]ギルド職員：\c[0]    \}ハエは使えない｡
+\CBct[8]\m[sad]\c[6]ロナ：\c[0]    ....
+
+Tutorial/follower
+\CamMP[Center]\prf\c[4]ギルド職員：\c[0]    酒場に一緒に行きたい人がいないか聞いてみるといいでしょう｡
+\prf\c[4]ギルド職員：\c[0]    シバリス陥落のせいで､最近はあなたのような方が増えてきましたから｡
+\CBct[3]\Rshake\m[triumph]\c[6]ロナ：\c[0]    わかりました！ありがとうございます！
+\CBmp[GuildEmpolyee,8]\prf\c[4]ギルド職員：\c[0]    .........
+\CBmp[GuildEmpolyee,8]\prf\c[4]ギルド職員：\c[0]    \}クソシバリス人め.... ハエのようだ...
+\CBct[8]\m[normal]\c[6]ロナ：\c[0]    ん？何ですか？
+\CBmp[GuildEmpolyee,20]\prf\c[4]ギルド職員：\c[0]    なんでもない､ただの独り言ですよ｡
+
+QuestBoard/saved_hostage
+\CBmp[GuildEmpolyee,20]\prf\c[4]ギルド職員：\c[0]    待ってください！
+\CBct[2]\m[confused]\c[6]ロナ：\c[0]    なんでしょうか？
+\CBmp[GuildEmpolyee,20]\prf\c[4]ギルド職員：\c[0]    野外活動中に攫われた人たちを救出してくれたことを感謝します｡あなたの助けを必要としている人はまだたくさんいると思いますよ｡
+
+##########---------------------------------------------------------------------------------- 最初期的工會成員對話
+
+MercenaryGuild/Report_rattail
+\CBmp[GuildEmpolyee,2]\m[confused]\prf\c[4]ギルド職員：\c[0]    ん？あなたは...？ロナさんですね？
+\CBct[6]\m[shocked]\c[6]ロナ：\c[0]    はい！ ...じゃなくて！ 下水道が！
+\CBct[6]\m[serious]\Rshake\c[6]ロナ：\c[0]    下水道に魔物が出ました､あと内部の通路も汚染されていました｡
+\CBmp[GuildEmpolyee,20]\prf\c[4]ギルド職員：\c[0] しーっ！落ち着いてください！よし､わかりました､感謝いたします｡
+\CBct[6]\m[irritated]\Rshake\c[6]ロナ：\c[0]    あと行方不明の職員さんは亡くなってました！
+\CBmp[GuildEmpolyee,20]\prf\c[4]ギルド職員：\c[0] それはまずいですね｡誰かを派遣して対応します｡それとおおネズミの尻尾は8本集まりましたか？
+
+MercenaryGuild/Report_rattail_win
+\CBct[20]\m[triumph]\c[6]ロナ：\c[0]    どうぞ｡
+\CBmp[GuildEmpolyee,20]\prf\c[4]ギルド職員：\c[0] ふむ､これでこの依頼は完了です､運が良かったですね｡今日ですべての雑務の依頼が解除されてしまったんですから｡
+\CBct[2]\m[wtf]\c[6]ロナ：\c[0]    え？それはなんで...
+
+MercenaryGuild/Report_rattail_lose
+\CBct[8]\m[flirty]\c[6]ロナ：\c[0]    あの... 魔物がいたせいで...その...
+\CBmp[GuildEmpolyee,20]\prf\c[4]ギルド職員：\c[0]    そうなると任務は失敗ということになります｡
+\CBct[1]\m[shocked]\c[6]ロナ：\c[0]    何で？！ 待って！ 戻って集めます｡
+\CBmp[GuildEmpolyee,20]\prf\c[4]ギルド職員：\c[0]    その必要はありません､今日ですべての雑務の依頼が解除されたからです｡
+\CBct[2]\m[wtf]\c[6]ロナ：\c[0]    え？それはなんで...
+
+MercenaryGuild/Report_rattail_end
+\CBmp[GuildEmpolyee,20]\prf\c[4]ギルド職員：\c[0]    どうしようもないですよ､街の外の魔物たちの活動が活発になったので､状況に応じた派遣が求められているんです｡
+\CBmp[QuestBoard,19]\prf\BonMP[QuestBoard,19]掲示板の所に行って何かないか見てみてください｡
+\CBct[8]\m[confused]\c[6]ロナ：\c[0]    そうですか｡
+
+GuideTheWorld/begin
+\CBid[-1,2]\prf\c[4]旅人：\c[0]    ふーむ...初めて見る顔だな､もしかして\C[6]シバリス\C[0]から来たのか？
+\CBct[8]\m[confused]\c[6]ロナ：\c[0]    うーん.....そんなところ？
+\CBid[-1,20]\prf\c[4]旅人：\c[0]    ハハ､私はここを発つつもりだ｡昔は私も傭兵だったんだが､膝に矢を受けてしまってな｡
+
+GuideTheWorld/Choose
+\m[confused]\CBid[-1,20]\prf\c[4]旅人：\c[0]    さて...先輩としてお節介をかかせてくれ､何か知りたいことは無いか？
+
+GuideTheWorld/end1
+\CBid[-1,20]\prf\c[4]旅人：\c[0]    早い所ここから抜け出す方法を見つけた方が良い｡今のノエル島に滞在していると､それだけでおかしくなるからな｡
+
+GuideTheWorld/end2
+\CBid[-1,9]\prf\c[4]旅人：\c[0]    あぁ､そうだ！
+\CBid[-1,20]\prf\c[4]旅人：\c[0]    もしお前が危険を恐れないのなら､夜に\C[6]中央市場\C[0]を訪れてみると良い｡何かいいものが見つかるかもしれないぞ｡
+\CBct[20]\m[flirty]\c[6]ロナ：\c[0]    なるほど？ ありがとうございました｡
+
+GuideTheWorld/opt_Race
+\CBid[-1,20]\prf\c[4]旅人：\c[0]    私か？ ああ！ そうだ！ 私は\c[6]ムート\c[0]だ｡
+\CBid[-1,20]\prf\c[4]旅人：\c[0]    遠い森のエルフ､山のドワーフ､それにノームや砂漠の民の血が混ざっている､一番混血の種族だ｡
+\CBid[-1,20]\prf\c[4]旅人：\c[0]    我々がどこへ行っても歓迎されないのは､私達の血が汚れていて､不浄だと考えられているからだ｡
+\CBid[-1,20]\prf\c[4]旅人：\c[0]    あの災害が起こる前は､全ての罪はまるで私達が犯したかのように言われていた｡
+\CBid[-1,20]\prf\c[4]旅人：\c[0]    まぁ今じゃ\C[6]シバリス\C[0]の難民の方が問題になっているみたいだがな｡
+\CBct[8]\m[tired]\c[6]ロナ：\c[0]    .....
+\CBid[-1,6]\prf\c[4]旅人：\c[0]    おっと.....失礼､いつもの悪いクセだ｡
+
+GuideTheWorld/opt_TeamUp
+\CBid[-1,20]\prf\c[4]旅人：\c[0]    チームを組みたいなら酒場や宿屋に行けば雇える奴を見つけることができるぞ｡
+\CBid[-1,20]\prf\c[4]旅人：\c[0]    チームメイトはそれぞれ陣営､戦い方､雇える日数､場所､雇うのに必要なものが違う｡
+\CBid[-1,20]\prf\c[4]旅人：\c[0]    特に注意すべきは場所と日数だ｡
+\CBid[-1,20]\prf\c[4]旅人：\c[0]    また\C[6]前衛\C[0]と\C[6]後衛\C[0]はそれぞれ一人までしか雇えない｡
+\CBid[-1,20]\prf\c[4]旅人：\c[0]    時間が経過して契約満了日になると､チームメイトはチームを離れるから注意するといい｡
+
+############################# TRADE TUR 
+
+TradeTur/fristTime0
+\SND[SE/Book1]\bg[bg_TutorialTrade1]これは重要なことだからよく聞いておけ！
+\SND[SE/Book1]\bg[bg_TutorialTrade2]ゲーム内で実際に取引する際使用されるのはトレードポイントだ､これは一時的なポイントで､今いるエリアからマップへ移動すると消滅する｡
+\SND[SE/Book1]\bg[bg_TutorialTrade3]移動前にトレードポイントを金貨や銅貨やその他アイテムと交換しない場合､残っているトレードポイントは全て失われるから注意だ｡
+\SND[SE/Book1]\bg[bg_TutorialTrade4]これは取引画面､左上にお前の所持重量と現在保有しているポイントが表示されている｡
+\SND[SE/Book1]\bg[bg_TutorialTrade5]これはお前がトレード可能なアイテムで､値段が1以上のアイテムは相手に売ることができるぞ｡
+\SND[SE/Book1]\bg[bg_TutorialTrade7]でこっちが相手のトレードポイントとアイテムだ｡お前はその時保有しているトレードポイント以下の価格のアイテムしか購入できない｡
+\SND[SE/Book1]\bg[bg_TutorialTrade8]\c[6]Z\c[0]ボタンでショップでの購入・販売が可能だ｡
+\SND[SE/Book1]\bg[bg_TutorialTrade10]\c[6]SHIFT+Z\c[0]でまとめて売買することもできるぞ｡
+\SND[SE/Book1]\bg[bg_TutorialTrade11]購入を確定したい場合は\c[6]X\c[0]で確認画面を呼び出し\c[6]Z\c[0]で確定できる｡
+\SND[SE/Book1]\bg[bg_TutorialTrade12]間違えて欲しくないものを売買してしまったら､\c[6]SHIFT+X\c[0]を押すと取引をすべてキャンセルすることもできる｡
+\SND[SE/Book1]\bg[bg_TutorialTrade1]ショップのトレードポイントやアイテムは数日間保管されるから､取引には十分注意するといい｡
+
+############################# Wounds TUR
+
+WoundTur/0
+\SND[SE/Book1]\bg[bg_TutorialWound1]負傷について
+\SND[SE/Book1]\bg[bg_TutorialWound1]攻撃する場合も攻撃される場合も負傷の効果を与える可能性がある｡
+\SND[SE/Book1]\bg[bg_TutorialWound2]上段の負傷は殴打系の武器によって付与され､防御力と知恵が低下する｡
+\SND[SE/Book1]\bg[bg_TutorialWound3]中段の負傷は斬撃系の武器によって付与され､攻擊力が低下する｡
+\SND[SE/Book1]\bg[bg_TutorialWound4]下段の負傷は刺突系の武器によって付与され､移動速度が低下する｡
+\SND[SE/Book1]\bg[bg_TutorialWound1]受けた負傷は薬草やポーション､睡眠により治療することができる｡
+\SND[SE/Book1]\bg[bg_TutorialWound1]負傷が累積すれば戦闘能力が著しく下がる｡可能な限り健康を維持した方が良い｡
+
+##########------------------------ 墳場負向能量差分報酬
+
+MercenaryGuild/CataUndeadHunt2
+\CBmp[GuildEmpolyee,2]\prf\c[4]ギルド職員：\c[0]    それで？何がわかったんですか？
+
+MercenaryGuild/CataUndeadHunt2_3
+\CBct[8]\m[sad]\c[6]ロナ：\c[0]    その... 墓守さんが亡くなって...
+\CBct[8]\m[flirty]\c[6]ロナ：\c[0]    そこにはたくさんトラップがありました｡
+\CBct[8]\m[flirty]\c[6]ロナ：\c[0]    .....以上です｡
+
+MercenaryGuild/CataUndeadHunt2_4
+\CBct[8]\m[sad]\c[6]ロナ：\c[0]    その... 墓守さんが亡くなって...
+\CBct[8]\m[flirty]\c[6]ロナ：\c[0]    そこにはたくさんトラップがありました｡
+\CBct[8]\m[confused]\c[6]ロナ：\c[0]    そして地下墳墓の中でネクロマンサーが活動しています｡
+\CBct[20]\m[flirty]\c[6]ロナ：\c[0]    墓地に出たアンデッドも彼女の仕業だと思います｡
+
+MercenaryGuild/CataUndeadHunt2_567
+\CBct[8]\m[sad]\c[6]ロナ：\c[0]    その... 墓守さんが亡くなって...
+\CBct[8]\m[confused]\c[6]ロナ：\c[0]    墓地の最下層にゴブリンが出て､墓の中を掘り返したんです｡
+\CBct[20]\m[flirty]\c[6]ロナ：\c[0]    わたしが墓地から出る前には群れとなっていました｡
+
+MercenaryGuild/CataUndeadHunt2_failed
+\CBmp[GuildEmpolyee,5]\prf\c[4]ギルド職員：\c[0]    それだけ？ これは何もしていないってことじゃないですか？
+\CBmp[GuildEmpolyee,5]\prf\c[4]ギルド職員：\c[0]    その上ルーデシンド商会の職員を死なせてしまったと？
+\CBct[8]\m[sad]\c[6]ロナ：\c[0]    ごめんなさい....
+\CBmp[GuildEmpolyee,20]\prf\c[4]ギルド職員：\c[0]    実に使えない､本当にとんでもない無能だ｡
+
+MercenaryGuild/CataUndeadHunt2_win
+\CBmp[GuildEmpolyee,20]\prf\c[4]ギルド職員：\c[0]    それは興味深いですね｡
+\CBmp[GuildEmpolyee,20]\prf\c[4]ギルド職員：\c[0]    上に報告します｡でも今は人手が足りないんです｡
+
+MercenaryGuild/CataUndeadHunt2_withHead
+\CBct[20]\m[confused]\c[6]ロナ：\c[0]    それと､ネクロマンサーにも会いました｡
+\CBct[20]\m[normal]\c[6]ロナ：\c[0]    これが彼女の首です｡
+\CBmp[GuildEmpolyee,1]\prf\c[4]ギルド職員：\c[0]    すごい！ すばらしいですね！
+\CBmp[GuildEmpolyee,20]\prf\c[4]ギルド職員：\c[0]    でも契約上､これ以上は出せないんです｡
+\CBct[8]\m[flirty]\c[6]ロナ：\c[0]    そうですか...
+
+##########------------------------ 美祿的邀請
+
+MercenaryGuild/MiloInvite1
+\CBmp[GuildEmpolyee,20]\prf\c[4]ギルド職員：\c[0]    あっ！待ってください！
+\CBct[2]\m[confused]\c[6]ロナ：\c[0]    なんですか？
+\CBmp[GuildEmpolyee,20]\prf\c[4]ギルド職員：\c[0]    招待状です､あなたの名前が書かれています｡
+
+MercenaryGuild/MiloInvite2
+\CBct[2]\m[flirty]\c[6]ロナ：\c[0]    わたし？どうして？
+\CBmp[GuildEmpolyee,20]\prf\c[4]ギルド職員：\c[0]    それはわかりませんが､とにかく上にいる大物たちからです｡
+\CBmp[GuildEmpolyee,20]\prf\c[4]ギルド職員：\c[0]    あなたすごいんですね｡
+\CBct[2]\m[flirty]\c[6]ロナ：\c[0]    そうですか？
+
+##########------------------------ 美祿的邀請2
+
+MercenaryGuild/MiloInvite2_1
+\CBmp[GuildEmpolyee,20]\prf\c[4]ギルド職員：\c[0]    待ってください！
+\CBct[2]\m[confused]\c[6]ロナ：\c[0]    今度はなんです？
+\CBmp[GuildEmpolyee,20]\prf\c[4]ギルド職員：\c[0]    またあなたへの手紙です｡
+
+MercenaryGuild/MiloInvite2_2
+\CBct[2]\m[flirty]\c[6]ロナ：\c[0]    またですか？
+\CBmp[GuildEmpolyee,20]\prf\c[4]ギルド職員：\c[0]    受け取ってください､これは上からの指示なので｡
+\CBct[20]\m[flirty]\c[6]ロナ：\c[0]    はい｡
+
+##########------------------------ OrkindEar
+
+MercenaryGuild/Report_OrkindEar_win1
+\CBct[20]\m[fear]\PRF\c[6]ロナ：\c[0]    これが依頼の耳です.... うげ...
+
+MercenaryGuild/Report_OrkindEar_win2
+\CBid[-1,20]\m[confused]\prf\c[4]ギルド職員：\c[0]    お疲れ様です！
+\CBid[-1,20]\m[confused]\prf\c[4]ギルド職員：\c[0]    上のお偉いさんが耳をノエルの城壁に掛けたいらしいので､もっと耳が必要です！
